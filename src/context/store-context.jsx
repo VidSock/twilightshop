@@ -20,7 +20,6 @@ const defaultValues = {
   removeLineItem: () => {},
   updateLineItem: () => {},
   client,
-  buttonDestination:'checkout',
   checkout: {
     lineItems: [],
   },
