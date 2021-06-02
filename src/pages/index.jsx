@@ -25,7 +25,7 @@ export default function IndexPage({ data }) {
       <div className={container}>
         <h1 className={intro}>Welcome to the Twilightscapes Store.</h1>
         <p className={callOut}>
-          You can buy high-res digital copies or special limited edition NTFs. 
+          You can buy high-res digital copies or special limited edition NFTs. 
         </p>
        
 
