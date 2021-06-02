@@ -48,13 +48,14 @@ export function ProductCard({ product, eager }) {
       to={slug}
       aria-label={`View ${title} product page`}
     >
-      <div className={productImageStyle} data-name="product-image-box">
+      <div className={productImageStyle} data-name="product-image-box" style={{overflow:'visible', width:'100%', backgroundSize: 'contain'}}>
         <GatsbyImage
           alt={firstImage?.altText ?? title}
           image={firstImage?.gatsbyImageData ?? storefrontImageData}
           loading={eager ? "eager" : "lazy"}
         />
       </div>
+
       <div className={productDetailsStyle}>
         <div className={productVendorStyle}>{vendor}</div>
         <h2 as="h2" className={productHeadingStyle}>
@@ -76,7 +77,7 @@ export const query = graphql`
     images {
       id
       altText
-      gatsbyImageData(aspectRatio: 1, width: 640)
+      gatsbyImageData( width: 640)
     }
     priceRangeV2 {
       minVariantPrice {

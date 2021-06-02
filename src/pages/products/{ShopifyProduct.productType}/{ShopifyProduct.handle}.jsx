@@ -108,7 +108,7 @@ export default function Product({ data: { product, suggestions } }) {
         <></>
       ) : undefined}
       <div className={container}>
-        <div className={productBox}>
+        <div className="dd">
           {hasImages && (
             <div className={productImageWrapper}>
               <div
@@ -234,7 +234,7 @@ export const query = graphql`
       images {
         # altText
         id
-        gatsbyImageData(layout: CONSTRAINED, width: 640, aspectRatio: 1)
+        gatsbyImageData(layout: CONSTRAINED, width: 2600,)
       }
       variants {
         availableForSale
