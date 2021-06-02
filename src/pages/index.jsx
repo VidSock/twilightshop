@@ -22,10 +22,10 @@ export const query = graphql`
 export default function IndexPage({ data }) {
   return (
     <Layout>
-      <div className={container}>
-        <h1 className={intro}>Welcome to the Twilightscapes Store.</h1>
+      <div className="" style={{textAlign:'center'}}>
+        <h1 className={intro}>Welcome to the Twilightscapes Photo Store.</h1>
         <p className={callOut}>
-          You can buy high-res digital copies or special limited edition NFTs. 
+          You can buy high-res digital art or special limited edition NFTs. 
         </p>
        
 
