@@ -12,7 +12,7 @@ const client = Client.buildClient(
 
 const defaultValues = {
   cart: [],
-  isOpen: false,
+  isOpen: true,
   loading: false,
   onOpen: () => {},
   onClose: () => {},

@@ -12,7 +12,7 @@ import {
 
 export const query = graphql`
   query {
-    shopifyCollection(handle: { eq: "twilightscapes-prints" }) {
+    shopifyCollection(handle: { eq: "limited-edition-nft-kits" }) {
       products {
         ...ProductCard
       }

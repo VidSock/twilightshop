@@ -2,12 +2,12 @@ require("dotenv").config()
 
 module.exports = {
   siteMetadata: {
-    siteTitle: "gatsby-starter-shopify",
-    siteTitleDefault: "gatsby-starter-shopify by @GatsbyJS",
-    siteUrl: "https://shopify-demo.gatsbyjs.com",
+    siteTitle: "Twilightscapes - Unique Night Photography and NFTs",
+    siteTitleDefault: "Twilightscapes - Unique Night Photography",
+    siteUrl: "https://shop.twilightscapes.com",
     hrefLang: "en",
     siteDescription:
-      "A Gatsby starter using the latest Shopify plugin showcasing a store with product overview, individual product pages, and a cart.",
+      "Twilightscapes - Unique Night Photography",
     siteImage: "/default-og-image.jpg",
     twitter: "toddlambert",
   },

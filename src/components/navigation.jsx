@@ -22,7 +22,15 @@ export function Navigation({ className }) {
         to="/products/"
         activeClassName={activeLink}
       >
-        All Available Photos
+        Print Ready Art For Sale
+      </Link>
+      <Link
+        key="All"
+        className={navLink}
+        to="/search?t=nft"
+        activeClassName={activeLink}
+      >
+        Exclusive NFT Kits (new!)
       </Link>
       {productTypes.map((name) => (
         <Link
