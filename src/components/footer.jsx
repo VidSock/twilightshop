@@ -1,5 +1,6 @@
 import * as React from "react"
-import Logo from "../icons/logo"
+// import Logo from "../icons/logo"
+import Social from "../components/social"
 import {
   footerStyle,
   copyright,
@@ -15,10 +16,8 @@ export function Footer() {
     <footer className={footerStyle}>
       <div className={blurb}>
         <div className={logos}>
-          <Logo />
+        <Social />
         </div>
-        <strong>gatsby-starter-shopify</strong> change this by editing{" "}
-        <code>src/components/footer.jsx</code>
       </div>
       <nav className={links} aria-label="footer">
         <ul className={footerNavList}>

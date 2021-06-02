@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { StoreContext } from "../context/store-context"
-import Logo from "../icons/logo"
+import twLogo from "../icons/tw-logo-white.svg"
 import { Navigation } from "./navigation"
 import { CartButton } from "./cart-button"
 import SearchIcon from "../icons/search"
@@ -26,14 +26,74 @@ export function Header() {
   return (
     <div className={container}>
       <header className={header}>
-        <Link to="/" className={logoCss}>
-          <Logo />
+        
+      <Link to="/"><img id="logo" className="twlogo rollIn" src={twLogo} alt="Twilightscapes Logo" style={{position:'', minWidth:'150px', height:'auto', padding:'0', border:'0px solid red'}} /></Link>
+
+
+
+
+        <input type="checkbox" className="openSidebarMenu" id="openSidebarMenu" />
+  <label htmlFor="openSidebarMenu" className="sidebarIconToggle">
+  {/* <span className="txtshadow" style={{textShadow:'2px', color:'#fff',}}>MENU</span> */}
+    <div className="spinner diagonal part-1"></div>
+    <div className="spinner horizontal"></div>
+    <div className="spinner diagonal part-2"></div>
+  </label>
+
+   <div id="sidebarMenu">
+
+   <div style={{display:'flex', justifyContent:'flex-start', color:'#fff', paddingLeft:'20px'}}>
+   
+   <Link to="/search" style={{display:'flex', verticalAlign:'center', marginTop:'12px', marginRight:'20px'}}>
+    <span><SearchIcon /></span>
+   </Link>
+
+  <CartButton quantity={quantity} /> 
+     </div>
+
+    <ul className="sidebarMenuInner">
+
+    <li>
+              <Link className="navbar-item txtshadow" to="https://shop.twilightscapes.com/">
+                Shop Now <span>Buy Twilightscapes</span>
+              </Link>
+      </li>
+
+      <li>
+              <Link className="navbar-item txtshadow" to="https://twilightscapes.com/galleries/">
+                Galleries <span>View Photos</span>
+              </Link>
+      </li>
+
+      <li>
+              <Link className="navbar-item txtshadow" to="https://twilightscapes.com/about/">
+                About Me <span>Learn All About Me</span>
+              </Link>
+      </li>
+
+      <li>
+      <Link id="portfolio" className="navbar-item txtshadow" to="https://twilightscapes.com/gear/">Gear Talk<span>What tools I use</span></Link>
+       </li>
+
+       <li>
+              <Link className="navbar-item txtshadow" to="https://twilightscapes.com/contact/">
+                Contact <span>Ask me anything!</span>
+              </Link>
+      </li>
+
+      {/* <li>
+      <Link to="/search" >
+          <span>Search Catalog <SearchIcon /></span>
         </Link>
+        </li> */}
+
+    
+
+    </ul>
+  </div>
+        {/* <Logo /> */}
         <Navigation className={nav} />
-        <Link to="/search" className={searchButton}>
-          <SearchIcon />
-        </Link>
-        <CartButton quantity={quantity} />
+        
       </header>
       <Toast show={loading || didJustAddToCart}>
         {!didJustAddToCart ? (
@@ -42,8 +102,8 @@ export function Header() {
           <>
             Added to cart{" "}
             <svg
-              width="14"
-              height="14"
+              width="24"
+              height="24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >

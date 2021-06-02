@@ -15,14 +15,14 @@ export function Navigation({ className }) {
   `)
 
   return (
-    <nav className={[navStyle, className].join(" ")}>
+    <nav className={[navStyle, className].join(" ")} style={{marginLeft:'200px'}}>
       <Link
         key="All"
         className={navLink}
         to="/products/"
         activeClassName={activeLink}
       >
-        All products
+        All Available Photos
       </Link>
       {productTypes.map((name) => (
         <Link
