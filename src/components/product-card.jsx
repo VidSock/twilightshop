@@ -55,7 +55,7 @@ export function ProductCard({ product, eager }) {
           loading={eager ? "eager" : "lazy"}
         />
       </div>
-
+      
       <div className={productDetailsStyle}>
         <div className={productVendorStyle}>{vendor}</div>
         <h2 as="h2" className={productHeadingStyle}>
@@ -77,7 +77,7 @@ export const query = graphql`
     images {
       id
       altText
-      gatsbyImageData( width: 640)
+      gatsbyImageData(aspectRatio: 1, width: 640)
     }
     priceRangeV2 {
       minVariantPrice {
