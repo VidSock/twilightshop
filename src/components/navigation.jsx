@@ -27,7 +27,7 @@ export function Navigation({ className }) {
       <Link
         key="All"
         className={navLink}
-        to="/search?t=nft"
+        to="/nft/"
         activeClassName={activeLink}
       >
         Exclusive NFT Kits (new!)
