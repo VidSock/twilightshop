@@ -6,11 +6,12 @@ import { Seo } from "./seo1"
 
 export function Layout({ children }) {
   return (
-    <div>
+    <div style={{background:'#111'}}> 
       <Seo />
       <SkipNavLink />
       <Header />
       <SkipNavContent>{children}</SkipNavContent>
+      <br /><br />
       <Footer />
     </div>
   )

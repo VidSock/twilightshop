@@ -64,7 +64,7 @@ export const query = graphql`
           }
           id
           images {
-            gatsbyImageData( height: 300 )
+            gatsbyImageData(aspectRatio: 1, width: 400, layout: FIXED)
           }
         }
       }
@@ -238,7 +238,7 @@ function SearchPage({
                     product={{
                       title: node.title,
                       priceRangeV2: node.priceRangeV2,
-                      slug: `/products/${slugify(node.productType)}${
+                      slug: `/art/${slugify(node.productType)}${
                         node.handle
                       }`,
                       // The search API and Gatsby data layer have slightly different images available.
