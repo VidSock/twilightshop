@@ -147,15 +147,23 @@ export default function Product({ data: { product, suggestions } }) {
           {!hasImages && (
             <span className={noImagePreview}>No Preview image</span>
           )}
-          <div>
+
+
+
+          
+
+
+<div className="flexbutt" style={{display:'flex', gap:'30px'}}>
+
+<div className="flexcheek" style={{minWidth:'60vw'}}>
             <div className={breadcrumb}>
               <Link to={product.productTypeSlug}>{product.productType}</Link>
-              <ChevronIcon size={12} />
+              {/* <ChevronIcon size={12} /> */}
             </div>
             <h1 className={header}>{title}</h1>
             <p className={productDescription}>{description}</p>
             <h2 className={priceValue}>
-              <span>{price}</span>
+              <span>{price}</span><br /> High-Res Print Ready Artwork
             </h2>
             <fieldset className={optionsWrapper}>
               {hasVariants &&
@@ -192,10 +200,10 @@ export default function Product({ data: { product, suggestions } }) {
               />
             </div>
             <div className={metaSection}>
-              <span className={labelFont}>Type</span>
+              {/* <span className={labelFont}>Type</span>
               <span className={tagList}>
                 <Link to={product.productTypeSlug}>{product.productType}</Link>
-              </span>
+              </span> */}
               <span className={labelFont}>Tags</span>
               <span className={tagList}>
                 {product.tags.map((tag) => (
@@ -203,7 +211,16 @@ export default function Product({ data: { product, suggestions } }) {
                 ))}
               </span>
             </div>
+
+</div>
+
+            <div className="flexcheek" style={{border:'0px solid yellow', width:''}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, minus impedit fugit quibusdam iure voluptates blanditiis laudantium repellendus numquam corrupti id iste necessitatibus dolores minima quidem accusantium voluptatum in qui!</div>
+
+            
+
+
           </div>
+
         </div>
       </div>
     </Layout>

@@ -16,6 +16,12 @@ body {
   background:none !important;
 }
 
+@media (max-width: 48rem) {
+.flexbutt{flex-direction: column;}
+.flexcheek div{width:'100%';}
+	}
+
+
 
 
 .twlogo {filter: contrast(0) sepia(100%) hue-rotate(146deg) brightness(0.4) saturate(0.28); max-height:100px; width:250px;}
