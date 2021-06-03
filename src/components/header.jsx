@@ -24,10 +24,11 @@ export function Header() {
   }, 0)
 
   return (
-    <div className={container}>
-      <header className={header}>
+    <div className={container} >
+      <header className={header} style={{border:'0px solid red', background:'#222', padding:'10px 3% 15px 3%', boxShadow: '1px 3px 24px 0 #000'
+      }}>
         
-      <Link to="/"><img id="logo" className="twlogo rollIn" src={twLogo} alt="Twilightscapes Logo" style={{position:'', minWidth:'100px', height:'auto', padding:'0', border:'0px solid red'}} /></Link>
+      <Link to="/"><img id="logo" className="twlogo1 rollIn" src={twLogo} alt="Twilightscapes Logo" style={{margin:'5px 0 0 0', minWidth:'100px', height:'auto', padding:'0', border:'0px solid red'}} /></Link>
 
 
 
@@ -60,25 +61,25 @@ export function Header() {
       </li>
 
       <li>
-              <Link className="navbar-item txtshadow" to="https://twilightscapes.com/galleries/">
+              <a className="navbar-item txtshadow" href="https://twilightscapes.com/galleries/">
                 Galleries <span>View Photos</span>
-              </Link>
+              </a>
       </li>
 
       <li>
-              <Link className="navbar-item txtshadow" to="https://twilightscapes.com/about/">
+              <a className="navbar-item txtshadow" href="https://twilightscapes.com/about/">
                 About Me <span>Learn All About Me</span>
-              </Link>
+              </a>
       </li>
 
       <li>
-      <Link id="portfolio" className="navbar-item txtshadow" to="https://twilightscapes.com/gear/">Gear Talk<span>What tools I use</span></Link>
+      <a id="portfolio" className="navbar-item txtshadow" href="https://twilightscapes.com/gear/">Gear Talk<span>What tools I use</span></a>
        </li>
 
        <li>
-              <Link className="navbar-item txtshadow" to="https://twilightscapes.com/contact/">
+              <a className="navbar-item txtshadow" href="https://twilightscapes.com/contact/">
                 Contact <span>Ask me anything!</span>
-              </Link>
+              </a>
       </li>
 
       {/* <li>

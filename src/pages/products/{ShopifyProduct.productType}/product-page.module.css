@@ -100,7 +100,7 @@
 
 .selectVariant select {
   appearance: none;
-  background-color: transparent;
+  background-color: #000;
   border: none;
   color: var(--input-text);
   cursor: inherit;

@@ -36,7 +36,7 @@ export function CheckFilter({
   }
 
   return (
-    <details open={open} className={filter}>
+    <details className={filter} style={{width:'10vw', height:'100vh', overflow:'visible', border:'0px solid red'}}>
       {name && (
         <summary>
           <div className={summary}>
@@ -49,7 +49,7 @@ export function CheckFilter({
           </div>
         </summary>
       )}
-      <div className={filterOptions}>
+      <div className={filterOptions} style={{width:'10vw', height:'100vh', overflow:'visible', border:'0px solid yellow'}}>
         {items.map((item) => (
           <label
             className={selectedItems.includes(item) ? selectedLabel : undefined}

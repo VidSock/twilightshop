@@ -64,7 +64,7 @@ export const query = graphql`
           }
           id
           images {
-            gatsbyImageData(aspectRatio: 1, width: 200, layout: FIXED)
+            gatsbyImageData( height: 300 )
           }
         }
       }

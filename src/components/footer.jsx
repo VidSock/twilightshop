@@ -14,7 +14,7 @@ import {
 
 export function Footer() {
   return (
-    <footer className={footerStyle}>
+    <footer className={footerStyle} style={{paddingTop:'10px', marginTop:'0'}}>
       <div className={blurb}>
         <div className={logos}>
         <Social />

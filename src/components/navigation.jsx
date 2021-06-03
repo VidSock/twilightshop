@@ -18,9 +18,15 @@ export function Navigation({ className }) {
     <nav className={[navStyle, className].join(" ")} style={{marginLeft:'', display:'flex', justifyContent:'center'}}>
       <Link
         key="All"
-        className={navLink}
+        className=""
         to="/products/"
         activeClassName={activeLink}
+        style={{
+          background:'#111',
+          color:'#fff',
+          padding:'8px 15px',
+          borderRadius:'7px'
+        }}
       >
         View All Available Art
       </Link>
