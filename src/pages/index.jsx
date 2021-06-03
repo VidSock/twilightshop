@@ -30,7 +30,7 @@ export default function IndexPage({ data }) {
       <div className="container" style={{textAlign:'center', paddingTop:'2rem'}}>
         <h1 className={intro}>Twilightscapes are print-ready artwork. </h1>
         <p className={callOut}>
-          Everything is only $99
+          Everything is only $49
         </p>
         <p style={{textAlign:'', margin:'10px 12%'}}>For one low-cost you get the original high-res artfile to do what you want with.*</p>
 
