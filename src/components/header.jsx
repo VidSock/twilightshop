@@ -5,6 +5,7 @@ import twLogo from "../icons/tw-logo-white.svg"
 import { Navigation } from "./navigation"
 import { CartButton } from "./cart-button"
 import SearchIcon from "../icons/search"
+import { ImArrowRight } from "react-icons/im"
 import { Toast } from "./toast"
 import {
   header,
@@ -102,7 +103,8 @@ export function Header() {
         ) : (
           <>
             Added to cart{" "}
-            <svg
+            <div style={{fontSize:'30px', marginLeft:'10px'}}><ImArrowRight /></div>
+            {/* <svg
               width="24"
               height="24"
               fill="none"
@@ -120,7 +122,7 @@ export function Header() {
                 d="M5.331 7.806c.272.326.471.543.815.163.345-.38-.108.96-.108.96l-1.123-.363.416-.76z"
                 fill="#fff"
               />
-            </svg>
+            </svg> */}
           </>
         )}
       </Toast>
