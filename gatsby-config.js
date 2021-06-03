@@ -33,8 +33,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/img/`,
-        name: `images`,
+        path: `${__dirname}/src/img`,
+        name: `img`,
       },
     },
     // Add your Google Analytics ID to the .env file to enable
