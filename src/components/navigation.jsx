@@ -15,23 +15,23 @@ export function Navigation({ className }) {
   `)
 
   return (
-    <nav className={[navStyle, className].join(" ")} style={{marginLeft:'200px'}}>
+    <nav className={[navStyle, className].join(" ")} style={{marginLeft:'', display:'flex', justifyContent:'center'}}>
       <Link
         key="All"
         className={navLink}
         to="/products/"
         activeClassName={activeLink}
       >
-        Print Ready Art For Sale
+        View All Available Art
       </Link>
-      <Link
+      {/* <Link
         key="All"
         className={navLink}
         to="/nft/"
         activeClassName={activeLink}
       >
         Exclusive NFT Kits (new!)
-      </Link>
+      </Link> */}
       {productTypes.map((name) => (
         <Link
           key={name}

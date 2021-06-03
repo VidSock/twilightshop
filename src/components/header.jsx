@@ -27,7 +27,7 @@ export function Header() {
     <div className={container}>
       <header className={header}>
         
-      <Link to="/"><img id="logo" className="twlogo rollIn" src={twLogo} alt="Twilightscapes Logo" style={{position:'', minWidth:'150px', height:'auto', padding:'0', border:'0px solid red'}} /></Link>
+      <Link to="/"><img id="logo" className="twlogo rollIn" src={twLogo} alt="Twilightscapes Logo" style={{position:'', minWidth:'100px', height:'auto', padding:'0', border:'0px solid red'}} /></Link>
 
 
 
@@ -54,9 +54,9 @@ export function Header() {
     <ul className="sidebarMenuInner">
 
     <li>
-              <Link className="navbar-item txtshadow" to="https://shop.twilightscapes.com/">
+              <a className="navbar-item txtshadow" href="https://shop.twilightscapes.com/">
                 Shop Now <span>Buy Twilightscapes</span>
-              </Link>
+              </a>
       </li>
 
       <li>

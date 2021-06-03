@@ -52,16 +52,18 @@ export function ProductCard({ product, eager }) {
         <GatsbyImage
           alt={firstImage?.altText ?? title}
           image={firstImage?.gatsbyImageData ?? storefrontImageData}
-          loading={eager ? "eager" : "lazy"}
+          loading={eager ? "eager" : "lazy"
+
+        }
         />
       </div>
       
       <div className={productDetailsStyle}>
-        <div className={productVendorStyle}>{vendor}</div>
+        {/* <div className={productVendorStyle}>{vendor}</div> */}
         <h2 as="h2" className={productHeadingStyle}>
           {title}
         </h2>
-        <div className={productPrice}>{price}</div>
+        {/* <div className={productPrice}>{price}</div> */}
       </div>
     </Link>
   )
@@ -77,7 +79,7 @@ export const query = graphql`
     images {
       id
       altText
-      gatsbyImageData(aspectRatio: 1, width: 640)
+      gatsbyImageData(height:350)
     }
     priceRangeV2 {
       minVariantPrice {
