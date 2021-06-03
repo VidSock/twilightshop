@@ -217,7 +217,7 @@ export const query = graphql`
       description
       productType
       productTypeSlug: gatsbyPath(
-        filePath: "/products/{ShopifyProduct.productType}"
+        filePath: "/art/{ShopifyProduct.productType}"
       )
       tags
       priceRangeV2 {
