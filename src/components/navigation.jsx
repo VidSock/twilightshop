@@ -21,11 +21,12 @@ export function Navigation({ className }) {
         className=""
         to="/art/"
         activeClassName={activeLink}
+        title="View All Twilightscapes"
         style={{
           background:'#111',
           color:'#fff',
           padding:'8px 15px',
-          borderRadius:'7px'
+          borderRadius:'7px',
         }}
       >
         View All Twilightscapes

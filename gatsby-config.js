@@ -31,6 +31,32 @@ module.exports = {
     "gatsby-plugin-sitemap",
     "gatsby-plugin-gatsby-cloud",
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Twilightscapes`,
+        short_name: `Twilightscapes`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+        // icon: "static" + settings.meta.iconimage,
+        icons: [
+          {
+            src: `/icons/icon-192x192.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+          },
+          {
+            src: `/icons/icon-512x512.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+            purpose: `any maskable`,
+          },
+        ],
+      },
+    },
+    "gatsby-plugin-offline",
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/img`,
@@ -47,3 +73,4 @@ module.exports = {
     },
   ].filter(Boolean),
 }
+
