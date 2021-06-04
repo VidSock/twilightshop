@@ -44,6 +44,7 @@ export function Navigation({ className }) {
           key={name}
           className={navLink}
           to={`/art/${slugify(name)}`}
+          title="View All Twilightscapes"
           activeClassName={activeLink}
         >
           {name}
