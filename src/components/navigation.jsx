@@ -28,7 +28,7 @@ export function Navigation({ className }) {
           borderRadius:'7px'
         }}
       >
-        View All Available Art
+        View All Twilightscapes
       </Link>
       {/* <Link
         key="All"

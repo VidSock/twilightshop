@@ -26,7 +26,9 @@ export default function CartPage() {
   const emptyCart = checkout.lineItems.length === 0
 
   const handleCheckout = () => {
-    window.open(checkout.webUrl)
+    window.location.replace(checkout.webUrl)
+
+
   }
 
   return (

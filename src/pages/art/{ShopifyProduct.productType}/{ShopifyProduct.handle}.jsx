@@ -205,12 +205,17 @@ export default function Product({ data: { product, suggestions } }) {
               <span className={tagList}>
                 <Link to={product.productTypeSlug}>{product.productType}</Link>
               </span> */}
+
+
               <span className={labelFont}>Tags</span>
               <span className={tagList}>
                 {product.tags.map((tag) => (
                   <Link to={`/search?t=${tag}`}>{tag}</Link>
                 ))}
               </span>
+
+
+
             </div>
 
 </div>
@@ -229,8 +234,23 @@ export default function Product({ data: { product, suggestions } }) {
 </div>
 
 
-<div style={{borderRadius:'12px', border:'0px solid red', overflow:'hidden'}}>
+<div style={{borderRadius:'12px', border:'0px solid red', overflow:'hidden', position:'relative'}}>
   <h3 style={{fontSize:'130%', fontWeight:'bold', textAlign:'center'}}>About the photographer</h3>
+  <div style={{position:'absolute', display:'flex', justifyContent:'center', textAlign:'center', top:'25%', zIndex:'1', width:'100%',}}>
+  <Link
+        key="All"
+        className=""
+        to="/about/"
+        style={{
+          background:'#111',
+          color:'#fff',
+          padding:'12px 15px',
+          borderRadius:'7px'
+        }}
+      >
+        Meet Todd Lambert
+      </Link>
+    </div>
   <Image className="" alt="" filename="todd-horizons.jpg" />
 </div>
             </div>
