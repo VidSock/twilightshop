@@ -19,7 +19,8 @@ import { FaLockOpen } from "react-icons/fa"
 import { HiBan, HiOutlineKey, HiOutlineMap, HiOutlinePhotograph, HiOutlineScale    } from "react-icons/hi"
 import { CgInfo, CgRatio  } from "react-icons/cg"
 import { FiCameraOff, FiCamera } from "react-icons/fi"
-
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import 'react-tabs/style/react-tabs.css'
 
 
 
@@ -49,33 +50,61 @@ import styled from 'styled-components'
 
 const CustomBox = styled.div`
 
-
-
-
-.infomenu{border:0px solid red !important; 
-  display:flex;
-  margin:2rem 0;
-  font-size:60px;
-  gap:10px;
-  justify-content:center;
-  background:#222;
-  padding:10px 10px;
-  border-radius:10px;
-  width:75%;
-  margin:2rem auto;
+.react-tabs__tab{
+	display: inline-block;
+	margin-bottom: 10px;
+	padding: 12px 5px;
+	border: 0px solid #ccc;
+	// background: #eee;
+	color: #666;
+	font-size: 12px; 
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;	
+  transition: all 0.3s;
+  border-radius:0;
+}
+.react-tabs__tab:hover {
+	// border-top-color: #333;
+	color: #333;
 }
 
-.infomenu *{
+.react-tabs__tab-list {
+  border-bottom: 1px solid #aaa;
+  margin: 0 0;
+  padding: 0;
+  clear:both;
   display:flex;
   justify-content:center;
-  padding:10px;
+  }
+
+  .react-tabs__tab--selected{
+    // background: #ccc;
+  }
+
+
+
+
+.iconmenu{
+  display:flex;
+  justify-content:center;
+  padding:15px;
   border-radius:12px;
   background:#333;
   color:#999;
   position:relative;
+  font-size:40px;
 }
 
-.infomenu span{display:block; position:absolute; top:-8px; font-size:12px; background:none;}
+.react-tabs__tab--selected{background:transparent;}
+
+.iconmenu span{display:block; position:absolute; top:0; font-size:12px; background:none;}
+
+
+@media (max-width: 48rem) {
+.flexcheek{width:100% !important;}
+ }
 
 `
 
@@ -212,7 +241,7 @@ export default function Product({ data: { product, suggestions } }) {
 
 <div className="flexbutt" style={{display:'flex', gap:'30px'}}>
 
-<div className="flexcheek" style={{minWidth:'60vw'}}>
+<div className="flexcheek" style={{width:'70%'}}>
             <div className={breadcrumb}>
               <Link to={product.productTypeSlug}>{product.productType}</Link>
               {/* <ChevronIcon size={12} /> */}
@@ -271,18 +300,66 @@ export default function Product({ data: { product, suggestions } }) {
               </span>
             </div>
 
+     
 
-            <div className="infomenu" style={{}}>
+
+            <Tabs className="infomenu" ß style={{minHeight:'20vh', width:'100%',  border:'1px solid #222', borderRadius:'12px', overflow:'hidden', marginTop:'40px'}}>
+    <TabList style={{width:'100%', border:'0px solid yellow',}}>
+    <Tab><div className="iconmenu"><HiOutlinePhotograph/><span>Details</span></div></Tab>
+      <Tab><div className="iconmenu"><CgInfo /><span>FAQ</span></div></Tab>
+      <Tab><div className="iconmenu"><CgRatio /><span>Specs</span></div></Tab>
+      <Tab><div className="iconmenu"><FiCamera /><span>Tech</span></div></Tab>
+      {/* <Tab><div className="iconmenu"><FiCamera /><span>Tech</span></div></Tab> */}
+      
+      <Tab><div className="iconmenu"><HiOutlineScale/><span>Legal</span></div></Tab>
+      
+    </TabList>
+ 
+    <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
+            {/* <PanelDesigners /> */}
+            <h4>Details</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed quae velit quaerat quisquam quibusdam quos magnam nesciunt! Rem suscipit ut sed, ipsa unde explicabo et delectus deleniti assumenda sint.
+    </TabPanel>
+    <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
+            {/* <PanelJewelry /> */}
+            <h4>FAQ</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed quae velit quaerat quisquam quibusdam quos magnam nesciunt! Rem suscipit ut sed, ipsa unde explicabo et delectus deleniti assumenda sint. 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed quae velit quaerat quisquam quibusdam quos magnam nesciunt! Rem suscipit ut sed, ipsa unde explicabo et delectus deleniti assumenda sint.
+    </TabPanel>
+    <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
+           {/* <PanelTimePieces /> */}
+           <h4>Specs</h4>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed quae velit quaerat quisquam quibusdam quos magnam nesciunt! Rem suscipit ut sed, ipsa unde explicabo et delectus deleniti assumenda sint.
+    </TabPanel>
+    <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
+          {/* <PanelStyle /> */}
+          <h4>Technology</h4>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed quae velit quaerat quisquam quibusdam quos magnam nesciunt! Rem suscipit ut sed, ipsa unde explicabo et delectus deleniti assumenda sint.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed quae velit quaerat quisquam quibusdam quos magnam nesciunt! Rem suscipit ut sed, ipsa unde explicabo et delectus deleniti assumenda sint.
+    </TabPanel>
+    <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
+           {/* <PanelOccassion /> */}
+           <h4>Legal</h4>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed quae velit quaerat quisquam quibusdam quos magnam nesciunt! Rem suscipit ut sed, ipsa unde explicabo et delectus deleniti assumenda sint.
+    </TabPanel>
+
+  </Tabs>
+
+
+
+
+
+            {/* <div className="infomenu" style={{}}>
 
 <div><CgInfo /><span>FAQ</span></div>
 <div><FiCamera /><span>Tech</span></div>
 <div><CgRatio /><span>Specs</span></div>
 <div><HiOutlineScale/><span>Legal</span></div>
 <div><HiOutlinePhotograph/><span>Details</span></div>
-{/* <div><FaLockOpen /><span>Royalty free</span></div>
-<div><RiGitRepositoryPrivateFill /><span>Private use</span></div> */}
+<div><FaLockOpen /><span>Royalty free</span></div>
+<div><RiGitRepositoryPrivateFill /><span>Private use</span></div>
 
-{/* <MdBrandingWatermark />
+<MdBrandingWatermark />
 <RiGitRepositoryPrivateFill />
 <GiRoyalLove />
 <MdCropFree />
@@ -294,15 +371,15 @@ export default function Product({ data: { product, suggestions } }) {
 <HiOutlineScale/>
 
 <FiCameraOff />
-<FiCamera /> */}
-</div>
+<FiCamera />
+</div> */}
 
            {/* <InfoMenu /> */}
 
 
 </div>
 
-            <div className="flexcheek" style={{border:'0px solid yellow', width:'100%'}}>
+            <div className="flexcheek" style={{border:'0px solid yellow', width:'30%'}}>
 
 
             <p style={{fontSize:'100%', margin:'0 0', padding:'0', lineHeight:'auto', textAlign:'center', fontWeight:'bold'}}>Turn this into a great print here:</p>
