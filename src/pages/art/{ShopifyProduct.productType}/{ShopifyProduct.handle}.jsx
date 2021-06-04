@@ -303,7 +303,7 @@ export default function Product({ data: { product, suggestions } }) {
      
 
 
-            <Tabs className="infomenu" ß style={{minHeight:'20vh', width:'100%',  border:'1px solid #222', borderRadius:'12px', overflow:'hidden', marginTop:'40px'}}>
+            <Tabs className="infomenu" ß style={{minHeight:'20vh', width:'100%', maxWidth:'1000px',  border:'1px solid #222', borderRadius:'12px', overflow:'hidden', marginTop:'40px'}}>
     <TabList style={{width:'100%', border:'0px solid yellow',}}>
     <Tab><div className="iconmenu"><HiOutlinePhotograph/><span>Details</span></div></Tab>
       <Tab><div className="iconmenu"><CgInfo /><span>FAQ</span></div></Tab>
@@ -315,7 +315,7 @@ export default function Product({ data: { product, suggestions } }) {
       
     </TabList>
  
-    <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
+    <TabPanel style={{padding:'0 1.5rem', width:'100%',}}>
             {/* <PanelDesigners /> */}
             <h4>Details</h4>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed quae velit quaerat quisquam quibusdam quos magnam nesciunt! Rem suscipit ut sed, ipsa unde explicabo et delectus deleniti assumenda sint.
