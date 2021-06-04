@@ -3,6 +3,7 @@ import { graphql, Link } from "gatsby"
 import { Layout } from "../../../components/layout1"
 import isEqual from "lodash.isequal"
 import { GatsbyImage, getSrc } from "gatsby-plugin-image"
+import Image from '../../../components/Image'
 import { StoreContext } from "../../../context/store-context"
 import { AddToCart } from "../../../components/add-to-cart"
 import { NumericInput } from "../../../components/numeric-input"
@@ -163,7 +164,7 @@ export default function Product({ data: { product, suggestions } }) {
             <h1 className={header}>{title}</h1>
             <p className={productDescription}>{description}</p>
             <h2 className={priceValue}>
-              <span>{price}</span><br /> High-Res Print Ready Artwork
+             <strong style={{fontSize:'30px'}}>{price}</strong> <br /> High-Res Print Ready Art
             </h2>
             <fieldset className={optionsWrapper}>
               {hasVariants &&
@@ -214,7 +215,25 @@ export default function Product({ data: { product, suggestions } }) {
 
 </div>
 
-            <div className="flexcheek" style={{border:'0px solid yellow', width:''}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, minus impedit fugit quibusdam iure voluptates blanditiis laudantium repellendus numquam corrupti id iste necessitatibus dolores minima quidem accusantium voluptatum in qui!</div>
+            <div className="flexcheek" style={{border:'0px solid yellow', width:'100%'}}>
+
+
+            <p style={{fontSize:'100%', margin:'0 0', padding:'0', lineHeight:'auto', textAlign:'center', fontWeight:'bold'}}>Turn this into a great print here:</p>
+            
+            <div style={{display:'flex', gap:'10px',padding:'0 ', margin:'0 0 2rem 0', justifyContent:'center' }}>
+
+<div style={{width:'100%', maxWidth:'200px'}}><a href="https://www.bayphoto.com" target="_blank" rel="noopener noreferrer nofollow"><Image className="" alt="" filename="bayphoto-logo.png" /></a></div>
+
+<div style={{width:'100%', maxWidth:'200px'}}><a href="https://www.printique.com" target="_blank" rel="noopener noreferrer nofollow"><Image className="" alt="" filename="printique-logo.png" /></a></div>
+
+</div>
+
+
+<div style={{borderRadius:'12px', border:'0px solid red', overflow:'hidden'}}>
+  <h3 style={{fontSize:'130%', fontWeight:'bold', textAlign:'center'}}>About the photographer</h3>
+  <Image className="" alt="" filename="todd-horizons.jpg" />
+</div>
+            </div>
 
             
 
