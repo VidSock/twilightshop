@@ -4,12 +4,27 @@ import { Layout } from "../../../components/layout1"
 import isEqual from "lodash.isequal"
 import { GatsbyImage, getSrc } from "gatsby-plugin-image"
 import Image from '../../../components/Image'
+// import InfoMenu from '../../../components/infomenu'
 import { StoreContext } from "../../../context/store-context"
 import { AddToCart } from "../../../components/add-to-cart"
 import { NumericInput } from "../../../components/numeric-input"
 import { formatPrice } from "../../../utils/format-price"
 import { Seo } from "../../../components/seo1"
 import { CgChevronRight as ChevronIcon } from "react-icons/cg"
+import { MdBrandingWatermark, MdCropFree } from "react-icons/md"
+import { RiGitRepositoryPrivateFill } from "react-icons/ri"
+
+import { GiRoyalLove } from "react-icons/gi"
+import { FaLockOpen } from "react-icons/fa"
+import { HiBan, HiOutlineKey, HiOutlineMap, HiOutlinePhotograph, HiOutlineScale    } from "react-icons/hi"
+import { CgInfo, CgRatio  } from "react-icons/cg"
+import { FiCameraOff, FiCamera } from "react-icons/fi"
+
+
+
+
+
+
 import {
   productBox,
   container,
@@ -29,6 +44,45 @@ import {
   metaSection,
   productDescription,
 } from "./product-page.module.css"
+
+import styled from 'styled-components'
+
+const CustomBox = styled.div`
+
+
+
+
+.infomenu{border:0px solid red !important; 
+  display:flex;
+  margin:2rem 0;
+  font-size:60px;
+  gap:10px;
+  justify-content:center;
+  background:#222;
+  padding:10px 10px;
+  border-radius:10px;
+  width:75%;
+  margin:2rem auto;
+}
+
+.infomenu *{
+  display:flex;
+  justify-content:center;
+  padding:10px;
+  border-radius:12px;
+  background:#333;
+  color:#999;
+  position:relative;
+}
+
+.infomenu span{display:block; position:absolute; top:-8px; font-size:12px; background:none;}
+
+`
+
+
+
+
+
 
 export default function Product({ data: { product, suggestions } }) {
   const {
@@ -104,7 +158,9 @@ export default function Product({ data: { product, suggestions } }) {
   const hasMultipleImages = true || images.length > 1
 
   return (
+
     <Layout>
+      <CustomBox>
       {firstImage ? (
         <></>
       ) : undefined}
@@ -213,10 +269,36 @@ export default function Product({ data: { product, suggestions } }) {
                   <Link to={`/search?t=${tag}`}>{tag}</Link>
                 ))}
               </span>
-
-
-
             </div>
+
+
+            <div className="infomenu" style={{}}>
+
+<div><CgInfo /><span>FAQ</span></div>
+<div><FiCamera /><span>Tech</span></div>
+<div><CgRatio /><span>Specs</span></div>
+<div><HiOutlineScale/><span>Legal</span></div>
+<div><HiOutlinePhotograph/><span>Details</span></div>
+{/* <div><FaLockOpen /><span>Royalty free</span></div>
+<div><RiGitRepositoryPrivateFill /><span>Private use</span></div> */}
+
+{/* <MdBrandingWatermark />
+<RiGitRepositoryPrivateFill />
+<GiRoyalLove />
+<MdCropFree />
+<FaLockOpen />
+<HiBan />
+<HiOutlineKey />
+<HiOutlineMap />
+<HiOutlinePhotograph/>
+<HiOutlineScale/>
+
+<FiCameraOff />
+<FiCamera /> */}
+</div>
+
+           {/* <InfoMenu /> */}
+
 
 </div>
 
@@ -262,6 +344,7 @@ export default function Product({ data: { product, suggestions } }) {
 
         </div>
       </div>
+      </CustomBox>
     </Layout>
   )
 }
