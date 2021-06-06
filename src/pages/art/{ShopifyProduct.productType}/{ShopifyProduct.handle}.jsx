@@ -313,7 +313,7 @@ export default function Product({ data: { product, suggestions } }) {
     <Tab><div className="iconmenu"><RiSecurePaymentLine/><span>Secure</span></div></Tab>
       
       <Tab><div className="iconmenu"><CgRatio /><span>Specs</span></div></Tab>
-      <Tab><div className="iconmenu"><FiCamera /><span>Tech</span></div></Tab>
+      {/* <Tab><div className="iconmenu"><FiCamera /><span>Tech</span></div></Tab> */}
       <Tab><div className="iconmenu"><CgInfo /><span>FAQ</span></div></Tab>
       <Tab><div className="iconmenu"><HiOutlineScale/><span>Legal</span></div></Tab>
       
@@ -331,11 +331,12 @@ export default function Product({ data: { product, suggestions } }) {
 
 <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
            <strong>Specs</strong><br /><br />
-           <p>All Twilightscapes are shot using the latest state-of-the-art equipment and lenses.
-           <br /><br />
+           <p>
            Edited and production output to Tiff file format<br /> <br />
            Typical file size 30-50MB<br /> <br />
            Average dimensions range from 4988×3325 to 5481x3653 or greater<br /> <br />
+           All Twilightscapes are shot using the latest state-of-the-art equipment and lenses.
+           <br /><br />Canon 5D series, Sony A7R series and Sony A7S series.
            </p>
            
     </TabPanel>
@@ -343,7 +344,7 @@ export default function Product({ data: { product, suggestions } }) {
 
 
 
-    <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
+    {/* <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
           <strong>Technology</strong><br /><br />
           <p>
           Twilightscapes were shot using: <br /><br />
@@ -351,7 +352,7 @@ export default function Product({ data: { product, suggestions } }) {
           Sony A7S series<br /><br />
           Sony A7R series <br /><br />
           </p>
-    </TabPanel>
+    </TabPanel> */}
 
 
 
