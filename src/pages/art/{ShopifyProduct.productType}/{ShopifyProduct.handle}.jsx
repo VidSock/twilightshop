@@ -12,7 +12,7 @@ import { formatPrice } from "../../../utils/format-price"
 import { Seo } from "../../../components/seo1"
 import { CgChevronRight as ChevronIcon } from "react-icons/cg"
 import { MdBrandingWatermark, MdCropFree } from "react-icons/md"
-import { RiGitRepositoryPrivateFill } from "react-icons/ri"
+import { RiSecurePaymentLine } from "react-icons/ri"
 
 import { GiRoyalLove } from "react-icons/gi"
 import { FaLockOpen } from "react-icons/fa"
@@ -310,7 +310,7 @@ export default function Product({ data: { product, suggestions } }) {
 
             <Tabs className="infomenu" ß style={{minHeight:'20vh', width:'100%', maxWidth:'1000px',  border:'1px solid #222', borderRadius:'12px', overflow:'hidden', marginTop:'40px'}}>
     <TabList style={{width:'100%', border:'0px solid yellow',}}>
-    {/* <Tab><div className="iconmenu"><HiOutlinePhotograph/><span>Details</span></div></Tab> */}
+    <Tab><div className="iconmenu"><RiSecurePaymentLine/><span>Secure</span></div></Tab>
       
       <Tab><div className="iconmenu"><CgRatio /><span>Specs</span></div></Tab>
       <Tab><div className="iconmenu"><FiCamera /><span>Tech</span></div></Tab>
@@ -319,19 +319,21 @@ export default function Product({ data: { product, suggestions } }) {
       
     </TabList>
  
-    {/* <TabPanel style={{padding:'0 1.5rem', width:'100%',}}>
-            <h4>Details</h4>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed quae velit quaerat quisquam quibusdam quos magnam nesciunt! Rem suscipit ut sed, ipsa unde explicabo et delectus deleniti assumenda sint.
-    </TabPanel> */}
+    <TabPanel style={{padding:'0 1.5rem', width:'100%',}}>
+            <strong>Secure and spam free</strong><br /><br />
+            <p>All transactions are secured using the latest 128bit SSL encryption and your security is put first on all accounts. <br />
+            Full PCI Compliance - Payment Card Industry Data Security Standard (PCI DSS)</p>
+
+    </TabPanel>
 
 <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
            <strong>Specs</strong><br /><br />
-           All Twilightscapes are shot using the latest state-of-the-art equipment and lenses,
+           <p>All Twilightscapes are shot using the latest state-of-the-art equipment and lenses,
            <br />
            After careful editing and production output to Tiff file format<br />
            Average file size is over 20MB.<br />
            Average dimensions are 4988 × 3325 or greater<br />
-
+           </p>
            
     </TabPanel>
 
@@ -340,27 +342,34 @@ export default function Product({ data: { product, suggestions } }) {
 
     <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
           <strong>Technology</strong><br /><br />
+          <p>
           Twilightscapes were shot using: <br />
           Canon 5D series<br />
           Sony A7S series<br />
           Sony A7R series <br />
+          </p>
     </TabPanel>
 
 
 
     <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
             <strong>FAQ</strong><br /><br />
+            <p>
             Can I print this for my office? Yes.<br />
             Can I print multiple copies? No. <br />
             Can I post it on Facebook (or any where online)? No.<br />
             Do I own this photo? No.<br />
+            </p>
 
     </TabPanel>
 
 
     <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
            <strong>Legal</strong><br /><br />
+
+           <p>
            Twilightscapes offers two types of license models: royalty-free ("RF") and rights-managed ("RM"). Royalty-free does not mean there is no cost for the license. Instead, royalty-free means that the license fee is paid once and there is no need to pay additional royalties if the content is re-used. Royalty-free content is licensed for worldwide, unlimited and perpetual use. Rights-managed content is licensed for specific types of private use, and limits the use of the content to private use only. Rights-managed content is allowed to be printed in any format suited for private display.
+           </p>
     </TabPanel>
 
   </Tabs>
