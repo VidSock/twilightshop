@@ -32,7 +32,7 @@ export default function IndexPage({ data }) {
         <p className={callOut}>
           Everything is only $29
         </p>
-        <p style={{textAlign:'', margin:'10px  12% 2rem 12%'}}>For one low-cost you get the original high-res artfile to do what you want with.*</p>
+        <p style={{textAlign:'', margin:'10px  12% 2rem 12%'}}>For one low-cost you get the original high-res artfile.</p>
 
         
        

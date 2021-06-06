@@ -321,16 +321,17 @@ export default function Product({ data: { product, suggestions } }) {
  
     <TabPanel style={{padding:'0 1.5rem', width:'100%',}}>
             <strong>Secure and spam free</strong><br /><br />
-            <p>All transactions are secured using the latest 128bit SSL encryption and your security is put first on all accounts. <br />
+            <p>All transactions are secured using the latest 128-bit SSL encryption and your security is put first on all accounts. <br />
+            <br />
             Full PCI Compliance - Payment Card Industry Data Security Standard (PCI DSS)</p>
 
     </TabPanel>
 
 <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
            <strong>Specs</strong><br /><br />
-           <p>All Twilightscapes are shot using the latest state-of-the-art equipment and lenses,
+           <p>All Twilightscapes are shot using the latest state-of-the-art equipment and lenses.
            <br />
-           After careful editing and production output to Tiff file format<br />
+           Edited and production output to Tiff file format<br />
            Average file size is over 20MB.<br />
            Average dimensions are 4988 × 3325 or greater<br />
            </p>
@@ -355,10 +356,13 @@ export default function Product({ data: { product, suggestions } }) {
     <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
             <strong>FAQ</strong><br /><br />
             <p>
+            Do I get the file right away? Yes, upon completion of transaction<br />
+            What if I lose the file, can I get another copy? Yes, you can retrieve the original file at any time.<br />
+            Is there a watermark? No, it is removed on delivery<br />
             Can I print this for my office? Yes.<br />
             Can I print multiple copies? No. <br />
             Can I post it on Facebook (or any where online)? No.<br />
-            Do I own this photo? No.<br />
+            Do I own this photo or can I claim it as mine? No.<br />
             </p>
 
     </TabPanel>
