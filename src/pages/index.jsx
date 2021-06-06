@@ -32,7 +32,7 @@ export default function IndexPage({ data }) {
         <p className={callOut}>
           Pick Three - 1 FREE!
         </p>
-        <p style={{textAlign:'', margin:'10px  12% 2rem 12%'}}>Pick any 3 (or more) and only pay for 2!</p>
+        <p style={{textAlign:'', margin:'10px  12% 2rem 12%'}}>Pick any 3 and only pay for 2!</p>
 
         
        
