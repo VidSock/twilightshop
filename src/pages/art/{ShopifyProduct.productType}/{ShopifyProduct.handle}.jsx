@@ -334,7 +334,7 @@ export default function Product({ data: { product, suggestions } }) {
            <p>All Twilightscapes are shot using the latest state-of-the-art equipment and lenses.
            <br /><br />
            Edited and production output to Tiff file format<br /> <br />
-           Average file size is over 20MB.<br /> <br />
+           Typical file size 30-50MB<br /> <br />
            Average dimensions range from 4988×3325 to 5481x3653 or greater<br /> <br />
            </p>
            
