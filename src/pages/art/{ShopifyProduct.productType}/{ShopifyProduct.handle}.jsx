@@ -413,13 +413,13 @@ export default function Product({ data: { product, suggestions } }) {
 </div>
 
 
-<div style={{borderRadius:'12px', border:'0px solid red', overflow:'hidden', position:'relative'}}>
+<div style={{ border:'0px solid red', overflow:'hidden', position:'relative'}}>
   <h3 style={{fontSize:'130%', fontWeight:'bold', textAlign:'center'}}>About the photographer</h3>
   <div style={{position:'absolute', display:'flex', justifyContent:'center', textAlign:'center', top:'25%', zIndex:'1', width:'100%',}}>
-  <Link
+  <a
         key="All"
         className=""
-        to="/about/"
+        href="https://twilightscapes.com/about"
         style={{
           background:'#111',
           color:'#fff',
@@ -428,11 +428,30 @@ export default function Product({ data: { product, suggestions } }) {
         }}
       >
         Meet Todd Lambert
-      </Link>
+      </a>
     </div>
   <Image className="" alt="" filename="todd-horizons.jpg" />
 </div>
+
+<br />
+<br />
+<h3 style={{fontSize:'130%', fontWeight:'bold', textAlign:'center'}}>Other projects by Todd</h3>
+
+<a href="https://urbanfetish.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', color:'inherit', lineHeight:'1.7rem'}}>
+ 
+
+
+ <Image className="slider" alt="Urban Fetish photos" filename="urban-fetish-button.jpg" />
+ <br />
+ 
+ Take a walk on the wild side and follow along as Todd Lambert goes in search of the creepiest, freakiest, spookiest abandoned and desolate locations he can find. 
+ 
+ <h5 style={{textAlign:'center',}}>Visit UrbanFetish.com</h5></a>
+
+
             </div>
+
+            
 
             
 
