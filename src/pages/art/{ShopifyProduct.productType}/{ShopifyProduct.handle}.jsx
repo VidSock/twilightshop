@@ -95,11 +95,12 @@ const CustomBox = styled.div`
   color:#999;
   position:relative;
   font-size:40px;
+  overflow:hidden;
 }
 
-.react-tabs__tab--selected{background:transparent;}
+.react-tabs__tab--selected{background:transparent; overflow:hidden;}
 
-.iconmenu span{display:block; position:absolute; top:0; font-size:12px; background:none;}
+.iconmenu span{display:block; position:absolute; top:0; font-size:12px; background:none; overflow:hidden;}
 
 
 @media (max-width: 48rem) {
@@ -191,7 +192,11 @@ export default function Product({ data: { product, suggestions } }) {
     <Layout>
       <CustomBox>
       {firstImage ? (
-        <></>
+        <Seo
+          title={title}
+          description={description}
+          image={getSrc(firstImage.gatsbyImageData)}
+        />
       ) : undefined}
       <div className={container}>
         <div className="dd">
@@ -305,42 +310,57 @@ export default function Product({ data: { product, suggestions } }) {
 
             <Tabs className="infomenu" ß style={{minHeight:'20vh', width:'100%', maxWidth:'1000px',  border:'1px solid #222', borderRadius:'12px', overflow:'hidden', marginTop:'40px'}}>
     <TabList style={{width:'100%', border:'0px solid yellow',}}>
-    <Tab><div className="iconmenu"><HiOutlinePhotograph/><span>Details</span></div></Tab>
-      <Tab><div className="iconmenu"><CgInfo /><span>FAQ</span></div></Tab>
+    {/* <Tab><div className="iconmenu"><HiOutlinePhotograph/><span>Details</span></div></Tab> */}
+      
       <Tab><div className="iconmenu"><CgRatio /><span>Specs</span></div></Tab>
       <Tab><div className="iconmenu"><FiCamera /><span>Tech</span></div></Tab>
-      {/* <Tab><div className="iconmenu"><FiCamera /><span>Tech</span></div></Tab> */}
-      
+      <Tab><div className="iconmenu"><CgInfo /><span>FAQ</span></div></Tab>
       <Tab><div className="iconmenu"><HiOutlineScale/><span>Legal</span></div></Tab>
       
     </TabList>
  
-    <TabPanel style={{padding:'0 1.5rem', width:'100%',}}>
-            {/* <PanelDesigners /> */}
+    {/* <TabPanel style={{padding:'0 1.5rem', width:'100%',}}>
             <h4>Details</h4>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed quae velit quaerat quisquam quibusdam quos magnam nesciunt! Rem suscipit ut sed, ipsa unde explicabo et delectus deleniti assumenda sint.
+    </TabPanel> */}
+
+<TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
+           <strong>Specs</strong><br /><br />
+           All Twilightscapes are shot using the latest state-of-the-art equipment and lenses,
+           <br />
+           After careful editing and production output to Tiff file format<br />
+           Average file size is over 20MB.<br />
+           Average dimensions are 4988 × 3325 or greater<br />
+
+           
     </TabPanel>
+
+
+
+
     <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
-            {/* <PanelJewelry /> */}
-            <h4>FAQ</h4>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed quae velit quaerat quisquam quibusdam quos magnam nesciunt! Rem suscipit ut sed, ipsa unde explicabo et delectus deleniti assumenda sint. 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed quae velit quaerat quisquam quibusdam quos magnam nesciunt! Rem suscipit ut sed, ipsa unde explicabo et delectus deleniti assumenda sint.
+          <strong>Technology</strong><br /><br />
+          Twilightscapes were shot using: <br />
+          Canon 5D series<br />
+          Sony A7S series<br />
+          Sony A7R series <br />
     </TabPanel>
+
+
+
     <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
-           {/* <PanelTimePieces /> */}
-           <h4>Specs</h4>
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed quae velit quaerat quisquam quibusdam quos magnam nesciunt! Rem suscipit ut sed, ipsa unde explicabo et delectus deleniti assumenda sint.
+            <strong>FAQ</strong><br /><br />
+            Can I print this for my office? Yes.<br />
+            Can I print multiple copies? No. <br />
+            Can I post it on Facebook (or any where online)? No.<br />
+            Do I own this photo? No.<br />
+
     </TabPanel>
+
+
     <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
-          {/* <PanelStyle /> */}
-          <h4>Technology</h4>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed quae velit quaerat quisquam quibusdam quos magnam nesciunt! Rem suscipit ut sed, ipsa unde explicabo et delectus deleniti assumenda sint.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed quae velit quaerat quisquam quibusdam quos magnam nesciunt! Rem suscipit ut sed, ipsa unde explicabo et delectus deleniti assumenda sint.
-    </TabPanel>
-    <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
-           {/* <PanelOccassion /> */}
-           <h4>Legal</h4>
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed quae velit quaerat quisquam quibusdam quos magnam nesciunt! Rem suscipit ut sed, ipsa unde explicabo et delectus deleniti assumenda sint.
+           <strong>Legal</strong><br /><br />
+           Twilightscapes offers two types of license models: royalty-free ("RF") and rights-managed ("RM"). Royalty-free does not mean there is no cost for the license. Instead, royalty-free means that the license fee is paid once and there is no need to pay additional royalties if the content is re-used. Royalty-free content is licensed for worldwide, unlimited and perpetual use. Rights-managed content is licensed for specific types of private use, and limits the use of the content to private use only. Rights-managed content is allowed to be printed in any format suited for private display.
     </TabPanel>
 
   </Tabs>
