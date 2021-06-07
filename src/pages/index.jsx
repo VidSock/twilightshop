@@ -25,7 +25,7 @@ const CustomBox = styled.div`
 p{margin-bottom:2rem;}
 
 .container{padding:0 !important;}
-.home-banner1{display:flex; flex-directon:row;}
+.home-banner1{display:flex;\}
 
 @media (max-width: 48em) {
 	// .image-wrap h1, .image-wrap h2, .image-wrap h3  {font-size:300% !important; border:0px solid red !important;}
@@ -34,7 +34,7 @@ p{margin-bottom:2rem;}
 
   .abcontent{position:relative !important; height:100vh; overflow:visible;}
   .home-banner1{display:flex;flex-directon:row; display:block; height:100vh !important;}
-  .home-hanner div{width:100%; display:inline-block; height:100vh !important;}
+  .home-hanner1 div{width:100%; display:inline-block; height:100vh !important;}
 }
 
 @media (min-width: 58em) {
