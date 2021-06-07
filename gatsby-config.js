@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     siteTitle: "Twilightscapes - Unique Night Photography and NFTs",
     siteTitleDefault: "Twilightscapes - Unique Night Photography",
-    siteUrl: "https://shop.twilightscapes.com",
+    siteUrl: "https://twilightscapes.com",
     hrefLang: "en",
     siteDescription:
       "Twilightscapes - Unique Night Photography",
@@ -22,6 +22,7 @@ module.exports = {
         password: process.env.SHOPIFY_SHOP_PASSWORD,
         storeUrl: process.env.GATSBY_SHOPIFY_STORE_URL,
         shopifyConnections: ["collections"],
+        shopName: "sales.twilightscapes.com",
       },
     },
     "gatsby-plugin-image",
@@ -30,7 +31,6 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-theme-ui",
-    "gatsby-plugin-gatsby-cloud",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
