@@ -207,7 +207,7 @@ export default function Product({ data: { product, suggestions } }) {
                 aria-label="gallery"
                 aria-describedby="instructions"
               >
-                <ul className={productImageList}>
+                <ul className={productImageList} >
                   {images.map((image, index) => (
                     <li
                       key={`product-image-${image.id}`}
