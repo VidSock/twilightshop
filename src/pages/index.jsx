@@ -25,9 +25,12 @@ const CustomBox = styled.div`
 p{margin-bottom:2rem;}
 
 .container{padding:0 !important;}
-.home-banner1{display:flex;\}
+.home-banner1{display:flex; flex-direction:row; border:0px solid red !important;}
 
+@media (max-width: 58em) {
+  .home-banner1{display:flex; flex-direction:column; border:0px solid red !important; min-height:100vh;}
 
+}
 
 @media (min-width: 58em) {
 	.textbox{padding-top:80px !important;}
@@ -53,9 +56,9 @@ export default function IndexPage({ data }) {
     <Layout>
 
 
-    <div className="home-banner1" style={{justifyContent:'', position:'relative', height:'100vh', overflow:'hidden'}}>
+    <div className="home-banner1" style={{width:'100vw', justifyContent:'', position:'relative', height:'100vh', overflow:'hidden'}}>
 
-<div style={{width:'', padding:'20px 3% 0 3%', border:'0px solid yellow'}}>
+<div style={{width:'width:40%', padding:'20px 3% 0 3%', border:'0px solid yellow'}}>
 
 
   <h1 className="title" style={{fontSize:'50px'}}>Night Photography</h1>
