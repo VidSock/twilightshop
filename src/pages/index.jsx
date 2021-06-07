@@ -27,15 +27,7 @@ p{margin-bottom:2rem;}
 .container{padding:0 !important;}
 .home-banner1{display:flex;\}
 
-@media (max-width: 48em) {
-	// .image-wrap h1, .image-wrap h2, .image-wrap h3  {font-size:300% !important; border:0px solid red !important;}
-	// .image-wrap .news-btn{ margin-top:1rem;}
-	// .image-wrap .innerpanel{font-size:70% !important;}
 
-  .abcontent{position:relative !important; height:100vh; overflow:visible;}
-  .home-banner1{display:flex;flex-directon:row; display:block; height:100vh !important;}
-  .home-hanner1 div{width:100%; display:inline-block; height:100vh !important;}
-}
 
 @media (min-width: 58em) {
 	.textbox{padding-top:80px !important;}
@@ -57,9 +49,9 @@ export const query = graphql`
 
 export default function IndexPage({ data }) {
   return (
-    
+    <CustomBox>
     <Layout>
-<CustomBox>
+
 
     <div className="home-banner1" style={{justifyContent:'', position:'relative', height:'100vh', overflow:'hidden'}}>
 
@@ -206,7 +198,7 @@ export default function IndexPage({ data }) {
       </span>
     </h2>
       <ProductListing products={data.shopifyCollection.products} />
-   </CustomBox> </Layout>
+   </Layout></CustomBox>
     
   )
 }
