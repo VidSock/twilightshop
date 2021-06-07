@@ -30,7 +30,7 @@ export const query = graphql`
     products: allShopifyProduct(
       filter: { productType: { eq: $productType } }
       sort: { fields: publishedAt, order: ASC }
-      limit: 64
+      limit: 24
     ) {
       nodes {
         ...ProductCard

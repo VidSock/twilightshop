@@ -23,7 +23,7 @@ export const query = graphql`
   {
     products: allShopifyProduct(
       sort: { fields: publishedAt, order: ASC }
-      limit: 64
+      limit: 24
     ) {
       nodes {
         ...ProductCard
