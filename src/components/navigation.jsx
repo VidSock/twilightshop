@@ -16,7 +16,7 @@ export function Navigation({ className }) {
 
   return (
     <nav className={[navStyle, className].join(" ")} style={{marginLeft:'', display:'flex', justifyContent:'center'}}>
-      <Link
+      {/* <Link
         key="All"
         className=""
         to="/art/"
@@ -30,7 +30,7 @@ export function Navigation({ className }) {
         }}
       >
         View All Twilightscapes
-      </Link>
+      </Link> */}
       {/* <Link
         key="All"
         className={navLink}
@@ -46,6 +46,7 @@ export function Navigation({ className }) {
           to={`/art/${slugify(name)}`}
           title="View All Twilightscapes"
           activeClassName={activeLink}
+          style={{display:'none'}}
         >
           {name}
         </Link>

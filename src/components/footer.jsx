@@ -21,7 +21,7 @@ export function Footer() {
         </div>
       </div>
       <nav className={links} aria-label="footer">
-      <div style={{textAlign: 'center', margin: '2rem 0 1rem 0', justifyContent: 'center', fontSize: ''}}><a href="https://twilightscapes.com/disclaimer/">Disclaimer</a>  |  <a href="https://twilightscapes.com/privacy/">Privacy Policy</a>  |  <a href="/terms/">Terms of Service</a></div>
+      <div style={{textAlign: 'center', margin: '2rem 0 1rem 0', justifyContent: 'center', fontSize: ''}}><Link to="/disclaimer/">Disclaimer</Link>  |  <Link to="/privacy/">Privacy Policy</Link>  |  <Link to="/terms/">Terms of Service</Link></div>
   
   
   

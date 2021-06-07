@@ -432,10 +432,10 @@ export default function Product({ data: { product, suggestions } }) {
 <div style={{ border:'0px solid red', overflow:'hidden', position:'relative'}}>
   <h3 style={{fontSize:'130%', fontWeight:'bold', textAlign:'center'}}>About the photographer</h3>
   <div style={{position:'absolute', display:'flex', justifyContent:'center', textAlign:'center', top:'25%', zIndex:'1', width:'100%',}}>
-  <a
+  <Link
         key="All"
-        className=""
-        href="https://twilightscapes.com/about"
+        className="button"
+        to="/about/"
         style={{
           background:'#111',
           color:'#fff',
@@ -444,7 +444,7 @@ export default function Product({ data: { product, suggestions } }) {
         }}
       >
         Meet Todd Lambert
-      </a>
+      </Link>
     </div>
   <Image className="" alt="" filename="todd-horizons.jpg" />
 </div>

@@ -1,3 +1,5 @@
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 import * as React from "react"
 import { Link } from "gatsby"
 import { StoreContext } from "../context/store-context"
@@ -27,7 +29,13 @@ export function Header() {
   return (
     <div className={container} >
       <header className={header} style={{border:'0px solid red', background:'#222', padding:'10px 3% 15px 3%', boxShadow: '1px 3px 24px 0 #000'
-      }}>
+      }}
+      
+      sx={{
+        bg: "siteColor",
+      }}
+      
+      >
         
       <Link to="/"><img id="logo" className="twlogo1 rollIn" src={twLogo} alt="Twilightscapes Logo" style={{margin:'5px 0 0 0', minWidth:'100px', height:'auto', padding:'0', border:'0px solid red'}} /></Link>
 
@@ -55,32 +63,39 @@ export function Header() {
 
     <ul className="sidebarMenuInner">
 
-    <li>
+    {/* <li>
               <a className="navbar-item txtshadow" href="https://twilightscapes.com/">
                 Home <span>Return to home</span>
               </a>
-      </li>
+      </li> */}
 
       <li>
-              <a className="navbar-item txtshadow" href="https://twilightscapes.com/galleries/">
+              <Link className="navbar-item txtshadow" to="/art/">
                 Galleries <span>View Photos</span>
-              </a>
+              </Link>
       </li>
 
       <li>
-              <a className="navbar-item txtshadow" href="https://twilightscapes.com/about/">
+              <Link className="navbar-item txtshadow" to="/vault/gallery1/">
+                The Vault <span>View the full archives</span>
+              </Link>
+      </li>
+
+
+      <li>
+              <Link className="navbar-item txtshadow" to="/about/">
                 About Me <span>Learn All About Me</span>
-              </a>
+              </Link>
       </li>
 
       <li>
-      <a id="portfolio" className="navbar-item txtshadow" href="https://twilightscapes.com/gear/">Gear Talk<span>What tools I use</span></a>
+      <Link className="navbar-item txtshadow" to="/gear/">Gear Talk<span>What tools I use</span></Link>
        </li>
 
        <li>
-              <a className="navbar-item txtshadow" href="https://twilightscapes.com/contact/">
+              <Link className="navbar-item txtshadow" to="/contact/">
                 Contact <span>Ask me anything!</span>
-              </a>
+              </Link>
       </li>
 
       {/* <li>
