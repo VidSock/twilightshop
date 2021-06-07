@@ -25,7 +25,7 @@ const CustomBox = styled.div`
 p{margin-bottom:2rem;}
 
 .container{padding:0 !important;}
-.home-banner1{display:flex; flex-directon:column;}
+.home-banner1{display:flex; flex-directon:row;}
 
 @media (max-width: 48em) {
 	// .image-wrap h1, .image-wrap h2, .image-wrap h3  {font-size:300% !important; border:0px solid red !important;}
@@ -101,7 +101,7 @@ export default function IndexPage({ data }) {
 
   
 <Social />
-  
+  <br /> <br />
 </div>
 
 
@@ -121,7 +121,7 @@ export default function IndexPage({ data }) {
 <Image alt="Todd Lambert hanging with friends" filename="night316.jpg" />
 
 
-<div className="abcontent" style={{position:'absolute', height:'100vh', width:'100%', top:'70px', right:'0',}}>
+<div className="abcontent" style={{position:'absolute', height:'100vh', width:'100%', top:'50px', right:'0',}}>
 
 <ScrollAnimation animateIn="bounceInDown" delay={1350} offset={0}  initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', top:'', paddingRight:'10%', border:'0px solid yellow'}}>
 <h2
@@ -181,7 +181,7 @@ export default function IndexPage({ data }) {
 
 
 
-<ScrollAnimation animateIn="bounceInUp" delay={1750} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', top:'80px', border:'0px solid yellow', justifyContent:'center', width:'', textAlign:'center'}}>
+<ScrollAnimation animateIn="bounceInUp" delay={1750} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', top:'60px', border:'0px solid yellow', justifyContent:'center', width:'', textAlign:'center'}}>
 
 
   <Newsignup />
@@ -199,7 +199,7 @@ export default function IndexPage({ data }) {
 
 
 </div>
-
+<br /><br />
 <h2 style={{display:'flex', fontSize:'30px', margin:'0 3% 2rem 3%'}}>
       Latest in Galleries<span className="">
         <RiArrowDownLine />

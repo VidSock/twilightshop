@@ -40,18 +40,7 @@ const CustomBox = styled.div`
   border-radius:12px;
   border:1px solid #000;
 }
-  @keyframes fade {
-    0%{
-          opacity: 0;
-       }
-       20%{
-        opacity: 0;
-     }
-       100% {
-          opacity:1;
-       }
-    
-    }
+
 
 
     @media (max-width: 58em) {
@@ -134,6 +123,7 @@ const NewsletterPage = () => (
 </div>
 
         </form>
+        <br /><br />
 </CustomBox>
   
 )
