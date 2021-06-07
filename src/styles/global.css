@@ -11,6 +11,7 @@ body {
 .gatsby-image-wrapper [data-main-image] {
   border-radius: var(--radius-sm);
 }
+.gatsby-image-wrapper img{max-height: 80vh !important; }
 
 .header-module--header--2ea3u::after{
   background:none !important;
@@ -22,7 +23,7 @@ body {
 	}
 
 
-.gatsby-image-wrapper img{max-height: 80vh !important; }
+
 
 .twlogo {filter: contrast(0) sepia(100%) hue-rotate(146deg) brightness(0.4) saturate(0.28); max-height:100px; width:250px;}
 
