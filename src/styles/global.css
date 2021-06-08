@@ -19,7 +19,7 @@ body {
 
 @media (max-width: 48rem) {
 .flexbutt{flex-direction: column;}
-.flexcheek div{width:'100%';}
+.flexcheek{width:'100%' !important;}
 	}
 
 

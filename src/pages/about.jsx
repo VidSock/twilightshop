@@ -186,7 +186,7 @@ Todd Lambert on location</span></div>
  
  
  
-  <ScrollAnimation animateIn="bounce" animateOut="" initiallyVisible={true} animateOnce={true} animatePreScroll={false} delay={0} style={{}}>
+  {/* <ScrollAnimation animateIn="bounce" animateOut="" initiallyVisible={true} animateOnce={true} animatePreScroll={false} delay={0} style={{}}>
   
  <div className="spacer33 bounce txtshadow-header" style={{fontSize:'500%', color:'#fff', textAlign:'center', position:'relative',}}>
  
@@ -197,7 +197,7 @@ Todd Lambert on location</span></div>
  <GiPlainArrow className="" style={{padding:'1rem', color:'#169dc6', borderRadius:'10px',}} />
  
  </div>
-  </ScrollAnimation>  
+  </ScrollAnimation>   */}
  
  
  <div className="spacer33"></div>
