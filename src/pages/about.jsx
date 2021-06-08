@@ -2,7 +2,7 @@ import * as React from "react"
 // import { graphql } from "gatsby"
 import { Layout } from "../components/layout1"
 // import { ProductListing } from "../components/product-listing"
-import { Seo } from "../components/seo1"
+// import { Seo } from "../components/seo1"
 import {
   container,
   intro,
@@ -131,7 +131,7 @@ height: 0;
 <CustomBox>
     
     <Layout className="thanks-page">
-    {/* <Seo title="Twilightscapes Photo Galleries - Ghost Towns" /> */}
+
     
     <section className="about outer intro section" style={{paddingTop:'0', overflow:'hidden', marginTop:'1vh'}}>
     
