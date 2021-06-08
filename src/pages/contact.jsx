@@ -5,12 +5,38 @@ import { RiSendPlane2Line } from "react-icons/ri"
 import Seo from "../components/seo1"
 
 
+import styled from "styled-components"
+const CustomBox = styled.div`
 
+p{margin-bottom:2rem;}
+
+.container{padding:0}
+
+
+
+.contact-form input, .contact-form textarea{border:0px solid red !important; color:#222; !important;}
+
+
+
+
+
+@media (max-width: 58em) {
+
+
+}
+
+@media (min-width: 58em) {
+	// .textbox{padding-top:80px !important;}
+}
+
+
+`
 
 
 
 export default function ContactPage({}) {
   return (
+    <CustomBox>
     <Layout>
 
 
@@ -54,13 +80,17 @@ export default function ContactPage({}) {
           <p className="text-align-right">
             <button
               className="button"
+              style={{color:'#fff',
+              background:'#444',
+            }}
               sx={{
-                variant: "variants.button",
+                // variant: "variants.button",
+                
               }}
               type="submit"
             >
-              Send Message{" "}
-              <span className="icon -right">
+              Send Message {"  "}
+               <span className="icon -right" style={{paddingLeft:'1rem'}}>
                 <RiSendPlane2Line />
               </span>
             </button>
@@ -68,5 +98,6 @@ export default function ContactPage({}) {
         </form>
       </div>
     </Layout>
+    </CustomBox>
   )
 }
