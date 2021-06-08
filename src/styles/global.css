@@ -17,10 +17,10 @@ body {
   background:none !important;
 }
 
-/* @media (max-width: 48rem) {
+@media (max-width: 48rem) {
 .flexbutt{flex-direction: column;}
 .flexcheek div{width:'100%';}
-	} */
+	}
 
 
 p{margin-bottom: 1rem;}
@@ -61,7 +61,7 @@ input,
     width: 100%;
     max-width: 100%;
     margin: 8px 0 16px;
-    padding: 10px;
+    padding: 16px;
     border-radius: 12px;
     appearance: none;
     font-size: 18px;
