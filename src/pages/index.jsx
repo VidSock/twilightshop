@@ -22,18 +22,24 @@ import ScrollAnimation from 'react-animate-on-scroll'
 import styled from "styled-components"
 const CustomBox = styled.div`
 
+
+
+.flexbutt {display:flex; }
+
+.flexcheek {width:100% !important}
 p{margin-bottom:2rem;}
 
-.container{padding:0 !important;}
-.home-banner1{display:flex; flex-direction:row; border:0px solid red !important;}
+
 
 @media (max-width: 58em) {
-  .home-banner1{display:flex; flex-direction:column; border:0px solid red !important; min-height:100vh;}
+
+
+  .flexbutt{flex-direction: column !important;}
 
 }
 
 @media (min-width: 58em) {
-	.textbox{padding-top:80px !important;}
+  .flexbutt{display:flex flex-direction: row !important}
 }
 
 
@@ -56,10 +62,12 @@ export default function IndexPage({ data }) {
     <Layout>
 
 
-    <div className="home-banner1" style={{width:'100vw', justifyContent:'', position:'relative', height:'100vh', overflow:'hidden'}}>
+    <div className="home-banner flexbutt" style={{position:'relative', height:'100vh', overflow:'hidden'}}>
 
-<div style={{width:'width:40%', padding:'20px 3% 0 3%', border:'0px solid yellow'}}>
 
+
+
+<div className="flexcheek" style={{padding:'20px 3% 0 3%',}}>
 
   <h1 className="title" style={{fontSize:'50px'}}>Night Photography</h1>
   <p
@@ -73,10 +81,7 @@ export default function IndexPage({ data }) {
     Todd Lambert - a pioneer in night photography
   </p>
 
-  <div
-    className="description"
-    style={{}}
-    >
+
       <p>Finding obscure locations and unusual subject matter, Todd has excelled at capturing rarely seen moments of time.</p>
       <p>As a location scout and avid urban explorer, Todd learned to photograph what he sees at night.</p>
 
@@ -88,13 +93,6 @@ export default function IndexPage({ data }) {
 
 <p>Let Todd's award winning work prove to you that the night is indeed beautiful.</p>
 
-    </div>
-
-
-
-
-
-  
 <Social />
   <br /> <br />
 </div>
@@ -111,14 +109,14 @@ export default function IndexPage({ data }) {
 
 
 
-<div style={{ border:'0px solid pink', position:'relative', overflow:'hidden', width:'100%', height:'100vh'}}>
+<div className="flexcheek" style={{position:'relative',}}>
 
-<Image alt="Todd Lambert hanging with friends" filename="night316.jpg" />
+<div  style={{zIndex:'-1', width:'100%', height:'100vh'}}><Image alt="Todd Lambert hanging with friends" filename="night316.jpg" /></div>
 
 
-<div className="abcontent" style={{position:'absolute', height:'100vh', width:'100%', top:'50px', right:'0',}}>
+<div className="abcontent" style={{position:'absolute', height:'100%', width:'100%', top:'50px', right:'0',}}>
 
-<ScrollAnimation animateIn="bounceInDown" delay={1350} offset={0}  initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', top:'', paddingRight:'10%', border:'0px solid yellow'}}>
+<ScrollAnimation animateIn="bounceInDown" delay={1350} offset={0}  initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', top:'0px', paddingRight:'10%', border:'0px solid yellow'}}>
 <h2
   className="boom normal txtshadow-header hit-the-floor"
   style={{
@@ -176,7 +174,8 @@ export default function IndexPage({ data }) {
 
 
 
-<ScrollAnimation animateIn="bounceInUp" delay={1750} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', top:'60px', border:'0px solid yellow', justifyContent:'center', width:'', textAlign:'center'}}>
+<ScrollAnimation animateIn="bounceInUp" delay={1750} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', bottom:'-20vh',
+right:'', border:'0px solid yellow', justifyContent:'center', width:'', textAlign:'center'}}>
 
 
   <Newsignup />

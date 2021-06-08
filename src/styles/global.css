@@ -17,10 +17,10 @@ body {
   background:none !important;
 }
 
-@media (max-width: 48rem) {
+/* @media (max-width: 48rem) {
 .flexbutt{flex-direction: column;}
 .flexcheek div{width:'100%';}
-	}
+	} */
 
 
 p{margin-bottom: 1rem;}
@@ -31,13 +31,11 @@ footer{background-color: #000; padding:.1rem 0rem; display:flex; justify-content
 
 
 
-@media (max-width: 48em) {
-
-
+/* @media (max-width: 48em) {
   .abcontent{position:relative !important; height:100vh; overflow:visible;}
   .home-banner1{display:flex; flex-direction:row; height:100vh !important;}
   .home-hanner1 div{width:100%; display:inline-block; height:100vh !important; border:1px solid pink !important; }
-}
+} */
 
 
 
@@ -63,7 +61,7 @@ input,
     width: 100%;
     max-width: 100%;
     margin: 8px 0 16px;
-    padding: 16px;
+    padding: 10px;
     border-radius: 12px;
     appearance: none;
     font-size: 18px;

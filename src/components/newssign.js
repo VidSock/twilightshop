@@ -19,6 +19,9 @@ const CustomBox = styled.div`
   display:flex;
   justify-content: center;
   align-items:baseline;
+  overflow:hidden;
+  width:100%;
+  padding:0 10px;
 }
 .signbox input{margin-right:14px;}
 
@@ -26,7 +29,6 @@ const CustomBox = styled.div`
   content: ;
   width:100%;
   height:100%;
-
   position:absolute;
   z-index: -1;
   opacity: 1 ;
@@ -46,10 +48,10 @@ const CustomBox = styled.div`
     @media (max-width: 58em) {
 
       .signbox{
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        width:100%;
+        // display:flex;
+        // flex-direction:column;
+        // align-items:center;
+        // width:100%;
       }
       .signbox input{margin-bottom:10px; margin-right:0;}
 
@@ -68,7 +70,7 @@ const NewsletterPage = () => (
 <form
           className="news-form"
           action="/signedup/"
-          name="news"
+          name="ts-news"
           method="POST"
           data-netlify="true"
           data-netlify-honeypot="bot-field">
@@ -105,7 +107,7 @@ const NewsletterPage = () => (
               type="submit"
             >
               Follow Todd Now{" "}
-              <span className="icon -right">
+              <span className="icon -right" style={{paddingLeft:'1rem'}}>
                 <RiSendPlane2Line />
               </span>
             </button>
