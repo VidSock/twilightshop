@@ -311,7 +311,9 @@ blockquote p {
 
 
     @media (max-width: 48em) {
-    
+      // .image-wrap h1, .image-wrap h2, .image-wrap h3  {font-size:300% !important; border:0px solid red !important;}
+      // .image-wrap .news-btn{ margin-top:1rem;}
+      // .image-wrap .innerpanel{font-size:70% !important;}
     
       .abcontent{position:relative !important; height:100vh; overflow:visible;}
       .home-banner1{display:flex;flex-directon:column; display:block; height:100vh !important;}
