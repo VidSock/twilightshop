@@ -62,7 +62,7 @@ export default function IndexPage({ data }) {
     <Layout>
 
 
-    <div className="home-banner flexbutt" style={{position:'relative', height:'100vh', overflow:'hidden'}}>
+    <div className="home-banner flexbutt" style={{position:'relative', height:'', overflow:'hidden'}}>
 
 
 
@@ -111,10 +111,10 @@ export default function IndexPage({ data }) {
 
 <div className="flexcheek" style={{position:'relative',}}>
 
-<div  style={{zIndex:'-1', width:'100%', height:'100vh'}}><Image alt="Todd Lambert hanging with friends" filename="night316.jpg" /></div>
+<div  style={{zIndex:'-1', width:'100%', height:''}}><Image alt="Todd Lambert hanging with friends" filename="night316.jpg" /></div>
 
 
-<div className="abcontent" style={{position:'absolute', height:'100%', width:'100%', top:'50px', right:'0',}}>
+<div className="abcontent" style={{position:'absolute', height:'', width:'100%', top:'50px', right:'0',}}>
 
 <ScrollAnimation animateIn="bounceInDown" delay={1350} offset={0}  initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', top:'0px', paddingRight:'10%', border:'0px solid yellow'}}>
 <h2
@@ -174,7 +174,7 @@ export default function IndexPage({ data }) {
 
 
 
-<ScrollAnimation animateIn="bounceInUp" delay={1750} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', bottom:'-20vh',
+<ScrollAnimation animateIn="bounceInUp" delay={1750} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', bottom:'-10vh',
 right:'', border:'0px solid yellow', justifyContent:'center', width:'', textAlign:'center'}}>
 
 
