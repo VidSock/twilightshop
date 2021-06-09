@@ -431,23 +431,23 @@ export default function Product({ data: { product, suggestions } }) {
 
 
 <div style={{ border:'0px solid red', overflow:'hidden', position:'relative', zIndex:'0'}}>
+
   <h3 style={{fontSize:'130%', fontWeight:'bold', textAlign:'center'}}>About the photographer</h3>
-  <div style={{position:'absolute', display:'flex', zIndex:"1", justifyContent:'center', textAlign:'center', top:'25%', width:'100%',}}>
-  <Link
-        key="All"
-        className="button"
-        to="/about/"
-        style={{
-          background:'#111',
+
+  <Link key="All" to="/about/" >
+  <div className="button" style={{position:'absolute', display:'flex', zIndex:"1", justifyContent:'center', textAlign:'center', top:'30%', width:'90%',background:'#111',
           color:'#fff',
           padding:'12px 15px',
-          borderRadius:'7px',
-        }}
-      >
-        hi!, I'm Todd Lambert
-      </Link>
+          margin:'0 5%',
+          borderRadius:'7px',}}>
+  
+        Hi, I'm Todd Lambert
+      
     </div>
-  <Image className="" alt="" filename="todd-horizons.jpg" />
+
+  
+        
+        <Image className="" alt="" filename="todd-horizons.jpg" /></Link>
 </div>
 
 <br />
