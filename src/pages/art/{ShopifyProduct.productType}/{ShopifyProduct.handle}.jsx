@@ -198,7 +198,7 @@ export default function Product({ data: { product, suggestions } }) {
           image={getSrc(firstImage.gatsbyImageData)}
         />
       ) : undefined}
-      <div className={container}>
+      <div className={container} style={{paddingTop:'0 !important', marginTop:'0'}}>
         <div className="dd">
           {hasImages && (
             <div className={productImageWrapper}>
