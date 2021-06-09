@@ -2,12 +2,12 @@ require("dotenv").config()
 
 module.exports = {
   siteMetadata: {
-    siteTitle: "Twilightscapes - Unique Night Photography and NFTs",
-    siteTitleDefault: "Twilightscapes - Unique Night Photography",
+    siteTitle: "Twilightscapes - Unique night photography of abandoned urban exploration",
+    siteTitleDefault: "Twilightscapes - Unique night photography of abandoned urban exploration",
     siteUrl: "https://twilightscapes.com",
     hrefLang: "en",
     siteDescription:
-      "Twilightscapes - Unique Night Photography",
+      "Night long exposure photography in remote abandoned locations urban exploration",
     siteImage: "/default-og-image.jpg",
     twitter: "toddlambert",
   },
@@ -22,7 +22,7 @@ module.exports = {
         password: process.env.SHOPIFY_SHOP_PASSWORD,
         storeUrl: process.env.GATSBY_SHOPIFY_STORE_URL,
         shopifyConnections: ["collections"],
-        shopName: "sales.twilightscapes.com",
+        shopName: ["sales.twilightscapes.com"],
       },
     },
     "gatsby-plugin-image",
