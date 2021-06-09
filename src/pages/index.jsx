@@ -195,8 +195,7 @@ right:'', border:'0px solid yellow', justifyContent:'center', width:'', textAlig
 </div>
 <br /><br />
 <h2 style={{display:'flex', fontSize:'30px', margin:'0 3% 2rem 3%'}}>
-      Latest in Galleries<span className="">
-        <RiArrowDownLine />
+      Latest in Galleries<span className=""> <RiArrowDownLine />
       </span>
     </h2>
       <ProductListing products={data.shopifyCollection.products} />

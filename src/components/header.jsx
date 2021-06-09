@@ -58,7 +58,7 @@ export function Header() {
     <span><SearchIcon /></span>
    </Link>
 
-  <CartButton quantity={quantity} /> 
+  <div style={{marginTop:'5px'}}><CartButton quantity={quantity} /></div>
      </div>
 
     <ul className="sidebarMenuInner">
