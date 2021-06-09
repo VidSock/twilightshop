@@ -28,7 +28,7 @@ export function Header() {
 
   return (
     <div className={container} >
-      <header className={header} style={{border:'0px solid red', background:'#222', padding:'10px 3% 15px 3%', boxShadow: '1px 3px 24px 0 #000'
+      <header className={header} style={{border:'0px solid red', background:'transparent', padding:'10px 3% 15px 3%', boxShadow: '1px 3px 24px 0 #000', boxShadow: 'none'
       }}
       
       sx={{
