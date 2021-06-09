@@ -1,8 +1,8 @@
-/** @jsx jsx */
-// import React from 'react'
+
+import * as React from "react"
 import styled from "styled-components";
 import { Link } from 'gatsby'
-import { jsx } from "theme-ui"
+
 // import { FaLock } from 'react-icons/fa';
 // import { FaTimesCircle } from 'react-icons/fa';
 // import Newsletter from '../components/Newsletter'

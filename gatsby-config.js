@@ -30,7 +30,6 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
-    "gatsby-plugin-theme-ui",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

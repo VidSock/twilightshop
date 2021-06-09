@@ -23,7 +23,6 @@
   },
   "dependencies": {
     "@sindresorhus/slugify": "^1.1.0",
-    "@theme-ui/color": "^0.6.0",
     "debounce": "^1.2.1",
     "fontsource-hammersmith-one": "^4.0.0",
     "gatsby": "^3.5.0",
@@ -39,7 +38,6 @@
     "gatsby-plugin-sharp": "^3.4.1",
     "gatsby-plugin-sitemap": "^4.0.0",
     "gatsby-plugin-styled-components": "^3.1.11",
-    "gatsby-plugin-theme-ui": "^0.6.0",
     "gatsby-source-filesystem": "^3.4.0",
     "gatsby-source-shopify": "rc",
     "gatsby-transformer-sharp": "^3.4.0",
@@ -58,7 +56,6 @@
     "react-tabs": "^3.1.1",
     "shopify-buy": "^2.11.0",
     "styled-components": "^4.4.1",
-    "theme-ui": "^0.6.0",
     "urql": "^2.0.2"
   }
 }

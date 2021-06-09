@@ -1,6 +1,6 @@
-/** @jsx jsx */
-import { jsx } from "theme-ui"
-import { useColorMode } from "theme-ui"
+
+
+
 import { FiMoon, FiSun } from "react-icons/fi"
 
 const Theme = () => {

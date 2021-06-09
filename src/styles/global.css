@@ -26,7 +26,7 @@ p{margin-bottom:2rem;}
 
 .flexbutt {display:flex; }
 
-.flexcheek {width:50% !important}
+.flexcheek {width:50%}
 
 
 @media (max-width: 48rem) {
@@ -99,10 +99,12 @@ body{overflow-x: hidden;}
 .box-shadow {box-shadow: 0px 0px 10px rgba(0,0,0,.5)}
 
 
-
+.gatsby-image-wrapper img {
+  margin:0 auto !important;
+}
 
 .social-icons {
-  font-size: 35px;
+  font-size: 44px;
   display: flex;
   gap: 16px;
   margin-top: 30px;
