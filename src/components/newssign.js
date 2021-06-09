@@ -72,7 +72,7 @@ const NewsletterPage = () => (
 
             <div className="newsletter" style={{ margin:'0 10px', padding:'10px 0 10px 0', borderRadius:'12px', textAlign:'center', color:'#fff'}}>
 
-              <div className="blocker"></div>
+              <div className="blocker" style={{width:'100%', height:'100%'}}></div>
 
           <input type="hidden" name="form-name" value="news" />
 

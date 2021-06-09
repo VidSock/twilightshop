@@ -13,11 +13,13 @@
     "e-commerce"
   ],
   "scripts": {
-    "build": "gatsby build",
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
     "develop": "gatsby develop",
-    "start": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
     "@sindresorhus/slugify": "^1.1.0",
