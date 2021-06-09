@@ -3,7 +3,7 @@ require("dotenv").config()
 module.exports = {
   siteMetadata: {
     siteTitle: "Twilightscapes - Unique night photography of abandoned urban exploration",
-    siteTitleDefault: "Twilightscapes - Unique night photography of abandoned urban exploration",
+    siteTitleDefault: "Twilightscapes - Unique night photography",
     siteUrl: "https://twilightscapes.com",
     hrefLang: "en",
     siteDescription:

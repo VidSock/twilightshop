@@ -2,7 +2,7 @@ import * as React from "react"
 import { Layout } from "../components/layout1"
 import Image from '../components/Image'
 import { RiSendPlane2Line } from "react-icons/ri"
-import Seo from "../components/seo1"
+import { Seo } from "../components/seo1"
 
 
 
@@ -24,7 +24,7 @@ export default function PrivacyPage({}) {
     
     <Layout className="thanks-page">
 
-
+<Seo title={`Privacy Policy`} />
  
 <section className="outer section section--gradient">
       <div className="container" style={{padding: '2rem 10%'}}>

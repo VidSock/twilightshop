@@ -212,6 +212,7 @@ export default function Product({ data: { product, suggestions } }) {
                     <li
                       key={`product-image-${image.id}`}
                       className={productImageListItem}
+                      style={{display:'flex', alignContent:'center'}}
                     >
                       <GatsbyImage
                         objectFit="contain"
