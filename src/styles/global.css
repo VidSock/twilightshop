@@ -234,7 +234,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 
 blockquote {
-  margin: 2.5em 10px;
+  margin: 2.5em 8vw;
   padding: 0.5em 10px;
 
   font-family:Arial, Helvetica, sans-serif;
