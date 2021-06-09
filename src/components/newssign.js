@@ -47,12 +47,7 @@ const CustomBox = styled.div`
 
     @media (max-width: 58em) {
 
-      .signbox{
-        // display:flex;
-        // flex-direction:column;
-        // align-items:center;
-        // width:100%;
-      }
+
       .signbox input{margin-bottom:10px; margin-right:0;}
 
     }
@@ -90,7 +85,7 @@ const NewsletterPage = () => (
                <label style={{color:'#fff'}} For="email">
                  <input type="email" name="email" required={true}
                       placeholder="your@email.com"
-                      style={{margin: '', padding:'.8rem', width: '300px', maxWidth:'100%', border:'2px solid #666', background:'rgb(51, 51, 51)', borderRadius:'8px'}}/></label>
+                      style={{marginRight: '1rem', padding:'.5rem', width: '30vw', maxWidth:'100%', border:'2px solid #666', background:'rgb(51, 51, 51)', borderRadius:'8px'}}/></label>
                       
             
 
@@ -106,7 +101,7 @@ const NewsletterPage = () => (
               }}
               type="submit"
             >
-              Follow Todd Now{" "}
+              Follow Todd {" "}
               <span className="icon -right" style={{paddingLeft:'1rem'}}>
                 <RiSendPlane2Line />
               </span>

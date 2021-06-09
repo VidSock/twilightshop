@@ -24,22 +24,22 @@ const CustomBox = styled.div`
 
 
 
-.flexbutt {display:flex; }
+// .flexbutt {display:flex; }
 
-.flexcheek {width:100% !important}
-p{margin-bottom:2rem;}
+// .flexcheek {width:100% !important}
+// p{margin-bottom:2rem;}
 
 
 
 @media (max-width: 58em) {
 
 
-  .flexbutt{flex-direction: column !important;}
+  // .flexbutt{flex-direction: column !important;}
 
 }
 
 @media (min-width: 58em) {
-  .flexbutt{display:flex flex-direction: row !important}
+  // .flexbutt{display:flex flex-direction: row !important}
 }
 
 
@@ -111,7 +111,7 @@ export default function IndexPage({ data }) {
 
 <div className="flexcheek" style={{position:'relative',}}>
 
-<div  style={{zIndex:'-1', width:'100%', height:''}}><Image alt="Todd Lambert hanging with friends" filename="night316.jpg" /></div>
+<div  style={{zIndex:'-1', width:'', height:''}}><Image alt="Todd Lambert hanging with friends" filename="night316.jpg" /></div>
 
 
 <div className="abcontent" style={{position:'absolute', height:'', width:'100%', top:'50px', right:'0',}}>

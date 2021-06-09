@@ -17,9 +17,18 @@ body {
   background:none !important;
 }
 
+p{margin-bottom:2rem;}
+
+
+
+.flexbutt {display:flex; }
+
+.flexcheek {width:50% !important}
+
+
 @media (max-width: 48rem) {
-.flexbutt{flex-direction: column;}
-.flexcheek{width:'100%' !important;}
+  .flexbutt{flex-direction: column !important;}
+.flexcheek{width:100% !important;}
 	}
 
 
