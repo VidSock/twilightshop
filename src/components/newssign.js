@@ -33,8 +33,8 @@ const CustomBox = styled.div`
   z-index: -1;
   opacity: 1 ;
   overflow: 'hidden';
-   display:block;
-   margin:0 auto;
+  display:block;
+  margin:0 auto;
   padding:0;
   cursor:default;
   background: rgba(0,0,0,0.50);
