@@ -174,7 +174,7 @@ export default function IndexPage({ data }) {
 
 
 
-<ScrollAnimation animateIn="bounceInUp" delay={1750} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', bottom:'-10vh',
+<ScrollAnimation animateIn="bounceInUp" delay={1750} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', bottom:'0',
 right:'', border:'0px solid yellow', justifyContent:'center', width:'', textAlign:'center'}}>
 
 

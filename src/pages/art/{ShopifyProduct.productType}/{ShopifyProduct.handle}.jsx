@@ -430,9 +430,9 @@ export default function Product({ data: { product, suggestions } }) {
 </div>
 
 
-<div style={{ border:'0px solid red', overflow:'hidden', position:'relative'}}>
+<div style={{ border:'0px solid red', overflow:'hidden', position:'relative', zIndex:'0'}}>
   <h3 style={{fontSize:'130%', fontWeight:'bold', textAlign:'center'}}>About the photographer</h3>
-  <div style={{position:'absolute', display:'flex', justifyContent:'center', textAlign:'center', top:'25%', zIndex:'1', width:'100%',}}>
+  <div style={{position:'absolute', display:'flex', zIndex:"1", justifyContent:'center', textAlign:'center', top:'25%', width:'100%',}}>
   <Link
         key="All"
         className="button"
@@ -441,10 +441,10 @@ export default function Product({ data: { product, suggestions } }) {
           background:'#111',
           color:'#fff',
           padding:'12px 15px',
-          borderRadius:'7px'
+          borderRadius:'7px',
         }}
       >
-        Meet Todd Lambert
+        hi!, I'm Todd Lambert
       </Link>
     </div>
   <Image className="" alt="" filename="todd-horizons.jpg" />

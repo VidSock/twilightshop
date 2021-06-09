@@ -7,8 +7,8 @@
   /* palette */
   --black-fade-5: rgba(0, 0, 0, 0.05);
   --black-fade-40: rgba(0, 0, 0, 0.4);
-  --grey-90: #fff;
-  --grey-50: #ccc;
+  --grey-90: #000;
+  --grey-50: #333;
   --green-80: #FA02B7;
   --green-50-rgb: 55, 182, 53;
   --white: #ffffff;
@@ -67,7 +67,7 @@
   /* text */
   /* color */
   --text-color: #ccc;
-  --text-color-secondary: var(--white-10);
+  --text-color-secondary: var(--white-50);
   --text-color-inverted: var(--white);
   /* size */
   --text-display: var(--text-2xl);

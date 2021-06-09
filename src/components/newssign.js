@@ -27,12 +27,12 @@ const CustomBox = styled.div`
 
 .blocker{
   content: ;
-  width:100%;
-  height:100%;
-  position:absolute;
+  width:100vw;
+  height:100vh;
+  position:fixed;
   z-index: -1;
   opacity: 1 ;
-  overflow: 'hidden';
+
    display:block;
    margin:0 auto;
   padding:0;
