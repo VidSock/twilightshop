@@ -109,9 +109,9 @@ export default function IndexPage({ data }) {
 
 
 
-<div className="flexcheek" style={{position:'relative',}}>
+<div className="flexcheek" style={{position:'relative', overflow:'hidden'}}>
 
-<div  style={{zIndex:'-1', width:'', height:''}}><Image alt="Todd Lambert hanging with friends" filename="night316.jpg" /></div>
+<div className="kenburns-right"  style={{zIndex:'-1', width:'', height:''}}><Image alt="Todd Lambert hanging with friends" filename="night316.jpg" className="featured-image kenburns-right" /></div>
 
 
 <div className="abcontent" style={{position:'absolute', height:'', width:'100%', top:'50px', right:'0',}}>
