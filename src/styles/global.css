@@ -22,6 +22,28 @@ body,h1,h2,h3,h4,.h1,.h2,.h3,.h4, #menu, .header .menu-icon:before, input.specia
 
 p{margin-bottom:2rem;}
 
+.moreButton {
+  align-items: center;
+  background: var(--primary);
+  border-radius: var(--radius-md);
+  color: var(--text-color-inverted);
+  display: flex;
+  font-size: var(--text-md);
+  font-weight: var(--semibold);
+  height: var(--size-input);
+  justify-content: center;
+  line-height: var(--solid);
+  margin: var(--space-3xl) auto var(--space-md);
+  padding: var(--space-sm) var(--space-xl);
+  width: max-content;
+  transition: var(--transition);
+}
+
+.moreButton:hover {
+  box-shadow: var(--shadow);
+}
+
+
 
 
 .flexbutt {display:flex; }

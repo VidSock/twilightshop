@@ -27,11 +27,12 @@ const CustomBox = styled.div`
 
 .blocker{
   content: ;
-  width:100vw;
-  height:100vh;
-  position:fixed;
+  width:100%;
+  height:100%;
+  position:absolute;
   z-index: -1;
   opacity: 1 ;
+  overflow: 'hidden';
    display:block;
    margin:0 auto;
   padding:0;
@@ -69,9 +70,9 @@ const NewsletterPage = () => (
           data-netlify="true"
           data-netlify-honeypot="bot-field">
 
-            <div className="newsletter" style={{ margin:'0 10px', padding:'10px 0 10px 0', borderRadius:'12px', textAlign:'center', color:'#fff', overflow:'hidden'}}>
+            <div className="newsletter" style={{ margin:'0 10px', padding:'10px 0 10px 0', borderRadius:'12px', textAlign:'center', color:'#fff'}}>
 
-              <div className="blocker" style={{width:'100vw', height:'100%'}}></div>
+              <div className="blocker" style={{width:'100%', height:'100%'}}></div>
 
           <input type="hidden" name="form-name" value="news" />
 
@@ -110,7 +111,7 @@ const NewsletterPage = () => (
             </div>
 
 
-            <div style={{fontSize: '70%', padding: '0px 3%', margin:'10px 0 10px 0', textAlign: 'center', color:'#ccc'}}>
+            <div style={{fontSize: '70%', padding: '0px 3%', margin:'30px 0 10px 0', textAlign: 'center', color:'#ccc'}}>
             <Link to="/privacy/" className="" style={{textAlign: 'center', padding: '15px',  textDecoration: 'underline', border:'0px solid yellow'}}>privacy policy (NO SPAM!)</Link>
               
 

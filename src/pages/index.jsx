@@ -1,14 +1,14 @@
 
 
 import * as React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 import { Layout } from "../components/layout1"
 import Image from '../components/Image'
 import { ProductListing } from "../components/product-listing"
 import Social from "../components/social"
 import Newsignup from "../components/newssign"
-import { RiArrowDownLine, RiArrowRightSLine, RiStarLine } from "react-icons/ri"
+import { RiArrowDownLine, RiArrowRightSLine, RiStarLine, RiSendPlane2Line } from "react-icons/ri"
 
 import {
   container,
@@ -192,13 +192,30 @@ right:'', border:'0px solid yellow', justifyContent:'center', width:'', textAlig
 
 
 
+
+
 </div>
 <br /><br />
 <h2 style={{display:'flex', fontSize:'30px', margin:'0 3% 2rem 3%'}}>
-      Latest in Galleries<span className=""> <RiArrowDownLine />
+      Latest in Galleries<span className=""> <span className="icon -right" style={{paddingLeft:'1rem'}}><RiArrowDownLine /></span>
       </span>
     </h2>
       <ProductListing products={data.shopifyCollection.products} />
+
+      <Link
+              className="moreButton"
+              sx={{
+                cursor:'pointer',
+                width:'',
+
+              }}
+              to="/art/"
+            >
+              View More {" "}
+              <span className="icon -right" style={{paddingLeft:'1rem'}}>
+                <RiSendPlane2Line />
+              </span>
+            </Link>
    </Layout></CustomBox>
     
   )
