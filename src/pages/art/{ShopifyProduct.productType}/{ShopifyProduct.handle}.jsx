@@ -376,8 +376,19 @@ export default function Product({ data: { product, suggestions } }) {
            <strong>Legal</strong><br /><br />
 
            <p>
-           Twilightscapes offers two types of license models: royalty-free ("RF") and rights-managed ("RM"). Royalty-free does not mean there is no cost for the license. Instead, royalty-free means that the license fee is paid once and there is no need to pay additional royalties if the content is re-used. Royalty-free content is licensed for worldwide, unlimited and perpetual use. Rights-managed content is licensed for specific types of private use, and limits the use of the content to private use only. Rights-managed content is allowed to be printed in any format suited for private display.
-           </p>
+           Twilightscapes offers two types of license models: royalty-free ("RF") and rights-managed ("RM").</p>
+
+           <p>
+            Royalty-free means that the license fee is paid once and there is no need to pay additional royalties if the content is re-used. <br />Royalty-free content is licensed for worldwide, unlimited and perpetual use.</p>
+
+            <p>Rights-managed content is allowed to be printed in any format suited for private display. Rights-managed content cannot be distributed or used in public in any way that compromises Todd Lambert's abilities to resell the content.<br /><br />
+Rights-managed content is licensed for specific types of private use, and limits the use of the content to private use and display only.</p>
+
+            <p style={{textAlign:'center', fontSize:'130%'}}><Link to="/legal/">View License Agreement</Link></p>
+
+
+
+           
     </TabPanel>
 
   </Tabs>

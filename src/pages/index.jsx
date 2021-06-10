@@ -24,22 +24,19 @@ const CustomBox = styled.div`
 
 
 
-// .flexbutt {display:flex; }
 
-// .flexcheek {width:100% !important}
-// p{margin-bottom:2rem;}
 
 
 
 @media (max-width: 58em) {
 
 
-  // .flexbutt{flex-direction: column !important;}
+
 
 }
 
 @media (min-width: 58em) {
-  // .flexbutt{display:flex flex-direction: row !important}
+
 }
 
 
@@ -62,7 +59,7 @@ export default function IndexPage({ data }) {
     <Layout>
 
 
-    <div className="home-banner flexbutt" style={{position:'relative', height:'', overflow:'hidden'}}>
+    <div className="home-banner flexbutt" style={{position:'relative', height:'auto', overflow:'hidden'}}>
 
 
 
