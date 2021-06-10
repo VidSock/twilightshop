@@ -15,9 +15,8 @@ import { MdBrandingWatermark, MdCropFree } from "react-icons/md"
 import { RiSecurePaymentLine, RiSendPlane2Line } from "react-icons/ri"
 
 
-import { BiLeftArrow } from "react-icons/bi"
-import { navigate } from "gatsby";
-import { GoBack } from "../../../components/back"
+
+import { goBack } from "../../../components/goBack"
 
 import { GiRoyalLove } from "react-icons/gi"
 import { FaLockOpen } from "react-icons/fa"
@@ -533,13 +532,13 @@ Rights-managed content is licensed for specific types of private use, and limits
 
         <div style={{textAlign:'center', margin:'20px'}}>
           
-        {/* <GoBack /> */}
+        <goBack />
 
-        <button className="back" onClick={()=>navigate(-1)}>
+        {/* <button className="back" onClick={()=>navigate(-1)}>
         <span className="icon -left" style={{paddingRight:'1rem'}}>
                 <BiLeftArrow />
               </span> {" "} Go Back 
-              </button>
+              </button> */}
 
         {/* <button onClick={this.context.router.goBack}>Back</button> */}
 
