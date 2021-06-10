@@ -194,7 +194,7 @@ right:'', border:'0px solid yellow', justifyContent:'center', width:'', textAlig
 </div>
 <br /><br />
 <h2 style={{display:'flex', fontSize:'30px', margin:'0 3% 2rem 3%'}}>
-      Latest in Galleries<span className=""> <span className="icon -right" style={{paddingLeft:'1rem'}}><RiArrowDownLine /></span>
+      Latest in Galleries<span className=""> <span className="icon -right" style={{padding:'10px 0 0 1rem'}}><RiArrowDownLine /></span>
       </span>
     </h2>
       <ProductListing products={data.shopifyCollection.products} />

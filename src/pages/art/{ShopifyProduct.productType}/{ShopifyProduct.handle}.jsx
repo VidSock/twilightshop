@@ -12,7 +12,7 @@ import { formatPrice } from "../../../utils/format-price"
 import { Seo } from "../../../components/seo1"
 import { CgChevronRight as ChevronIcon } from "react-icons/cg"
 import { MdBrandingWatermark, MdCropFree } from "react-icons/md"
-import { RiSecurePaymentLine } from "react-icons/ri"
+import { RiSecurePaymentLine, RiSendPlane2Line } from "react-icons/ri"
 
 import { GiRoyalLove } from "react-icons/gi"
 import { FaLockOpen } from "react-icons/fa"
@@ -83,6 +83,37 @@ const CustomBox = styled.div`
     // background: #ccc;
   }
 
+
+
+
+  .back {
+    --padding: 15px;
+    --margin: 20px;
+    display: inline-flex;
+    align-items: center;
+    padding: var(--padding) calc(var(--padding) * 2);
+    border-radius: 12px;
+    text-decoration: none;
+    appearance: none;
+    border: none;
+    font-size: 16px;
+    line-height: 1;
+    transition: background 0.3s linear;
+background:#000;
+  }
+  .back.-outline {
+      color: var(--primary-color);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+      background: #fff;
+      
+    }
+
+
+    .backs:hover {
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
+        background: #f2f2f2;
+        color:#FA02B7;
+      }
 
 
 
@@ -486,7 +517,33 @@ Rights-managed content is licensed for specific types of private use, and limits
 
           </div>
 
+
+          
+
         </div>
+
+        <div style={{textAlign:'center', margin:'20px'}}><Link
+              className="back"
+              sx={{
+                cursor:'pointer',
+                width:'',
+                background:'#000',
+                justifyContent:'center',
+                textAlign:'center',
+
+                
+         
+              }}
+              to="../"
+            >
+              Back To Galleries? {" "}
+              <span className="icon -right" style={{paddingLeft:'1rem'}}>
+                <RiSendPlane2Line />
+              </span>
+            </Link></div>
+
+
+
       </div>
       </CustomBox>
     </Layout>
