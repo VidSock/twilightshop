@@ -2,7 +2,7 @@ import * as React from "react"
 import { BiLeftArrow } from "react-icons/bi"
 import { navigate } from "gatsby";
 
-export const Item = () => {
+export const goBack = () => {
 
     return (
         <>
