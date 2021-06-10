@@ -14,6 +14,11 @@ import { CgChevronRight as ChevronIcon } from "react-icons/cg"
 import { MdBrandingWatermark, MdCropFree } from "react-icons/md"
 import { RiSecurePaymentLine, RiSendPlane2Line } from "react-icons/ri"
 
+
+import { BiLeftArrow } from "react-icons/bi"
+import { navigate } from "gatsby";
+import { GoBack } from "../../../components/back"
+
 import { GiRoyalLove } from "react-icons/gi"
 import { FaLockOpen } from "react-icons/fa"
 import { HiBan, HiOutlineKey, HiOutlineMap, HiOutlinePhotograph, HiOutlineScale    } from "react-icons/hi"
@@ -522,7 +527,24 @@ Rights-managed content is licensed for specific types of private use, and limits
 
         </div>
 
-        <div style={{textAlign:'center', margin:'20px'}}><Link
+
+
+
+
+        <div style={{textAlign:'center', margin:'20px'}}>
+          
+        {/* <GoBack /> */}
+
+        <button className="back" onClick={()=>navigate(-1)}>
+        <span className="icon -left" style={{paddingRight:'1rem'}}>
+                <BiLeftArrow />
+              </span> {" "} Go Back 
+              </button>
+
+        {/* <button onClick={this.context.router.goBack}>Back</button> */}
+
+
+          {/* <Link
               className="back"
               sx={{
                 cursor:'pointer',
@@ -540,7 +562,9 @@ Rights-managed content is licensed for specific types of private use, and limits
               <span className="icon -right" style={{paddingLeft:'1rem'}}>
                 <RiSendPlane2Line />
               </span>
-            </Link></div>
+            </Link> */}
+            
+            </div>
 
 
 
