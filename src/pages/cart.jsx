@@ -4,6 +4,9 @@ import { Layout } from "../components/layout1"
 import { StoreContext } from "../context/store-context"
 import { LineItem } from "../components/line-item"
 import { formatPrice } from "../utils/format-price"
+
+import { Helmet } from "react-helmet"
+
 import {
   table,
   wrap,
@@ -32,6 +35,14 @@ export default function CartPage() {
   }
 
   return (
+<>
+<Helmet>
+    <body className="carto" />
+</Helmet>
+
+
+
+
     <Layout>
       <div className={wrap}>
         {emptyCart ? (
@@ -119,5 +130,6 @@ export default function CartPage() {
         )}
       </div>
     </Layout>
+    </>
   )
 }

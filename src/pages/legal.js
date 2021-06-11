@@ -3,7 +3,7 @@ import { Layout } from "../components/layout1"
 import Image from '../components/Image'
 import { RiSendPlane2Line } from "react-icons/ri"
 import { Seo } from "../components/seo1"
-import GoBack from "../components/goBack" 
+
 
 
 
@@ -120,7 +120,7 @@ Entire Agreement.
 
 
           
-<GoBack />
+
 
 
     </section>
