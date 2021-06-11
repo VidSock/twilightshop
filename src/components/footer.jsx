@@ -21,7 +21,7 @@ export function Footer() {
         </div>
       </div>
       <nav className={links} aria-label="footer">
-      <div style={{textAlign: 'center', margin: '2rem 0 1rem 0', justifyContent: 'center', fontSize: ''}}><Link to="/disclaimer/">Disclaimer</Link>  |  <Link to="/privacy/">Privacy Policy</Link>  |  <Link to="/terms/">Terms of Service</Link></div>
+      <div style={{textAlign: 'center', margin: '2rem 0 1rem 0', justifyContent: 'center', fontSize: ''}}><Link to="/disclaimer/" state={{modal: true}}>Disclaimer</Link>  |  <Link to="/privacy/" state={{modal: true}}>Privacy Policy</Link>  |  <Link to="/terms/" state={{modal: true}}>Terms of Service</Link></div>
   
   
   
@@ -31,3 +31,6 @@ export function Footer() {
     </footer>
   )
 }
+
+
+{/* <Link to="/legal/" state={{modal: true}}>View License Agreement</Link> */}

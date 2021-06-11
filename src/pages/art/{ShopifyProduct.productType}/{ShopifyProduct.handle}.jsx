@@ -14,10 +14,9 @@ import { CgChevronRight as ChevronIcon } from "react-icons/cg"
 import { MdBrandingWatermark, MdCropFree } from "react-icons/md"
 import { RiSecurePaymentLine, RiSendPlane2Line } from "react-icons/ri"
 
+import GoBack from "../../../components/goBack"
 
-import { BiLeftArrow } from "react-icons/bi"
-import { navigate } from "gatsby";
-
+// import { Link } from 'gatsby-plugin-modal-routing'
 
 import { GiRoyalLove } from "react-icons/gi"
 import { FaLockOpen } from "react-icons/fa"
@@ -420,7 +419,17 @@ export default function Product({ data: { product, suggestions } }) {
             <p>Rights-managed content is allowed to be printed in any format suited for private display. Rights-managed content cannot be distributed or used in public in any way that compromises Todd Lambert's abilities to resell the content.<br /><br />
 Rights-managed content is licensed for specific types of private use, and limits the use of the content to private use and display only.</p>
 
-            <p style={{textAlign:'center', fontSize:'130%'}}><Link to="/legal/">View License Agreement</Link></p>
+            <p style={{textAlign:'center', fontSize:'130%'}}>
+              <Link to="/legal/"
+            state={{
+              modal: true
+            }}
+            >View License Agreement</Link>
+            
+   
+           
+
+            </p>
 
 
 
@@ -534,12 +543,8 @@ Rights-managed content is licensed for specific types of private use, and limits
         <div style={{textAlign:'center', margin:'20px'}}>
           
     
+<GoBack />
 
-        <button className="back" onClick={()=>navigate(-1)}>
-        <span className="icon -left" style={{paddingRight:'1rem'}}>
-                <BiLeftArrow />
-              </span> {" "} Go Back 
-              </button>
 
 
             

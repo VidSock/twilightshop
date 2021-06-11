@@ -3,7 +3,7 @@ import { Layout } from "../components/layout1"
 import Image from '../components/Image'
 import { RiSendPlane2Line } from "react-icons/ri"
 import { Seo } from "../components/seo1"
-
+import GoBack from "../components/goBack" 
 
 
 
@@ -25,6 +25,8 @@ export default function LegalPage({}) {
     <Layout className="thanks-page">
 
 <Seo title={`Content License Agreement`} />
+
+
  
 <section className="outer section section--gradient">
       <div className="container" style={{padding: '2rem 10%'}}>
@@ -115,6 +117,12 @@ Entire Agreement.
 	</div>
       
           </div>
+
+
+          
+<GoBack />
+
+
     </section>
     
     

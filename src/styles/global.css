@@ -146,6 +146,27 @@ footer{background-color: #000; padding:.1rem 0rem; display:flex; justify-content
 
 
 
+
+
+.ReactModalPortal header, .ReactModalPortal footer{
+display: none;
+
+}
+
+.ReactModalPortal{}
+
+.ReactModal__Overlay{background-color:transparent !important;   background: rgba(0,0,0,0.50);
+  backdrop-filter: blur(4px);}
+
+.ReactModal__Content{padding:0 !important; background:transparent !important; width:80vw; margin:30px auto 0 auto; border:none !important; box-shadow: 0px 1px 10px 10px rgba(0, 0, 0, 0.5);}
+
+
+.ReactModal__Body--open {
+  overflow-y: hidden;
+}
+
+
+
 .contact-form {
   margin-top: 36px;
 }
