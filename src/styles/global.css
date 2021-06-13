@@ -116,10 +116,10 @@ body,h1,h2,h3,h4,.h1,.h2,.h3,.h4, #menu, .header .menu-icon:before, input.specia
   width: 29px !important;
   height: 29px !important;
   background-image:
-    -webkit-gradient(linear, left top, left bottom, from(#222), to(#222)),
-    -webkit-gradient(linear, left top, left bottom, from(#222), to(#222)) !important;
-  background-image: linear-gradient(#222, #222), linear-gradient(#222, #ff0000) !important;
-  background-size: 100% 1px, 1px 100% !important;
+    -webkit-gradient(linear, left top, left bottom, from(#000), to(#000)),
+    -webkit-gradient(linear, left top, left bottom, from(#000), to(#000)) !important;
+  background-image: linear-gradient(#000, #000), linear-gradient(#000, #000) !important;
+  background-size: 100% 2px, 2px 100% !important;
   -webkit-transform: rotate(45deg) !important;
   transform: rotate(45deg) !important;
 
