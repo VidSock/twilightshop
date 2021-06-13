@@ -80,12 +80,12 @@ export default function IndexPage({ data }) {
 
 <div className="" style={{display:'flex'}}>
 
-      <blockquote className="frontquote" style={{width:'50%'}}>
+      <blockquote className="frontquote" style={{width:'60%'}}>
 <p>The night is misunderstood and often feared. But the truest colors come out only at night. There is no better time than nighttime.</p>
 <div style={{textAlign:'right', marginRight:'20%', marginTop:'10px'}}> – Todd Lambert
 </div></blockquote>
 
-<div style={{width:'50%',  padding:'2vw'}}><Image alt="Todd Lambert hanging with friends" filename="todd-profile.jpg" className="" /></div>
+<div style={{width:'40%',  padding:'3vw'}}><Image alt="Todd Lambert hanging with friends" filename="todd-profile.jpg" className="" /></div>
 
 </div>
 
