@@ -408,7 +408,7 @@ blockquote.frontquote {
   font-family:Arial, Helvetica, sans-serif;
   quotes: "“" "”" "‘" "’";
   position:relative;
-  text-align: justify;
+  text-align:inherit;
 }
 
 
