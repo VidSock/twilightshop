@@ -72,7 +72,7 @@ const Gall3 = graphql`
               height
             }
             fluid {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
               originalName
               originalImg
             }

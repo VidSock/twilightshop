@@ -15,7 +15,7 @@ const Image = props => (
               name
               childImageSharp {
                 fluid(maxWidth: 2400) {
-                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluid_withWebp
                 }
               }
             }
