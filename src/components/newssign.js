@@ -24,7 +24,7 @@ const CustomBox = styled.div`
     @media (max-width: 58em) {
 
 
-      .signbox input{margin-bottom:10px; margin-right:0;}
+      .signbox input{margin-bottom:10px; margin-right:20px;}
 
     }
 
@@ -64,7 +64,7 @@ const NewsletterPage = () => (
                <label style={{color:'#fff'}} For="email">
                  <input type="email" name="email" required={true}
                       placeholder="your@email.com"
-                      style={{marginRight: '0rem', marginLeft:'1rem', padding:'.5rem', width: '', maxWidth:'90%', borderRadius:'8px',   background: 'rgba(0,0,0,0.40) !important',}}/></label>
+                      style={{}}/></label>
                       
             
 
