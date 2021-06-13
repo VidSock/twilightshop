@@ -46,13 +46,13 @@ body,h1,h2,h3,h4,.h1,.h2,.h3,.h4, #menu, .header .menu-icon:before, input.specia
 
 
   
-  .iiz__close {
+  /* .iiz__close {
     top: 10px;
     right: 10px;
     visibility: visible !important;
     opacity: 1 !important;
     display: block !important;
-  }
+  } */
 
 .iiz__img {
   /* max-width: 100%; */
@@ -95,7 +95,7 @@ body,h1,h2,h3,h4,.h1,.h2,.h3,.h4, #menu, .header .menu-icon:before, input.specia
 
 
 
-.iiz__close::before{
+/* .iiz__close::before{
   content: " ";
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M13 10h-8v-2h8v2zm8.172 14l-7.387-7.387c-1.388.874-3.024 1.387-4.785 1.387-4.971 0-9-4.029-9-9s4.029-9 9-9 9 4.029 9 9c0 1.761-.514 3.398-1.387 4.785l7.387 7.387-2.828 2.828zm-12.172-8c3.859 0 7-3.14 7-7s-3.141-7-7-7-7 3.14-7 7 3.141 7 7 7z'/%3E%3C/svg%3E") !important;
   width: 50px !important;
@@ -104,11 +104,23 @@ body,h1,h2,h3,h4,.h1,.h2,.h3,.h4, #menu, .header .menu-icon:before, input.specia
   pointer-events: none !important;
   display:block  !important;
   border:1px solid red  !important;
+} */
+
+
+
+.iiz__close::before {
+  content: " ";
+  width: 29px !important;
+  height: 29px !important;
+  background-image:
+    -webkit-gradient(linear, left top, left bottom, from(#222), to(#222)),
+    -webkit-gradient(linear, left top, left bottom, from(#222), to(#222)) !important;
+  background-image: linear-gradient(#222, #222), linear-gradient(#222, #ff0000) !important;
+  background-size: 100% 1px, 1px 100% !important;
+  -webkit-transform: rotate(45deg) !important;
+  transform: rotate(45deg) !important;
+  border:1px solid red  !important;
 }
-
-
-
-
 
 
 
