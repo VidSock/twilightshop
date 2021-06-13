@@ -61,17 +61,20 @@ export default function IndexPage({ data }) {
 
 <div className="flexcheek" style={{padding:'1vh 3% 0 3%',}}>
 
-  <h1 className="title" style={{fontSize:'4vw', color:'#FA02B7'}}>Night Photographer</h1>
+  <h1 className="title" style={{fontSize:'4vw', color:'#FA02B7', textAlign:'center'}}>Night Photographer</h1>
 
   <p
-    className="tagline"
-    sx={{
+    className="tagline1"
+    style={{
       color: "",
-      fontSize:'4vw !important',
+      fontSize:'1.2rem !important',
       paddingBottom:'1.7rem',
+      textAlign:'center !important',
+      borderTop:'2px solid #fff !important',
+      margin:'1rem 0 1rem 0'
     }}
-  ><br />
-    <strong>Todd Lambert - a pioneer in night photography</strong>
+  >
+    <div style={{marginTop:'20px', fontWeight:'bold'}}>Todd Lambert - a pioneer in night photography</div>
   </p>
 
 
