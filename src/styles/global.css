@@ -418,6 +418,21 @@ blockquote p {
   border:3px solid #000 !important;
 }
 
+.signbox input{
+  cursor:pointer;
+  padding:.5rem;
+  display:flex;
+
+  margin-right: 0rem;
+  
+  margin-left:1rem;
+  
+  padding:.5rem;
+  border-radius:8px;
+  background:rgba(0,0,0,0.40) !important;
+
+
+}
 
 
 
