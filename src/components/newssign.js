@@ -46,7 +46,7 @@ const NewsletterPage = () => (
           data-netlify="true"
           data-netlify-honeypot="bot-field">
 
-            <div className="newsletter" style={{ margin:'0 10px', padding:'10px 0 10px 0', borderRadius:'12px', textAlign:'center', color:'#fff'}}>
+            <div className="newsletter" style={{ margin:'0 0 0 0', padding:'10px', borderRadius:'12px', textAlign:'center', color:'#fff', width:'100%',  maxWidth:'80%', margin:'0 auto'}}>
 
               <div className="blocker" style={{width:'100%', height:'100%'}}></div>
 
@@ -55,13 +55,16 @@ const NewsletterPage = () => (
 <br />
 
             
-              <strong>Follow Me Into The Night</strong><br /> <span style={{fontSize:'70%'}}>night photography newsletter - (it's free!)</span><br /><br />
+              <span style={{fontSize:'120%'}}><strong>Follow Me Into The Night</strong></span><br />
+              
+              <span style={{fontSize:'85%'}}>night photography newsletter - (it's free!)</span><br /><br />
 
              <div className="signbox" style={{display:'',}}>
+
                <label style={{color:'#fff'}} For="email">
                  <input type="email" name="email" required={true}
                       placeholder="your@email.com"
-                      style={{marginRight: '1rem', padding:'.5rem', width: '35vw', maxWidth:'100%', border:'2px solid #666', background:'rgb(51, 51, 51)', borderRadius:'8px'}}/></label>
+                      style={{marginRight: '0rem', marginLeft:'1rem', padding:'.5rem', width: '', maxWidth:'90%', borderRadius:'8px',   background: 'rgba(0,0,0,0.40) !important',}}/></label>
                       
             
 
@@ -69,18 +72,21 @@ const NewsletterPage = () => (
   
 
             <button
-              className="button1"
+              className="button"
               sx={{
-                variant: "variants.button",
+                // variant: "variants.button",
                 cursor:'pointer',
                 width:'',
                 background:'#222 !important',
+                padding:'.5rem',
+                display:'flex',
+                
               }}
               type="submit"
       
             >
-              Follow Todd {" "}
-              <span className="icon -right" style={{paddingLeft:'1rem'}}>
+              <span style={{ textDecoration: 'underline',}}>Follow Todd</span> {" "}
+              <span className="icon -right" style={{paddingLeft:'.5rem'}}>
                 <RiSendPlane2Line />
               </span>
             </button>
@@ -91,9 +97,7 @@ const NewsletterPage = () => (
 
             <div style={{fontSize: '70%', padding: '0px 3%', margin:'30px 0 10px 0', textAlign: 'center', color:'#ccc'}}>
             <Link to="/privacy/" className="" style={{textAlign: 'center', padding: '15px',  textDecoration: 'underline', border:'0px solid yellow'}}>privacy policy (NO SPAM!)</Link>
-              
-
-                </div>
+            </div>
 
 </div>
 
