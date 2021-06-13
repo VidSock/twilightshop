@@ -28,12 +28,7 @@ const CustomBox = styled.div`
 
 
 
-@media (max-width: 58em) {
 
-
-
-
-}
 
 @media (min-width: 58em) {
 
@@ -66,7 +61,7 @@ export default function IndexPage({ data }) {
 
 <div className="flexcheek" style={{padding:'5vh 3% 0 3%',}}>
 
-  <h1 className="title" style={{fontSize:'4vw'}}>Night Photography</h1>
+  <h1 className="title" style={{fontSize:'4vw', color:'#FA02B7'}}>Night Photography</h1>
 
   <p
     className="tagline"

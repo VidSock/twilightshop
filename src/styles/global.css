@@ -521,7 +521,15 @@ background:#000;
 
 
 
+@media (max-width: 58em) {
 
+
+  .title{
+  font-size:3rem !important; 
+  color:#FA02B7 !important;
+  }
+  
+  }
 
 
 
