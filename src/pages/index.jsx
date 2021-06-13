@@ -59,7 +59,7 @@ export default function IndexPage({ data }) {
 
 
 
-<div className="flexcheek" style={{padding:'5vh 3% 0 3%',}}>
+<div className="flexcheek" style={{padding:'1vh 3% 0 3%',}}>
 
   <h1 className="title" style={{fontSize:'4vw', color:'#FA02B7'}}>Night Photographer</h1>
 

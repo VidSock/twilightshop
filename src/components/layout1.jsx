@@ -1,20 +1,34 @@
 import * as React from "react"
 import { SkipNavContent, SkipNavLink } from "./skip-nav"
-import { Header } from "./header"
+// import { Header } from "./header"
 import { Footer } from "./footer"
 import { Seo } from "./seo1"
 import 'fontsource-hammersmith-one'
 import { Link } from 'gatsby'
 import { ModalRoutingContext } from 'gatsby-plugin-modal-routing-3'
 import { AiOutlineClose } from "react-icons/ai"
-
-
+import twLogo from "../icons/tw-logo-white.svg"
+import { StoreContext } from "../context/store-context"
+import { Toast } from "./toast"
+import { ImArrowRight } from "react-icons/im"
+import { CartButton } from "./cart-button"
+import SearchIcon from "../icons/search"
 
 export function Layout({ children }) {
+  const { checkout, loading, didJustAddToCart } = React.useContext(StoreContext)
+
+  const items = checkout ? checkout.lineItems : []
+
+  const quantity = items.reduce((total, item) => {
+    return total + item.quantity
+  }, 0)
+
   return (
     <div style={{background:'#111'}}> 
+<>
       <Seo />
       <SkipNavLink />
+
       <ModalRoutingContext.Consumer>
     {({ modal, closeTo }) => (
       <div>
@@ -33,10 +47,137 @@ export function Layout({ children }) {
       </div>
     )}
   </ModalRoutingContext.Consumer>
-      <Header />
+
+
+      {/* <Header /> */}
+
+<header>
+      <input type="checkbox" className="openSidebarMenu" id="openSidebarMenu" />
+  <label htmlFor="openSidebarMenu" className="sidebarIconToggle">
+  {/* <span className="txtshadow" style={{textShadow:'2px', color:'#fff',}}>MENU</span> */}
+    <div className="spinner diagonal part-1"></div>
+    <div className="spinner horizontal"></div>
+    <div className="spinner diagonal part-2"></div>
+  </label>
+
+   <div id="sidebarMenu">
+
+   <div style={{display:'flex', justifyContent:'flex-start', color:'#fff', paddingLeft:'20px'}}>
+   
+   <Link to="/search" style={{display:'flex', verticalAlign:'center', marginTop:'12px', marginRight:'20px'}}>
+    <span><SearchIcon /></span>
+   </Link>
+
+  <div style={{marginTop:'5px'}}><CartButton quantity={quantity} /></div>
+     </div>
+
+    <ul className="sidebarMenuInner">
+
+    {/* <li>
+              <a className="navbar-item txtshadow" href="https://twilightscapes.com/">
+                Home <span>Return to home</span>
+              </a>
+      </li> */}
+
+      <li>
+              <Link className="navbar-item txtshadow" to="/art/">
+                Gallery <span>View Photos</span>
+              </Link>
+      </li>
+
+      <li>
+              <Link className="navbar-item txtshadow" to="/vault/gallery1/">
+                The Vault <span>View the full archives</span>
+              </Link>
+      </li>
+
+
+      <li>
+              <Link className="navbar-item txtshadow" to="/about/">
+                About Me <span>Learn All About Me</span>
+              </Link>
+      </li>
+
+      <li>
+      <Link className="navbar-item txtshadow" to="/gear/">Gear Talk<span>What tools I use</span></Link>
+       </li>
+
+       <li>
+              <Link className="navbar-item txtshadow" to="/contact/">
+                Contact <span>Ask me anything!</span>
+              </Link>
+      </li>
+
+      {/* <li>
+      <Link to="/search" >
+          <span>Search Catalog <SearchIcon /></span>
+        </Link>
+        </li> */}
+
+    
+
+    </ul>
+  </div>
+
+
+
+
+      <Link to="/"><img id="logo" className="twlogo1" src={twLogo} alt="Twilightscapes Logo" style={{margin:'8px 0 20px 4vw', minWidth:'100px', maxWidth:'100px', height:'auto', padding:'0', border:'0px solid red', position:'fixed', zIndex:'1'}} /></Link>
+
+
+
+
+
+      <Toast show={loading || didJustAddToCart}>
+        {!didJustAddToCart ? (
+          "Updating…"
+        ) : (
+          <>
+            Added to cart{" "}
+            <div style={{fontSize:'30px', marginLeft:'10px'}}><ImArrowRight /></div>
+            {/* <svg
+              width="24"
+              height="24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.019 10.492l-2.322-3.17A.796.796 0 013.91 6.304L6.628 9.14a1.056 1.056 0 11-1.61 1.351z"
+                fill="#fff"
+              />
+              <path
+                d="M5.209 10.693a1.11 1.11 0 01-.105-1.6l5.394-5.88a.757.757 0 011.159.973l-4.855 6.332a1.11 1.11 0 01-1.593.175z"
+                fill="#fff"
+              />
+              <path
+                d="M5.331 7.806c.272.326.471.543.815.163.345-.38-.108.96-.108.96l-1.123-.363.416-.76z"
+                fill="#fff"
+              />
+            </svg> */}
+          </>
+        )}
+      </Toast>
+
+
+
+
+      {/* <Link to="/search" style={{display:'flex', verticalAlign:'center', marginTop:'12px', marginRight:'20px'}}>
+    <span><SearchIcon /></span>
+   </Link>
+
+  <div style={{marginTop:'5px'}}><CartButton quantity={quantity} /></div> */}
+     
+
+
+<div style={{display:'block', height:'70px', border:'0px solid yellow'}}></div>
+
+</header>
+
       <SkipNavContent>{children}</SkipNavContent>
       <br /><br />
       <Footer />
+      </>
     </div>
+    
   )
 }
