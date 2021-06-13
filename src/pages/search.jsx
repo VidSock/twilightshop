@@ -275,8 +275,9 @@ function SearchBar({ defaultTerm, setFilters }) {
 
   return (
     <form onSubmit={(e) => e.preventDefault()} className={searchForm}>
-      <SearchIcon aria-hidden className={searchIcon} />
+      <SearchIcon aria-hidden className={searchIcon} style={{paddingRight:''}} />
       <input
+      className="searchboxer" 
         type="text"
         value={term}
         onChange={(e) => {

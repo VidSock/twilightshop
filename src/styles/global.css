@@ -136,6 +136,18 @@ p{margin-bottom: 1rem;}
 
 footer{background-color: #000; padding:.1rem 0rem; display:flex; justify-content: center; color:#fff; }
 
+.searchboxer{
+  -webkit-background-composite:#000 !important;
+  border:2px solid #333 !important;
+  padding-left:2rem !important;
+  margin-left:1rem;
+}
+
+
+.searchboxer:placeholder {
+  color: blue;
+  font-size: 1.5em;
+}
 
 
 /* @media (max-width: 48em) {
@@ -145,6 +157,10 @@ footer{background-color: #000; padding:.1rem 0rem; display:flex; justify-content
 } */
 
 body.carto .sidebarIconToggle, body.carto .social-icons, body.carto #logo{ display: none !important;}
+
+
+
+.navbar-item{display:block; padding:5px 0;}
 
 
 
@@ -525,7 +541,7 @@ background:#000;
 
 
   .title{
-  font-size:3rem !important; 
+  font-size:2rem !important; 
   color:#FA02B7 !important;
   }
   
