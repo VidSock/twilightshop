@@ -245,7 +245,7 @@ export default function Product({ data: { product, suggestions } }) {
                 available={available}
               />
             </div>
-            <div className={metaSection} style={{display:'flex'}}> 
+            <div className="taggage" style={{display:'flex', flexWrap:'wrap !important', margin:'3rem 0 2rem 0'}}> 
               {/* <span className={labelFont}>Type</span>
               <span className={tagList}>
                 <Link to={product.productTypeSlug}>{product.productType}</Link>
