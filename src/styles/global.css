@@ -22,7 +22,7 @@ body,h1,h2,h3,h4,.h1,.h2,.h3,.h4, #menu, .header .menu-icon:before, input.specia
 
 .iiz div{margin:0 auto;}
 
-.iiz__hint, .iiz__btn {
+.iiz__hint {
   top: 10px;
   right: 10px;
   pointer-events: none;
@@ -108,7 +108,7 @@ body,h1,h2,h3,h4,.h1,.h2,.h3,.h4, #menu, .header .menu-icon:before, input.specia
 
 
 
-.iiz__close::before {
+/* .iiz__close::before {
   content: " ";
   width: 29px !important;
   height: 29px !important;
@@ -120,7 +120,7 @@ body,h1,h2,h3,h4,.h1,.h2,.h3,.h4, #menu, .header .menu-icon:before, input.specia
   -webkit-transform: rotate(45deg) !important;
   transform: rotate(45deg) !important;
   border:1px solid red  !important;
-}
+} */
 
 
 
