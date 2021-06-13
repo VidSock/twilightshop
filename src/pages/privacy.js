@@ -7,6 +7,8 @@ import { Seo } from "../components/seo1"
 
 
 
+import { Link } from 'gatsby'
+
 
 
 
@@ -26,6 +28,9 @@ export default function PrivacyPage({}) {
 
 <Seo title={`Privacy Policy`} />
  
+
+
+
 <section className="outer section section--gradient">
       <div className="container" style={{padding: '2rem 10%'}}>
       <h1 className="title" style={{fontSize:'50px'}}>Privacy</h1>
