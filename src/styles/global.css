@@ -388,7 +388,7 @@ blockquote p {
 
 
 .blocker{
-  content: ;
+  content:'';
   width:100%;
   height:100%;
   position:absolute;
@@ -417,6 +417,102 @@ blockquote p {
   background:transparent !important;
   border:1px solid #777 !important;
 }
+
+
+
+
+
+
+
+
+.react-tabs__tab{
+	display: inline-block;
+	margin-bottom: 10px;
+	padding: 12px 5px;
+	border: 0px solid #ccc;
+	color: #666;
+	font-size: 12px; 
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;	
+  transition: all 0.3s;
+  border-radius:0;
+}
+.react-tabs__tab:hover {
+	color: #333;
+}
+
+.react-tabs__tab-list {
+  border-bottom: 1px solid #aaa;
+  margin: 0 0;
+  padding: 0;
+  clear:both;
+  display:flex;
+  justify-content:center;
+  }
+
+  .react-tabs__tab--selected, .react-tabs__tab{background:transparent !important; border: none !important;}
+
+
+
+
+  .back {
+    --padding: 15px;
+    --margin: 20px;
+    display: inline-flex;
+    align-items: center;
+    padding: var(--padding) calc(var(--padding) * 2);
+    border-radius: 12px;
+    text-decoration: none;
+    appearance: none;
+    border: none;
+    font-size: 16px;
+    line-height: 1;
+background:#000;
+  }
+  .back.-outline {
+      color: var(--primary-color);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+      background: #fff;
+      
+    }
+
+
+    .back:hover {
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
+        background: #f2f2f2;
+        color:#FA02B7;
+      }
+
+
+
+.iconmenu{
+  display:flex;
+  justify-content:center;
+  padding:15px;
+  border-radius:12px;
+  background:#333;
+  color:#999;
+  position:relative;
+  font-size:40px;
+  overflow:hidden;
+}
+
+.react-tabs__tab--selected{background:transparent; overflow:hidden;}
+
+.iconmenu span{display:block; position:absolute; top:0; font-size:12px; background:none; overflow:hidden;}
+
+
+
+
+
+
+
+
+
+
+
 
 
 .galgrad:hover{
