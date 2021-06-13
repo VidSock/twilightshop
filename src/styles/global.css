@@ -44,6 +44,9 @@ body,h1,h2,h3,h4,.h1,.h2,.h3,.h4, #menu, .header .menu-icon:before, input.specia
     width: 50px !important;
     height: 50px !important;
     color:#222 !important;
+    pointer-events: none !important;
+    display:block  !important;
+    border:1px solid red  !important;
   }
 
 
