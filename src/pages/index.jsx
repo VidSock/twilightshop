@@ -66,16 +66,17 @@ export default function IndexPage({ data }) {
 
 <div className="flexcheek" style={{padding:'5vh 3% 0 3%',}}>
 
-  <h1 className="title" style={{fontSize:'50px'}}>Night Photography</h1>
+  <h1 className="title" style={{fontSize:'4vw'}}>Night Photography</h1>
+
   <p
     className="tagline"
     sx={{
       color: "",
-      fontSize:'20px',
-      paddingBottom:'1.7rem'
+      fontSize:'4vw !important',
+      paddingBottom:'1.7rem',
     }}
-  >
-    Todd Lambert - a pioneer in night photography
+  ><br />
+    <strong>Todd Lambert - a pioneer in night photography</strong>
   </p>
 
 
@@ -87,6 +88,7 @@ export default function IndexPage({ data }) {
 <p>The night is misunderstood and often feared. But the truest colors come out only at night. There is no better time than nighttime.</p>
 <div style={{textAlign:'right', marginRight:'20%', marginTop:'10px'}}> – Todd Lambert
 </div></blockquote>
+
 
 <p>Let Todd's award winning work prove to you that the night is indeed beautiful.</p>
 
