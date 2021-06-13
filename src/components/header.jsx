@@ -4,7 +4,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StoreContext } from "../context/store-context"
 import twLogo from "../icons/tw-logo-white.svg"
-import { Navigation } from "./navigation"
+// import { Navigation } from "./navigation"
 import { CartButton } from "./cart-button"
 import SearchIcon from "../icons/search"
 import { ImArrowRight } from "react-icons/im"
@@ -37,7 +37,7 @@ export function Header() {
       
       >
         
-      <Link to="/"><img id="logo" className="twlogo1 rollIn" src={twLogo} alt="Twilightscapes Logo" style={{margin:'5px 0 0 0', minWidth:'100px', height:'auto', padding:'0', border:'0px solid red'}} /></Link>
+      <Link to="/"><img id="logo" className="twlogo1" src={twLogo} alt="Twilightscapes Logo" style={{margin:'5px 0 0 0', minWidth:'100px', height:'auto', padding:'0', border:'0px solid red'}} /></Link>
 
 
 
@@ -109,7 +109,7 @@ export function Header() {
     </ul>
   </div>
         {/* <Logo /> */}
-        <Navigation className={nav} />
+        {/* <Navigation className={nav} /> */}
         
       </header>
       <Toast show={loading || didJustAddToCart}>

@@ -41,9 +41,9 @@ export default function PrivacyPage({}) {
 <p>I may share information with governmental agencies or other companies assisting us in fraud prevention or investigation. I may do so when: (1) permitted or required by law; or, (2) trying to protect against or prevent actual or potential fraud or unauthorized transactions; or, (3) investigating fraud which has already taken place. The information is not provided to these companies for marketing purposes.</p>
 <h3>Commitment to Data Security</h3>
 <p>Your personally identifiable information is kept secure. Only authorized employees, agents and contractors (who have agreed to keep information secure and confidential) have access to this information. All emails and newsletters from this site allow you to opt out of further mailings.</p>
-<h3>Privacy Contact Information</h3>
-<p>If you have any questions, concerns, or comments about my privacy policy you may contact me using the information below:</p>
-<p>By Phone: (228) 206-4990</p>
+<br />
+<p>If you have any questions, concerns, or comments about my privacy policy you may contact me using the contact form.</p>
+
 <p>I reserve the right to make changes to this policy. Any changes to this policy will be posted.</p>
 			
 	</div>
