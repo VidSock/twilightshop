@@ -245,7 +245,7 @@ export default function Product({ data: { product, suggestions } }) {
                 available={available}
               />
             </div>
-            <div className={metaSection}>
+            <div className={metaSection} style={{display:'none'}}> 
               {/* <span className={labelFont}>Type</span>
               <span className={tagList}>
                 <Link to={product.productTypeSlug}>{product.productType}</Link>
