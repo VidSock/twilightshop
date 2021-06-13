@@ -205,7 +205,7 @@ right:'', border:'0px solid yellow', justifyContent:'center', width:'', textAlig
               sx={{
                 cursor:'pointer',
                 width:'',
-
+                backgroundColor:'#000 !important'
               }}
               to="/art/"
             >
