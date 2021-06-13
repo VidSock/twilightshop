@@ -25,7 +25,7 @@ import { CgInfo, CgRatio  } from "react-icons/cg"
 import { FiCameraOff, FiCamera } from "react-icons/fi"
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import 'react-tabs/style/react-tabs.css'
-
+import InnerImageZoom from 'react-inner-image-zoom'
 
 
 
@@ -166,9 +166,11 @@ export default function Product({ data: { product, suggestions } }) {
                     <li
                       key={`product-image-${image.id}`}
                       className={productImageListItem}
-                      style={{display:'flex', alignContent:'center'}}
+                      style={{display:'flex', alignContent:'center', justifyContent:'center'}}
                     >
-                      <GatsbyImage
+                      <div className="vert" style={{}}><InnerImageZoom src={getSrc(firstImage.gatsbyImageData)} objectFit="contain" /></div>
+
+                      {/* <GatsbyImage
                         objectFit="contain"
                         loading={index === 0 ? "eager" : "lazy"}
                         alt={
@@ -177,7 +179,7 @@ export default function Product({ data: { product, suggestions } }) {
                             : `Product Image of ${title} #${index + 1}`
                         }
                         image={image.gatsbyImageData}
-                      />
+                      /> */}
                     </li>
                   ))}
                 </ul>

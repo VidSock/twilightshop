@@ -52,6 +52,7 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^4.1.0",
     "react-images": "^1.0.0",
+    "react-inner-image-zoom": "^2.0.1",
     "react-photo-gallery": "^8.0.0",
     "react-slideshow-image": "^3.4.3",
     "react-tabs": "^3.1.1",

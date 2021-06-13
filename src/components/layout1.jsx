@@ -7,7 +7,7 @@ import 'fontsource-hammersmith-one'
 import { Link } from 'gatsby'
 import { ModalRoutingContext } from 'gatsby-plugin-modal-routing-3'
 import { AiOutlineClose } from "react-icons/ai"
-
+import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css'
 
 
 export function Layout({ children }) {
