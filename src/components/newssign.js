@@ -15,33 +15,9 @@ const CustomBox = styled.div`
 //   color: #111;
 // }
 
-.signbox{
-  display:flex;
-  justify-content: center;
-  align-items:baseline;
-  overflow:hidden;
-  width:100%;
-  padding:0 10px;
-}
-.signbox input{margin-right:14px;}
 
-.blocker{
-  content: ;
-  width:100%;
-  height:100%;
-  position:absolute;
-  z-index: -1;
-  opacity: 1 ;
-  overflow: 'hidden';
-  display:block;
-  margin:0 auto;
-  padding:0;
-  cursor:default;
-  background: rgba(0,0,0,0.50);
-  backdrop-filter: blur(4px);
-  border-radius:12px;
-  border:1px solid #000;
-}
+
+
 
 
 
@@ -85,7 +61,7 @@ const NewsletterPage = () => (
                <label style={{color:'#fff'}} For="email">
                  <input type="email" name="email" required={true}
                       placeholder="your@email.com"
-                      style={{marginRight: '1rem', padding:'.5rem', width: '30vw', maxWidth:'100%', border:'2px solid #666', background:'rgb(51, 51, 51)', borderRadius:'8px'}}/></label>
+                      style={{marginRight: '1rem', padding:'.5rem', width: '35vw', maxWidth:'100%', border:'2px solid #666', background:'rgb(51, 51, 51)', borderRadius:'8px'}}/></label>
                       
             
 
@@ -93,13 +69,15 @@ const NewsletterPage = () => (
   
 
             <button
-              className="button"
+              className="button1"
               sx={{
                 variant: "variants.button",
                 cursor:'pointer',
                 width:'',
+                background:'#222 !important',
               }}
               type="submit"
+      
             >
               Follow Todd {" "}
               <span className="icon -right" style={{paddingLeft:'1rem'}}>
