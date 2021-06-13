@@ -26,7 +26,7 @@ import { FiCameraOff, FiCamera } from "react-icons/fi"
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import 'react-tabs/style/react-tabs.css'
 import InnerImageZoom from 'react-inner-image-zoom'
-
+import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css'
 
 
 
