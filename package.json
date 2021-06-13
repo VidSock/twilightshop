@@ -27,7 +27,7 @@
     "fontsource-hammersmith-one": "^4.0.0",
     "gatsby": "^3.5.0",
     "gatsby-background-image": "^1.1.2",
-    "gatsby-cli": "^3.7.0",
+    "gatsby-cli": "^3.7.1",
     "gatsby-image": "^2.0.23",
     "gatsby-plugin-gatsby-cloud": "^2.4.1",
     "gatsby-plugin-google-analytics": "^3.4.0",
