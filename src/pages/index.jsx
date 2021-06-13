@@ -78,12 +78,16 @@ export default function IndexPage({ data }) {
       <p>Finding obscure locations and unusual subject matter, Todd has excelled at capturing rarely seen moments of time.</p>
       <p>As a location scout and avid urban explorer, Todd learned to photograph what he sees at night.</p>
 
+<div className="" style={{display:'flex'}}>
 
-      <blockquote>
+      <blockquote className="frontquote" style={{width:'50%'}}>
 <p>The night is misunderstood and often feared. But the truest colors come out only at night. There is no better time than nighttime.</p>
 <div style={{textAlign:'right', marginRight:'20%', marginTop:'10px'}}> – Todd Lambert
 </div></blockquote>
 
+<div style={{width:'50%',  padding:'2vw'}}><Image alt="Todd Lambert hanging with friends" filename="todd-profile.jpg" className="" /></div>
+
+</div>
 
 <p>Let Todd's award winning work prove to you that the night is indeed beautiful.</p>
 
