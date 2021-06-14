@@ -12,7 +12,7 @@ const Consent = () => (
 left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center', zIndex:'1'}}>
 
 <CookieConsent
-	debug={true}
+	debug={false}
 	location="none"
 	style={{ backdropFilter: 'blur(4px)', zIndex:'1', opacity:'.8', background: 'rgba(0,0,0,0.50)', padding:'2vh 3%', margin:'0'
    }}

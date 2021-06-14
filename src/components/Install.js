@@ -52,7 +52,7 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
     buttonText="Cancel"
 	buttonStyle={{ background: "transparent", textDecoration:'underline', textAlign:'center', fontSize: "13px", bottom:'8%', position:'absolute', right:'30%', left:'30%', color:'inherit', }}
     expires={1}
-    cookieName="Hytron.com-install-cookie"
+    cookieName="twilightscapes.com-install-cookie"
 >
 
 

@@ -3,7 +3,7 @@ import * as React from "react"
 import styled from "styled-components";
 import { Link } from 'gatsby'
 
-// import { FaLock } from 'react-icons/fa';
+import { FaLock } from 'react-icons/fa';
 // import { FaTimesCircle } from 'react-icons/fa';
 // import Newsletter from '../components/Newsletter'
 // import ScrollAnimation from 'react-animate-on-scroll'
@@ -198,8 +198,8 @@ const GalleryMenu = () => (
       
       
       
-      {/* <li className="galmenu-item has-app"><Link to="/vault/daylight"  title="During Daylight">During<br />Daylight</Link></li>
-      <li className="galmenu-item no-app"><Link to="/vault"  title="During Daylight">During<br />Daylight <FaLock  style={{position:'absolute', top:'0', right:'0', color:'#aaa',}} className="lock" /></Link></li> */}
+      <li className="galmenu-item has-app"><Link to="/vault/daylight"  title="During Daylight">During<br />Daylight</Link></li>
+      <li className="galmenu-item no-app"><Link to="/vault"  title="During Daylight">During<br />Daylight <FaLock  style={{position:'absolute', top:'0', right:'0', color:'#aaa',}} className="lock" /></Link></li>
       
 
 
