@@ -61,7 +61,7 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
 
 
 	
-	<h4 style={{textAlign:'center', fontSize:'140%',}}>Install App</h4>
+	<p style={{textAlign:'center', fontSize:'140%',}}>Install App</p>
 	<br />
 	<span style={{fontSize:'100%',}}>This website has app functionality. Add it to your home screen to get added features on-the-go, like exclusive content, fullscreen and offline capability.</span>
 	<br /><br />

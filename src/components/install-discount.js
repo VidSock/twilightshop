@@ -68,7 +68,7 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
 
 
 	
-	<h4 style={{textAlign:'center', fontSize:'140%',}}>Install our FREE app - <strong>Get 30% off</strong></h4>
+	<p style={{textAlign:'center', fontSize:'140%', padding:'0', margin:'0'}}>Install our FREE app - <strong>Get 30% off</strong></p>
 	<br />
 	<span style={{fontSize:'100%',}}>This website has app functionality. Add it to your home screen to get added features like exclusive content, fullscreen and more. <br /><br />You'll receive a special coupon code for 30% off your next order!</span>
 
