@@ -8,6 +8,7 @@ import Image from '../components/Image'
 import { ProductListing } from "../components/product-listing"
 import Social from "../components/social"
 import Newsignup from "../components/newssign"
+import TouchUp from '../components/TouchUp'
 import { RiArrowDownLine, RiArrowRightSLine, RiStarLine, RiSendPlane2Line } from "react-icons/ri"
 
 import {
@@ -53,7 +54,7 @@ export default function IndexPage({ data }) {
     <CustomBox>
     <Layout>
 
-
+    <TouchUp />
     <div className="home-banner flexbutt" style={{position:'relative', height:'auto', overflow:'hidden'}}>
 
 

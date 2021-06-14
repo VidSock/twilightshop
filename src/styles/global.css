@@ -282,7 +282,7 @@ p{margin-bottom: 1rem;}
 }
 	
 @media (hover: hover) {
-#installer{display: block !important;}
+#installer{display: none !important;}
 }
 
 
@@ -322,7 +322,6 @@ display: none;
 
 }
 
-.ReactModalPortal{}
 
 .ReactModal__Overlay{background-color:transparent !important;   background: rgba(0,0,0,0.50);
   backdrop-filter: blur(4px);}
@@ -333,6 +332,7 @@ display: none;
 .ReactModal__Body--open {
   overflow-y: hidden;
 }
+
 
 
 
@@ -614,6 +614,65 @@ blockquote.frontquote {
 }
 
 
+
+
+
+.touchup{animation: touchup 3s forwards;
+  position:fixed;
+  bottom:8vh;
+  right:5vw;
+  opacity:0;
+  scale: .8;
+  animation-delay: 1.5s;
+  z-index:3;
+  filter: drop-shadow(3px 0px 0rem #444);
+  color:#fff;
+}
+
+  
+@keyframes touchup {
+0% {
+height:8vh;
+opacity:.8;
+transform: scale(1);
+}
+10%{
+  opacity:.8;
+  height:6vh;
+  transform: scale(.8);
+  z-index:1;
+}
+
+15%{
+  opacity:1;
+  height:5vh;
+  transform: scale(1);
+  z-index:1;
+}
+
+20%{
+  opacity:.8;
+  height:7vh;
+  transform: scale(1);
+  z-index:1;
+}
+
+85% {
+  height:40vh;
+  opacity: 1;
+  transform: scale(1);
+  z-index:1;
+  }
+
+100% {
+  
+  opacity: 0;  
+  height:42vh;
+  transform: scale(1.4);	
+  filter: blur(1px);
+  z-index:0;
+}
+}
 
 
 
