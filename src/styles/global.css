@@ -283,7 +283,7 @@ p{margin-bottom: 1rem;}
 }
 	
 @media (hover: hover) {
-#installer{display: none !important;}
+#installer{display: block !important;}
 }
 
 
