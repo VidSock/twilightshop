@@ -136,6 +136,7 @@ p{margin-bottom:2rem;}
   align-items: center;
   background: #000;
   border-radius: var(--radius-md);
+  border:1px solid #555;
   color: var(--text-color-inverted);
   display: flex;
   font-size: var(--text-md);
@@ -717,6 +718,7 @@ transform: scale(1);
     align-items: center;
     padding: var(--padding) calc(var(--padding) * 2);
     border-radius: 12px;
+    border:1px solid #555 !important;
     text-decoration: none;
     appearance: none;
     border: none;
