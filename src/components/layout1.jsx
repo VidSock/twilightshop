@@ -13,6 +13,9 @@ import { Toast } from "./toast"
 import { ImArrowRight } from "react-icons/im"
 import { CartButton } from "./cart-button"
 import SearchIcon from "../icons/search"
+import Consent from '../components/Consent'
+import Install from '../components/Install'
+
 
 export function Layout({ children }) {
   const { checkout, loading, didJustAddToCart } = React.useContext(StoreContext)
@@ -50,6 +53,9 @@ export function Layout({ children }) {
 
 
       {/* <Header /> */}
+
+      
+
 
 <header>
 
@@ -156,12 +162,20 @@ export function Layout({ children }) {
      
 
 
-
+     
 
 </header>
+
+
+
 <div style={{display:'block', height:'70px', border:'0px solid yellow'}}></div>
+
+
       <SkipNavContent>{children}</SkipNavContent>
+      
       <br /><br />
+      <Consent />
+     {/* <Install /> */}
       <Footer />
       </>
     </div>
