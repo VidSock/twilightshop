@@ -56,25 +56,25 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
 	location="none"
 	style={{ color:'inherit', width:'auto', background:'inherit',  alignItems:'inherit',  textAlign:'left', justifyContent:'center', margin:'0 auto', top:'60px', maxWidth:'600px', position:'', border:'0px solid red', }}
     className=""
-    buttonText="No Thanks"
-	buttonStyle={{ background: "transparent", textDecoration:'underline', textAlign:'center', fontSize: "13px", bottom:'10px', position:'absolute', right:'30%', left:'30%', color:'inherit', }}
+    buttonText="OK Got it"
+	buttonStyle={{ background: "transparent", textDecoration:'underline', textAlign:'center', fontSize: "16px", bottom:'10px', position:'absolute', right:'30%', left:'30%', color:'inherit', }}
     expires={1}
     cookieName="twilightscapes.com-install-discount-cookie"
 >
 
 
 <div className="backdrop" style={{left:'0', top:'-60px'}}></div>
-<div className="container" style={{padding:'2rem 1rem', border:'1px solid #555', borderRadius:'8px', background:'#111'}}>
+<div className="container" style={{padding:'2rem 1rem', border:'1px solid #555', borderRadius:'8px', background:'#111', textAlign:'center'}}>
 
 
 	
-	<h4 style={{textAlign:'center', fontSize:'140%',}}>Install our FREE app - Get 30% off</h4>
+	<h4 style={{textAlign:'center', fontSize:'140%',}}>Install our FREE app - <strong>Get 30% off</strong></h4>
 	<br />
-	<span style={{fontSize:'100%',}}>This website has app functionality. Add it to your home screen to get added features on-the-go, like exclusive content, fullscreen and offline capability. You'll also receive a special coupon code for 30% off your next order!</span>
+	<span style={{fontSize:'100%',}}>This website has app functionality. Add it to your home screen to get added features like exclusive content, fullscreen and more. <br /><br />You'll receive a special coupon code for 30% off your next order!</span>
 
   <br /><br />
   <div style={{fontSize:'100%', textAlign:'center', display:'flex', flexDirection:'column', verticalAlign:'middle', lineHeight:'200%', width:'100%', margin:'0 auto', padding:' 1rem', border:'2px dotted #FA02B7', borderRadius:'8px',}}>To Get Started:
-  <br />Simply click the "install" icon in your browser address bar</div>
+  <br />1) Simply click the "install" icon in your browser address bar</div>
 
 
 	<br />
