@@ -24,7 +24,7 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
 	buttonStyle={{ color: "#333", justifyContent:'center', textAlign:'center', background: "#eee", fontSize: "13px", fontWeight:'bold', borderRadius:'5px',  top:'10px',  position:'relative', margin:'0' }}
     contentStyle={{margin:'0', padding:'0', border:'0px solid red'}}
 
-    expires={30}
+    expires={364}
     cookieName="Twilightscapes.com-site-pref-cookie"
 >
 <div className="blocker" style={{width:'100%', height:'100%', border:'0px solid yellow'}}></div>

@@ -8,14 +8,14 @@ import styled from "styled-components";
 
 
 const CustomBox = styled.div`
-#installer {
-  animation: cssAnimation 0s 1s forwards;
-  visibility: hidden;
-}
+// #installer {
+//   animation: cssAnimation 0s 1s forwards;
+//   visibility: hidden;
+// }
 
-@keyframes cssAnimation {
-  to   { visibility: visible; }
-}
+// @keyframes cssAnimation {
+//   to   { visibility: visible; }
+// }
 
 
 
@@ -33,15 +33,15 @@ const CustomBox = styled.div`
 
 `
 
-const Install = () => (
+const InstallDiscount = () => (
 <CustomBox style={{}} className="installer">
 
 
 
-<ScrollAnimation animateIn="bounceInDown" delay={0} style={{ display:'flex', justifyContent:'center', alignContent:'center', position: 'fixed', top:'60px',
+<ScrollAnimation animateIn="bounceInDown" initiallyVisible={false} animateOnce={true} animatePreScroll={false} delay={400} style={{ display:'flex', justifyContent:'center', alignContent:'center', position: 'fixed', top:'60px',
 left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center'}}>
 
-{/* <div id="installer" className="" style={{display:'flex', justifyContent:'center', alignItems:'center',  zIndex:'2', borderRadius:'8px', }}></div> */}
+<div id="installer" className="" style={{ }}>
 
 
 <CookieConsent
@@ -50,9 +50,9 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
 	style={{ color:'inherit', width:'auto', background:'inherit',  alignItems:'inherit',  textAlign:'left', justifyContent:'center', margin:'0 auto', top:'60px', maxWidth:'600px', position:'', border:'0px solid red', }}
     className=""
     buttonText="No Thanks"
-	buttonStyle={{ background: "transparent", textDecoration:'underline', textAlign:'center', fontSize: "13px", bottom:'8%', position:'absolute', right:'30%', left:'30%', color:'inherit', }}
+	buttonStyle={{ background: "transparent", textDecoration:'underline', textAlign:'center', fontSize: "13px", bottom:'30px', position:'absolute', right:'30%', left:'30%', color:'inherit', }}
     expires={1}
-    cookieName="twilightscapes.com-install-cookie"
+    cookieName="twilightscapes.com-install-discount-cookie"
 >
 
 
@@ -61,13 +61,18 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
 
 
 	
-	<h4 style={{textAlign:'center', fontSize:'140%',}}>Install App</h4>
+	<h4 style={{textAlign:'center', fontSize:'140%',}}>Install Our FREE App - Get 30% off</h4>
 	<br />
-	<span style={{fontSize:'100%',}}>This website has app functionality. Add it to your home screen to get added features on-the-go, like exclusive content, fullscreen and offline capability.</span>
+	<span style={{fontSize:'100%',}}>This website has app functionality. Add it to your home screen to get added features on-the-go, like exclusive content, fullscreen and offline capability. You'll also receive a special coupon code for 30% off your order!</span>
+
+  <br /><br />
+  <div style={{fontSize:'100%', textAlign:'center', display:'flex', flexDirection:'column', verticalAlign:'middle', lineHeight:'200%', width:'100%', margin:'0 auto', padding:' 1rem', border:'2px dotted #FA02B7', borderRadius:'8px',}}>To Get Started:
+  <br />Simply click the "install" icon in your browser address bar</div>
+
+
 	<br /><br />
-	<div style={{fontSize:'80%', textAlign:'center',}}>On your device, locate the browser menu:</div>
-	<br />
-	
+  For Apple iOS users:
+
     <div style={{fontSize:'100%', textAlign:'center', display:'flex', flexDirection:'column', verticalAlign:'middle', lineHeight:'200%', width:'100%', margin:'0 auto', padding:' 1rem', border:'2px dotted #777', borderRadius:'8px',}}>
     
   <div style={{textAlign:'left', display:'flex', alignContent:'center', marginBottom:'1rem',}}>
@@ -88,11 +93,11 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
     <br />
     </div>
     
-</CookieConsent>
+</CookieConsent></div>
     </ScrollAnimation>
 
 
 </CustomBox>
 )
 
-export default Install
+export default InstallDiscount

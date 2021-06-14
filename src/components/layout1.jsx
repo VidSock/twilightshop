@@ -14,7 +14,7 @@ import { ImArrowRight } from "react-icons/im"
 import { CartButton } from "./cart-button"
 import SearchIcon from "../icons/search"
 import Consent from '../components/Consent'
-import Install from '../components/Install'
+import Install from '../components/install-discount'
 
 
 export function Layout({ children }) {
@@ -61,6 +61,11 @@ export function Layout({ children }) {
 
 <Link to="/"><img id="logo" className="twlogo1" src={twLogo} alt="Twilightscapes Logo" style={{margin:'16px 0 40px 4vw', minWidth:'100px', maxWidth:'100px', height:'auto', padding:'0', border:'0px solid red', position:'fixed', zIndex:'1'}} /></Link>
 
+
+
+<div className="has-app" style={{textAlign:'center', fontSize:'30px', position:'absolute', top:'0', zIndex:'1', border:'0px solid yellow', width:'100%' }}>
+GET 30% OFF CODE: <span style={{color:'#FA02B7'}}>LoveTheNight</span>
+</div>
 
 
 
@@ -175,7 +180,7 @@ export function Layout({ children }) {
       
       <br /><br />
       <Consent />
-     {/* <Install /> */}
+     <Install />
       <Footer />
       </>
     </div>

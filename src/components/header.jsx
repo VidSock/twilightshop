@@ -28,6 +28,9 @@ export function Header() {
 
   return (
     <div className={container} >
+
+
+
       <header className={header} style={{border:'0px solid red', background:'transparent', padding:'10px 3% 15px 3%', boxShadow: '1px 3px 24px 0 #000', boxShadow: 'none'
       }}
       
@@ -38,6 +41,10 @@ export function Header() {
       >
         
       <Link to="/"><img id="logo" className="twlogo1" src={twLogo} alt="Twilightscapes Logo" style={{margin:'5px 0 0 0', minWidth:'100px', height:'auto', padding:'0', border:'0px solid red'}} /></Link>
+
+
+
+     
 
 
 

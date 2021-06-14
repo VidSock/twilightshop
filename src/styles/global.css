@@ -266,6 +266,26 @@ p{margin-bottom: 1rem;}
 
 
 
+.has-app{display:none !important;}
+.no-app{display:block!important;}
+
+@media (display-mode: standalone) {
+  /* All installed PWAs */
+.has-app{display: block !important;}
+.no-app{display: none !important;}
+}
+
+
+@media (display-mode: standalone) {
+  /* All installed PWAs */
+  #installer{display: none !important;}
+}
+	
+@media (hover: hover) {
+#installer{display: block !important;}
+}
+
+
 
 footer{background-color: #000; padding:.1rem 0rem; display:flex; justify-content: center; color:#fff; }
 
