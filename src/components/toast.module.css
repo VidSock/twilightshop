@@ -2,9 +2,9 @@
   background-color: var(--primary);
   color: var(--text-color-inverted);
   width: max-content;
-  position: absolute;
+  position: fixed;
   right: 80px;
-  top: 20px;
+  top: 10px;
   padding: var(--space-md) var(--space-lg);
   font-size: var(--text-xs);
   font-weight: var(--semibold);
@@ -15,7 +15,7 @@
   gap: var(--space-sm);
   min-width: 100px;
   justify-content: center;
-  z-index: 0;
+  z-index: 1 !important;
   white-space: nowrap;
 }
 
