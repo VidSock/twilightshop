@@ -403,7 +403,7 @@ body{overflow-x: hidden;}
   z-index:2;
   right: 0;
   top:0;
-  width: 250px;
+  /* width: 250px; */
   transform: translateX(250px);
   transition: transform 250ms ease-in-out;
   background: linear-gradient(180deg, #333 1%, #111 80%);
@@ -438,6 +438,9 @@ body{overflow-x: hidden;}
 input[type="checkbox"]:checked ~ #sidebarMenu {
   transform: translateX(0);
 }
+
+
+
 input[type=checkbox] {
   transition: all 0.3s;
   box-sizing: border-box;
@@ -590,7 +593,6 @@ blockquote.frontquote {
   position:fixed;
   z-index: -1;
   opacity: 1 ;
-  /* overflow: 'hidden'; */
   display:block;
   margin:0 auto;
   padding:0;
@@ -598,6 +600,28 @@ blockquote.frontquote {
   background: rgba(0,0,0,0.50);
   backdrop-filter: blur(4px);
 }
+
+.backdrop1{
+  content:'';
+  width:100vw;
+  height:120vh;
+  position:fixed;
+  z-index: -1;
+  opacity: 1 ;
+  margin:0 auto;
+  padding:0;
+  cursor:default;
+  background: rgba(0,0,0,0.50);
+  backdrop-filter: blur(4px);
+  display:none;
+  left:0;
+   top:-60px;
+}
+
+input[type="checkbox"]:checked ~ .backdrop1 {
+  display: block !important;
+  }
+
 
 .signbox{
   display:flex;

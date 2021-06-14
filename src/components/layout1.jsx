@@ -55,11 +55,11 @@ export function Layout({ children }) {
       {/* <Header /> */}
 
       
-
+      
 
 <header>
 
-<Link to="/"><img id="logo" className="twlogo1" src={twLogo} alt="Twilightscapes Logo" style={{margin:'16px 0 40px 4vw', minWidth:'100px', maxWidth:'100px', height:'auto', padding:'0', border:'0px solid red', position:'fixed', zIndex:'1'}} /></Link>
+<Link to="/"><img id="logo" className="twlogo1" src={twLogo} alt="Twilightscapes Logo" style={{margin:'16px 0 40px 4vw', minWidth:'100px', maxWidth:'100px', height:'auto', padding:'0', border:'0px solid red', position:'fixed', zIndex:'2'}} /></Link>
 
 
 
@@ -77,9 +77,13 @@ export function Layout({ children }) {
     <div className="spinner diagonal part-2"></div>
   </label>
 
-  <div className="backdrop"></div>
+
+  <div className="backdrop1" style={{left:'0', top:'-60px', border:'0px solid yellow', position:'fixed', width:'100vw', height:'120vh', zIndex:'1'}}></div>
+
 
    <div id="sidebarMenu">
+  
+
    
    <div style={{display:'flex', justifyContent:'flex-start', color:'#fff', paddingLeft:'20px'}}>
    
@@ -176,6 +180,7 @@ export function Layout({ children }) {
 
 
 <div style={{display:'block', height:'70px', border:'0px solid yellow'}}></div>
+
 
 
       <SkipNavContent>{children}</SkipNavContent>
