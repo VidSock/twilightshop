@@ -61,20 +61,10 @@ export default function IndexPage({ data }) {
 
 <div className="flexcheek" style={{padding:'1vh 3% 0 3%',}}>
 
-  <h1 className="title" style={{fontSize:'4vw', color:'#FA02B7', textAlign:'center'}}>Night Photographer</h1>
+  <h1 className="title1">Night Photographer</h1>
 
-  <p
-    className="tagline1"
-    style={{
-      color: "",
-      fontSize:'1.2rem !important',
-      paddingBottom:'1.7rem',
-      textAlign:'center !important',
-      borderTop:'1px solid #fff !important',
-      margin:'1rem 0 1rem 0'
-    }}
-  >
-    <div style={{marginTop:'20px', fontWeight:'bold'}}>Todd Lambert - a pioneer in night photography</div>
+  <p className="tagline1">
+   Todd Lambert - a pioneer in night photography
   </p>
 
 
@@ -199,7 +189,7 @@ right:'', border:'0px solid yellow', justifyContent:'center', width:'', textAlig
 
 <p style={{textAlign:'center', margin:'2rem 0 0 0'}}>GET ALL YOUR FAVORITES NOW</p>
 
-<div style={{display:'flex', border:'1px solid #666', padding:'1rem', margin:'0 3% 0 3%', borderRadius:'12px', height:'', textAlign:'center', justifyContent:'space-around', alignContent:'center', alignItems:'center', maxWidth:'800px', gap:'20px'}}>
+<div style={{display:'flex', border:'1px solid #666', padding:'1rem', margin:'0 3% 0 3%', borderRadius:'12px', height:'', textAlign:'center', justifyContent:'space-around', alignContent:'center', alignItems:'center', maxWidth:'800px', gap:'20px', background:''}}>
 
   <span style={{fontSize:'70px', color:'white', transform:'rotate()', lineHeight:'80%'}}>PICK ANY <br /><span style={{letterSpacing:''}}>THREE</span></span>
 

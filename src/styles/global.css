@@ -242,7 +242,28 @@ height:0;
 
 p{margin-bottom: 1rem;}
 
-.twlogo {filter: contrast(0) sepia(100%) hue-rotate(146deg) brightness(0.4) saturate(0.28); max-height:100px; width:250px;}
+/* .twlogo {filter: contrast(0) sepia(100%) hue-rotate(146deg) brightness(0.4) saturate(0.28); max-height:100px; width:250px;} */
+/* 
+.twlogo1 {filter: contrast(0) sepia(100%) hue-rotate(146deg) brightness(0.4) saturate(0.28); max-height:100px; width:250px;} */
+
+
+.title1{
+  font-size:4vw; color:#FA02B7; text-align:center;
+}
+
+.tagline1{
+  font-size:1.2rem;
+  padding-bottom:1.7rem;
+  padding-top:1rem;
+  text-align:center;
+  border-top:1px solid #fff;
+  margin:1rem 0 1rem 0;
+  font-weight:bold;
+  margin-top:20px;
+}
+
+
+
 
 footer{background-color: #000; padding:.1rem 0rem; display:flex; justify-content: center; color:#fff; }
 
