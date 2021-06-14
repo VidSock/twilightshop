@@ -40,7 +40,7 @@ const CustomBox = styled.div`
 
 export const query = graphql`
   query {
-    shopifyCollection(handle: { eq: "limited-edition-nft-kits" }) {
+    shopifyCollection(handle: { eq: "digitalart" }) {
       products {
         ...ProductCard
       }
@@ -64,7 +64,7 @@ export default function IndexPage({ data }) {
   <h1 className="title1">Night Photographer</h1>
 
   <p className="tagline1">
-   Todd Lambert - a pioneer in night photography
+   Todd Lambert: a pioneer in night photography
   </p>
 
 
@@ -74,7 +74,7 @@ export default function IndexPage({ data }) {
 <div className="" style={{display:'flex'}}>
 
       <blockquote className="frontquote" style={{width:'60%'}}>
-<p>The night is misunderstood and often feared, but the night can be a world of wonder and an orchestra of colors. Finding yourself at 3am in a graveyard filming flowers, some may see that as weird, but for me, it's pure tranquility. </p>
+<p>The night is misunderstood and often feared, but the night can be a world of wonder and an orchestra of colors. Finding yourself at 3am in a graveyard filming flowers; some may see that as weird, but for me, it's pure tranquility. </p>
 <div style={{textAlign:'right', marginRight:'20%', marginTop:'10px'}}> – Todd Lambert
 </div></blockquote>
 
@@ -216,7 +216,7 @@ right:'', border:'0px solid yellow', justifyContent:'center', width:'', textAlig
                 width:'',
                 backgroundColor:'#000 !important'
               }}
-              to="/art/"
+              to="/vault/gallery1/"
             >
               View More {" "}
               <span className="icon -right" style={{paddingLeft:'1rem'}}>

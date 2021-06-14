@@ -395,6 +395,9 @@ Rights-managed content is licensed for specific types of private use, and limits
 
             <div className="flexcheek" style={{border:'0px solid yellow', width:'30%'}}>
 
+            <div style={{textAlign:'center', margin:'0 0 30px 0'}}>
+            <GoBack />
+            </div>
 
             <p style={{fontSize:'100%', margin:'0 0', padding:'0', lineHeight:'auto', textAlign:'center', fontWeight:'bold'}}>Turn this into a great print here:</p>
             
