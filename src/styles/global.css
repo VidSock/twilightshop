@@ -279,11 +279,11 @@ p{margin-bottom: 1rem;}
 
 @media (display-mode: standalone) {
   /* All installed PWAs */
-  #installer{display: none !important;}
+  .installer{display: none !important;}
 }
 	
 @media (hover: hover) {
-#installer{display: block !important;}
+.installer{display: block !important;}
 }
 
 
@@ -580,8 +580,23 @@ blockquote.frontquote {
   cursor:default;
   background: rgba(0,0,0,0.50);
   backdrop-filter: blur(4px);
-
   border:1px solid #000;
+}
+
+.backdrop{
+  content:'';
+  width:100vw;
+  height:120vh;
+  position:fixed;
+  z-index: -1;
+  opacity: 1 ;
+  /* overflow: 'hidden'; */
+  display:block;
+  margin:0 auto;
+  padding:0;
+  cursor:default;
+  background: rgba(0,0,0,0.50);
+  backdrop-filter: blur(4px);
 }
 
 .signbox{

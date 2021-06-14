@@ -34,14 +34,21 @@ const CustomBox = styled.div`
 `
 
 const InstallDiscount = () => (
-<CustomBox style={{}} className="installer">
+<>
+
+
+<CustomBox style={{}} className="">
 
 
 
-<ScrollAnimation animateIn="bounceInDown" initiallyVisible={false} animateOnce={true} animatePreScroll={false} delay={1500} style={{ display:'flex', justifyContent:'center', alignContent:'center', position: 'fixed', top:'60px',
+<ScrollAnimation animateIn="bounceInDown" initiallyVisible={false} animateOnce={true} animatePreScroll={false} delay={500} style={{ display:'flex', justifyContent:'center', alignContent:'center', position: 'fixed', top:'60px',
 left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center'}}>
 
-<div id="installer" className="" style={{ }}>
+
+
+
+<div className="installer" className="" style={{ }}>
+
 
 
 <CookieConsent
@@ -56,7 +63,7 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
 >
 
 
-
+<div className="backdrop" style={{left:'0', top:'-60px'}}></div>
 <div className="container" style={{padding:'2rem 1rem', border:'1px solid #555', borderRadius:'8px', background:'#111'}}>
 
 
@@ -97,6 +104,7 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
 
 
 </CustomBox>
+</>
 )
 
 export default InstallDiscount

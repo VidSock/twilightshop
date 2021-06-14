@@ -77,8 +77,10 @@ export function Layout({ children }) {
     <div className="spinner diagonal part-2"></div>
   </label>
 
-   <div id="sidebarMenu">
+  <div className="backdrop"></div>
 
+   <div id="sidebarMenu">
+   
    <div style={{display:'flex', justifyContent:'flex-start', color:'#fff', paddingLeft:'20px'}}>
    
    <Link to="/search" style={{display:'flex', verticalAlign:'center', marginTop:'12px', marginRight:'20px'}}>
