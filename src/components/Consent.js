@@ -8,13 +8,13 @@ import ScrollAnimation from 'react-animate-on-scroll'
 
 const Consent = () => (
 
-    <ScrollAnimation animateIn="bounceInUp" delay={0} style={{ display:'flex', justifyContent:'center', alignContent:'center', position: 'fixed', bottom:'60px',
+    <ScrollAnimation animateIn="bounceInUp" delay={0} style={{ display:'flex', justifyContent:'center', alignContent:'center', position: 'fixed', bottom:'40px',
 left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center', zIndex:'1'}}>
 
 <CookieConsent
 	debug={false}
 	location="none"
-	style={{ backdropFilter: 'blur(4px)', zIndex:'1', opacity:'.8', background: 'rgba(0,0,0,0.50)', padding:'2vh 3%', margin:'0'
+	style={{ zIndex:'1', opacity:'.8', background: 'rgba(0,0,0,0.90)', padding:'2vh 3%', margin:'0'
    }}
 	enableDeclineButton={false}
 	declineButtonText="No Cookies"
@@ -27,7 +27,7 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
     expires={364}
     cookieName="Twilightscapes.com-site-pref-cookie"
 >
-<div className="blocker" style={{width:'100%', height:'100%', border:'0px solid yellow'}}></div>
+
 
     <div style={{ padding:'0 0 0 0', fontSize:'90%', textAlign:'center',}}>
      We use cookies to optimize our website.{" "}<br />
