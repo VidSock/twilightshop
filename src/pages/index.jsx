@@ -61,7 +61,7 @@ export default function IndexPage({ data }) {
 
 <div className="flexcheek" style={{padding:'1vh 3% 0 3%',}}>
 
-  <h1 className="title1">Night Photographer</h1>
+  <h1 className="title1">Night Photography</h1>
 
   <p className="tagline1">
    Todd Lambert: a pioneer in night photography
