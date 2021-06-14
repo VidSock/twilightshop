@@ -84,7 +84,7 @@ export default function IndexPage({ data }) {
 <div className="" style={{display:'flex'}}>
 
       <blockquote className="frontquote" style={{width:'60%'}}>
-<p>The night is misunderstood and often feared. But the truest colors come out only at night. There is no better time than nighttime.</p>
+<p>The night is misunderstood and often feared, but the night can be a world of wonder and an orchestra of colors. Finding yourself at 3am in a graveyard filming flowers, some may see that as weird, but for me, it's pure tranquility. </p>
 <div style={{textAlign:'right', marginRight:'20%', marginTop:'10px'}}> – Todd Lambert
 </div></blockquote>
 
@@ -96,6 +96,10 @@ export default function IndexPage({ data }) {
 
 <Social />
   <br /> <br />
+
+
+
+
 </div>
 
 
@@ -184,21 +188,33 @@ right:'', border:'0px solid yellow', justifyContent:'center', width:'', textAlig
 
 
 </div>
+
+</div>
+
+</div>
+
+
+
+<div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
+
+<p style={{textAlign:'center', margin:'2rem 0 0 0'}}>GET ALL YOUR FAVORITES NOW</p>
+
+<div style={{display:'flex', border:'1px solid #666', padding:'1rem', margin:'0 3% 0 3%', borderRadius:'12px', height:'', textAlign:'center', justifyContent:'space-around', alignContent:'center', alignItems:'center', maxWidth:'800px', gap:'20px'}}>
+
+  <span style={{fontSize:'70px', color:'white', transform:'rotate()', lineHeight:'80%'}}>PICK ANY <br /><span style={{letterSpacing:''}}>THREE</span></span>
+
+  <span style={{fontSize:'40px', color:'#FA02B7', lineHeight:'90%'}}>
+  ONLY PAY<br /> FOR TWO
+  </span>
+</div>
 </div>
 
 
 
 
-
-
-
-
-
-
-</div>
 <br /><br />
 <h2 style={{display:'flex', fontSize:'30px', margin:'0 3% 2rem 3%'}}>
-      Latest in Galleries<span className=""> <span className="icon -right" style={{padding:'10px 0 0 1rem'}}><RiArrowDownLine /></span>
+      Latest Twilightscapes<span className=""> <span className="icon -right" style={{padding:'10px 0 0 1rem'}}><RiArrowDownLine /></span>
       </span>
     </h2>
       <ProductListing products={data.shopifyCollection.products} />
