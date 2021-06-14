@@ -70,7 +70,7 @@ export default function IndexPage({ data }) {
       fontSize:'1.2rem !important',
       paddingBottom:'1.7rem',
       textAlign:'center !important',
-      borderTop:'2px solid #fff !important',
+      borderTop:'1px solid #fff !important',
       margin:'1rem 0 1rem 0'
     }}
   >
@@ -78,8 +78,8 @@ export default function IndexPage({ data }) {
   </p>
 
 
-      <p>Finding obscure locations and unusual subject matter, Todd has excelled at capturing rarely seen moments of time.</p>
-      <p>As a location scout and avid urban explorer, Todd learned to photograph what he sees at night.</p>
+      <p>Finding obscure locations and unusual subject matter, Todd has excelled at capturing long exposure photos of rarely seen moments of time.</p>
+      <p>As a location scout and avid urban explorer, Todd learned to photograph what he sees and to bring the unique subject matter he finds to light.</p>
 
 <div className="" style={{display:'flex'}}>
 
@@ -92,7 +92,7 @@ export default function IndexPage({ data }) {
 
 </div>
 
-<p>Let Todd's award winning work prove to you that the night is indeed beautiful.</p>
+<p>Let Todd's award winning night photography and digital storytelling, prove to you that the night is indeed beautiful.</p>
 
 <Social />
   <br /> <br />
