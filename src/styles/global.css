@@ -267,19 +267,18 @@ p{margin-bottom: 1rem;}
 
 .promocode{
   text-align:center;
-  font-size:3vw;
+  font-size:2vw;
   position:absolute;
-  top:20px;
+  bottom:20px;
   z-index:1;
-  width:100vw;
-  margin-left:2rem;
+  width:100%;
 }
 
 
 
 
 
-.has-app{display:block !important;}
+.has-app{display:none !important;}
 .no-app{display:block!important;}
 
 @media (display-mode: standalone) {

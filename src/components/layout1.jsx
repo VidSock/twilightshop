@@ -63,9 +63,7 @@ export function Layout({ children }) {
 
 
 
-<div className="has-app promocode">
-30% OFF CODE: <span style={{color:'#FA02B7', fontWeight:'bold'}}>LoveTheNight</span>
-</div>
+
 
 
 
@@ -140,6 +138,12 @@ export function Layout({ children }) {
     
 
     </ul>
+
+ <div className="has-app promocode">
+30% OFF CODE: <span style={{color:'#FA02B7', fontWeight:'bold'}}>LoveTheNight</span>
+</div>
+
+
   </div>
 
 
