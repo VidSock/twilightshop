@@ -55,9 +55,8 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
 	debug={false}
 	location="none"
 	style={{ color:'inherit', width:'auto', background:'inherit',  alignItems:'inherit',  textAlign:'left', justifyContent:'center', margin:'0 auto', top:'60px', maxWidth:'600px', position:'', border:'0px solid red', }}
-    className=""
     buttonText="OK Got it"
-	buttonStyle={{ background: "transparent", textDecoration:'underline', textAlign:'center', fontSize: "16px", bottom:'10px', position:'absolute', right:'30%', left:'30%', color:'inherit', }}
+	buttonStyle={{ background: "transparent", textDecoration:'underline', textAlign:'center', fontSize: "16px", bottom:'10px', position:'absolute', display:'flex', alignContent:'center', color:'inherit', }}
     expires={1}
     cookieName="twilightscapes.com-install-discount-cookie"
 >
@@ -68,7 +67,7 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
 
 
 	
-	<p style={{textAlign:'center', fontSize:'140%', padding:'0', margin:'0'}}>Install our FREE app - <strong>Get 30% off</strong></p>
+	<p style={{textAlign:'center', fontSize:'23px', padding:'0', margin:'0'}}>Install Twilightscapes App - <strong>Get 30% off</strong></p>
 	<br />
 	<span style={{fontSize:'100%',}}>This website has app functionality. Add it to your home screen to get added features like exclusive content, fullscreen and more. <br /><br />You'll receive a special coupon code for 30% off your next order!</span>
 
@@ -94,7 +93,7 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
  </div>
  
  </div>
- MacOS users please use a Chrome-based browser.
+ MacOS: please use a Chrome-based browser.
     <br />
     <br />
     </div>
