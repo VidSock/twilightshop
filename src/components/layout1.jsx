@@ -63,8 +63,8 @@ export function Layout({ children }) {
 
 
 
-<div className="has-app" style={{textAlign:'center', fontSize:'30px', position:'absolute', top:'0', zIndex:'1', border:'0px solid yellow', width:'100%' }}>
-30% OFF CODE: <span style={{color:'#FA02B7'}}>LoveTheNight</span>
+<div className="has-app promocode">
+30% OFF CODE: <span style={{color:'#FA02B7', fontWeight:'bold'}}>LoveTheNight</span>
 </div>
 
 
