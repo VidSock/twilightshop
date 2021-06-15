@@ -76,7 +76,7 @@ export function Layout({ children }) {
   </label>
 
 
-  <div className="backdrop1" style={{left:'0', top:'-60px', border:'0px solid yellow', position:'fixed', width:'100vw', height:'120vh', zIndex:'1'}}></div>
+  <div className="backdrop1" ></div>
 
 
    <div id="sidebarMenu">
