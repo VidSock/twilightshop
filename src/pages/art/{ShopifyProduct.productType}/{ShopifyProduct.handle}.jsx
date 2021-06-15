@@ -220,6 +220,7 @@ export default function Product({ data: { product, suggestions } }) {
                     <select
                       aria-label="Variants"
                       onChange={(event) => handleOptionChange(index, event)}
+                      style={{border:'1px solid #555'}}
                     >
                       <option value="">{`Select ${name}`}</option>
                       {values.map((value) => (
@@ -247,7 +248,7 @@ export default function Product({ data: { product, suggestions } }) {
                 available={available}
               />
             </div>
-            <div className="taggage" style={{display:'flex', flexWrap:'wrap !important', maxWidth:'100vw', overflow:'hidden', margin:'3rem 0 2rem 0'}}> 
+            <div className="taggage" style={{display:'flex', flexWrap:'wrap !important', maxWidth:'100vw', margin:'3rem 0 2rem 0'}}> 
               {/* <span className={labelFont}>Type</span>
               <span className={tagList}>
                 <Link to={product.productTypeSlug}>{product.productType}</Link>

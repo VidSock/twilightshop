@@ -1,18 +1,18 @@
 .addToCart {
-  /* display: flex; */
+  display: flex;
   flex-direction: row;
   color: var(--text-color-inverted);
   background-color: var(--primary);
   align-self: center;
-  padding: var(--space-sm) var(--space-xl);
+  padding: 0 10%;
   border-radius: var(--radius-md);
   font-weight: var(--bold);
   align-items: center;
   height: var(--size-input);
-  justify-content: ;
+  justify-content:center;
   transition: var(--transition);
   width:100%;
-  left:0;
+
   text-align:center;
 }
 
