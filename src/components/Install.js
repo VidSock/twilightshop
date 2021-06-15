@@ -41,8 +41,9 @@ const Install = () => (
 <ScrollAnimation animateIn="bounceInDown" delay={0} style={{ display:'flex', justifyContent:'center', alignContent:'center', position: 'fixed', top:'60px',
 left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center'}}>
 
-{/* <div id="installer" className="" style={{display:'flex', justifyContent:'center', alignItems:'center',  zIndex:'2', borderRadius:'8px', }}></div> */}
 
+
+<div className="installer" className="" style={{ }}>
 
 <CookieConsent
 	debug={true}
@@ -89,6 +90,8 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
     </div>
     
 </CookieConsent>
+</div>
+
     </ScrollAnimation>
 
 
