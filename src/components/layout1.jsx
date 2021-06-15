@@ -37,7 +37,7 @@ export function Layout({ children }) {
       <div>
         {modal ? (
           <>
-          <div style={{position:'fixed', right:'12vw', padding:'10px', fontSize:'40px'}}>
+          <div style={{position:'fixed', right:'4%', padding:'10px', fontSize:'40px'}}>
           <Link to={closeTo}>
             <AiOutlineClose />
           </Link>
