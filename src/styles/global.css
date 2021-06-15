@@ -605,7 +605,7 @@ blockquote.frontquote {
   border:1px solid #000;
 }
 
-.backdrop{
+/* .backdrop{
   content:'';
   width:100vw;
   height:120vh;
@@ -618,7 +618,7 @@ blockquote.frontquote {
   cursor:default;
   background: rgba(0,0,0,0.50);
   backdrop-filter: blur(4px);
-}
+} */
 
 .backdrop1{
   content:'';
