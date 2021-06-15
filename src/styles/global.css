@@ -271,7 +271,7 @@ p{margin-bottom: 1rem;}
   position:absolute;
   top:20px;
   z-index:1;
-  width:100%;
+  width:100vw;
   margin-left:2rem;
 }
 
@@ -279,7 +279,7 @@ p{margin-bottom: 1rem;}
 
 
 
-.has-app{display:none !important;}
+.has-app{display:block !important;}
 .no-app{display:block!important;}
 
 @media (display-mode: standalone) {
