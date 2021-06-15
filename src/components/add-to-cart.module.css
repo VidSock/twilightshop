@@ -4,7 +4,7 @@
   color: var(--text-color-inverted);
   background-color: var(--primary);
   align-self: center;
-  padding: 0 10%;
+  padding: var(--space-sm) var(--space-xl);
   border-radius: var(--radius-md);
   font-weight: var(--bold);
   align-items: center;
