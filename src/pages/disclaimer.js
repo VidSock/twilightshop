@@ -24,7 +24,7 @@ export default function DisclaimerPage() {
     
     <Layout className="thanks-page">
 
-
+<Seo title={`Twilightscapes Disclaimer`} />
  
 <section className="outer section section--gradient" >
       <div className="container" style={{padding: '2rem 10%'}}>

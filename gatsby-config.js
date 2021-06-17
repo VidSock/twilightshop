@@ -8,7 +8,7 @@ module.exports = {
     hrefLang: "en",
     siteDescription:
       "Night long exposure photography in remote abandoned locations urban exploration",
-    siteImage: "/default-og-image.jpg",
+    siteImage: "https://twilightscapes.com/default-og-image.jpg",
     twitter: "toddlambert",
   },
   flags: {
