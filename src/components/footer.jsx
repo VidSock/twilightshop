@@ -14,18 +14,18 @@ import {
 
 export function Footer() {
   return (
-    <footer className={footerStyle} style={{paddingTop:'10px', marginTop:'0', position:'',}}>
+    <footer className={footerStyle} style={{padding:'10px 0', marginTop:'0', position:'',}}>
       <div className={blurb}>
         <div className={logos}>
         <Social />
         </div>
       </div>
       <nav className={links} aria-label="footer">
-      <div style={{textAlign: 'center', margin: '2rem 0 1rem 0', justifyContent: 'center', fontSize: ''}}><Link to="/disclaimer/" state={{modal: true}}>Disclaimer</Link>  |  <Link to="/privacy/" state={{modal: true}}>Privacy Policy</Link>  |  <Link to="/terms/" state={{modal: true}}>Terms of Service</Link></div>
+      <div style={{textAlign: 'center', margin: '2rem 10px 1rem 10px', justifyContent: 'center', fontSize: ''}}><Link to="/disclaimer/" state={{modal: true}}>Disclaimer</Link>  |  <Link to="/privacy/" state={{modal: true}}>Privacy Policy</Link>  |  <Link to="/terms/" state={{modal: true}}>Terms of Service</Link></div>
   
   
   
-  <div style={{textAlign: 'center', margin: '0 0 1rem 0', justifyContent: 'center', fontSize: '80%'}}>Copyright &copy; {(new Date().getFullYear())} Todd Lambert - hand crafted Gatsby on Netlify</div>
+  <div style={{textAlign: 'center', margin: '0 0 1rem 0', justifyContent: 'center', fontSize: '.75rem'}}>Copyright &copy; {(new Date().getFullYear())} Todd Lambert - hand crafted Gatsby on Netlify</div>
       </nav>
    
     </footer>

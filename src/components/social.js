@@ -10,7 +10,7 @@ const sIcons = () => {
 
 
 
-<div className="social-icons" style={{textAlign:'center', justifyContent:'center', margin:'3rem 0'}}>
+<div className="social-icons" style={{textAlign:'center', justifyContent:'center', margin:'3rem 5px'}}>
   <div className="socialtext" style={{fontSize:'14px'}}>I&apos;m<br />Social</div>
 
 <a className="social"  href="https://facebook.com/twilightscapes" alt="Facebook" title="Facebook"><FaFacebookSquare /><span>Facebook</span></a>
