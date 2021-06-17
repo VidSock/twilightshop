@@ -17,7 +17,7 @@ import Seo from "../components/seo1"
 
 
 
-export default function GearPage({}) {
+export default function GearPage() {
    return (
 
 

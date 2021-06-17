@@ -2,7 +2,7 @@ import * as React from "react"
 import { Layout } from "../components/layout1"
 import Image from '../components/Image'
 import { RiSendPlane2Line } from "react-icons/ri"
-import Seo from "../components/seo1"
+// import Seo from "../components/seo1"
 
 
 import styled from "styled-components"
@@ -34,14 +34,14 @@ p{margin-bottom:2rem;}
 
 
 
-export default function ContactPage({}) {
+export default function ContactPage() {
   return (
     <CustomBox>
     <Layout>
 
-    import { Seo } from "../components/seo1"
 
-<Seo title={`Contact Todd Lambert at Twilightscapes`} />
+
+{/* <Seo title={`Contact Todd Lambert Twilightscapes`} /> */}
 
 
 

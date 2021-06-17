@@ -17,7 +17,7 @@ import Seo from "../components/seo1"
 
 
 
-export default function DisclaimerPage({}) {
+export default function DisclaimerPage() {
    return (
 
 
