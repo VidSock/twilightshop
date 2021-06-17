@@ -56,7 +56,7 @@ export default function IndexPage({ data }) {
     <Layout>
 
 
- <Seo image="/default-og-image.jpg"/>
+    <Seo image="https://twilightscapes.com/default-og-image.jpg"/>
 
     <TouchUp />
     <div className="home-banner flexbutt" style={{position:'relative', height:'auto', overflow:'hidden'}}>
