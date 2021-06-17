@@ -41,7 +41,7 @@ export default function ContactPage({}) {
 
     import { Seo } from "../components/seo1"
 
-<Seo title={`Contact Todd Lambert @ Twilightscapes`} />
+<Seo title={`Contact Todd Lambert at Twilightscapes`} />
 
 
 
