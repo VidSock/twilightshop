@@ -14,7 +14,7 @@ import { ImArrowRight } from "react-icons/im"
 import { CartButton } from "./cart-button"
 import SearchIcon from "../icons/search"
 import Consent from '../components/Consent'
-import Install from '../components/install-discount'
+// import Install from '../components/install-discount'
 
 
 export function Layout({ children }) {
@@ -191,7 +191,7 @@ export function Layout({ children }) {
       
       <br /><br />
       <Consent />
-     <Install />
+     {/* <Install /> */}
       <Footer />
       </>
     </div>
