@@ -113,15 +113,15 @@ body,h1,h2,h3,h4,.h1,.h2,.h3,.h4, #menu, .header .menu-icon:before, input.specia
 
 .iiz__close::before {
   content: " ";
-  width: 29px !important;
-  height: 29px !important;
-  background-image:
+  width: 100% !important;
+  height: 100% !important;
+  /* background-image:
     -webkit-gradient(linear, left top, left bottom, from(#000), to(#000)),
     -webkit-gradient(linear, left top, left bottom, from(#000), to(#000)) !important;
   background-image: linear-gradient(#000, #000), linear-gradient(#000, #000) !important;
   background-size: 100% 2px, 2px 100% !important;
   -webkit-transform: rotate(45deg) !important;
-  transform: rotate(45deg) !important;
+  transform: rotate(45deg) !important; */
 
 }
 
