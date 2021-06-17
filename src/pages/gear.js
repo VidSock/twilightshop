@@ -26,7 +26,7 @@ export default function GearPage({}) {
 
 
 
-<Seo title={`Twilightscapes Gear and Todd's Overlanding Subaru Outback`} />
+<Seo title={`Twilightscapes Gear and Todds Overlanding Subaru Outback`} />
     
     <div className="container" style={{padding:'0 12%'}}>
        
