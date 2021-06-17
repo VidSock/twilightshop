@@ -73,12 +73,12 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
 
 
 	
-	<p style={{textAlign:'center', fontSize:'23px', padding:'0', margin:'0 0 10px 0'}}>Install Twilightscapes - <strong>Get 30% off</strong></p>
+	<p style={{textAlign:'center', fontSize:'23px', padding:'0', margin:'0 0 10px 0', overflowWrap:'break-word'}}>Install Twilightscapes <br /> <strong>Get 30% off</strong></p>
 	
-	<p style={{fontSize:'100%', textAlign:'left',}}>
-  Twilightscapes has app functionality. Add it to your home screen to get added features, exclusive content, and fullscreen capability. </p>
+	{/* <p style={{fontSize:'100%', textAlign:'left',}}>
+  Twilightscapes has app functionality. Add it to your home screen to get added features, exclusive content, and fullscreen capability. </p> */}
     
-    <p style={{fontSize:'100%', }}>You'll receive a special coupon code for 30% off your next order!</p>
+    <p style={{fontSize:'100%', }}>Get a special coupon code for 30% off!</p>
 
  
   <div style={{fontSize:'100%', textAlign:'center', display:'flex', flexDirection:'column', verticalAlign:'middle', lineHeight:'200%', width:'100%', margin:'0 auto', padding:' 1rem', border:'2px dotted #FA02B7', borderRadius:'8px',}}>To Get Started:
