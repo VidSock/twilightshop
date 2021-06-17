@@ -73,14 +73,14 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
 
 
 	
-	<p style={{textAlign:'center', fontSize:'23px', padding:'0', margin:'0'}}>Install App - <strong>Get 30% off</strong></p>
-	<br />
-	<span style={{fontSize:'100%',}}>
-    {/* This website has app functionality. Add it to your home screen to get added features like exclusive content, fullscreen and more.  */}
+	<p style={{textAlign:'center', fontSize:'23px', padding:'0', margin:'0 0 10px 0'}}>Install App - <strong>Get 30% off</strong></p>
+	
+	<p style={{fontSize:'100%', textAlign:'left',}}>
+  This website has app functionality. Add it to your home screen to get added features on-the-go, like exclusive content, fullscreen and offline capability. </p>
     
-You'll receive a special coupon code for 30% off your next order!</span>
+    <p style={{fontSize:'100%', }}>You'll receive a special coupon code for 30% off your next order!</p>
 
-  <br /><br />
+ 
   <div style={{fontSize:'100%', textAlign:'center', display:'flex', flexDirection:'column', verticalAlign:'middle', lineHeight:'200%', width:'100%', margin:'0 auto', padding:' 1rem', border:'2px dotted #FA02B7', borderRadius:'8px',}}>To Get Started:
   <br />1) Simply click the "install" icon in your browser address bar</div>
 
