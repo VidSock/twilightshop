@@ -110,6 +110,13 @@ body,h1,h2,h3,h4,.h1,.h2,.h3,.h4, #menu, .header .menu-icon:before, input.specia
 } */
 
 
+  .iiz__close {
+    top: 10px;
+    right: 10px;
+    visibility: visible !important;
+    opacity: 1 !important;
+    display: block !important;
+  }
 
 .iiz__close::before {
   content: " ";
@@ -121,9 +128,10 @@ body,h1,h2,h3,h4,.h1,.h2,.h3,.h4, #menu, .header .menu-icon:before, input.specia
   background-image: linear-gradient(#ff0000, #ff0000), linear-gradient(#ff0000, #ff0000) !important;
   background-size: 100% 2px, 2px 100% !important;
   -webkit-transform: rotate(45deg) !important;
-  transform: rotate(45deg) !important;
+  /* transform: rotate(45deg) !important; */
   display:block  !important;
   border:1px solid blue;
+  position:absolute; top:0; left:0; right:0; z-index: 2;
 }
 
 
