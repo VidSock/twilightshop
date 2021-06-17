@@ -134,7 +134,8 @@ height: 0;
 
     
 
-<Seo title={`About Twilightscapes and Todd Lambert`} />
+<Seo title={`About Todd Lambert`} />
+<Seo image="https://twilightscapes.com/default-og-image.jpg"/>
     
     <section className="about outer intro section" style={{paddingTop:'0', overflow:'hidden', marginTop:'1vh'}}>
     
