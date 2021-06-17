@@ -73,7 +73,7 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
 
 
 	
-	<p style={{textAlign:'center', fontSize:'23px', padding:'0', margin:'0 0 10px 0'}}>Install App - <strong>Get 30% off</strong></p>
+	<p style={{textAlign:'center', fontSize:'23px', padding:'0', margin:'0 0 10px 0'}}>Install Twilightscapes - <strong>Get 30% off</strong></p>
 	
 	<p style={{fontSize:'100%', textAlign:'left',}}>
   This website has app functionality. Add it to your home screen to get added features on-the-go, like exclusive content, fullscreen and offline capability. </p>
