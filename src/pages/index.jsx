@@ -55,7 +55,7 @@ export default function IndexPage({ data }) {
     <CustomBox>
     <Layout>
 
-    <Seo />
+    <Seo title={`Welcome`} />
 
     <TouchUp />
     <div className="home-banner flexbutt" style={{position:'relative', height:'auto', overflow:'hidden'}}>
