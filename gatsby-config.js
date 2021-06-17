@@ -8,7 +8,7 @@ module.exports = {
     hrefLang: "en",
     siteDescription:
       "Night long exposure photography in remote abandoned locations urban exploration",
-    siteImage: "https://urbanfetish.com/static/9d5b916c02f5070663d35b105bfa0879/989b1/workshop.jpg",
+    siteImage: "/default-og-image.jpg",
     twitter: "toddlambert",
   },
   flags: {
