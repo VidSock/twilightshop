@@ -14,6 +14,7 @@ import { getCurrencySymbol } from "../utils/format-price"
 import { Spinner } from "../components/progress"
 import { Filters } from "../components/filters"
 import { SearchProvider } from "../context/search-provider"
+import { Seo } from "../components/seo1"
 import {
   visuallyHidden,
   main,
@@ -157,6 +158,10 @@ function SearchPage({
 
   return (
     <Layout>
+
+
+
+<Seo title={`Search Twilightscapes Vault`} />
       <h1 className={visuallyHidden}>Search Results</h1>
       <div className={main}>
         <div className={search} aria-hidden={modalOpen}>

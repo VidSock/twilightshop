@@ -39,6 +39,11 @@ export default function ContactPage({}) {
     <CustomBox>
     <Layout>
 
+    import { Seo } from "../components/seo1"
+
+<Seo title={`Contact Todd Lambert @ Twilightscapes`} />
+
+
 
      
       <div className="wrapper" style={{padding:'2rem 3%'}}>

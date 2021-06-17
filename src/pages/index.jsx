@@ -2,7 +2,7 @@
 
 import * as React from "react"
 import { graphql, Link } from "gatsby"
-
+import { Seo } from "../components/seo1"
 import { Layout } from "../components/layout1"
 import Image from '../components/Image'
 import { ProductListing } from "../components/product-listing"
@@ -22,6 +22,7 @@ import {
 import ScrollAnimation from 'react-animate-on-scroll'
 import styled from "styled-components"
 const CustomBox = styled.div`
+
 
 
 
@@ -53,6 +54,11 @@ export default function IndexPage({ data }) {
   return (
     <CustomBox>
     <Layout>
+
+
+
+<Seo title={`Twilightscapes - Unique night photography of abandoned urban exploration `} />
+
 
     <TouchUp />
     <div className="home-banner flexbutt" style={{position:'relative', height:'auto', overflow:'hidden'}}>
