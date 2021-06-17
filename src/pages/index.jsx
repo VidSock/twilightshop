@@ -56,9 +56,7 @@ export default function IndexPage({ data }) {
     <Layout>
 
 
-
-<Seo title={`Twilightscapes - Unique night photography of abandoned urban exploration `} />
-
+ <Seo image="/default-og-image.jpg"/>
 
     <TouchUp />
     <div className="home-banner flexbutt" style={{position:'relative', height:'auto', overflow:'hidden'}}>
