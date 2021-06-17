@@ -73,22 +73,22 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
 
 
 	
-	<p style={{textAlign:'center', fontSize:'23px', padding:'0', margin:'0 0 10px 0', overflowWrap:'break-word'}}>Install Twilightscapes <br /> <strong>Get 30% off</strong></p>
+	<p style={{textAlign:'center', fontSize:'5vw', padding:'0', margin:'0 0 10px 0', overflowWrap:'break-word'}}>Install Twilightscapes <br /> <strong>Get 30% off</strong></p>
 	
 	{/* <p style={{fontSize:'100%', textAlign:'left',}}>
   Twilightscapes has app functionality. Add it to your home screen to get added features, exclusive content, and fullscreen capability. </p> */}
     
-    <p style={{fontSize:'100%', }}>Get a special coupon code for 30% off!</p>
+    <p style={{fontSize:'90%', }}>Get a special coupon code for 30% off!</p>
 
  
-  <div style={{fontSize:'100%', textAlign:'center', display:'flex', flexDirection:'column', verticalAlign:'middle', lineHeight:'200%', width:'100%', margin:'0 auto', padding:' 1rem', border:'2px dotted #FA02B7', borderRadius:'8px',}}>To Get Started:
-  <br />1) Simply click the "install" icon in your browser address bar</div>
+  <div style={{fontSize:'90%', textAlign:'center', display:'flex', flexDirection:'column', verticalAlign:'middle', lineHeight:'200%', width:'100%', margin:'0 auto', padding:' .5rem .7rem', border:'2px dotted #FA02B7', borderRadius:'8px',}}>To Get Started:
+  <br />1) Simply click the "install" icon in the right side of your browser address bar</div>
 
 
 	<br />
-  For Apple iOS users:
+  <span style={{fontSize:'80%'}}>For Apple iOS users:</span>
 
-    <div style={{fontSize:'100%', textAlign:'center', display:'flex', flexDirection:'column', verticalAlign:'middle', lineHeight:'200%', width:'100%', margin:'0 auto 5px 0', padding:' 1rem', border:'2px dotted #777', borderRadius:'8px',}}>
+    <div style={{fontSize:'85%', textAlign:'center', display:'flex', flexDirection:'column', verticalAlign:'middle', lineHeight:'200%', width:'100%', margin:'0 auto 5px 0', padding:' 1rem', border:'2px dotted #777', borderRadius:'8px',}}>
     
   <div style={{textAlign:'left', display:'flex', alignContent:'center', marginBottom:'1rem',}}>
  <FiShare style={{fontSize:'200%', marginLeft:'0', marginRight:'2%', float:'',}} />
@@ -102,7 +102,7 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
  </div>
  
  </div>
- MacOS: please use a Chrome-based browser.
+ <span style={{fontSize:'80%'}}>MacOS: please use a Chrome-based browser.</span>
     <br />
     <br />
     </div>
