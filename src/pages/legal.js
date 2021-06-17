@@ -27,6 +27,8 @@ export default function LegalPage({}) {
 <Seo title={`Content License Agreement`} />
 
 
+<Seo image="https://toddlambert.com/static/e1dfe299fa2cbf3d8b30ba1fc8e8e468/02ac0/urban-fetish-button.webp"/>
+
  
 <section className="outer section section--gradient">
       <div className="container" style={{padding: '2rem 10%'}}>
