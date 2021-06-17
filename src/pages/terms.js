@@ -25,7 +25,7 @@ export default function TermsPage({}) {
     <Layout className="thanks-page">
 
 <Seo title={`Twilightscapes Terms of Use`} />
-<Seo image="/default-og-image.jpg"/>
+
 
     
 <section className="outer section section--gradient" >
