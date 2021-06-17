@@ -288,7 +288,7 @@ p{margin-bottom: 1rem;}
 
 
 .has-app{display:none !important;}
-.no-app{display:block!important;}
+.no-app{display:block !important;}
 
 @media (display-mode: standalone) {
   /* All installed PWAs */
@@ -299,11 +299,11 @@ p{margin-bottom: 1rem;}
 
 @media (display-mode: standalone) {
   /* All installed PWAs */
-  .installer{display: none !important;}
+  #installer{display: none !important; border:10px solid yellow !important;}
 }
 	
 @media (hover: hover) {
-.installer{display: block !important;}
+/* #installer{display: none !important;} */
 }
 
 

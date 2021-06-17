@@ -41,7 +41,7 @@ const InstallDiscount = () => (
 
 
 
-<div className="popper" style={{ display:'flex', justifyContent:'center', alignContent:'center', position: 'fixed', top:'60px',
+<div id="installer" className="popper" style={{ display:'flex', justifyContent:'center', alignContent:'center', position: 'fixed', top:'60px',
 left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center'}}>
 
 
@@ -73,7 +73,7 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
 
 
 	
-	<p style={{textAlign:'center', fontSize:'clamp(1.6rem, -0.875rem + 7.333vw, 2.5rem)', padding:'0', margin:'30px 0 10px 0', overflowWrap:'break-word'}}>Install Twilightscapes <br /> <strong>Get 30% off</strong></p>
+	<p style={{textAlign:'center', fontSize:'clamp(1.6rem, -0.875rem + 7.333vw, 2.5rem)', padding:'0', margin:'0 0 10px 0', overflowWrap:'break-word'}}>Install Twilightscapes <br /> <strong>Get 30% off</strong></p>
 	
 	{/* <p style={{fontSize:'100%', textAlign:'left',}}>
   Twilightscapes has app functionality. Add it to your home screen to get added features, exclusive content, and fullscreen capability. </p> */}
@@ -82,7 +82,7 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
 
  
   <div style={{fontSize:'90%', textAlign:'center', display:'flex', flexDirection:'column', verticalAlign:'middle', lineHeight:'200%', width:'100%', margin:'0 auto', padding:' .5rem .7rem', border:'2px dotted #FA02B7', borderRadius:'8px',}}>To Get Started:
-  <br />1) Simply click the "install" icon in the right side of your browser address bar</div>
+  <br />Simply click the "install" icon on the right-side of your browser address bar</div>
 
 
 	<br />
