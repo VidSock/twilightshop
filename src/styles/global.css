@@ -544,6 +544,43 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 .vert img{ object-fit: contain !important;}
 
 
+.popper{
+  animation: move;
+  animation-duration: 0.7s;
+  animation-delay:5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fade {
+  0%{
+    opacity: 0;
+ }
+ 99% {
+    opacity: 0.9;
+ }
+ 100% {
+    opacity:1;
+ }
+}
+
+@keyframes move {
+  0% {
+    transform-origin: top -80%;
+    transform: scale(0);
+    opacity: 0;
+
+  }
+  
+
+  100% {
+    transform: scale(1.0);
+    transform-origin: 50% 0%;
+    opacity: 1;
+  }
+}
+
+
 blockquote {
   margin: 2.5em 8vw;
   padding: 0.5em 10px;

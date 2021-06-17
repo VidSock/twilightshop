@@ -41,25 +41,31 @@ const InstallDiscount = () => (
 
 
 
-<ScrollAnimation animateIn="bounceInDown" initiallyVisible={false} animateOnce={true} animatePreScroll={false} delay={500} style={{ display:'flex', justifyContent:'center', alignContent:'center', position: 'fixed', top:'0',
+<div className="popper" style={{ display:'flex', justifyContent:'center', alignContent:'center', position: 'fixed', top:'60px',
 left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center'}}>
 
 
 
 
-<div className="installer" className="" style={{ }}>
+<div className="installer" className="" >
+
+
+
+
 
 
 
 <CookieConsent
 	debug={false}
 	location="none"
-	style={{ color:'inherit', width:'auto', background:'inherit',  alignItems:'inherit',  textAlign:'left', justifyContent:'center', margin:'0 auto', top:'60px', maxWidth:'600px', position:'', border:'0px solid red', }}
+	style={{ color:'inherit', width:'auto', background:'inherit',  alignItems:'inherit',  textAlign:'left', justifyContent:'center', margin:'0 auto', top:'0', maxWidth:'600px', position:'relative', border:'0px solid red', }}
     buttonText="OK Got it"
 	buttonStyle={{ background: "transparent", textDecoration:'underline', textAlign:'center', fontSize: "16px", bottom:'10px', position:'absolute', display:'flex', alignContent:'center', color:'inherit', }}
     expires={1}
     cookieName="twilightscapes.com-install-discount-cookie"
 >
+
+
 
 
 {/* <div className="backdrop" style={{left:'0', top:'-60px'}}></div> */}
@@ -99,7 +105,7 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
     </div>
     
 </CookieConsent></div>
-    </ScrollAnimation>
+    </div>
 
 
 </CustomBox>
