@@ -3,6 +3,10 @@ import * as React from "react"
 import { Layout } from "../components/layout1"
 // import { ProductListing } from "../components/product-listing"
 import { Seo } from "../components/seo1"
+
+import { Helmet } from "react-helmet"
+
+
 import {
   container,
   intro,
@@ -126,6 +130,12 @@ height: 0;
 // export default function nftPage({ data }) {
   export default function nftPage({}) {
   return (
+<>
+<Helmet>
+<meta name="twitter:image:src" content={'https://twilightscapes.com/default-og-image.jpg'} />
+
+
+</Helmet>
 
 
 <CustomBox>
@@ -993,7 +1003,7 @@ Traveling across the country in search of a beauty that is elusive and fading, o
     </section>
     </Layout>
      </CustomBox>
-
+     </>
 
   )
 }
