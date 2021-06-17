@@ -41,7 +41,7 @@ const InstallDiscount = () => (
 
 
 
-<ScrollAnimation animateIn="bounceInDown" initiallyVisible={false} animateOnce={true} animatePreScroll={false} delay={500} style={{ display:'flex', justifyContent:'center', alignContent:'center', position: 'fixed', top:'60px',
+<ScrollAnimation animateIn="bounceInDown" initiallyVisible={false} animateOnce={true} animatePreScroll={false} delay={500} style={{ display:'flex', justifyContent:'center', alignContent:'center', position: 'fixed', top:'0',
 left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center'}}>
 
 
@@ -62,7 +62,7 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
 >
 
 
-<div className="backdrop" style={{left:'0', top:'-60px'}}></div>
+{/* <div className="backdrop" style={{left:'0', top:'-60px'}}></div> */}
 <div className="container" style={{padding:'2rem 1rem', border:'1px solid #555', borderRadius:'8px', background:'#111', textAlign:'center'}}>
 
 
