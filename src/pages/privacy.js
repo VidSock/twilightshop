@@ -25,7 +25,7 @@ export default function PrivacyPage({}) {
     <Layout className="thanks-page">
 
 <Seo title={`Privacy Policy`} />
- <Seo image="/default-og-image.jpg"/>
+
 
 
 <section className="outer section section--gradient">
