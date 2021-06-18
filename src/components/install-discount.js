@@ -1,6 +1,7 @@
 import React from 'react'
 // import { navigate } from 'gatsby-link'
 import { FiShare } from 'react-icons/fi';
+import { IoShareOutline } from 'react-icons/io5';
 import { FaRegPlusSquare } from 'react-icons/fa';
 import ScrollAnimation from 'react-animate-on-scroll'
 import CookieConsent from "react-cookie-consent"
@@ -91,7 +92,7 @@ left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center
     <div style={{fontSize:'85%', textAlign:'center', display:'flex', flexDirection:'column', verticalAlign:'middle', lineHeight:'200%', width:'100%', margin:'0 auto 5px 0', padding:' 1rem', border:'2px dotted #777', borderRadius:'8px',}}>
     
   <div style={{textAlign:'left', display:'flex', alignContent:'center', marginBottom:'1rem',}}>
- <FiShare style={{fontSize:'200%', marginLeft:'0', marginRight:'2%', float:'',}} />
+ <IoShareOutline style={{fontSize:'200%', marginLeft:'0', marginRight:'2%', float:'',}} />
   1) Press the 'Share' button 
 </div>
 

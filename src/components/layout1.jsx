@@ -37,7 +37,7 @@ export function Layout({ children }) {
       <div>
         {modal ? (
           <>
-          <div style={{position:'fixed', right:'12vw', padding:'10px', fontSize:'40px'}}>
+          <div style={{position:'fixed', right:'6vw', padding:'10px', fontSize:'40px'}}>
           <Link to={closeTo}>
             <AiOutlineClose />
           </Link>
@@ -183,7 +183,7 @@ export function Layout({ children }) {
 
 
 
-<div style={{display:'block', height:'70px', border:'0px solid yellow'}}></div>
+<div className="toppad" style={{display:'block', height:'70px', border:'0px solid yellow'}}></div>
 
 
 
