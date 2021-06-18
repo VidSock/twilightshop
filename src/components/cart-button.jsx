@@ -8,7 +8,7 @@ export function CartButton({ quantity }) {
     <Link
       aria-label={`Shopping Cart with ${quantity} items`}
       to="/cart"
-      state={{modal: true}}
+      // state={{modal: true}}
       className={cartButton}
     >
       <CartIcon />
