@@ -77,7 +77,7 @@ export function Header() {
       </li> */}
 
       <li>
-              <Link className="navbar-item txtshadow" to="/art/">
+              <Link className="navbar-item txtshadow" to="/products/">
                 Gallery <span>View Photos</span>
               </Link>
       </li>

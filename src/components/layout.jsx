@@ -13,8 +13,8 @@ import { Toast } from "./toast"
 import { ImArrowRight } from "react-icons/im"
 import { CartButton } from "./cart-button"
 import SearchIcon from "../icons/search"
-import Consent from '../components/Consent'
-import Install from '../components/install-discount'
+import Consent from './Consent'
+import Install from './install-discount'
 
 
 export function Layout({ children }) {
@@ -101,7 +101,7 @@ export function Layout({ children }) {
       </li> */}
 
       <li>
-              <Link className="navbar-item txtshadow" to="/art/">
+              <Link className="navbar-item txtshadow" to="/products/">
                 Gallery <span>View Photos</span>
               </Link>
       </li>
