@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import slugify from "@sindresorhus/slugify"
 import debounce from "debounce"
 import { CgChevronRight, CgChevronLeft } from "react-icons/cg"
-import { Layout } from "../components/layout1"
+import { Layout } from "../components/layout"
 import CrossIcon from "../icons/cross"
 import SortIcon from "../icons/sort"
 import FilterIcon from "../icons/filter"
@@ -14,7 +14,7 @@ import { getCurrencySymbol } from "../utils/format-price"
 import { Spinner } from "../components/progress"
 import { Filters } from "../components/filters"
 import { SearchProvider } from "../context/search-provider"
-import { Seo } from "../components/seo1"
+import { Seo } from "../components/seo"
 import {
   visuallyHidden,
   main,

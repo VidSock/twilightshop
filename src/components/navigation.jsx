@@ -15,38 +15,21 @@ export function Navigation({ className }) {
   `)
 
   return (
-    <nav className={[navStyle, className].join(" ")} style={{marginLeft:'', display:'flex', justifyContent:'center'}}>
-      {/* <Link
-        key="All"
-        className=""
-        to="/art/"
-        activeClassName={activeLink}
-        title="View All Twilightscapes"
-        style={{
-          background:'#111',
-          color:'#fff',
-          padding:'8px 15px',
-          borderRadius:'7px',
-        }}
-      >
-        View All Twilightscapes
-      </Link> */}
-      {/* <Link
+    <nav className={[navStyle, className].join(" ")}>
+      <Link
         key="All"
         className={navLink}
-        to="/nft/"
+        to="/products/"
         activeClassName={activeLink}
       >
-        Exclusive NFT Kits (new!)
-      </Link> */}
+        All products
+      </Link>
       {productTypes.map((name) => (
         <Link
           key={name}
           className={navLink}
-          to={`/art/${slugify(name)}`}
-          title="View All Twilightscapes"
+          to={`/products/${slugify(name)}`}
           activeClassName={activeLink}
-          style={{display:'none'}}
         >
           {name}
         </Link>

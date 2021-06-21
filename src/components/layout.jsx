@@ -2,7 +2,7 @@ import * as React from "react"
 import { SkipNavContent, SkipNavLink } from "./skip-nav"
 // import { Header } from "./header"
 import { Footer } from "./footer"
-import { Seo } from "./seo1"
+import { Seo } from "./seo"
 import 'fontsource-hammersmith-one'
 import { Link } from 'gatsby'
 import { ModalRoutingContext } from 'gatsby-plugin-modal-routing-3'

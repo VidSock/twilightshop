@@ -31,13 +31,13 @@ export function Filters({
 
   return (
     <>
-      {/* <CheckFilter
+      <CheckFilter
         name="Type"
         items={productTypes}
         selectedItems={filters.productTypes}
         setSelectedItems={(value) => updateFilter("productTypes", value)}
-      /> */}
-      {/* <hr />
+      />
+      <hr />
       <details className={priceFilterStyle} open={true}>
         <summary>
           <div className={summary}>
@@ -58,7 +58,7 @@ export function Filters({
             )}
           </div>
         </summary>
-        <div className={priceFields} style={{display:'none'}}>
+        <div className={priceFields}>
           <CurrencyField
             {...currencyCode}
             aria-label="Minimum price"
@@ -77,15 +77,14 @@ export function Filters({
             }
           />
         </div>
-      </details> */}
-      {/* <hr />
+      </details>
+      <hr />
       <CheckFilter
         name="Brands"
         items={vendors}
         selectedItems={filters.vendors}
         setSelectedItems={(value) => updateFilter("vendors", value)}
-
-      /> */}
+      />
       <hr />
       <CheckFilter
         open={true}

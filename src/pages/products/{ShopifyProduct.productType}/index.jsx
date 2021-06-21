@@ -1,8 +1,8 @@
 import * as React from "react"
 import { graphql } from "gatsby"
-import { Layout } from "../../../components/layout1"
+import { Layout } from "../../../components/layout"
 import { ProductListing } from "../../../components/product-listing"
-import { Seo } from "../../../components/seo1"
+import { Seo } from "../../../components/seo"
 import slugify from "@sindresorhus/slugify"
 import { MoreButton } from "../../../components/more-button"
 import { title } from "../index.module.css"
@@ -13,7 +13,7 @@ export default function ProductTypeIndex({
 }) {
   return (
     <Layout>
-      <Seo title={`Twilightscapes: ${productType}`} />
+      <Seo title={`Category: ${productType}`} />
       <h1 className={title}>{productType}</h1>
       <ProductListing products={products.nodes} />
       {products.pageInfo.hasNextPage && (

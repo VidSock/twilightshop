@@ -4,7 +4,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StoreContext } from "../context/store-context"
 import twLogo from "../icons/tw-logo-white.svg"
-// import { Navigation } from "./navigation"
+import { Navigation } from "./navigation"
 import { CartButton } from "./cart-button"
 import SearchIcon from "../icons/search"
 import { ImArrowRight } from "react-icons/im"
@@ -116,7 +116,7 @@ export function Header() {
     </ul>
   </div>
         {/* <Logo /> */}
-        {/* <Navigation className={nav} /> */}
+        <Navigation className={nav} />
         
       </header>
       <Toast show={loading || didJustAddToCart}>

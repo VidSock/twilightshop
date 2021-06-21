@@ -10,7 +10,7 @@ export function NumericInput({
 }) {
   return (
     <div className={wrap}>
-      {/* <input
+      <input
         disabled={disabled}
         type="numeric"
         className={[input, className].join(" ")}
@@ -33,7 +33,7 @@ export function NumericInput({
       >
         <span>-</span>
         <MdArrowDropDown />
-      </button> */}
+      </button>
     </div>
   )
 }

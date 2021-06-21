@@ -2,8 +2,8 @@
 
 import * as React from "react"
 import { graphql, Link } from "gatsby"
-import { Seo } from "../components/seo1"
-import { Layout } from "../components/layout1"
+import { Seo } from "../components/seo"
+import { Layout } from "../components/layout"
 import Image from '../components/Image'
 import { ProductListing } from "../components/product-listing"
 import Social from "../components/social"
@@ -41,13 +41,13 @@ const CustomBox = styled.div`
 
 
 export const query = graphql`
-  query {
-    shopifyCollection(handle: { eq: "digitalart" }) {
-      products {
-        ...ProductCard
-      }
+query {
+  shopifyCollection(handle: { eq: "frontpage" }) {
+    products {
+      ...ProductCard
     }
   }
+}
 `
 
 export default function IndexPage({ data }) {

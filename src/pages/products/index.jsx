@@ -1,8 +1,8 @@
 import * as React from "react"
 import { graphql } from "gatsby"
-import { Layout } from "../../components/layout1"
+import { Layout } from "../../components/layout"
 import { ProductListing } from "../../components/product-listing"
-import { Seo } from "../../components/seo1"
+import { Seo } from "../../components/seo"
 import { MoreButton } from "../../components/more-button"
 import { title } from "./index.module.css"
 
