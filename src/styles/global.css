@@ -553,7 +553,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 .react-images__view-image{height:100vh !important; object-fit: contain;}
 .fullscreen{height:100vh; width:100%;}
 .vert img{ object-fit: contain !important;}
-.vert {height:100%;}
+
 
 .popper{
   animation: move;
