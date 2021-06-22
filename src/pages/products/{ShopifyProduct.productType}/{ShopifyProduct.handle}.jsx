@@ -175,7 +175,7 @@ export default function Product({ data: { product, suggestions } }) {
                       className={productImageListItem}
                       style={{display:'flex', alignContent:'center', justifyContent:'center'}}
                     >
-                      <div className="vert" style={{height:'100vh'}}><InnerImageZoom src={getSrc(firstImage.gatsbyImageData)} objectFit="contain" /></div>
+                      <div className="vert" style={{height:'auto'}}><InnerImageZoom src={getSrc(firstImage.gatsbyImageData)} objectFit="contain" /></div>
 
                       {/* <GatsbyImage
                         objectFit="contain"
