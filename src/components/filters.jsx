@@ -37,7 +37,7 @@ export function Filters({
         selectedItems={filters.productTypes}
         setSelectedItems={(value) => updateFilter("productTypes", value)}
       />
-      <hr />
+      {/* <hr />
       <details className={priceFilterStyle} open={true}>
         <summary>
           <div className={summary}>
@@ -85,7 +85,7 @@ export function Filters({
         selectedItems={filters.vendors}
         setSelectedItems={(value) => updateFilter("vendors", value)}
       />
-      <hr />
+      <hr /> */}
       <CheckFilter
         open={true}
         name="Tags"
