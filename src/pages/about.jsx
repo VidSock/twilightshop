@@ -128,7 +128,7 @@ height: 0;
 //   }
 // `
 // export default function nftPage({ data }) {
-  export default function nftPage({}) {
+  export default function aboutPage({}) {
   return (
 <>
 <Helmet>

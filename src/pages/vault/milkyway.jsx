@@ -26,13 +26,12 @@ background: radial-gradient(ellipse at center, rgba(126,209,234,1) 0%,rgba(65,14
 
 
 .intro:before{
-	content: "Gall2: Gallery 1";
-
+	content: "Milky Way";
 position:absolute;
 display: flex;
 align-items: center;
 justify-content: center;
-font-size:350%; color:#f8f8fc; text-shadow: 12px 7px 15px 12px black;
+font-size:5vw; color:#f8f8fc; text-shadow: 12px 7px 15px 12px black;
 }
 
 

@@ -23,6 +23,17 @@ background: radial-gradient(ellipse at center, rgba(126,209,234,1) 0%,rgba(65,14
 
 
 
+.intro:before{
+	content: "Popular Favorites";
+position:absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size:5vw; color:#f8f8fc; text-shadow: 12px 7px 15px 12px black;
+}
+
+
+
 
 
 // .intro:before{

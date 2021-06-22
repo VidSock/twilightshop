@@ -101,13 +101,13 @@ export function Layout({ children }) {
       </li> */}
 
       <li>
-              <Link className="navbar-item txtshadow" to="/products/">
-                Gallery <span>View Photos</span>
+              <Link className="navbar-item txtshadow" to="/nft/">
+                NFT Collectibles <span>Limited Editions</span>
               </Link>
       </li>
 
       <li>
-              <Link className="navbar-item txtshadow" to="/vault/gallery1/">
+              <Link className="navbar-item txtshadow" to="/vault/favorites/">
                 The Vault <span>View the full archives</span>
               </Link>
       </li>
@@ -187,7 +187,7 @@ export function Layout({ children }) {
 
 
 
-      <SkipNavContent>{children}</SkipNavContent>
+      <SkipNavContent className="intro">{children}</SkipNavContent>
       
       <br /><br />
       <Consent />

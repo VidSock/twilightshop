@@ -27,7 +27,14 @@ const CustomBox = styled.div`
 
 
 
-
+.intro:before{
+	content: "A Pioneer In Night Photography";
+position:absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size:5vw; color:#f8f8fc; text-shadow: 12px 7px 15px 12px black;
+}
 
 
 
@@ -223,7 +230,7 @@ right:'', border:'0px solid yellow', justifyContent:'center', width:'', textAlig
                 width:'',
                 backgroundColor:'#000 !important'
               }}
-              to="/vault/gallery1/"
+              to="/vault/favorites/"
             >
               View More {" "}
               <span className="icon -right" style={{paddingLeft:'1rem'}}>
