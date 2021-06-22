@@ -544,8 +544,8 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 .modal-btn:hover{background:#222;}
 
 
-.react-images__blanket{z-index:2 !important;}
-.react-images__positioner{z-index:3 !important;}
+.react-images__blanket{z-index:3 !important;}
+.react-images__positioner{z-index:4 !important;}
 
 .gatsby-image-wrapper-constrained{display: block !important;}
 
