@@ -132,7 +132,7 @@ height: 0;
 <Seo title={`NFT Collectible Photography Nightscape Twilightcapes Photos`} />
 
     
-    <section className="about outer section" style={{paddingTop:'0', overflow:'', marginTop:'1vh'}}>
+    <section className="" style={{paddingTop:'0', overflow:'', marginTop:'1vh'}}>
     
    
        
@@ -140,10 +140,10 @@ height: 0;
        
        
        
- <ScrollAnimation animateIn="fadeIn" duration={3} animateOnce={false} delay={100} style={{position:'relative', height:'70vh',}}>
+ <ScrollAnimation animateIn="fadeIn" duration={3} animateOnce={false} delay={100} style={{position:'relative', height:'100%',}}>
  <a href="https://foundation.app/@twilightscapes/stellar-sentries-51674" target="_blank" rel="noopener noreferrer nofollow">
 
-<div className="home-banner flexbutt" style={{position:'relative', height:'auto', overflow:'', margin:'1rem 3%'}}>
+<div className="home-banner flexbutt" style={{position:'relative', height:'100%', overflow:'', margin:'1rem 3%'}}>
 
 
 <div className="flexcheek" style={{padding:'1vh 3% 0 3%',}}>
@@ -178,9 +178,9 @@ height: 0;
 
 
 
-<div className="flexcheek" style={{position:'relative', overflow:'hidden', width:'75vw'}}>
+<div className="flexcheek" style={{position:'relative', overflow:'', width:'75vw'}}>
 
-<div className="kenburns-right"  style={{zIndex:'-1', width:'', height:'100%'}}><Image alt="Todd Lambert hanging with friends" filename="night165.jpg" className="featured-image kenburns-right" /></div>
+<div className="kenburns-right1"  style={{zIndex:'-1', width:'', height:'100%'}}><Image alt="Todd Lambert hanging with friends" filename="night165.jpg" className="featured-image kenburns-right" /></div>
 
 
 </div>
@@ -192,9 +192,9 @@ height: 0;
 
 
 
-<ScrollAnimation animateIn="fadeIn" duration={3} animateOnce={false} delay={100} style={{position:'relative', height:'70vh',}}>
+<ScrollAnimation animateIn="fadeIn" duration={3} animateOnce={false} delay={100} style={{position:'relative', height:'100%',}}>
 <a href="https://foundation.app/@twilightscapes/alien-egg-farm-51678" target="_blank" rel="noopener noreferrer nofollow">
-<div className="home-banner flexbutt" style={{position:'relative', height:'auto', overflow:'', margin:'1rem 3%'}}>
+<div className="home-banner flexbutt" style={{position:'relative', height:'100%', overflow:'', margin:'1rem 3%'}}>
 
 
 <div className="flexcheek" style={{padding:'1vh 3% 0 3%',}}>
@@ -231,9 +231,9 @@ height: 0;
 
 
 
-<div className="flexcheek" style={{position:'relative', overflow:'hidden', width:'75vw'}}>
+<div className="flexcheek" style={{position:'relative', overflow:'', width:'75vw'}}>
 
-<div className="kenburns-right"  style={{zIndex:'-1', width:'', height:'100%'}}><Image alt="Todd Lambert hanging with friends" filename="night295.jpg" className="featured-image kenburns-right" /></div>
+<div className="kenburns-right1"  style={{zIndex:'-1', width:'', height:'100%'}}><Image alt="Todd Lambert hanging with friends" filename="night295.jpg" className="featured-image kenburns-right" /></div>
 
 
 </div>
@@ -244,10 +244,10 @@ height: 0;
 
 
 
-<ScrollAnimation animateIn="fadeIn" duration={3} animateOnce={false} delay={100} style={{position:'relative', height:'70vh',}}>
+<ScrollAnimation animateIn="fadeIn" duration={3} animateOnce={false} delay={100} style={{position:'relative', height:'100%',}}>
 
 <a href="https://foundation.app/@twilightscapes/boatswain-s-blunder-51680" target="_blank" rel="noopener noreferrer nofollow">
-<div className="home-banner flexbutt" style={{position:'relative', height:'auto', overflow:'', margin:'1rem 3%'}}>
+<div className="home-banner flexbutt" style={{position:'relative', height:'100%', overflow:'', margin:'1rem 3%'}}>
 
 
 <div className="flexcheek" style={{padding:'1vh 3% 0 3%', maxWidth:''}}>
@@ -284,9 +284,9 @@ height: 0;
 
 </div>
 
-<div className="flexcheek" style={{position:'relative', overflow:'hidden', width:'75vw'}}>
+<div className="flexcheek" style={{position:'relative', overflow:'', width:'75vw'}}>
 
-<div className="kenburns-right"  style={{zIndex:'-1', width:'', height:'100%'}}><Image alt="Todd Lambert hanging with friends" filename="night282.jpg" className="featured-image kenburns-right" /></div>
+<div className="kenburns-right1"  style={{zIndex:'-1', width:'', height:'100%'}}><Image alt="Todd Lambert hanging with friends" filename="night282.jpg" className="featured-image kenburns-right" /></div>
 
 
 </div>
