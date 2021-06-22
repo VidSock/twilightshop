@@ -55,7 +55,14 @@ import styled from 'styled-components'
 const CustomBox = styled.div`
 
 
-
+.intro:before{
+	content: "Damn";
+position:absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size:380%; color:#f8f8fc; text-shadow: 12px 7px 15px 12px black;
+}
 
 @media (max-width: 48rem) {
 .flexcheek{width:100% !important;}
@@ -168,7 +175,7 @@ export default function Product({ data: { product, suggestions } }) {
                       className={productImageListItem}
                       style={{display:'flex', alignContent:'center', justifyContent:'center'}}
                     >
-                      <div className="vert" style={{}}><InnerImageZoom src={getSrc(firstImage.gatsbyImageData)} objectFit="contain" /></div>
+                      <div className="vert" style={{height:'100vh'}}><InnerImageZoom src={getSrc(firstImage.gatsbyImageData)} objectFit="contain" /></div>
 
                       {/* <GatsbyImage
                         objectFit="contain"
