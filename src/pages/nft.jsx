@@ -3,9 +3,8 @@ import * as React from "react"
 import { Layout } from "../components/layout"
 // import { ProductListing } from "../components/product-listing"
 import { Seo } from "../components/seo"
-
 import { Helmet } from "react-helmet"
-
+import { RiArrowDownLine, RiArrowRightSLine, RiStarLine, RiSendPlane2Line } from "react-icons/ri"
 
 import {
   container,
@@ -35,23 +34,6 @@ font-size:380%; color:#f8f8fc; text-shadow: 12px 7px 15px 12px black;
 
 
 
-
-
-
-
-// .speech:after {
-// 	content: '';
-// position: absolute;
-// top: 30%;
-// right: -48px;
-// width: 0;
-// height: 0;
-// 	border: 60px solid transparent;
-// 	border-left-color: inherit;
-// 	border-right: 0;
-// 	border-bottom: 0;
-// 	 z-index:2;
-// }
 
 .outer .container{width:90%; height:auto; margin:1rem auto; padding:1rem; border-radius:10px;}
 
@@ -150,7 +132,7 @@ height: 0;
 <Seo title={`NFT Collectible Photography Nightscape Twilightcapes Photos`} />
 
     
-    <section className="about outer intro section" style={{paddingTop:'0', overflow:'hidden', marginTop:'1vh'}}>
+    <section className="about outer section" style={{paddingTop:'0', overflow:'', marginTop:'1vh'}}>
     
    
        
@@ -158,9 +140,159 @@ height: 0;
        
        
        
-    <ScrollAnimation animateIn="fadeIn" duration={3} animateOnce={false} delay={100} style={{position:'relative', height:'50vh',}}>
-Hello
-           </ScrollAnimation>
+ <ScrollAnimation animateIn="fadeIn" duration={3} animateOnce={false} delay={100} style={{position:'relative', height:'70vh',}}>
+ <a href="https://foundation.app/@twilightscapes/stellar-sentries-51674" target="_blank" rel="noopener noreferrer nofollow">
+
+<div className="home-banner flexbutt" style={{position:'relative', height:'auto', overflow:'', margin:'1rem 3%'}}>
+
+
+<div className="flexcheek" style={{padding:'1vh 3% 0 3%',}}>
+       <h2 style={{fontSize:'3vw', margin:'0 0 2rem 0'}}>Stellar Sentries</h2>
+
+<p>A very rare night photo of the Very Large Array (VLA). I'd always been intrigued by this place and I'd wanted to visit it. These towers are like nimble giants, constantly twitching and positioning and working tirelessly throughout the night.</p>
+
+<p>After having obtained special permission to be on the premises after dark by way of a favor, I was able to get the perfect lineup framed and then waited for the skies to darken and the stars to come out.</p>
+
+<p>Single Shot - No PS - lightpainted long exposure</p>
+
+
+
+
+      <a
+              className="moreButton"
+              sx={{
+                cursor:'pointer',
+                width:'',
+                backgroundColor:'#000 !important'
+              }}
+              href="https://foundation.app/@twilightscapes/stellar-sentries-51674"
+            >
+              Buy This! {" "}
+              <span className="icon -right" style={{paddingLeft:'1rem'}}>
+                <RiSendPlane2Line />
+              </span>
+            </a>
+
+
+</div>
+
+
+
+<div className="flexcheek" style={{position:'relative', overflow:'hidden', width:'75vw'}}>
+
+<div className="kenburns-right"  style={{zIndex:'-1', width:'', height:'100%'}}><Image alt="Todd Lambert hanging with friends" filename="night165.jpg" className="featured-image kenburns-right" /></div>
+
+
+</div>
+
+</div>
+</a>
+</ScrollAnimation>
+
+
+
+
+<ScrollAnimation animateIn="fadeIn" duration={3} animateOnce={false} delay={100} style={{position:'relative', height:'70vh',}}>
+<a href="https://foundation.app/@twilightscapes/alien-egg-farm-51678" target="_blank" rel="noopener noreferrer nofollow">
+<div className="home-banner flexbutt" style={{position:'relative', height:'auto', overflow:'', margin:'1rem 3%'}}>
+
+
+<div className="flexcheek" style={{padding:'1vh 3% 0 3%',}}>
+       <h2 style={{fontSize:'3vw', margin:'0 0 2rem 0'}}>Alien Egg Farm</h2>
+       
+<p>Possibly one of the most far-out locations I've ever been to. The Bisti Badlands are on tribal land and extremely remote. There are no roads. This is a 3.5 mile hike into some of the most extreme landscapes.
+</p>
+
+<p>It seems like around every corner there is another scene that appears to be from a distant planet. These "alien eggs" are actually weathered limestone.</p>
+
+
+
+
+<p>Single Shot - No PS - long exposure</p>
+
+
+
+      <a
+              className="moreButton"
+              sx={{
+                cursor:'pointer',
+                width:'',
+                backgroundColor:'#000 !important'
+              }}
+              href="https://foundation.app/@twilightscapes/alien-egg-farm-51678"
+            >
+              Buy This! {" "}
+              <span className="icon -right" style={{paddingLeft:'1rem'}}>
+                <RiSendPlane2Line />
+              </span>
+            </a>
+
+</div>
+
+
+
+<div className="flexcheek" style={{position:'relative', overflow:'hidden', width:'75vw'}}>
+
+<div className="kenburns-right"  style={{zIndex:'-1', width:'', height:'100%'}}><Image alt="Todd Lambert hanging with friends" filename="night295.jpg" className="featured-image kenburns-right" /></div>
+
+
+</div>
+
+</div>
+</a>
+</ScrollAnimation>
+
+
+
+<ScrollAnimation animateIn="fadeIn" duration={3} animateOnce={false} delay={100} style={{position:'relative', height:'70vh',}}>
+
+<a href="https://foundation.app/@twilightscapes/boatswain-s-blunder-51680" target="_blank" rel="noopener noreferrer nofollow">
+<div className="home-banner flexbutt" style={{position:'relative', height:'auto', overflow:'', margin:'1rem 3%'}}>
+
+
+<div className="flexcheek" style={{padding:'1vh 3% 0 3%', maxWidth:''}}>
+
+<h2 style={{fontSize:'3vw', margin:'0 0 2rem 0'}}>Boatswain's Blunder</h2>
+
+<p>Confinement, a bode of misery with blue majesty abound.</p>
+
+<p>The petty officer, Mr. Transcontinental promised treasures never found.</p>
+
+<p>Recognized with nothing but obscurity for the sea is sole judge and jury.</p>
+
+<p>Crashing thunderstorms are the only sound where lonesomeness becomes friend and death is crowned.</p>
+
+<p>Thoughts of liberation are constant wonder. from mast to keel and gunwale, this swoon of a boatswain’s blunder.</p>
+
+<p>-- by Todd Lambert</p>
+
+<a
+              className="moreButton"
+              sx={{
+                cursor:'pointer',
+                width:'',
+                backgroundColor:'#000 !important'
+              }}
+              href="https://foundation.app/@twilightscapes/boatswain-s-blunder-51680"
+            >
+              Buy This! {" "}
+              <span className="icon -right" style={{paddingLeft:'1rem'}}>
+                <RiSendPlane2Line />
+              </span>
+            </a>
+
+
+</div>
+
+<div className="flexcheek" style={{position:'relative', overflow:'hidden', width:'75vw'}}>
+
+<div className="kenburns-right"  style={{zIndex:'-1', width:'', height:'100%'}}><Image alt="Todd Lambert hanging with friends" filename="night282.jpg" className="featured-image kenburns-right" /></div>
+
+
+</div>
+</div>
+</a>
+</ScrollAnimation>
        
        
        
