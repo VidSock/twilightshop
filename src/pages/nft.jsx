@@ -5,6 +5,10 @@ import { Layout } from "../components/layout"
 import { Seo } from "../components/seo"
 import { Helmet } from "react-helmet"
 import { RiArrowDownLine, RiArrowRightSLine, RiStarLine, RiSendPlane2Line } from "react-icons/ri"
+import { IoLogoVercel } from "react-icons/io5"
+import { BsCircleFill } from "react-icons/bs"
+import { FaSquareFull } from "react-icons/fa"
+  
 
 import {
   container,
@@ -135,12 +139,33 @@ height: 0;
     <section className="" style={{paddingTop:'0', overflow:'', marginTop:'1vh'}}>
     
    
+    <div className="" style={{padding:'1vh 15% 0 15%', textAlign:'left'}}>
+
+           <h1 style={{textAlign:'center', fontSize:'3vw'}}>NFT Collectible Photography</h1>
+
+
+<p>
+With non-fungible tokens(NFTs), users can store proofs of identity and ownership of art on the blockchain where it's impossible to be forged or stolen. The Non Fungible Token has its on unique hash that makes it impossible to copy or recreate.
+</p>
+
+<p style={{textAlign:'center', fontSize:'100%', fontWeight:'bold'}}>Twilightscapes offers a Limited Edition of rare NFTs.</p>
+
+<p style={{textAlign:'center', fontSize:'3vw'}}>Follow Me Into The Night </p>
+<p style={{textAlign:'center', fontSize:'140%', marginTop:'-20px'}}>The Genesis Series</p>
+
+<p style={{textAlign:'center', fontSize:'100%'}}>presented exclusively on Foundation
+<span style={{fontSize:'40px', display:'flex', justifyContent:'center', gap:'3px', marginTop:'10px'}}><IoLogoVercel /><BsCircleFill style={{marginLeft:'-6px', fontSize:'36px'}} /><FaSquareFull style={{marginLeft:'2px', fontSize:'36px'}} /></span>
+
+
+</p>
+
+
+    </div>
        
        
        
        
-       
- <ScrollAnimation animateIn="bounceInUp"  animateOnce={true} delay={100} style={{position:'relative', height:'100%',}}>
+ <ScrollAnimation animateIn="bounceInUp"  animateOnce={true} delay={100} style={{position:'relative', height:'100%', borderTop:'10px dotted #000', marginTop:'4rem', paddingTop:'1rem'}}>
  <a href="https://foundation.app/@twilightscapes/stellar-sentries-51674" target="_blank" rel="noopener noreferrer nofollow">
 
 <div className="home-banner flexbutt" style={{position:'relative', height:'100%', overflow:'', margin:'1rem 3%'}}>
@@ -191,8 +216,8 @@ height: 0;
 
 
 
+<ScrollAnimation animateIn="bounceInUp"  animateOnce={true} delay={100} style={{position:'relative', height:'100%', borderTop:'10px dotted #000', marginTop:'2rem', paddingTop:'1rem'}}>
 
-<ScrollAnimation animateIn="bounceInUp"  animateOnce={true} delay={100} style={{position:'relative', height:'100%',}}>
 <a href="https://foundation.app/@twilightscapes/alien-egg-farm-51678" target="_blank" rel="noopener noreferrer nofollow">
 <div className="home-banner flexbutt" style={{position:'relative', height:'100%', overflow:'', margin:'1rem 3%'}}>
 
@@ -244,7 +269,7 @@ height: 0;
 
 
 
-<ScrollAnimation animateIn="bounceInUp"  animateOnce={true} delay={100} style={{position:'relative', height:'100%',}}>
+<ScrollAnimation animateIn="bounceInUp"  animateOnce={true} delay={100} style={{position:'relative', height:'100%', borderTop:'10px dotted #000', marginTop:'2rem', paddingTop:'1rem'}}>
 
 <a href="https://foundation.app/@twilightscapes/boatswain-s-blunder-51680" target="_blank" rel="noopener noreferrer nofollow">
 <div className="home-banner flexbutt" style={{position:'relative', height:'100%', overflow:'', margin:'1rem 3%'}}>
