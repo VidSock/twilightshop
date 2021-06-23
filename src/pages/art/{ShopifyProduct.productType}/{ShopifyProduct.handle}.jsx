@@ -436,7 +436,7 @@ Rights-managed content is licensed for specific types of private use, and limits
   <h3 style={{fontSize:'130%', fontWeight:'bold', textAlign:'center'}}>About the photographer</h3>
 
   <Link key="All" to="/about/" >
-  <div className="button" style={{position:'absolute', display:'flex', zIndex:"1", justifyContent:'center', textAlign:'center', top:'30%', width:'90%',background:'#111',
+  <div className="button" style={{position:'absolute', display:'flex', zIndex:"1", justifyContent:'center', textAlign:'center', top:'30%', width:'90vw',background:'#111',
           color:'#fff',
           padding:'12px 15px',
           margin:'0 5%',

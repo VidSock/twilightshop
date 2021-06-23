@@ -123,35 +123,68 @@ height: 0;
 
 <Helmet>
 <meta name="twitter:image:src" content="https://twilightscapes.com/follow-me-into-the-night-promo.jpg" />
-
-
 </Helmet>
 
 <CustomBox>
-    
+
     <Layout className="thanks-page">
 
     
     
 <Seo title={`NFT Collectible Photography Nightscape Photos`} />
 
+https://youtu.be/9odS1Hsx3UA
+<div className="video-background">
+    <div className="video-foreground">
+      <iframe src="https://www.youtube.com/embed/iH5sjz0nx9o?controls=0&amp;showinfo=0&amp;rel=0&amp;autoplay=1&amp;loop=1" frameBorder="0" allowFullscreen></iframe>
+    </div>
+  </div>
+
+
+  {/* <div id="vidtop-content">
+<div className="vid-info">
+	  <strong>YouTube Fullscreen Background Demo</strong>
+	  <p>The International Space Station orbits the Earth every 92 minutes, with its crew seeing a sunrise 15 times a day. It exists as a scientific, educational, and engineering platform in low orbit, 330 to 435 kilometres above the Earth.</p>
+     <p>Original timelapse by Riccardo Rossi (ISAA), used under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Raw photos courtesy of
+	 <a href="/500/Use-YouTube-Videos-as-Fullscreen-Web-Page-Backgrounds">Full article</a></p>
+  </div>
+</div> */}
+
+
+
+    <section className="" style={{paddingTop:'0', overflow:'', marginTop:'100vh', background:'#111'}}>
     
-    <section className="" style={{paddingTop:'0', overflow:'', marginTop:'1vh'}}>
+
     
+
+
    
-    <div className="" style={{padding:'1vh 15% 0 15%', textAlign:'left'}}>
+    <div className="" style={{background:'#111', padding:'1vh 15% 0 15%', textAlign:'left'}}>
 
-           <h1 style={{textAlign:'center', fontSize:'3vw'}}>NFT Collectible Photography</h1>
+           <h1 style={{textAlign:'center', fontSize:'clamp(1.3rem, 1.1vw + 1.5rem, 3rem)'}}>NFT Collectible Photography</h1>
+          
 
-
-<p style={{textAlign:'center',}}>
+<p style={{textAlign:'center', margin:'0 12%'}}>
 The Non Fungible Token or NFT, stores proof of identity and ownership of art on the blockchain where it's impossible to be forged, stolen, copied, or recreated.
 </p>
 
 <p style={{textAlign:'center', fontSize:'100%', fontWeight:'bold'}}>Twilightscapes offers a Limited Edition of rare NFTs.</p>
 
-<p style={{textAlign:'center', fontSize:'3vw'}}>Follow Me Into The Night </p>
-<p style={{textAlign:'center', fontSize:'140%', marginTop:'-20px'}}>The Genesis Series</p>
+<p style={{textAlign:'center', fontSize:'clamp(1.3rem, 1.1vw + 1.5rem, 3rem)'}}>Follow Me Into The Night </p>
+<p style={{textAlign:'center', fontSize:'140%', marginTop:''}}>The Genesis Series</p>
+
+
+{/* <iframe width="85%" height="600px" src="https://www.youtube.com/embed/ESGJ42zshL8?controls=0" title="YouTube video player" frameborder="0" 
+           style={{
+                cursor:'pointer',
+                textAlign:'center',
+                margin:'2rem auto',
+alignItems:'center',
+display: 'flex',
+justifyContent: 'center',
+
+              }}></iframe> */}
+
 
 <p style={{textAlign:'center', fontSize:'100%'}}>presented exclusively on Foundation
 <span style={{fontSize:'40px', display:'flex', justifyContent:'center', gap:'3px', marginTop:'10px'}}><IoLogoVercel /><BsCircleFill style={{marginLeft:'-6px', fontSize:'36px'}} /><FaSquareFull style={{marginLeft:'2px', fontSize:'36px'}} /></span>
@@ -165,7 +198,7 @@ The Non Fungible Token or NFT, stores proof of identity and ownership of art on 
        
        
        
- <ScrollAnimation animateIn="bounceInUp"  animateOnce={true} delay={100} style={{position:'relative', height:'100%', borderTop:'10px dotted #000', marginTop:'4rem', paddingTop:'1rem'}}>
+ <ScrollAnimation animateIn="bounceInUp"  animateOnce={true} delay={100} style={{position:'relative', height:'100%', border:'10px dotted #000', marginTop:'4rem', paddingTop:'1rem', background:'#111'}}>
  <a href="https://foundation.app/@twilightscapes/stellar-sentries-51674" target="_blank" rel="noopener noreferrer nofollow">
 
 <div className="home-banner flexbutt" style={{position:'relative', height:'100%', overflow:'', margin:'1rem 3%'}}>
@@ -192,10 +225,26 @@ The Non Fungible Token or NFT, stores proof of identity and ownership of art on 
               }}
               href="https://foundation.app/@twilightscapes/stellar-sentries-51674"
             >
-              Buy This! {" "}
+              Place Bid Now {" "}
               <span className="icon -right" style={{paddingLeft:'1rem'}}>
                 <RiSendPlane2Line />
               </span>
+            </a>
+
+            <a
+              className="moreButton1"
+               style={{
+                cursor:'pointer',
+                textAlign:'center',
+                margin:'2rem auto',
+alignItems:'center',
+display: 'flex',
+justifyContent: 'center',
+
+              }}
+              href="https://etherscan.io/token/0x3B3ee1931Dc30C1957379FAc9aba94D1C48a5405?a=51674" target="_blank" rel="noopener noreferrer"
+            >
+              View on Etherscan {" "}
             </a>
 
 
@@ -216,7 +265,7 @@ The Non Fungible Token or NFT, stores proof of identity and ownership of art on 
 
 
 
-<ScrollAnimation animateIn="bounceInUp"  animateOnce={true} delay={100} style={{position:'relative', height:'100%', borderTop:'10px dotted #000', marginTop:'2rem', paddingTop:'1rem'}}>
+<ScrollAnimation animateIn="bounceInUp"  animateOnce={true} delay={100} style={{position:'relative', height:'100%', border:'10px dotted #000', marginTop:'2rem', paddingTop:'1rem', background:'#111'}}>
 
 <a href="https://foundation.app/@twilightscapes/alien-egg-farm-51678" target="_blank" rel="noopener noreferrer nofollow">
 <div className="home-banner flexbutt" style={{position:'relative', height:'100%', overflow:'', margin:'1rem 3%'}}>
@@ -246,12 +295,26 @@ The Non Fungible Token or NFT, stores proof of identity and ownership of art on 
               }}
               href="https://foundation.app/@twilightscapes/alien-egg-farm-51678"
             >
-              Buy This! {" "}
+              Place Bid Now {" "}
               <span className="icon -right" style={{paddingLeft:'1rem'}}>
                 <RiSendPlane2Line />
               </span>
             </a>
+            <a
+              className="moreButton1"
+               style={{
+                cursor:'pointer',
+                textAlign:'center',
+                margin:'2rem auto',
+alignItems:'center',
+display: 'flex',
+justifyContent: 'center',
 
+              }}
+              href="https://etherscan.io/token/0x3B3ee1931Dc30C1957379FAc9aba94D1C48a5405?a=51678" target="_blank" rel="noopener noreferrer"
+            >
+              View on Etherscan {" "}
+            </a>
 </div>
 
 
@@ -269,7 +332,7 @@ The Non Fungible Token or NFT, stores proof of identity and ownership of art on 
 
 
 
-<ScrollAnimation animateIn="bounceInUp"  animateOnce={true} delay={100} style={{position:'relative', height:'100%', borderTop:'10px dotted #000', marginTop:'2rem', paddingTop:'1rem'}}>
+<ScrollAnimation animateIn="bounceInUp"  animateOnce={true} delay={100} style={{position:'relative', height:'100%', border:'10px dotted #000', marginTop:'2rem', paddingTop:'1rem', background:'#111'}}>
 
 <a href="https://foundation.app/@twilightscapes/boatswain-s-blunder-51680" target="_blank" rel="noopener noreferrer nofollow">
 <div className="home-banner flexbutt" style={{position:'relative', height:'100%', overflow:'', margin:'1rem 3%'}}>
@@ -298,13 +361,32 @@ The Non Fungible Token or NFT, stores proof of identity and ownership of art on 
                 width:'',
                 backgroundColor:'#000 !important'
               }}
-              href="https://foundation.app/@twilightscapes/boatswain-s-blunder-51680"
+              href="https://foundation.app/@twilightscapes/boatswain-s-blunder-51680" target="_blank" rel="noopener noreferrer"
             >
-              Buy This! {" "}
+              Place Bid Now {" "}
               <span className="icon -right" style={{paddingLeft:'1rem'}}>
                 <RiSendPlane2Line />
               </span>
             </a>
+
+
+
+            <a
+              className="moreButton1"
+               style={{
+                cursor:'pointer',
+                textAlign:'center',
+                margin:'2rem auto',
+alignItems:'center',
+display: 'flex',
+justifyContent: 'center',
+
+              }}
+              href=" https://etherscan.io/token/0x3B3ee1931Dc30C1957379FAc9aba94D1C48a5405?a=51680" target="_blank" rel="noopener noreferrer"
+            >
+              View on Etherscan {" "}
+            </a>
+           
 
 
 </div>
@@ -328,6 +410,7 @@ The Non Fungible Token or NFT, stores proof of identity and ownership of art on 
 
       
     </section>
+ 
     </Layout>
      </CustomBox>
      </>
