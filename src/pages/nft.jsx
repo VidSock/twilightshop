@@ -140,7 +140,7 @@ height: 0;
        
        
        
- <ScrollAnimation animateIn="fadeIn" duration={3} animateOnce={false} delay={100} style={{position:'relative', height:'100%',}}>
+ <ScrollAnimation animateIn="bounceInUp"  animateOnce={true} delay={100} style={{position:'relative', height:'100%',}}>
  <a href="https://foundation.app/@twilightscapes/stellar-sentries-51674" target="_blank" rel="noopener noreferrer nofollow">
 
 <div className="home-banner flexbutt" style={{position:'relative', height:'100%', overflow:'', margin:'1rem 3%'}}>
@@ -192,7 +192,7 @@ height: 0;
 
 
 
-<ScrollAnimation animateIn="fadeIn" duration={3} animateOnce={false} delay={100} style={{position:'relative', height:'100%',}}>
+<ScrollAnimation animateIn="bounceInUp"  animateOnce={true} delay={100} style={{position:'relative', height:'100%',}}>
 <a href="https://foundation.app/@twilightscapes/alien-egg-farm-51678" target="_blank" rel="noopener noreferrer nofollow">
 <div className="home-banner flexbutt" style={{position:'relative', height:'100%', overflow:'', margin:'1rem 3%'}}>
 
@@ -244,7 +244,7 @@ height: 0;
 
 
 
-<ScrollAnimation animateIn="fadeIn" duration={3} animateOnce={false} delay={100} style={{position:'relative', height:'100%',}}>
+<ScrollAnimation animateIn="bounceInUp"  animateOnce={true} delay={100} style={{position:'relative', height:'100%',}}>
 
 <a href="https://foundation.app/@twilightscapes/boatswain-s-blunder-51680" target="_blank" rel="noopener noreferrer nofollow">
 <div className="home-banner flexbutt" style={{position:'relative', height:'100%', overflow:'', margin:'1rem 3%'}}>
