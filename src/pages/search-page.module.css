@@ -157,6 +157,7 @@
 
 .filterButton.activeFilters {
   color: var(--primary);
+
 }
 
 .filterButton:hover {
