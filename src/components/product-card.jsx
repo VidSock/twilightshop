@@ -74,7 +74,7 @@ export const query = graphql`
     id
     title
     slug: gatsbyPath(
-      filePath: "/products/{ShopifyProduct.productType}/{ShopifyProduct.handle}"
+      filePath: "/art/{ShopifyProduct.productType}/{ShopifyProduct.handle}"
     )
     images {
       id

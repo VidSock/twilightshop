@@ -226,6 +226,10 @@ export default function Product({ data: { product, suggestions } }) {
             </div>
             <h1 className={header}>{title}</h1>
             <p className={productDescription}>{description}</p>
+
+
+
+            <span className="print">
             <h2 className={priceValue}>
              <strong style={{fontSize:'30px'}}>{price}</strong> <br /> High-Res Print Ready Art
             </h2>
@@ -278,7 +282,7 @@ export default function Product({ data: { product, suggestions } }) {
                 ))}
               </span>
             </div>
-
+            </span>
      
 
 
@@ -410,7 +414,7 @@ Rights-managed content is licensed for specific types of private use, and limits
 
 </div>
 
-            <div className="flexcheek" style={{border:'0px solid yellow', width:'30%'}}>
+            <div className="flexcheek sidebart" style={{border:'0px solid yellow', width:'30%'}}>
 
             <div style={{textAlign:'center', margin:'0 0 30px 0'}}>
             <GoBack />
@@ -506,7 +510,7 @@ export const query = graphql`
       description
       productType
       productTypeSlug: gatsbyPath(
-        filePath: "/products/{ShopifyProduct.productType}"
+        filePath: "/art/{ShopifyProduct.productType}"
       )
       tags
       priceRangeV2 {

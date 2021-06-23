@@ -68,11 +68,19 @@ const GoBack = () => (
 
 <CustomBox style={{}}>
 
-<button className="back" onClick={()=>navigate(-1)}>
+{/* <button className="back" onClick={()=>navigate(-1)}>
         <span className="icon -left" style={{paddingRight:'1rem'}}>
                 <BiLeftArrow />
               </span> {" "} Go Back 
-              </button>
+              </button> */}
+<Link to="../../../">
+<button className="back">
+        <span className="icon -left" style={{paddingRight:'1rem'}}>
+        <BiLeftArrow />
+        </span> {" "} Go Back 
+</button>              
+</Link>
+
 
 </CustomBox>
   
