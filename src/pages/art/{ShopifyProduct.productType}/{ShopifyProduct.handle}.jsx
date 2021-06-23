@@ -17,7 +17,7 @@ import { RiSecurePaymentLine, RiSendPlane2Line } from "react-icons/ri"
 import GoBack from "../../../components/goBack"
 
 // import { Link } from 'gatsby-plugin-modal-routing'
-import spinner from "../../../icons/Bars-1s-200px-2.svg"
+
 
 import { GiRoyalLove } from "react-icons/gi"
 import { FaLockOpen } from "react-icons/fa"
@@ -178,7 +178,7 @@ export default function Product({ data: { product, suggestions } }) {
                     >
                       
 
-                      <div className="vert" style={{height:'', background:'url( {spinner} )', position:'relative' }}>
+                      <div className="vert" style={{ position:'relative' }}>
                         
                         <InnerImageZoom src={getSrc(firstImage.gatsbyImageData)} objectFit="contain" loading={index === 0 ? "eager" : "lazy"} />
 
