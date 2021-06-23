@@ -1095,7 +1095,7 @@ border:1px solid #777;
 
        #logo {
        /* filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2)); */
-          filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.9));
+          filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.9));
        }
     
     
