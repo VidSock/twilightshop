@@ -7,7 +7,7 @@ export function ProductListing({ products }) {
   return (
     <div className={listingContainerStyle}>
       {products.map((p, index) => (
-        <ProductCard product={p} key={p.id} eager={index === 0} />
+        <ProductCard product={p} key={p.id} eager={index === 0} className="poop" />
       ))}
     </div>
   )

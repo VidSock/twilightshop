@@ -414,6 +414,7 @@ input,
   }
 
 
+  
 
 
 body{overflow-x: hidden;}
@@ -994,6 +995,9 @@ border:1px solid #777;
       .home-banner1{display:flex; flex-direction:column; display:block; height:100vh !important;}
       .home-hanner1 div{width:100%; display:inline-block; height:100vh !important; border:1px solid pink;}
     } */
+
+
+    .listingContainerStyle a
 
 
 
