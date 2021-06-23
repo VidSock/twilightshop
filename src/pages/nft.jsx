@@ -120,11 +120,7 @@ height: 0;
   export default function nftPage({}) {
   return (
 <>
-<Helmet>
-<meta name="twitter:image:src" content={'https://twilightscapes.com/follow-me-into-the-night-promo.jpg'} />
 
-
-</Helmet>
 
 
 <CustomBox>
@@ -132,7 +128,11 @@ height: 0;
     <Layout className="thanks-page">
 
     
+    <Helmet>
+<meta name="twitter:image:src" content={'https://twilightscapes.com/follow-me-into-the-night-promo.jpg'} />
 
+
+</Helmet>
 <Seo title={`NFT Collectible Photography Nightscape Photos`} />
 
     
@@ -145,7 +145,7 @@ height: 0;
 
 
 <p>
-With non-fungible tokens(NFTs), users can store proofs of identity and ownership of art on the blockchain where it's impossible to be forged or stolen. The Non Fungible Token has its on unique hash that makes it impossible to copy or recreate.
+The Non Fungible Token or NFT, stores proof of identity and ownership of art on the blockchain where it's impossible to be forged, stolen, copied, or recreated.
 </p>
 
 <p style={{textAlign:'center', fontSize:'100%', fontWeight:'bold'}}>Twilightscapes offers a Limited Edition of rare NFTs.</p>
