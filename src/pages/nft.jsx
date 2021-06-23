@@ -121,18 +121,18 @@ height: 0;
   return (
 <>
 
+<Helmet>
+<meta name="twitter:image:src" content="https://twilightscapes.com/follow-me-into-the-night-promo.jpg" />
 
+
+</Helmet>
 
 <CustomBox>
     
     <Layout className="thanks-page">
 
     
-    <Helmet>
-<meta name="twitter:image:src" content={'https://twilightscapes.com/follow-me-into-the-night-promo.jpg'} />
-
-
-</Helmet>
+    
 <Seo title={`NFT Collectible Photography Nightscape Photos`} />
 
     
@@ -144,7 +144,7 @@ height: 0;
            <h1 style={{textAlign:'center', fontSize:'3vw'}}>NFT Collectible Photography</h1>
 
 
-<p>
+<p style={{textAlign:'center',}}>
 The Non Fungible Token or NFT, stores proof of identity and ownership of art on the blockchain where it's impossible to be forged, stolen, copied, or recreated.
 </p>
 
