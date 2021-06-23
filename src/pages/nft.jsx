@@ -121,7 +121,7 @@ height: 0;
   return (
 <>
 <Helmet>
-<meta name="twitter:image:src" content={'https://twilightscapes.com/default-og-image.jpg'} />
+<meta name="twitter:image:src" content={'https://twilightscapes.com/follow-me-into-the-night-promo.jpg'} />
 
 
 </Helmet>
@@ -133,7 +133,7 @@ height: 0;
 
     
 
-<Seo title={`NFT Collectible Photography Nightscape Twilightcapes Photos`} />
+<Seo title={`NFT Collectible Photography Nightscape Photos`} />
 
     
     <section className="" style={{paddingTop:'0', overflow:'', marginTop:'1vh'}}>
