@@ -27,7 +27,7 @@ export function Layout({ children }) {
   }, 0)
 
   return (
-    <div style={{background:'#111'}}> 
+    <div style={{background:''}}> 
 <>
       <Seo />
       <SkipNavLink />

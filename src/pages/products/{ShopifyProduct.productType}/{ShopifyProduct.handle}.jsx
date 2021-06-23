@@ -17,6 +17,7 @@ import { RiSecurePaymentLine, RiSendPlane2Line } from "react-icons/ri"
 import GoBack from "../../../components/goBack"
 
 // import { Link } from 'gatsby-plugin-modal-routing'
+import spinner from "../../../icons/Bars-1s-200px-2.svg"
 
 import { GiRoyalLove } from "react-icons/gi"
 import { FaLockOpen } from "react-icons/fa"
@@ -173,9 +174,17 @@ export default function Product({ data: { product, suggestions } }) {
                     <li
                       key={`product-image-${image.id}`}
                       className={productImageListItem}
-                      style={{display:'flex', alignContent:'center', justifyContent:'center'}}
+                      style={{display:'flex', alignContent:'center', justifyContent:'center', position:'relative'}}
                     >
-                      <div className="vert" style={{height:'auto'}}><InnerImageZoom src={getSrc(firstImage.gatsbyImageData)} objectFit="contain" /></div>
+                      
+
+                      <div className="vert" style={{height:'', background:'url( {spinner} )', position:'relative' }}>
+                        
+                        <InnerImageZoom src={getSrc(firstImage.gatsbyImageData)} objectFit="contain" loading={index === 0 ? "eager" : "lazy"} />
+
+                      {/* <img className="spinned" src={spinner} alt="Twilightscapes" style={{height:'100%', width:'100%', position:'fixed', top:'0', left:'0',  zIndex:'-1', border:'1px solid yellow', display:'block'}} /> */}
+
+                      </div>
 
                       {/* <GatsbyImage
                         objectFit="contain"
