@@ -14,53 +14,28 @@ import {  RiArrowRightSLine } from "react-icons/ri"
 const CustomBox = styled.div`
 
 .themed{margin-top:20px;}
-
-
-
-
-
-.themed{margin-top:10px;}
-
-  .themed .button {
-    --padding: 15px;
-    --margin: 20px;
-    display: flex;
-    // align-items: flex-start;
-    padding: var(--padding) calc(var(--padding) * 1);
-    border-radius: 12px;
-    text-decoration: none;
-    -webkit-appearance: none;
-    appearance: none;
-    border: none;
-    font-size: 16px;
-    line-height: 1;
-    transition: background 0.3s linear;
-    }
-
-
-  .fullarchive .button {
-    --padding: 15px;
-    --margin: 10px;
-    display: flex;
-    // align-items: flex-start;
-    padding: var(--padding) calc(var(--padding) * 1);
-    border-radius: 12px;
-    // width:20px;
-    // padding:14px;
-    text-decoration: none;
-    -webkit-appearance: none;
-    appearance: none;
-    border: none;
-    font-size: 16px;
-    text-align:left;
-    line-height: 1;
-    transition: background 0.3s linear;
-    }
-  
-
+=
 
 `
 
+
+
+// const BackButton = React.forwardRef(
+//   ({ children, ...props }, ref) => {
+//     const onClick = e => {
+//       e.preventDefault()
+//       navigate(-1)
+//     }
+//     return (
+//       <a {...props} ref={ref} href="#" onClick={onClick}>
+//         {children}
+//       </a>
+//     )
+//   }
+// )
+
+// BackButton.displayName = 'BackButton'
+// export { BackButton }
 
 
    
@@ -68,18 +43,18 @@ const GoBack = () => (
 
 <CustomBox style={{}}>
 
-{/* <button className="back" onClick={()=>navigate(-1)}>
+<button className="back" onClick={()=>navigate(-1)}>
         <span className="icon -left" style={{paddingRight:'1rem'}}>
                 <BiLeftArrow />
               </span> {" "} Go Back 
-              </button> */}
-<Link to="../../../">
+              </button>
+{/* <Link to="../../../">
 <button className="back">
         <span className="icon -left" style={{paddingRight:'1rem'}}>
         <BiLeftArrow />
         </span> {" "} Go Back 
 </button>              
-</Link>
+</Link> */}
 
 
 </CustomBox>
