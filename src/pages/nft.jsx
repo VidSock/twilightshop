@@ -178,7 +178,9 @@ The Non Fungible Token or NFT, stores proof of identity and ownership of art on 
 <p style={{textAlign:'center', fontSize:'100%', fontWeight:'bold'}}>Twilightscapes offers a Limited Edition of rare NFTs.</p>
 
 <p style={{textAlign:'center', fontSize:'clamp(1.3rem, 1.1vw + 1.5rem, 3rem)'}}>Follow Me Into The Night </p>
-<p style={{textAlign:'center', fontSize:'140%', marginTop:''}}>The Genesis Series</p>
+
+<p style={{textAlign:'center', fontSize:'140%', marginTop:''}}>An introduction to the work of Todd Lambert</p>
+<p style={{textAlign:'center', fontSize:'100%', marginTop:''}}>The Genesis Series</p>
 
 
 {/* <iframe width="85%" height="600px" src="https://www.youtube.com/embed/ESGJ42zshL8?controls=0" title="YouTube video player" frameborder="0" 
