@@ -183,6 +183,7 @@ The Non Fungible Token or NFT, stores proof of identity and ownership of art on 
 <p style={{textAlign:'center', fontSize:'100%', marginTop:''}}>The Genesis Series</p>
 
 
+
 {/* <iframe width="85%" height="600px" src="https://www.youtube.com/embed/ESGJ42zshL8?controls=0" title="YouTube video player" frameborder="0" 
            style={{
                 cursor:'pointer',
@@ -199,6 +200,12 @@ justifyContent: 'center',
 <span style={{fontSize:'40px', display:'flex', justifyContent:'center', gap:'3px', marginTop:'10px'}}><IoLogoVercel /><BsCircleFill style={{marginLeft:'-6px', fontSize:'36px'}} /><FaSquareFull style={{marginLeft:'2px', fontSize:'36px'}} /></span>
 
 
+</p>
+
+
+<br /><br />
+<p style={{textAlign:'center', fontSize:'100%', fontWeight:'bold', maxWidth:'600px'}}>
+       (winning bids will receive a special NFT package including: behind the scene information, a certificate of authenticity, a limited edition signed print version, and the original source RAW file.<br />The image will be also be taken out of future commissions and retired.)
 </p>
 
 
