@@ -213,6 +213,12 @@ justifyContent: 'center',
 <div className="home-banner flexbutt" style={{position:'relative', height:'100%', overflow:'', margin:'1rem 3%'}}>
 
 
+<div className="flexcheek" style={{position:'relative', overflow:'', width:'75vw'}}>
+
+<div className="kenburns-right1"  style={{zIndex:'-1', width:'', height:'100%'}}><Image alt="Todd Lambert hanging with friends" filename="night165.jpg" className="featured-image kenburns-right" /></div>
+</div>
+
+
 <div className="flexcheek" style={{padding:'1vh 3% 0 3%',}}>
        <h2 style={{fontSize:'3vw', margin:'0 0 2rem 0'}}>Stellar Sentries</h2>
 
@@ -261,13 +267,6 @@ justifyContent: 'center',
 
 
 
-<div className="flexcheek" style={{position:'relative', overflow:'', width:'75vw'}}>
-
-<div className="kenburns-right1"  style={{zIndex:'-1', width:'', height:'100%'}}><Image alt="Todd Lambert hanging with friends" filename="night165.jpg" className="featured-image kenburns-right" /></div>
-
-
-</div>
-
 </div>
 </a>
 </ScrollAnimation>
@@ -278,6 +277,13 @@ justifyContent: 'center',
 
 <a href="https://foundation.app/@twilightscapes/alien-egg-farm-51678" target="_blank" rel="noopener noreferrer nofollow">
 <div className="home-banner flexbutt" style={{position:'relative', height:'100%', overflow:'', margin:'1rem 3%'}}>
+
+
+<div className="flexcheek" style={{position:'relative', overflow:'', width:'75vw'}}>
+
+<div className="kenburns-right1"  style={{zIndex:'-1', width:'', height:'100%'}}><Image alt="Todd Lambert hanging with friends" filename="night295.jpg" className="featured-image kenburns-right" /></div>
+
+</div>
 
 
 <div className="flexcheek" style={{padding:'1vh 3% 0 3%',}}>
@@ -326,15 +332,6 @@ justifyContent: 'center',
             </a>
 </div>
 
-
-
-<div className="flexcheek" style={{position:'relative', overflow:'', width:'75vw'}}>
-
-<div className="kenburns-right1"  style={{zIndex:'-1', width:'', height:'100%'}}><Image alt="Todd Lambert hanging with friends" filename="night295.jpg" className="featured-image kenburns-right" /></div>
-
-
-</div>
-
 </div>
 </a>
 </ScrollAnimation>
@@ -345,6 +342,12 @@ justifyContent: 'center',
 
 <a href="https://foundation.app/@twilightscapes/boatswain-s-blunder-51680" target="_blank" rel="noopener noreferrer nofollow">
 <div className="home-banner flexbutt" style={{position:'relative', height:'100%', overflow:'', margin:'1rem 3%'}}>
+
+<div className="flexcheek" style={{position:'relative', overflow:'', width:'75vw'}}>
+
+<div className="kenburns-right1"  style={{zIndex:'-1', width:'', height:'100%'}}><Image alt="Todd Lambert hanging with friends" filename="night282.jpg" className="featured-image kenburns-right" /></div>
+
+</div>
 
 
 <div className="flexcheek" style={{padding:'1vh 3% 0 3%', maxWidth:''}}>
@@ -400,12 +403,8 @@ justifyContent: 'center',
 
 </div>
 
-<div className="flexcheek" style={{position:'relative', overflow:'', width:'75vw'}}>
-
-<div className="kenburns-right1"  style={{zIndex:'-1', width:'', height:'100%'}}><Image alt="Todd Lambert hanging with friends" filename="night282.jpg" className="featured-image kenburns-right" /></div>
 
 
-</div>
 </div>
 </a>
 </ScrollAnimation>
