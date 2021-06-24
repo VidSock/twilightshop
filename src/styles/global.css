@@ -39,8 +39,17 @@ body,h1,h2,h3,h4,.h1,.h2,.h3,.h4, #menu, .header .menu-icon:before, input.specia
   z-index: -1;
 }
 #vidtop-content {
-	top: 0;
+  position: absolute;
+	bottom: 0;
+
+  /* right:0; */
 	color: #fff;
+  text-align:center;
+  margin:10px auto;
+align-items:center;
+display:flex !important;
+justify-content:center !important;
+width: 100vw;
 }
 .vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
 .vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }

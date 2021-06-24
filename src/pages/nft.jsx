@@ -127,32 +127,39 @@ height: 0;
 
 <CustomBox>
 
-    <Layout className="thanks-page">
+    <Layout className="thanks-page" style={{position:'relative'}}>
 
     
     
 <Seo title={`NFT Collectible Photography Nightscape Photos`} />
 
-https://youtu.be/9odS1Hsx3UA
-<div className="video-background">
+
+{/* <div className="video-background">
     <div className="video-foreground">
       <iframe src="https://www.youtube.com/embed/iH5sjz0nx9o?controls=0&amp;showinfo=0&amp;rel=0&amp;autoplay=1&amp;loop=1" frameBorder="0" allowFullscreen></iframe>
+
+
     </div>
-  </div>
 
 
-  {/* <div id="vidtop-content">
+    <div id="vidtop-content">
 <div className="vid-info">
-	  <strong>YouTube Fullscreen Background Demo</strong>
+	  <strong>Meet Todd</strong>
 	  <p>The International Space Station orbits the Earth every 92 minutes, with its crew seeing a sunrise 15 times a day. It exists as a scientific, educational, and engineering platform in low orbit, 330 to 435 kilometres above the Earth.</p>
-     <p>Original timelapse by Riccardo Rossi (ISAA), used under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Raw photos courtesy of
-	 <a href="/500/Use-YouTube-Videos-as-Fullscreen-Web-Page-Backgrounds">Full article</a></p>
+     <p>Original timelapse by Riccardo Rossi (ISAA), used under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Raw photos courtesy of</p>
   </div>
-</div> */}
+</div>
+
+
+  </div> */}
+
+ 
+
+  
 
 
 
-    <section className="" style={{paddingTop:'0', overflow:'', marginTop:'100vh', background:'#111'}}>
+    <section className="" style={{paddingTop:'0', overflow:'', marginTop:'1vh', background:'#111'}}>
     
 
     
