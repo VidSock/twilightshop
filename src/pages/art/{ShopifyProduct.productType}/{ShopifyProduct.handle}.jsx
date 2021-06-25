@@ -221,7 +221,7 @@ export default function Product({ data: { product, suggestions } }) {
 
 <div className="flexcheek" style={{width:'70%'}}>
             <div className={breadcrumb}>
-              <Link to={product.productTypeSlug}>{product.productType}</Link>
+              {/* <Link to={product.productTypeSlug}>{product.productType}</Link> */}
               {/* <ChevronIcon size={12} /> */}
             </div>
             <h1 className={header}>{title}</h1>
