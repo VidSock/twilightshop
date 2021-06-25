@@ -2,6 +2,7 @@ import * as React from "react"
 // import { graphql } from "gatsby"
 import { Layout } from "../components/layout"
 // import { ProductListing } from "../components/product-listing"
+import { Link } from "gatsby"
 import { Seo } from "../components/seo"
 import { Helmet } from "react-helmet"
 import { RiArrowDownLine, RiArrowRightSLine, RiStarLine, RiSendPlane2Line } from "react-icons/ri"
@@ -159,7 +160,7 @@ height: 0;
 
 
 
-    <section className="" style={{paddingTop:'0', overflow:'', marginTop:'1vh', background:'#111'}}>
+    <section className="" style={{paddingTop:'0', overflow:'', margin:'1vh', background:'#111'}}>
     
 
     
@@ -404,15 +405,16 @@ justifyContent: 'center',
 </ScrollAnimation>
        
        
-       
-       
-       
-       
-       
 
-      
     </section>
  
+
+ <br /> <br />
+    {/* <h2 className="title" style={{fontSize:'50px', textAlign:'center'}}>Dropping Soon</h2>
+<p style={{textAlign:'center'}}>What's coming up next</p>
+<hr /> */}
+<h3 style={{textAlign:'center', fontSize:'160%', fontWeight:'bold', maxWidth:'700px', margin:'3rem auto'}}>Don't see the twilightscape you're looking for?</h3>
+<Link state={{modal: true}} to="/contact/" style={{textAlign:'center', fontSize:'120%', fontWeight:'bold', maxWidth:'700px', margin:'0 auto', textDecoration: 'underline',}} className="moreButton">Request it!</Link>
     </Layout>
      </CustomBox>
      </>
