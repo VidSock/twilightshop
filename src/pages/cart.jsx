@@ -66,7 +66,7 @@ export default function CartPage() {
               <thead>
                 <tr>
                   <th className={imageHeader}>Image</th>
-                  <th className={productHeader}>Twilightscape</th>
+                  <th className={productHeader}>Your New Twilightscape:</th>
                   <th className={collapseColumn}>Price</th>
                   <th></th>
                   <th className={[totals, collapseColumn].join(" ")}>Total</th>

@@ -221,8 +221,9 @@ right:'', border:'0px solid yellow', justifyContent:'center', width:'', textAlig
       Latest Twilightscapes<span className=""> <span className="icon -right" style={{padding:'10px 0 0 1rem'}}><RiArrowDownLine /></span>
       </span>
     </h2>
-      <ProductListing products={data.shopifyCollection.products} />
-
+    <div className="frontprod">
+      <ProductListing products={data.shopifyCollection.products} className="frontprod" />
+</div>
       <Link
               className="moreButton"
               sx={{
