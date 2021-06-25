@@ -148,6 +148,7 @@ export const query = graphql`
     
     
 <Seo title={`NFT Collectible Photography Nightscape Photos`} />
+<Seo description={`We have the NFT you're looking for! Check it out!`} />
 
 
 {/* <div className="video-background">
