@@ -67,7 +67,7 @@ export function Seo({
       <meta name="twitter:url" content={seo.url} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:creator" content={twitter} />
-      <meta name="twitter:image:src" content={seo.image} />
+      <meta name="twitter:image" content={seo.image} />
 
       <link
         rel="icon"
