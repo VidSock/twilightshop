@@ -227,7 +227,7 @@ The Non Fungible Token or NFT, stores proof of identity and ownership of art on 
 
 
       <a
-              className="moreButton"
+              className="actionJackson"
               sx={{
                 cursor:'pointer',
                 width:'',
@@ -242,7 +242,7 @@ The Non Fungible Token or NFT, stores proof of identity and ownership of art on 
             </a>
 
             <a
-              className="moreButton1"
+              className="moreButton"
                style={{
                 cursor:'pointer',
                 textAlign:'center',
@@ -254,7 +254,7 @@ justifyContent: 'center',
               }}
               href="https://etherscan.io/token/0x3B3ee1931Dc30C1957379FAc9aba94D1C48a5405?a=51674" target="_blank" rel="noopener noreferrer"
             >
-              View on Etherscan {" "}
+              View token on Etherscan {" "}
             </a>
 
 
@@ -297,7 +297,7 @@ justifyContent: 'center',
 
 
       <a
-              className="moreButton"
+              className="actionJackson"
               sx={{
                 cursor:'pointer',
                 width:'',
@@ -311,7 +311,7 @@ justifyContent: 'center',
               </span>
             </a>
             <a
-              className="moreButton1"
+              className="moreButton"
                style={{
                 cursor:'pointer',
                 textAlign:'center',
@@ -323,7 +323,7 @@ justifyContent: 'center',
               }}
               href="https://etherscan.io/token/0x3B3ee1931Dc30C1957379FAc9aba94D1C48a5405?a=51678" target="_blank" rel="noopener noreferrer"
             >
-              View on Etherscan {" "}
+              View token on Etherscan {" "}
             </a>
 </div>
 
@@ -362,7 +362,7 @@ justifyContent: 'center',
 <p>-- by Todd Lambert</p>
 
 <a
-              className="moreButton"
+              className="actionJackson"
               sx={{
                 cursor:'pointer',
                 width:'',
@@ -379,7 +379,7 @@ justifyContent: 'center',
 
 
             <a
-              className="moreButton1"
+              className="moreButton"
                style={{
                 cursor:'pointer',
                 textAlign:'center',
@@ -391,7 +391,7 @@ justifyContent: 'center',
               }}
               href=" https://etherscan.io/token/0x3B3ee1931Dc30C1957379FAc9aba94D1C48a5405?a=51680" target="_blank" rel="noopener noreferrer"
             >
-              View on Etherscan {" "}
+              View token on Etherscan {" "}
             </a>
            
 
