@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     siteTitle: "Twilightscapes - Unique night photography of abandoned urban exploration",
     siteTitleDefault: "Twilightscapes - Unique night photography of abandoned urban exploration",
-    siteUrl: "https://twilightscapes.com",
+    siteUrl: "//twilightscapes.com/",
     hrefLang: "en",
     siteDescription:
       "Night long exposure photography in remote abandoned locations urban exploration",
