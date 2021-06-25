@@ -43,11 +43,9 @@ export function Seo({
     title: title || siteTitleDefault,
     description: description || siteDescription,
     url: pathname ? `${siteUrl}${pathname}` : location.href,
-    image: `${image || siteImage}`,
-    // image = image[0] === "/" ? "https://twilightscapes.com" + image : image
+    image: `${siteUrl}${image || siteImage}`,
   }
 
-  
   return (
     <Helmet
       title={title}
@@ -69,6 +67,8 @@ export function Seo({
       <meta name="twitter:creator" content={twitter} />
       <meta name="twitter:image" content={seo.image} />
 
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      
       <link
         rel="icon"
         type="image/png"
@@ -92,7 +92,7 @@ export function Seo({
 <link rel="apple-touch-icon" sizes="152x152" href="/siteimages/apple-splashapple-icon-152.png" />
 <link rel="apple-touch-icon" sizes="120x120" href="/siteimages/apple-splashapple-icon-120.png" />
 
-<meta name="apple-mobile-web-app-capable" content="yes" />
+
 
 <link rel="apple-touch-startup-image"
     href="/siteimages/apple-splash-2048-2732.png"

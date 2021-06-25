@@ -4,7 +4,7 @@ import { SkipNavContent, SkipNavLink } from "./skip-nav"
 import { Footer } from "./footer"
 import { Seo } from "./seo"
 import 'fontsource-hammersmith-one'
-import { Link } from 'gatsby'
+import { Link } from 'gatsby-plugin-modal-routing-3'
 import { ModalRoutingContext } from 'gatsby-plugin-modal-routing-3'
 import { AiOutlineClose } from "react-icons/ai"
 import twLogo from "../icons/tw-logo-white.svg"
@@ -38,7 +38,7 @@ export function Layout({ children }) {
         {modal ? (
           <>
           <div style={{position:'fixed', right:'6vw', padding:'10px', fontSize:'40px', background:'#111 !important', filter:'none', opacity:'1 !important'}}>
-          <Link to={closeTo}>
+          <Link state={{noScroll: true }} to={closeTo}>
             <AiOutlineClose />
           </Link>
           </div>

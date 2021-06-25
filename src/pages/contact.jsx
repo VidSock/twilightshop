@@ -2,7 +2,7 @@ import * as React from "react"
 import { Layout } from "../components/layout"
 import Image from '../components/Image'
 import { RiSendPlane2Line } from "react-icons/ri"
-import { Seo }from "../components/seo"
+// import { Seo }from "../components/seo"
 
 
 import styled from "styled-components"
@@ -41,7 +41,7 @@ export default function ContactPage() {
 
 
 
-<Seo title={`Contact Todd Lambert Twilightscapes`} />
+{/* <Seo title={`Contact Todd Lambert Twilightscapes`} /> */}
 
 
 

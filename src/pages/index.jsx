@@ -8,7 +8,7 @@ import Image from '../components/Image'
 import { ProductListing } from "../components/product-listing"
 import Social from "../components/social"
 import Newsignup from "../components/newssign"
-import { Helmet } from "react-helmet"
+// import { Helmet } from "react-helmet"
 // import TouchUp from '../components/TouchUp'
 import { RiArrowDownLine, RiArrowRightSLine, RiStarLine, RiSendPlane2Line } from "react-icons/ri"
 
