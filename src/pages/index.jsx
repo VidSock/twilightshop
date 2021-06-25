@@ -8,6 +8,7 @@ import Image from '../components/Image'
 import { ProductListing } from "../components/product-listing"
 import Social from "../components/social"
 import Newsignup from "../components/newssign"
+import { Helmet } from "react-helmet"
 // import TouchUp from '../components/TouchUp'
 import { RiArrowDownLine, RiArrowRightSLine, RiStarLine, RiSendPlane2Line } from "react-icons/ri"
 
@@ -59,13 +60,18 @@ query {
 
 export default function IndexPage({ data }) {
   return (
+<>
+    <Helmet>
+<meta name="twitter:image:src" content="https://twilightscapes.com/follow-me-into-the-night-promo.jpg" />
+</Helmet>
+
     <CustomBox>
     <Layout>
 
 
 
     <Seo title={`Welcome`} />
-    <Seo image={'/default-og-image.jpg'} />
+    {/* <Seo image={'/default-og-image.jpg'} /> */}
 
     {/* <TouchUp /> */}
     <div className="home-banner flexbutt" style={{position:'relative', height:'auto', overflow:'hidden'}}>
@@ -239,6 +245,6 @@ right:'', border:'0px solid yellow', justifyContent:'center', width:'', textAlig
               </span>
             </Link>
    </Layout></CustomBox>
-    
+    </>
   )
 }
