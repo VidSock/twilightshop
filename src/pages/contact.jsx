@@ -48,7 +48,7 @@ export default function ContactPage() {
      
       <div className="wrapper" style={{padding:'2rem 3%'}}>
 
-      <h1 className="title" style={{fontSize:'50px'}}>Contact Me</h1>
+      {/* <h1 className="title" style={{fontSize:'50px'}}>Contact Me</h1> */}
 
         <form
           className="contact-form"
