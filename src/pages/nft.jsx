@@ -4,7 +4,7 @@ import { Layout } from "../components/layout"
 import { ProductListing } from "../components/product-listing"
 import { Link } from "gatsby"
 import { Seo } from "../components/seo"
-import { Helmet } from "react-helmet"
+// import { Helmet } from "react-helmet"
 import { RiArrowDownLine, RiArrowRightSLine, RiStarLine, RiSendPlane2Line } from "react-icons/ri"
 import { IoLogoVercel } from "react-icons/io5"
 import { BsCircleFill } from "react-icons/bs"
@@ -137,9 +137,12 @@ export const query = graphql`
   return (
 <>
 
-<Helmet>
+{/* <Helmet>
 <meta name="twitter:image:src" content="https://twilightscapes.com/follow-me-into-the-night-promo.jpg" />
-</Helmet>
+</Helmet> */}
+
+<Seo title={`NFT Collectible Photography Nightscape Photos`} />
+<Seo description={`We have the NFT you are looking for - Check it out`} />
 
 <CustomBox>
 
@@ -147,8 +150,7 @@ export const query = graphql`
 
     
     
-<Seo title={`NFT Collectible Photography Nightscape Photos`} />
-<Seo description={`We have the NFT you're looking for! Check it out!`} />
+
 
 
 {/* <div className="video-background">

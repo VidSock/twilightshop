@@ -3,7 +3,7 @@ import { Layout } from "../components/layout"
 import Image from '../components/Image'
 import { RiSendPlane2Line } from "react-icons/ri"
 import { Seo } from "../components/seo"
-
+import GoBack from "../components/goBack"
 
 
 
@@ -24,10 +24,11 @@ export default function GearPage() {
     
     <Layout className="thanks-page">
 
-
+<Seo title={`Todd's overlanding Subaru road trip setup`} />
  
     
     <div className="container" style={{padding:'0 12%'}}>
+       
        
     <h1 className="title" style={{fontSize:'50px'}}>Overlanding road trip setup</h1>
 
@@ -165,7 +166,8 @@ export default function GearPage() {
 <li>Lowepro AW100</li>
 <li>Pelican</li></ul>
 
-
+<br />
+<GoBack />
 
        </div>
     

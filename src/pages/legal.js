@@ -3,6 +3,7 @@ import { Layout } from "../components/layout"
 import Image from '../components/Image'
 import { RiSendPlane2Line } from "react-icons/ri"
 import { Seo } from "../components/seo"
+import GoBack from "../components/goBack"
 
 
 
@@ -32,6 +33,7 @@ export default function LegalPage() {
  
 <section className="outer section section--gradient">
       <div className="container" style={{padding: '2rem 10%'}}>
+            <GoBack />
       <h1 className="title" style={{fontSize:'50px'}}>Content License Agreement</h1>
       
       <div class="entry-content">
@@ -118,6 +120,7 @@ Entire Agreement.
 			
 	</div>
       
+      <GoBack />
           </div>
 
 

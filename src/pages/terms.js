@@ -3,7 +3,7 @@ import { Layout } from "../components/layout"
 import Image from '../components/Image'
 import { RiSendPlane2Line } from "react-icons/ri"
 import { Seo } from "../components/seo"
-
+import GoBack from "../components/goBack"
 
 
 
@@ -29,6 +29,9 @@ export default function TermsPage({}) {
     
 <section className="outer section section--gradient" >
       <div className="container" style={{padding: '2rem 10%'}}>
+        
+      <GoBack />
+
 <h1 className="title" style={{fontSize:'50px'}}>Terms of Service</h1>
     
 
@@ -60,6 +63,9 @@ not a transfer of title, and under this license you may not:
 
 
     </div>
+
+    <GoBack />
+
     </section>
     
     

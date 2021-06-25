@@ -2,7 +2,7 @@ import * as React from "react"
 // import { graphql } from "gatsby"
 import { Layout } from "../components/layout"
 // import { ProductListing } from "../components/product-listing"
-// import { Seo } from "../components/seo"
+import { Seo } from "../components/seo"
 
 import { Helmet } from "react-helmet"
 
@@ -144,7 +144,7 @@ height: 0;
 
     
 
-{/* <Seo title={`About Todd Lambert`} /> */}
+<Seo title={`About Todd Lambert`} />
 
     
     <section className="about outer intro section" style={{paddingTop:'0', overflow:'hidden', marginTop:'1vh'}}>

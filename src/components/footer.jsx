@@ -14,6 +14,8 @@ import {
 
 export function Footer() {
   return (
+
+    
     <footer className={footerStyle} style={{padding:'10px 0', marginTop:'0', position:'',}}>
       <div className={blurb}>
         <div className={logos}>
@@ -21,7 +23,7 @@ export function Footer() {
         </div>
       </div>
       <nav className={links} aria-label="footer">
-      <div style={{textAlign: 'center', margin: '2rem 10px 1rem 10px', justifyContent: 'center', fontSize: '.95rem'}}><Link to="/disclaimer/" state={{modal: true}}>Disclaimer</Link>  |  <Link to="/privacy/" state={{modal: true}}>Privacy Policy</Link>  |  <Link to="/terms/" state={{modal: true}}>Terms of Service</Link></div>
+      <div style={{textAlign: 'center', margin: '2rem 10px 1rem 10px', justifyContent: 'center', fontSize: '.95rem'}}><Link to="/disclaimer/">Disclaimer</Link>  |  <Link to="/privacy/">Privacy Policy</Link>  |  <Link to="/terms/">Terms of Service</Link></div>
   
   
   

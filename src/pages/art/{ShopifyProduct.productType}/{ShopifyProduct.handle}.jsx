@@ -363,9 +363,7 @@ Rights-managed content is licensed for specific types of private use, and limits
 
             <p style={{textAlign:'center', fontSize:'130%'}}>
               <Link to="/legal/"
-            state={{
-              modal: true
-            }}
+           
             >View License Agreement</Link>
             
    

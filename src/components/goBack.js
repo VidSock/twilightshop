@@ -42,12 +42,14 @@ const CustomBox = styled.div`
 const GoBack = () => (
 
 <CustomBox style={{}}>
-
+<div style={{display:'flex', justifyContent:'center'}}>
 <button className="back" onClick={()=>navigate(-1)}>
         <span className="icon -left" style={{paddingRight:'1rem'}}>
                 <BiLeftArrow />
-              </span> {" "} Go Back 
-              </button>
+        </span> {" "} Go Back 
+</button>
+</div>
+
 {/* <Link to="../../../">
 <button className="back">
         <span className="icon -left" style={{paddingRight:'1rem'}}>
