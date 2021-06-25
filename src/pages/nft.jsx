@@ -420,7 +420,7 @@ justifyContent: 'center',
 <p style={{textAlign:'center'}}>What's coming up next</p>
 <br /><br />
 
-<div style={{width:'100vw', height:'30vh', overflow:'hidden', position:'relative', }}>
+<div className="dropromo" style={{width:'100vw', height:'30vh', overflow:'hidden', position:'relative', }}>
        
 
 <div style={{display:'flex', justifyContent:'center', position:'absolute', top:'0', textAlign:'center', width:'90%', margin:'0 auto'}}>

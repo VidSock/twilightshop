@@ -127,7 +127,7 @@ export default function IndexPage({ data }) {
 
 <ScrollAnimation animateIn="bounceInDown" delay={1350} offset={0}  initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', top:'0px', paddingRight:'10%', border:'0px solid yellow'}}>
 <h2
-  className="boom normal txtshadow-header hit-the-floor"
+  className="letter normal txtshadow-header hit-the-floor"
   style={{
     color: '#fff',
     fontSize: '60px',
@@ -148,7 +148,7 @@ export default function IndexPage({ data }) {
 
 <ScrollAnimation animateIn="bounceInRight" delay={1400} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', top:'', paddingRight:'10%', border:'0px solid red'}}>
 <h2
-  className="boom narrow txtshadow mobile-txt"
+  className="letter narrow txtshadow mobile-txt"
   style={{
    fontSize:'40px',
    color: 'white',
@@ -165,7 +165,7 @@ export default function IndexPage({ data }) {
 
 <ScrollAnimation animateIn="bounceInUp" delay={1450} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'relative', top:'', paddingRight:'10%', border:'0px solid blue'}}>
 <h2
-  className="boom narrow txtshadow mobile-txt"
+  className="letter narrow txtshadow mobile-txt"
   style={{
    fontSize:'80px',
    color: 'white',
