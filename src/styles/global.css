@@ -440,7 +440,7 @@ display: none;
 .ReactModal__Overlay{background-color:transparent !important;   background: rgba(0,0,0,0.50);
   backdrop-filter: blur(4px);}
 
-.ReactModal__Content{padding:0 !important; background:#111 !important; width:92vw; margin:30px auto ; border:none !important; box-shadow: 0px 1px 10px 10px rgba(0, 0, 0, 0.5);}
+.ReactModal__Content{padding:0 !important; background:#111 !important; margin:30px auto ; border:none !important; box-shadow: 0px 1px 10px 10px rgba(0, 0, 0, 0.5);}
 
 
 .ReactModal__Body--open {
@@ -479,18 +479,23 @@ input,
   textarea {
     width: 100%;
     max-width: 100%;
-    margin: 8px 0 16px;
-    padding: 16px;
-    border-radius: 12px;
+    margin: 0 0;
     appearance: none;
     font-size: 18px;
     font-weight: 600;
+    color:#fff !important;
+    border:3px solid #000 !important;
+    padding:1rem;
+    border-radius:8px;
+    background:rgba(145, 26, 103, 0.829) !important;
   }
-  textarea:focus{border-color:palevioletred;}
+  textarea:focus{border-color:2px solid palevioletred;}
 
   textarea {
     min-height: 200px;
   }
+
+  .contact-form p{margin-bottom:0;}
 
 
   
