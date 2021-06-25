@@ -2,7 +2,7 @@
 
 import * as React from "react"
 import { graphql, Link } from "gatsby"
-// import { Seo } from "../components/seo"
+import { Seo } from "../components/seo"
 import { Layout } from "../components/layout"
 import Image from '../components/Image'
 import { ProductListing } from "../components/product-listing"
@@ -60,7 +60,13 @@ query {
 
 export default function IndexPage({ data }) {
   return (
-<>
+<> 
+
+
+<Seo title={`Welcome`} /> */}
+<Seo image={'/default-og-image.jpg'} />
+
+
     {/* <Helmet>
 <meta name="twitter:image:src" content="https://twilightscapes.com/follow-me-into-the-night-promo.jpg" />
 </Helmet> */}
@@ -70,8 +76,7 @@ export default function IndexPage({ data }) {
 
 
 
-    {/* <Seo title={`Welcome`} /> */}
-    {/* <Seo image={'/default-og-image.jpg'} /> */}
+   
 
     {/* <TouchUp /> */}
     <div className="home-banner flexbutt" style={{position:'relative', height:'auto', overflow:'hidden'}}>
