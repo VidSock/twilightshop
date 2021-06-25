@@ -166,13 +166,13 @@ height: 0;
 
 
    
-    <div className="" style={{background:'#111', padding:'1vh 15% 0 15%', textAlign:'left'}}>
+    <div className="" style={{background:'#111', padding:'1vh 12% 0 12%', textAlign:'left'}}>
 
            <h1 style={{textAlign:'center', fontSize:'clamp(1.3rem, 1.1vw + 1.5rem, 3rem)'}}>NFT Collectible Photography</h1>
           
 
 <p style={{textAlign:'center', margin:'0 12%'}}>
-The Non Fungible Token or NFT, stores proof of identity and ownership of art on the blockchain where it's impossible to be forged, stolen, copied, or recreated.
+The Non Fungible Token or NFT, stores proof of identity and ownership of art on the blockchain where it's impossible to be forged, stolen or copied.
 </p>
 
 <p style={{textAlign:'center', fontSize:'100%', fontWeight:'bold', marginTop:'10px'}}>Twilightscapes offers a Limited Edition of rare NFTs.</p>
@@ -180,23 +180,8 @@ The Non Fungible Token or NFT, stores proof of identity and ownership of art on 
 <p style={{textAlign:'center', fontSize:'clamp(1.3rem, 1.1vw + 1.5rem, 3rem)', color:'#FA02B7'}}>Follow Me Into The Night </p>
 
 <p style={{textAlign:'center', fontSize:'140%', marginTop:''}}>An introduction to the work of Todd Lambert</p>
-<p style={{textAlign:'center', fontSize:'100%', marginTop:''}}>The Genesis Series</p>
 
-
-
-{/* <iframe width="85%" height="600px" src="https://www.youtube.com/embed/ESGJ42zshL8?controls=0" title="YouTube video player" frameborder="0" 
-           style={{
-                cursor:'pointer',
-                textAlign:'center',
-                margin:'2rem auto',
-alignItems:'center',
-display: 'flex',
-justifyContent: 'center',
-
-              }}></iframe> */}
-
-
-<p style={{textAlign:'center', fontSize:'100%'}}>presented exclusively on Foundation
+<p style={{textAlign:'center', fontSize:'100%',}}>Genesis Series presented <br />  exclusively on Foundation
 <span style={{fontSize:'40px', display:'flex', justifyContent:'center', gap:'3px', marginTop:'10px'}}><IoLogoVercel /><BsCircleFill style={{marginLeft:'-6px', fontSize:'36px'}} /><FaSquareFull style={{marginLeft:'2px', fontSize:'36px'}} /></span>
 
 
@@ -205,7 +190,7 @@ justifyContent: 'center',
 
 <br /><br />
 <p style={{textAlign:'center', fontSize:'100%', fontWeight:'bold', maxWidth:'700px', margin:'0 auto'}}>
-       winning bids will receive a special NFT package including: behind the scene information, a certificate of authenticity and a limited edition signed print version.<br />
+       winning bids will receive a special NFT package including: behind the scene information, a certificate of authenticity and a limited edition signed print.<br />
        <br />
        Original source RAW file included.<br />The image will also be taken out of future commissions and retired.
 </p>
