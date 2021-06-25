@@ -53,8 +53,8 @@ module.exports = {
         name: `Twilightscapes`,
         short_name: `Twilightscapes`,
         start_url: `/`,
-        background_color: `#222`,
-        theme_color: `#000`,
+        background_color: `#111`,
+        theme_color: `#111`,
         display: `standalone`,
         start_url: `/?user_mode=app`,
 

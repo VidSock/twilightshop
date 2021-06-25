@@ -507,9 +507,6 @@ justifyContent: 'center',
 <span className="letter">s</span>
 </ScrollAnimation>
 
-
-
-
 <ScrollAnimation animateIn="jackInTheBox"  animateOnce={true} delay={1400} style={{zIndex:'1', marginLeft:'2rem' }}>
 <span className="letter">S</span>
 </ScrollAnimation>
@@ -525,15 +522,13 @@ justifyContent: 'center',
 <ScrollAnimation animateIn="jackInTheBox"  animateOnce={true} delay={1800} style={{zIndex:'1' }}>
 <span className="letter">i</span>
 </ScrollAnimation>
-<ScrollAnimation animateIn="jackInTheBox"  animateOncTe={true} delay={2000} style={{zIndex:'1' }}>
+<ScrollAnimation animateIn="jackInTheBox"  animateOncTe={true} delay={1900} style={{zIndex:'1' }}>
 <span className="letter">o</span>
 </ScrollAnimation>
-
-<ScrollAnimation animateIn="jackInTheBox"  animateOncTe={true} delay={2100} style={{zIndex:'1' }}>
+<ScrollAnimation animateIn="jackInTheBox"  animateOncTe={true} delay={2000} style={{zIndex:'1' }}>
 <span className="letter">n</span>
 </ScrollAnimation>
-
-<ScrollAnimation animateIn="jackInTheBox"  animateOnce={true} delay={2200} style={{zIndex:'1' }}>
+<ScrollAnimation animateIn="jackInTheBox"  animateOnce={true} delay={2100} style={{zIndex:'1' }}>
 <span className="letter">s</span>
 </ScrollAnimation>
 
@@ -546,7 +541,7 @@ justifyContent: 'center',
 
 
 
-<div className=" kenburns-bottom-left" style={{zIndex:'',}}><Image className="slider" alt="Coming Soon" filename="Texaco.jpeg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+<div className=" kenburns-bottom-left" style={{zIndex:'',}}><Image className="nftimage" alt="Coming Soon" filename="Texaco.jpeg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
 
 </div>
 
