@@ -202,7 +202,16 @@ width: 100vw;
 
 
 
-
+.letter{
+  position:relative;
+  top:40px;
+  font-size:8vw;
+  z-index:1;
+  /* border:1px solid pink;     */
+  opacity: .5;
+  filter: drop-shadow(0px 0px 10px #fff);
+  text-shadow:2px 2px 10px #FA02B7;
+  }
 
 
 p{margin-bottom:2rem;}
@@ -1340,8 +1349,8 @@ border:1px solid #777;
     
     
     .kenburns-bottom-right {
-      -webkit-animation: kenburns-bottom-right 10s ease-in-out infinite alternate-reverse both;
-              animation: kenburns-bottom-right 10s ease-in-out infinite alternate-reverse both;
+      -webkit-animation: kenburns-bottom-right 10s ease-in-out  alternate-reverse both;
+              animation: kenburns-bottom-right 10s ease-in-out  alternate-reverse both;
     }
     @-webkit-keyframes kenburns-bottom-right {
       0% {

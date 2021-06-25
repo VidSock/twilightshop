@@ -99,7 +99,13 @@ height: 0;
 
 
 
-
+.letter{
+position:relative;
+top:40px;
+font-size:8vw;
+z-index:1;
+border:1px solid pink;    
+}
 
 
 
@@ -410,9 +416,76 @@ justifyContent: 'center',
  
 
  <br /> <br />
-    {/* <h2 className="title" style={{fontSize:'50px', textAlign:'center'}}>Dropping Soon</h2>
+    <h2 className="title" style={{fontSize:'50px', textAlign:'center'}}>Dropping Soon</h2>
 <p style={{textAlign:'center'}}>What's coming up next</p>
-<hr /> */}
+<br /><br />
+
+<div style={{width:'100vw', height:'30vh', overflow:'hidden', position:'relative', }}>
+       
+
+<div style={{display:'flex', justifyContent:'center', position:'absolute', top:'0', textAlign:'center', width:'90%', margin:'0 auto'}}>
+
+<ScrollAnimation animateIn="jackInTheBox"  animateOnce={true} delay={100} style={{zIndex:'1' }}>
+<span className="letter">D</span>
+</ScrollAnimation>
+<ScrollAnimation animateIn="jackInTheBox"  animateOnce={true} delay={200} style={{zIndex:'1' }}>
+<span className="letter">e</span>
+</ScrollAnimation>
+<ScrollAnimation animateIn="jackInTheBox"  animateOnce={true} delay={300} style={{zIndex:'1' }}>
+<span className="letter">n</span>
+</ScrollAnimation>
+<ScrollAnimation animateIn="jackInTheBox"  animateOnce={true} delay={400} style={{zIndex:'1' }}>
+<span className="letter">d</span>
+</ScrollAnimation>
+<ScrollAnimation animateIn="jackInTheBox"  animateOnce={true} delay={500} style={{zIndex:'1' }}>
+<span className="letter">r</span>
+</ScrollAnimation>
+<ScrollAnimation animateIn="jackInTheBox"  animateOnce={true} delay={600} style={{zIndex:'1' }}>
+<span className="letter">o</span>
+</ScrollAnimation>
+<ScrollAnimation animateIn="jackInTheBox"  animateOnce={true} delay={700} style={{zIndex:'1' }}>
+<span className="letter">i</span>
+</ScrollAnimation>
+<ScrollAnimation animateIn="jackInTheBox"  animateOnce={true} delay={800} style={{zIndex:'1' }}>
+<span className="letter">d</span>
+</ScrollAnimation>
+
+<ScrollAnimation animateIn="jackInTheBox"  animateOnce={true} delay={1400} style={{zIndex:'1', marginLeft:'2rem' }}>
+<span className="letter">D</span>
+</ScrollAnimation>
+<ScrollAnimation animateIn="jackInTheBox"  animateOnce={true} delay={1500} style={{zIndex:'1' }}>
+<span className="letter">r</span>
+</ScrollAnimation>
+<ScrollAnimation animateIn="jackInTheBox"  animateOnce={true} delay={1600} style={{zIndex:'1' }}>
+<span className="letter">e</span>
+</ScrollAnimation>
+<ScrollAnimation animateIn="jackInTheBox"  animateOnce={true} delay={1700} style={{zIndex:'1' }}>
+<span className="letter">a</span>
+</ScrollAnimation>
+<ScrollAnimation animateIn="jackInTheBox"  animateOnce={true} delay={1800} style={{zIndex:'1' }}>
+<span className="letter">m</span>
+</ScrollAnimation>
+<ScrollAnimation animateIn="jackInTheBox"  animateOnce={true} delay={1900} style={{zIndex:'1' }}>
+<span className="letter">s</span>
+</ScrollAnimation>
+</div>
+
+<ScrollAnimation animateIn="fadeIn"  animateOnce={true} delay={2500} style={{zIndex:'1', position:'absolute', bottom:'10px', width:'100%', margin:'0 auto' }}>
+<div style={{textAlign:'center', fontSize:'140%',}}>coming soon</div>
+</ScrollAnimation>
+
+
+<div className=" kenburns-bottom-right" style={{zIndex:'',}}><Image className="slider" alt="Coming Soon" filename="night221.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+
+</div>
+
+
+
+{/* <hr /> */}
+
+
+
+
 <h3 style={{textAlign:'center', fontSize:'160%', fontWeight:'bold', maxWidth:'700px', margin:'3rem auto'}}>Don't see the twilightscape you're looking for?</h3>
 <Link state={{modal: true}} to="/contact/" style={{textAlign:'center', fontSize:'120%', fontWeight:'bold', maxWidth:'700px', margin:'0 auto', textDecoration: 'underline',}} className="moreButton">Request it!</Link>
     </Layout>
