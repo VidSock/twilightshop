@@ -521,7 +521,7 @@ display: none;
     margin: 0 auto;
   }
 
-input,
+  .contact-form input,
   textarea {
     width: 100%;
     max-width: 100%;
