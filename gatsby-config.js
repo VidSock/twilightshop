@@ -10,10 +10,15 @@ module.exports = {
       "Night long exposure photography in remote abandoned locations urban exploration",
     siteImage: "https://twilightscapes.com/default-og-image.jpg",
     twitter: "toddlambert",
+    optimization: {
+      runtimeChunk: 'single'
+  },
   },
   flags: {
     FAST_DEV: true,
+    PRESERVE_WEBPACK_CACHE: true,
   },
+
   plugins: [
     {
       resolve: "gatsby-source-shopify",
