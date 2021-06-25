@@ -65,7 +65,7 @@ export default function IndexPage({ data }) {
 
 
     <Seo title={`Welcome`} />
-    {/* <Seo image={'/default-og-image.jpg'} /> */}
+    <Seo image={'/default-og-image.jpg'} />
 
     {/* <TouchUp /> */}
     <div className="home-banner flexbutt" style={{position:'relative', height:'auto', overflow:'hidden'}}>
