@@ -204,7 +204,7 @@ justifyContent: 'center',
 
 
 <br /><br />
-<p style={{textAlign:'center', fontSize:'100%', fontWeight:'bold', maxWidth:'600px'}}>
+<p style={{textAlign:'center', fontSize:'100%', fontWeight:'bold', maxWidth:'700px', margin:'0 auto'}}>
        (winning bids will receive a special NFT package including: behind the scene information, a certificate of authenticity, a limited edition signed print version, and the original source RAW file.<br />The image will be also be taken out of future commissions and retired.)
 </p>
 
