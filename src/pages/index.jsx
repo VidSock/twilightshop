@@ -64,7 +64,7 @@ export default function IndexPage({ data }) {
 
 
 <Seo title={`Welcome`} />
-<Seo image={'https://twilightscapes.com/default-og-image.jpg'} />
+<Seo image={'/follow-me-into-the-night-promo.jpg'} />
 
 
     {/* <Helmet>
