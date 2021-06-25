@@ -99,13 +99,7 @@ height: 0;
 
 
 
-.letter{
-position:relative;
-top:40px;
-font-size:8vw;
-z-index:1;
-border:1px solid pink;    
-}
+
 
 
 
