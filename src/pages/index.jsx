@@ -61,9 +61,9 @@ query {
 export default function IndexPage({ data }) {
   return (
 <>
-    <Helmet>
+    {/* <Helmet>
 <meta name="twitter:image:src" content="https://twilightscapes.com/follow-me-into-the-night-promo.jpg" />
-</Helmet>
+</Helmet> */}
 
     <CustomBox>
     <Layout>
