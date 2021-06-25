@@ -2,7 +2,7 @@
 
 import * as React from "react"
 import { graphql, Link } from "gatsby"
-import { Seo } from "../components/seo"
+// import { Seo } from "../components/seo"
 import { Layout } from "../components/layout"
 import Image from '../components/Image'
 import { ProductListing } from "../components/product-listing"
@@ -70,7 +70,7 @@ export default function IndexPage({ data }) {
 
 
 
-    <Seo title={`Welcome`} />
+    {/* <Seo title={`Welcome`} /> */}
     {/* <Seo image={'/default-og-image.jpg'} /> */}
 
     {/* <TouchUp /> */}
