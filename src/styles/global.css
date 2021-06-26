@@ -1244,7 +1244,7 @@ border:1px solid #222;
    left:0;
    top:0;
    right:0;
-   bottom:0;
+
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1253,7 +1253,7 @@ border:1px solid #222;
         animation: poof 1s forwards;
         animation-delay: 1.5s;
         overflow: hidden;
-
+          border:1px solid red;
         padding:300px 0 0 0;
         font-size:5vw; 
         color:#f8f8fc;
@@ -1288,11 +1288,13 @@ border:1px solid #222;
           transform: translateY(-100);
           display: none;
           opacity: 0;
+          z-index: -99;
           }
           10% {
             transform: translateY(0);
             display: block;
             opacity:100;
+            z-index: 1;
             }
           
         100% {
@@ -1300,7 +1302,8 @@ border:1px solid #222;
           height:0;
           top:-100%;
             filter: blur(60px);
-            opacity: 0;   	
+            opacity: 0;   
+            z-index: -99;	
           }
         }
 

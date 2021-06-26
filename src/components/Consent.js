@@ -8,13 +8,13 @@ import ScrollAnimation from 'react-animate-on-scroll'
 
 const Consent = () => (
 
-    <ScrollAnimation animateIn="bounceInUp" delay={0} style={{ display:'flex', justifyContent:'center', alignContent:'center', position: 'fixed', bottom:'40px',
-left:'0', right:'0', display:'flex', justifyContent:'center', alignItems:'center', zIndex:'1'}}>
+    <ScrollAnimation animateIn="bounceInUp" delay={4000} style={{ display:'flex',  position: 'fixed', bottom:'50px',
+left:'0', right:'0',  alignItems:'center', zIndex:'1', width:'100%', height:'200px'}}>
 
 <CookieConsent
 	debug={false}
 	location="none"
-	style={{ zIndex:'1', opacity:'.8', background: 'rgba(0,0,0,0.90)', padding:'2vh 3%', margin:'0'
+	style={{ zIndex:'1', opacity:'.8', background: 'rgba(0,0,0,0.99)', padding:'2vh 3%', margin:'0'
    }}
 	enableDeclineButton={false}
 	declineButtonText="No Cookies"

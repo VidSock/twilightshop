@@ -471,7 +471,7 @@ Rights-managed content is licensed for specific types of private use, and limits
 
             <div className="flexcheek sidebart" style={{border:'0px solid yellow', width:'30%'}}>
 
-            <div style={{textAlign:'center', margin:'0 0 30px 0'}}>
+            <div style={{textAlign:'center', margin:'10px 0 30px 0'}}>
             <GoBack />
             </div>
 
