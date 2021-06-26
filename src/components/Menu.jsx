@@ -71,59 +71,68 @@ const Menu = () => (
 </div>
 
 
-    <ul className="sidebarMenuInner">
+<ul className="sidebarMenuInner">
 
-      <li>
-              <Link className="navbar-item txtshadow" to="/nft/">
-                NFT Collectibles <span>Limited Editions</span>
-              </Link>
-      </li>
+<li>
+          <a className="navbar-item txtshadow" href="https://twilightscapes.com/">
+            Home <span>Return to home</span>
+          </a>
+  </li>
 
-      <li>
-              <Link className="navbar-item txtshadow" to="/vault/favorites/">
-                The Vault <span>View the full archives</span>
-              </Link>
-      </li>
+  <li>
+          <Link className="navbar-item txtshadow" to="/contact/">
+            Contact <span>Ask me anything!</span>
+          </Link>
+  </li>
+
+  <li>
+          <Link className="navbar-item txtshadow" to="/about/">
+            About Me <span>Learn All About Me</span>
+          </Link>
+  </li>
+
+  <li>
+  <Link className="navbar-item txtshadow" to="/gear/">Gear Talk<span>What tools I use</span></Link>
+   </li>
 
 
-      <li>
-              <Link className="navbar-item txtshadow" to="/about/">
-                About Me <span>Learn All About Me</span>
-              </Link>
-      </li>
 
-      <li>
-      <Link className="navbar-item txtshadow" to="/gear/">Gear Talk<span>What tools I use</span></Link>
-       </li>
+  <li>
+          <Link className="navbar-item txtshadow" to="/nft/">
+            NFT Collectibles <span>Limited Editions</span>
+          </Link>
+  </li>
 
-       <li>
-              <Link className="navbar-item txtshadow" to="/contact/">
-                Contact <span>Ask me anything!</span>
-              </Link>
-      </li>
-      {/* <li>
-              <Link className="navbar-item txtshadow" to="/">
-      
-                Home <span>Return to home</span>
-              </Link>
-      </li>  */}
+  <li>
+          <Link className="navbar-item txtshadow" to="/vault/favorites/">
+            The Vault <span>View the full archives</span>
+          </Link>
+  </li>
 
-      <li style={{border:'none'}}>
-      <div style={{display:'flex', justifyContent:'flex-start', color:'#fff', paddingLeft:'0px'}}>
-   <Link to="/search" style={{display:'flex', verticalAlign:'center', marginTop:'12px', marginRight:'20px'}}>
-    <span><SearchIcon /></span>
-   </Link>
-  <div style={{marginTop:'5px'}}><CartButton /></div>
-  </div>
-        </li>
 
-    
+  <li>
+          <Link className="navbar-item txtshadow" to="/art" style={{color:'#FA02B7'}}>
+  
+            View Photos <span>Twilightscapes gallery</span>
+          </Link>
+  </li> 
 
-    </ul>
-
- <div className="has-app promocode">
-30% OFF CODE: <span style={{color:'#FA02B7', fontWeight:'bold'}}>LoveTheNight</span>
+  <li style={{border:'none'}}>
+  <div style={{display:'flex', justifyContent:'flex-start', color:'#fff', paddingLeft:'0px'}}>
+<Link to="/search" style={{display:'flex', verticalAlign:'center', marginTop:'12px', marginRight:'20px'}}>
+<span><SearchIcon /></span>
+</Link>
+<div style={{marginTop:'5px'}}><CartButton /></div>
 </div>
+    </li>
+
+
+
+</ul>
+
+ {/* <div className="has-app promocode">
+30% OFF CODE: <span style={{color:'#FA02B7', fontWeight:'bold'}}>LoveTheNight</span>
+</div> */}
 
 
 

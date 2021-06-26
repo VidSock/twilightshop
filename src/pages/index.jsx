@@ -156,7 +156,7 @@ export default function IndexPage() {
 <div className="" style={{display:'flex'}}>
 
       <blockquote className="frontquote" style={{width:'60%'}}>
-<p>The night is misunderstood and often feared, but the night can be a world of wonder and an orchestra of colors. Finding yourself at 3am in a graveyard filming flowers; some may see that as weird, but for me, it's pure tranquility. </p>
+<p>Finding yourself at 3am in a graveyard filming flowers; some may see that as weird, but for me, it's pure tranquility. </p>
 <div style={{textAlign:'right', marginRight:'20%', marginTop:'10px'}}> – Todd Lambert
 </div></blockquote>
 
@@ -167,7 +167,7 @@ export default function IndexPage() {
 <p>Let Todd's award winning night photography and digital storytelling, prove to you that the night is indeed beautiful.</p>
 
 <Link
-              className="moreButton"
+              className="actionJackson"
               sx={{
                 cursor:'pointer',
                 width:'',
@@ -175,7 +175,7 @@ export default function IndexPage() {
               }}
               to="/art"
             >
-              View Photos {" "}
+              View The Photos {" "}
               <span className="icon -right" style={{paddingLeft:'1rem'}}>
                 <RiSendPlane2Line />
               </span>
@@ -326,7 +326,7 @@ right:'', border:'0px solid yellow', justifyContent:'center', width:'', textAlig
 
 <Consent />
 
-      <Footer />
+      {/* <Footer /> */}
 
 
 </CustomBox>

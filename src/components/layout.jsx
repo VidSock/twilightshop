@@ -97,11 +97,29 @@ export function Layout({ children }) {
 
     <ul className="sidebarMenuInner">
 
-    {/* <li>
+    <li>
               <a className="navbar-item txtshadow" href="https://twilightscapes.com/">
                 Home <span>Return to home</span>
               </a>
-      </li> */}
+      </li>
+
+      <li>
+              <Link className="navbar-item txtshadow" to="/contact/">
+                Contact <span>Ask me anything!</span>
+              </Link>
+      </li>
+    
+      <li>
+              <Link className="navbar-item txtshadow" to="/about/">
+                About Me <span>Learn All About Me</span>
+              </Link>
+      </li>
+
+      <li>
+      <Link className="navbar-item txtshadow" to="/gear/">Gear Talk<span>What tools I use</span></Link>
+       </li>
+
+  
 
       <li>
               <Link className="navbar-item txtshadow" to="/nft/">
@@ -117,26 +135,11 @@ export function Layout({ children }) {
 
 
       <li>
-              <Link className="navbar-item txtshadow" to="/about/">
-                About Me <span>Learn All About Me</span>
-              </Link>
-      </li>
-
-      <li>
-      <Link className="navbar-item txtshadow" to="/gear/">Gear Talk<span>What tools I use</span></Link>
-       </li>
-
-       <li>
-              <Link className="navbar-item txtshadow" to="/contact/">
-                Contact <span>Ask me anything!</span>
-              </Link>
-      </li>
-      {/* <li>
-              <Link className="navbar-item txtshadow" to="/">
+              <Link className="navbar-item txtshadow" to="/art" style={{color:'#FA02B7'}}>
       
-                Home <span>Return to home</span>
+                View Photos <span>Twilightscapes gallery</span>
               </Link>
-      </li>  */}
+      </li> 
 
       <li style={{border:'none'}}>
       <div style={{display:'flex', justifyContent:'flex-start', color:'#fff', paddingLeft:'0px'}}>
