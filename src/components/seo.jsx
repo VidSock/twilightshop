@@ -65,7 +65,7 @@ export function Seo({
       <meta name="twitter:url" content={seo.url} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:creator" content={twitter} />
-      <meta name="twitter:image" content={seo.image} />
+      <meta name="twitter:image" content="https://github.githubassets.com/images/modules/open_graph/github-logo.png" />
 
       <meta name="apple-mobile-web-app-capable" content="yes" />
       
