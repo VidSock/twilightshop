@@ -83,9 +83,7 @@ export function Layout({ children }) {
   
 
    <div className="promocode1" style={{textAlign:'center', padding:'10px 35px', }}>
-<Link className="navbar-item txtshadow" to="/">
-<Image alt="Todd Lambert hanging with friends" filename="tw-logo-white.png" className="" />
-</Link>
+
 </div>
 
 
@@ -98,17 +96,34 @@ export function Layout({ children }) {
     <ul className="sidebarMenuInner">
 
     <li>
-              <a className="navbar-item txtshadow" href="https://twilightscapes.com/">
-                Home <span>Return to home</span>
-              </a>
+    <div className="promocode1" style={{textAlign:'center', padding:'10px 35px', }}>
+<Link className="navbar-item txtshadow" to="/">
+<Image alt="Todd Lambert hanging with friends" filename="tw-logo-white.png" className="" />
+</Link>
+</div>
       </li>
+ <li>
+              <Link className="navbar-item txtshadow" to="/art" style={{color:'#FA02B7'}}>
+      
+                View Photos <span>start here</span>
+              </Link>
+      </li> 
 
-      <li>
-              <Link className="navbar-item txtshadow" to="/contact/">
-                Contact <span>Ask me anything!</span>
+
+         <li>
+              <Link className="navbar-item txtshadow" to="/vault/favorites/">
+                The Vault <span>View the full archives</span>
               </Link>
       </li>
-    
+
+
+      <li>
+              <Link className="navbar-item txtshadow" to="/nft/">
+                NFT Collectibles <span>Limited Editions</span>
+              </Link>
+      </li>
+
+
       <li>
               <Link className="navbar-item txtshadow" to="/about/">
                 About Me <span>Learn All About Me</span>
@@ -119,27 +134,26 @@ export function Layout({ children }) {
       <Link className="navbar-item txtshadow" to="/gear/">Gear Talk<span>What tools I use</span></Link>
        </li>
 
+       
+
+      <li>
+              <Link className="navbar-item txtshadow" to="/contact/">
+                Contact <span>Ask me anything!</span>
+              </Link>
+      </li>
+    
+      
+
+
+
   
 
-      <li>
-              <Link className="navbar-item txtshadow" to="/nft/">
-                NFT Collectibles <span>Limited Editions</span>
-              </Link>
-      </li>
-
-      <li>
-              <Link className="navbar-item txtshadow" to="/vault/favorites/">
-                The Vault <span>View the full archives</span>
-              </Link>
-      </li>
-
-
-      <li>
-              <Link className="navbar-item txtshadow" to="/art" style={{color:'#FA02B7'}}>
       
-                View Photos <span>start here</span>
-              </Link>
-      </li> 
+
+   
+
+
+     
 
       <li style={{border:'none'}}>
       <div style={{display:'flex', justifyContent:'flex-start', color:'#fff', paddingLeft:'0px'}}>
