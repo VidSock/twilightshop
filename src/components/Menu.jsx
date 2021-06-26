@@ -72,7 +72,7 @@ const Menu = () => (
 <ul className="sidebarMenuInner">
 
     <li>
-    <div className="promocode1" style={{textAlign:'center', padding:'10px 35px', }}>
+    <div className="promocode1" style={{textAlign:'center', padding:'10px 5px', }}>
 <Link className="navbar-item txtshadow" to="/">
 <Image alt="Return To Homepage" title="Return To Homepage" filename="tw-logo-white.png" className="" />
 </Link>
