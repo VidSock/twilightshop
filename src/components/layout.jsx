@@ -15,7 +15,7 @@ import { CartButton } from "./cart-button"
 import SearchIcon from "../icons/search"
 import Consent from './Consent'
 import Install from './install-discount'
-
+import Image from '../components/Image'
 
 export function Layout({ children }) {
   const { checkout, loading, didJustAddToCart } = React.useContext(StoreContext)
@@ -147,6 +147,10 @@ export function Layout({ children }) {
 
  <div className="has-app promocode">
 30% OFF CODE: <span style={{color:'#FA02B7', fontWeight:'bold'}}>LoveTheNight</span>
+</div>
+
+<div className="promocode" style={{textAlign:'center', padding:'0 25px'}}>
+<Image alt="Todd Lambert hanging with friends" filename="tw-logo-white.png" className="" />
 </div>
 
 
