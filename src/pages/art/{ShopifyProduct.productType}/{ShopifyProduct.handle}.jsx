@@ -233,6 +233,11 @@ export default function Product({ data: { product, suggestions } }) {
             <h2 className={priceValue}>
              <strong style={{fontSize:'30px'}}>{price}</strong> <br /> High-Res Print Ready Art
             </h2>
+         
+
+            
+
+
             <fieldset className={optionsWrapper}>
               {hasVariants &&
                 options.map(({ id, name, values }, index) => (
@@ -288,15 +293,60 @@ export default function Product({ data: { product, suggestions } }) {
 
             <Tabs className="infomenu" ß style={{minHeight:'20vh', width:'100%', maxWidth:'1000px',  border:'1px solid #222', borderRadius:'12px', overflow:'hidden', marginTop:'40px'}}>
     <TabList style={{width:'100%', border:'0px solid yellow',}}>
+    <Tab><div className="iconmenu"><HiOutlineScale/><span>Legal</span></div></Tab>
     <Tab><div className="iconmenu"><RiSecurePaymentLine/><span>Secure</span></div></Tab>
-      
       <Tab><div className="iconmenu"><CgRatio /><span>Specs</span></div></Tab>
       {/* <Tab><div className="iconmenu"><FiCamera /><span>Tech</span></div></Tab> */}
       <Tab><div className="iconmenu"><CgInfo /><span>FAQ</span></div></Tab>
-      <Tab><div className="iconmenu"><HiOutlineScale/><span>Legal</span></div></Tab>
+      
       
     </TabList>
  
+
+    <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
+    <strong style={{fontSize:'1.5rem'}}>Legal</strong><br /><br />
+
+
+<h4>There are two licensing options:</h4>
+<ol style={{margin:'1rem 3rem'}}>
+<li style={{}}>Personal Use License which includes printing rights. All use and restrictions are limited to private use only.</li>
+<br />
+<li style={{}}>Unlimited Royalty-Free License which includes all rights of the personal use plus commercial use.</li>
+</ol>
+
+<p style={{fontSize:'1.5rem', textAlign:'center', fontWeight:'bold'}}>That’s it.</p> 
+
+<blockquote className="frontquote" style={{width:'70%', margin:'0 auto'}}>
+<p>I believe art should be for everyone, not just snobby elite art collectors. It should be available to and priced for everyone. I just hope you enjoy the art.</p>
+<div style={{textAlign:'right', marginRight:'20%', marginTop:'10px'}}> – Todd
+</div></blockquote>
+
+           {/* <p>
+           Twilightscapes offers two types of license models: royalty-free ("RF") and rights-managed ("RM").</p>
+
+           <p>
+            Royalty-free means that the license fee is paid once and there is no need to pay additional royalties if the content is re-used. <br />Royalty-free content is licensed for worldwide, unlimited and perpetual use.</p>
+
+            <p>Rights-managed content is allowed to be printed in any format suited for private display. Rights-managed content cannot be distributed or used in public in any way that compromises Todd Lambert's abilities to resell the content.<br /><br />
+Rights-managed content is licensed for specific types of private use, and limits the use of the content to private use and display only.</p> */}
+
+            <p style={{textAlign:'center', fontSize:'130%', margin:'2rem 0'}}>
+              <Link to="/legal/"
+           
+            >View License Agreement</Link>
+            
+   
+           <br />
+
+            </p>
+
+
+
+           
+    </TabPanel>
+
+
+
     <TabPanel style={{padding:'0 1.5rem', width:'100%',}}>
             <strong>Secure and spam free</strong><br /><br />
             <p>All transactions are secured using the latest 128-bit SSL encryption. <br />
@@ -336,45 +386,57 @@ export default function Product({ data: { product, suggestions } }) {
 
     <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
             <strong>FAQ</strong><br /><br />
-            <p>
-            Do I get the file right away? Yes, upon completion of transaction<br /><br />
-            What if I lose the file, can I get another copy? Yes, you can retrieve the original file at any time.<br /><br />
-            Is there a watermark? No, it is removed on delivery<br /><br />
-            Can I print this for my office? Yes.<br /><br />
-            Can I print multiple copies? No. <br /><br />
-            Can I post it on Facebook (or any where online)? No.<br /><br />
-            Do I own this photo or can I claim it as mine? No.<br /><br />
-            </p>
 
-    </TabPanel>
+            <p style={{fontWeight:'bold', marginBottom:'0'}}>So, what do I get?</p>
+            <p style={{}}>Upon completion of your purchase you will receive a ZIP file that contains the original high-resolution image in TIFF format. </p>
 
+            <p style={{fontWeight:'bold', marginBottom:'0'}}>What CAN I do with these images?</p>
+            <p style={{}}>Almost anything that you want. Print it for you house or your office. Use it as a background or desktop for your phone, computer or TV. Make your holiday card with it. Print it on your favorite coffee mug.</p>
 
-    <TabPanel style={{padding:'0 1.5rem', width:'100%'}}>
-           <strong>Legal</strong><br /><br />
+            <p style={{fontWeight:'bold', marginBottom:'0'}}>What CAN’T I do with these images?</p>
+            <p style={{}}>Basically, don’t be a Dick or a Karen. I am providing high-quality images that cost considerable amount s of both time and money to acquire. I offer these for a low price to encourage people to enjoy my art. Please dom't share the image on the Internet or use them for a new ad campaign for a Cola company.</p>
 
-           <p>
-           Twilightscapes offers two types of license models: royalty-free ("RF") and rights-managed ("RM").</p>
+            <p style={{fontWeight:'bold', marginBottom:'0'}}>Do I get the file right away?</p>
+            <p style={{}}>Yes, upon completion of transaction</p>
 
-           <p>
-            Royalty-free means that the license fee is paid once and there is no need to pay additional royalties if the content is re-used. <br />Royalty-free content is licensed for worldwide, unlimited and perpetual use.</p>
+            <p style={{fontWeight:'bold', marginBottom:'0'}}>What if I lose the file, can I get another copy?</p>
+            <p style={{}}>Yes, you can retrieve the original file at any time. You will be sent an email with a link to retrieve.</p>
 
-            <p>Rights-managed content is allowed to be printed in any format suited for private display. Rights-managed content cannot be distributed or used in public in any way that compromises Todd Lambert's abilities to resell the content.<br /><br />
-Rights-managed content is licensed for specific types of private use, and limits the use of the content to private use and display only.</p>
+            <p style={{fontWeight:'bold', marginBottom:'0'}}>What about prints?</p>
+            <p style={{}}>I do offer exclusive hand-crafted prints for special circumstances - contact me with your needs if you’re interested. Otherwise, I provide two links to the best printer options available. The links are affiliate links which provide me a portion of any sales, so I encourage you to print with these services.</p>
 
-            <p style={{textAlign:'center', fontSize:'130%'}}>
-              <Link to="/legal/"
-           
-            >View License Agreement</Link>
+            <p style={{fontWeight:'bold', marginBottom:'0'}}>NFTs and image exclusivity</p>
+            <p style={{}}>If you wish to buy all rights to an image (exclusivity), all of images are available for purchase in a non-fungible token version with the transfer of all ownership and the original RAW file provided. The image will also be removed from further sales and retired.</p>
+
+            <p style={{fontWeight:'bold', marginBottom:'0'}}>Is there a watermark?</p>
+            <p style={{}}>No, it is removed on delivery</p>
+
+            <p style={{fontWeight:'bold', marginBottom:'0'}}>Can I print this for my office?</p>
+            <p style={{}}>Yes.</p>
+
+            <p style={{fontWeight:'bold', marginBottom:'0'}}>Can I print multiple copies?</p>
+            <p style={{}}>Yes, if they are for your private use and enjoyment. No, if you want to print them for sale, or for something that relates to being sold or given away.</p>
+
+            <p style={{fontWeight:'bold', marginBottom:'0'}}>Can I post it on Facebook or any where online?</p>
+            <p style={{}}>Simply answered, No. These images are for your private use and enjoymenet only. I make my living on selling these images, so if you provide that to others, it then hurts my ability to further sell those images.</p>
+
+            <p style={{fontWeight:'bold', marginBottom:'0'}}>Do I own this photo, copyright or can I claim it as mine?</p>
+            <p style={{}}>No, the intellectual rights and copyrights are not transferred in any way and will remain the proptery of Todd Lambert.</p>
+
             
-   
-           
 
-            </p>
+            
+
+            {/* <p style={{fontWeight:'bold'}}></p>
+            <p style={{}}></p> */}
 
 
 
-           
+
     </TabPanel>
+
+
+   
 
   </Tabs>
 
