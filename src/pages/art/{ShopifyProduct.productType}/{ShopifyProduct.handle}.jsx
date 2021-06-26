@@ -13,7 +13,7 @@ import { Seo } from "../../../components/seo"
 import { CgChevronRight as ChevronIcon } from "react-icons/cg"
 import { MdBrandingWatermark, MdCropFree } from "react-icons/md"
 import { RiSecurePaymentLine, RiSendPlane2Line } from "react-icons/ri"
-
+import { BiLeftArrow } from "react-icons/bi"
 import GoBack from "../../../components/goBack"
 
 // import { Link } from 'gatsby-plugin-modal-routing'
@@ -472,7 +472,13 @@ Rights-managed content is licensed for specific types of private use, and limits
             <div className="flexcheek sidebart" style={{border:'0px solid yellow', width:'30%'}}>
 
             <div style={{textAlign:'center', margin:'10px 0 30px 0'}}>
-            <GoBack />
+            <Link to="/art">
+<button className="back">
+        <span className="icon -left" style={{paddingRight:'1rem'}}>
+        <BiLeftArrow />
+        </span> {" "} Go Back 
+</button>              
+</Link>
             </div>
 
             <p style={{fontSize:'100%', margin:'4rem 0.8rem 0', padding:'0', lineHeight:'auto', textAlign:'center', fontWeight:'bold'}}>Turn this into a great print here:</p>
@@ -543,7 +549,13 @@ Rights-managed content is licensed for specific types of private use, and limits
         <div style={{textAlign:'center', margin:'20px'}}>
           
     
-<GoBack />
+<Link to="/art">
+<button className="back">
+        <span className="icon -left" style={{paddingRight:'1rem'}}>
+        <BiLeftArrow />
+        </span> {" "} Go Back 
+</button>              
+</Link>
 
 
 

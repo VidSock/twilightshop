@@ -50,7 +50,7 @@ const GoBack = () => (
 </button>
 </div>
 
-{/* <Link to="../../../">
+{/* <Link to="/#photos">
 <button className="back">
         <span className="icon -left" style={{paddingRight:'1rem'}}>
         <BiLeftArrow />
