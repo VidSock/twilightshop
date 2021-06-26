@@ -137,7 +137,7 @@ export default function IndexPage() {
    
 
     {/* <TouchUp /> */}
-    <div className="home-banner flexbutt" style={{position:'relative', height:'auto', overflow:'hidden'}}>
+    <div className="home-banner flexbutt intro" style={{position:'relative', height:'auto', overflow:'hidden'}}>
 
 
 
