@@ -421,7 +421,7 @@ footer{background-color: #000; padding:.1rem 0rem; display:flex; justify-content
   .home-hanner1 div{width:100%; display:inline-block; height:100vh !important; border:1px solid pink !important; }
 } */
 
-body.carto .sidebarIconToggle, body.carto #sidebarMenu, body.carto .social-icons, body.carto .backdrop1{  display: none !important;}
+ body.carto .social-icons, body.carto .backdrop1{  display: none !important;}
 
 /* body.carto{overflow-y: hidden !important;} */
 
@@ -642,7 +642,7 @@ input[type=checkbox] {
   position: absolute;
   height: 5px;
   width: 100%;
-  background-color: #fff;
+  background-color: #FA02B7;
 }
 .horizontal {
   transition: all 0.3s;

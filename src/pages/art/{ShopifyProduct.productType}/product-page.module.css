@@ -23,12 +23,12 @@
 
 .productImageWrapper {
   position: relative;
-  padding-bottom: var(--space-2xl);
+  /* padding-bottom: var(--space-2xl); */
 }
 
 .productImageList {
   display: flex;
-  overflow-x: auto;
+  /* overflow-x: auto; */
 }
 
 .productImageListItem {
