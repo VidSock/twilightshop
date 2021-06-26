@@ -150,7 +150,9 @@ export function Layout({ children }) {
 </div>
 
 <div className="promocode" style={{textAlign:'center', padding:'0 25px'}}>
+<Link className="navbar-item txtshadow" to="/">
 <Image alt="Todd Lambert hanging with friends" filename="tw-logo-white.png" className="" />
+</Link>
 </div>
 
 
