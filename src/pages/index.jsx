@@ -111,12 +111,12 @@ export default function IndexPage() {
 
 <meta name="image" content="https://twilightscapes.com/default-og-image.jpg" data-react-helmet="true" />
 
-<meta property="og:title" content="Twilightscapes - Unique night photography of abandoned urban exploration" data-react-helmet="true" />
+<meta property="og:title" content="Homepage of Twilightscapes - Unique night photography of abandoned urban exploration" data-react-helmet="true" />
 <meta property="og:url" content="https://twilightscapes.com/" data-react-helmet="true" />
 
-<meta property="og:description" content="Night long exposure photography in remote abandoned locations urban exploration" data-react-helmet="true" />
+<meta property="og:description" content="Home of the Night long exposure photography in remote abandoned locations urban exploration" data-react-helmet="true" />
 
-<meta property="og:image" content="https://twilightscapes.com/default-og-image.jpg" data-react-helmet="true" />
+<meta property="og:image" content="https://twilightscapes.com/default-og-image-blank.jpg" data-react-helmet="true" />
 
 
 <meta name="twitter:title" content="Home of Twilightscapes - Unique night photography of abandoned urban exploration" data-react-helmet="true" />
