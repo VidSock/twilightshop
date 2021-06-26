@@ -210,7 +210,9 @@ export default function Product({ data: { product, suggestions } }) {
 
 
           
-
+<div className="mobile" style={{}}>
+<GoBack />
+</div>
 
 <div className="flexbutt" style={{display:'flex', gap:'30px'}}>
 

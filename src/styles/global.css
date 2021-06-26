@@ -338,10 +338,11 @@ height:0;
 
 .flexcheek {width:50%}
 
-
+.mobile{display: none;}
 @media (max-width: 48rem) {
   .flexbutt{flex-direction: column !important;}
 .flexcheek{width:100% !important;}
+.mobile{display: block;}
 	}
 
 
