@@ -48,7 +48,7 @@ export default function IndexPage() {
 
 
 
-<meta charSet="utf-8" />
+{/* <meta charSet="utf-8" />
 <meta http-equiv="x-ua-compatible" content="ie=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
@@ -122,12 +122,11 @@ export default function IndexPage() {
 <meta name="twitter:title" content="Home of Twilightscapes - Unique night photography of abandoned urban exploration" data-react-helmet="true" />
 <meta name="twitter:url" content="https://twilightscapes.com/" data-react-helmet="true" />
 <meta name="twitter:description" content="Homepage of Night long exposure photography in remote abandoned locations urban exploration" data-react-helmet="true" />
-{/* <meta name="twitter:image:src" content="https://twilightscapes.com/default-og-image-blank.jpg" data-react-helmet="true" /> */}
-<meta property="twitter:image:src" content="https://twilightscapes.com/default-og-image-blank.jpg" />
+<meta property="twitter:image:src" content="https://twilightscapes.com/default-og-image-blank.jpg" /> */}
 </Helmet>
 
 
-
+<Seo />
 
     <CustomBox>
 
