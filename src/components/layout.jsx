@@ -131,12 +131,12 @@ export function Layout({ children }) {
                 Contact <span>Ask me anything!</span>
               </Link>
       </li>
-      <li>
+      {/* <li>
               <Link className="navbar-item txtshadow" to="/">
       
                 Home <span>Return to home</span>
               </Link>
-      </li> 
+      </li>  */}
 
       <li style={{border:'none'}}>
       <div style={{display:'flex', justifyContent:'flex-start', color:'#fff', paddingLeft:'0px'}}>

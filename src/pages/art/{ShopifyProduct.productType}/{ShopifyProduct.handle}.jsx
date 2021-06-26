@@ -472,13 +472,13 @@ Rights-managed content is licensed for specific types of private use, and limits
             <div className="flexcheek sidebart" style={{border:'0px solid yellow', width:'30%'}}>
 
             <div style={{textAlign:'center', margin:'10px 0 30px 0'}}>
-            <Link to="/art">
+            {/* <Link to="/art">
 <button className="back">
         <span className="icon -left" style={{paddingRight:'1rem'}}>
         <BiLeftArrow />
         </span> {" "} Go Back 
 </button>              
-</Link>
+</Link> */}<GoBack />
             </div>
 
             <p style={{fontSize:'100%', margin:'4rem 0.8rem 0', padding:'0', lineHeight:'auto', textAlign:'center', fontWeight:'bold'}}>Turn this into a great print here:</p>
@@ -549,14 +549,14 @@ Rights-managed content is licensed for specific types of private use, and limits
         <div style={{textAlign:'center', margin:'20px'}}>
           
     
-<Link to="/art">
+{/* <Link to="/art">
 <button className="back">
         <span className="icon -left" style={{paddingRight:'1rem'}}>
         <BiLeftArrow />
         </span> {" "} Go Back 
 </button>              
-</Link>
-
+</Link> */}
+<GoBack />
 
 
             

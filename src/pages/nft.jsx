@@ -11,22 +11,22 @@ import { BsCircleFill } from "react-icons/bs"
 import { FaSquareFull } from "react-icons/fa"
 
 
-import { MoreButton } from "../components/more-button"
-import { title } from "../pages/index.module.css"
+// import { MoreButton } from "../components/more-button"
+// import { title } from "../pages/index.module.css"
 
 
 
-import {
-  container,
-  intro,
-  callOut,
-  callToAction,
-  deployButton,
-} from "./index.module.css"
+// import {
+//   container,
+//   intro,
+//   callOut,
+//   callToAction,
+//   deployButton,
+// } from "./index.module.css"
 
 import Image from '../components/Image'
 import ScrollAnimation from 'react-animate-on-scroll'
-import { GiPlainArrow } from 'react-icons/gi'
+// import { GiPlainArrow } from 'react-icons/gi'
 
 import styled from 'styled-components'
 
