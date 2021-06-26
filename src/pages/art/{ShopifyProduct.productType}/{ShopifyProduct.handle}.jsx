@@ -169,7 +169,7 @@ export default function Product({ data: { product, suggestions } }) {
                 aria-label="gallery"
                 aria-describedby="instructions"
               >
-                <ul className={productImageList}>
+                <ul className={productImageList} style={{height:'100%'}}>
                   {images.map((image, index) => (
                     <li
                       key={`product-image-${image.id}`}
@@ -178,7 +178,7 @@ export default function Product({ data: { product, suggestions } }) {
                     >
                       
 
-                      <div className="vert" style={{ position:'relative' }}>
+                      <div className="vert" style={{ position:'relative', background:'#ff000', border:'0px solid yellow', minHeight:'600px' }}>
                         
                         <InnerImageZoom src={getSrc(firstImage.gatsbyImageData)} objectFit="contain" loading={index === 0 ? "eager" : "lazy"} />
 
@@ -224,7 +224,7 @@ export default function Product({ data: { product, suggestions } }) {
               {/* <Link to={product.productTypeSlug}>{product.productType}</Link> */}
               {/* <ChevronIcon size={12} /> */}
             </div>
-            <h1 className={header}>{title}</h1>
+            <h1 className={header} style={{margin:'1rem 0 2rem 0'}}>{title}</h1>
             <p className={productDescription}>{description}</p>
 
 
@@ -476,11 +476,11 @@ Rights-managed content is licensed for specific types of private use, and limits
 
             <div className="flexcheek sidebart" style={{border:'0px solid yellow', width:'30%'}}>
 
-            <div style={{textAlign:'center', margin:'0 0 30px 0'}}>
+            <div style={{textAlign:'center', margin:'10px 0 30px 0'}}>
             <GoBack />
             </div>
 
-            <p style={{fontSize:'100%', margin:'0 0', padding:'0', lineHeight:'auto', textAlign:'center', fontWeight:'bold'}}>Turn this into a great print here:</p>
+            <p style={{fontSize:'100%', margin:'4rem 0.8rem 0', padding:'0', lineHeight:'auto', textAlign:'center', fontWeight:'bold'}}>Turn this into a great print here:</p>
             
             <div style={{display:'flex', gap:'10px',padding:'0 ', margin:'0 0 2rem 0', justifyContent:'center' }}>
 
