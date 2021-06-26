@@ -59,7 +59,7 @@ export function Layout({ children }) {
 
 <header>
 
-<Link to="/"><img id="logo" className="twlogo1" src={twLogo} alt="Twilightscapes Logo" style={{margin:'16px 0 40px 4vw', minWidth:'100px', maxWidth:'100px', height:'auto', padding:'0', border:'0px solid red', position:'fixed', zIndex:'2'}} /></Link>
+{/* <Link to="/"><img id="logo" className="twlogo1" src={twLogo} alt="Twilightscapes Logo" style={{margin:'16px 0 40px 4vw', minWidth:'100px', maxWidth:'100px', height:'auto', padding:'0', border:'0px solid red', position:'fixed', zIndex:'2'}} /></Link> */}
 
 
 
@@ -128,6 +128,12 @@ export function Layout({ children }) {
                 Contact <span>Ask me anything!</span>
               </Link>
       </li>
+      <li>
+              <Link className="navbar-item txtshadow" to="/">
+      
+                Home <span>Return to home</span>
+              </Link>
+      </li> 
 
       {/* <li>
       <Link to="/search" >
@@ -183,7 +189,7 @@ export function Layout({ children }) {
 
 
 
-<div className="toppad" style={{display:'block', height:'70px', border:'0px solid yellow'}}></div>
+<div className="toppad" style={{display:'block', height:'20px', border:'0px solid yellow'}}></div>
 
 
 
