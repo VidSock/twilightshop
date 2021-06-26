@@ -214,6 +214,8 @@ width: 100vw;
   }
 
 
+  .txtshadow{ text-shadow: 2px 2px 2px black;}
+
 p{margin-bottom:2rem;}
 
 .actionJackson{

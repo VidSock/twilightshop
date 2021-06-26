@@ -167,11 +167,11 @@ export default function IndexPage() {
 <p>Let Todd's award winning night photography and digital storytelling, prove to you that the night is indeed beautiful.</p>
 
 <Link
-              className="actionJackson"
-              sx={{
+              className="actionJackson txtshadow"
+              style={{
                 cursor:'pointer',
                 width:'',
-                backgroundColor:'#000 !important'
+  
               }}
               to="/art"
             >
