@@ -42,7 +42,7 @@ export default function IndexPage() {
 <Helmet>
   
     <body className="homepage" />
-</Helmet>
+
 
 
 
@@ -124,7 +124,7 @@ export default function IndexPage() {
 <meta name="twitter:description" content="Homepage of Night long exposure photography in remote abandoned locations urban exploration" data-react-helmet="true" />
 <meta name="twitter:image" content="https://twilightscapes.com/default-og-image-blank.jpg" data-react-helmet="true" />
 
-
+</Helmet>
 
 
 
