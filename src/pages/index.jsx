@@ -119,11 +119,11 @@ export default function IndexPage() {
 <meta property="og:image" content="https://twilightscapes.com/default-og-image.jpg" data-react-helmet="true" />
 
 
-<meta name="twitter:title" content="Twilightscapes - Unique night photography of abandoned urban exploration" data-react-helmet="true" />
+<meta name="twitter:title" content="Home of Twilightscapes - Unique night photography of abandoned urban exploration" data-react-helmet="true" />
 <meta name="twitter:url" content="https://twilightscapes.com/" data-react-helmet="true" />
 <meta name="twitter:description" content="Homepage of Night long exposure photography in remote abandoned locations urban exploration" data-react-helmet="true" />
-<meta name="twitter:image" content="https://twilightscapes.com/default-og-image-blank.jpg" data-react-helmet="true" />
-
+{/* <meta name="twitter:image:src" content="https://twilightscapes.com/default-og-image-blank.jpg" data-react-helmet="true" /> */}
+<meta property="twitter:image:src" content="https://github.githubassets.com/images/modules/open_graph/github-logo.png"></meta>
 </Helmet>
 
 
