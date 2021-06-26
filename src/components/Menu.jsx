@@ -113,7 +113,7 @@ const Menu = () => (
   <li>
           <Link className="navbar-item txtshadow" to="/art" style={{color:'#FA02B7'}}>
   
-            View Photos <span>Twilightscapes gallery</span>
+            View Photos <span>start here</span>
           </Link>
   </li> 
 
