@@ -102,17 +102,17 @@ export function Layout({ children }) {
 </Link>
 </div>
       </li>
- <li>
-              <Link className="navbar-item txtshadow" to="/art" style={{color:'#FA02B7'}}>
+ <li style={{textAlign:'center'}}>
+              <Link className="navbar-item txtshadow" to="/art">
       
-                View Photos <span>start here</span>
+              View Photos <span style={{color:'#FA02B7',}}>start here</span>
               </Link>
       </li> 
 
 
          <li>
               <Link className="navbar-item txtshadow" to="/vault/favorites/">
-                The Vault <span>View the full archives</span>
+              The Vault <span>Full Photo archives</span>
               </Link>
       </li>
 
@@ -138,7 +138,7 @@ export function Layout({ children }) {
 
       <li>
               <Link className="navbar-item txtshadow" to="/contact/">
-                Contact <span>Ask me anything!</span>
+                Contact Me<span>Ask me anything!</span>
               </Link>
       </li>
     
