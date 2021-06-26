@@ -1244,7 +1244,7 @@ border:1px solid #222;
         align-self:center;
 
         animation: poof 1s forwards;
-        animation-delay: 10.5s;
+        animation-delay: 1.5s;
         overflow: hidden;
 
         padding:300px 0 0 0;
