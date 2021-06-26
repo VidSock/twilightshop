@@ -170,7 +170,8 @@ export default function IndexPage() {
               className="actionJackson txtshadow"
               style={{
                 cursor:'pointer',
-                width:'',
+                width:'70%',
+                margin:'0 auto'
   
               }}
               to="/art"
