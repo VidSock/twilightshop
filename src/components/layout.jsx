@@ -82,15 +82,18 @@ export function Layout({ children }) {
    <div id="sidebarMenu">
   
 
-   
-   <div style={{display:'flex', justifyContent:'flex-start', color:'#fff', paddingLeft:'20px'}}>
-   
-   <Link to="/search" style={{display:'flex', verticalAlign:'center', marginTop:'12px', marginRight:'20px'}}>
-    <span><SearchIcon /></span>
-   </Link>
+   <div className="promocode1" style={{textAlign:'center', padding:'10px 35px', }}>
+<Link className="navbar-item txtshadow" to="/">
+<Image alt="Todd Lambert hanging with friends" filename="tw-logo-white.png" className="" />
+</Link>
+</div>
 
-  <div style={{marginTop:'5px'}}><CartButton quantity={quantity} /></div>
-     </div>
+
+   
+
+
+
+
 
     <ul className="sidebarMenuInner">
 
@@ -135,11 +138,14 @@ export function Layout({ children }) {
               </Link>
       </li> 
 
-      {/* <li>
-      <Link to="/search" >
-          <span>Search Catalog <SearchIcon /></span>
-        </Link>
-        </li> */}
+      <li>
+      <div style={{display:'flex', justifyContent:'flex-start', color:'#fff', paddingLeft:'0px'}}>
+   <Link to="/search" style={{display:'flex', verticalAlign:'center', marginTop:'12px', marginRight:'20px'}}>
+    <span><SearchIcon /></span>
+   </Link>
+  <div style={{marginTop:'5px'}}><CartButton quantity={quantity} /></div>
+  </div>
+        </li>
 
     
 
@@ -149,11 +155,7 @@ export function Layout({ children }) {
 30% OFF CODE: <span style={{color:'#FA02B7', fontWeight:'bold'}}>LoveTheNight</span>
 </div>
 
-<div className="promocode" style={{textAlign:'center', padding:'0 25px'}}>
-<Link className="navbar-item txtshadow" to="/">
-<Image alt="Todd Lambert hanging with friends" filename="tw-logo-white.png" className="" />
-</Link>
-</div>
+
 
 
   </div>
