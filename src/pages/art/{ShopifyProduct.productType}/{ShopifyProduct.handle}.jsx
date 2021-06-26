@@ -56,17 +56,12 @@ import styled from 'styled-components'
 const CustomBox = styled.div`
 
 
-.intro:before{
-	content: "Damn";
-position:absolute;
-display: flex;
-align-items: center;
-justify-content: center;
-font-size:380%; color:#f8f8fc; text-shadow: 12px 7px 15px 12px black;
-}
+.vert{minHeight:'600px'}
 
 @media (max-width: 48rem) {
 .flexcheek{width:100% !important;}
+.vert{minHeight:'inherit'}
+
  }
 
 `
@@ -178,7 +173,7 @@ export default function Product({ data: { product, suggestions } }) {
                     >
                       
 
-                      <div className="vert" style={{ position:'relative', background:'#ff000', border:'0px solid yellow', minHeight:'600px' }}>
+                      <div className="vert" style={{ position:'relative', background:'#000', border:'0px solid yellow', }}>
                         
                         <InnerImageZoom src={getSrc(firstImage.gatsbyImageData)} objectFit="contain" loading={index === 0 ? "eager" : "lazy"} />
 

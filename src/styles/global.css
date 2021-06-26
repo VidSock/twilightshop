@@ -2,6 +2,8 @@ body {
   font-family: var(--font-body);
   color: #ccc;
   background:#111;
+  overflow-x: hidden;
+  width:100vw;
 }
 
 body,h1,h2,h3,h4,.h1,.h2,.h3,.h4, #menu, .header .menu-icon:before, input.special, .intro:after, .intro:before, .scrolldown, label, .font, .gatsby-image-wrapper, .full-width-image:after{font-family: Hammersmith One,lucida grande,lucida sans unicode,Tahoma,Sans-Serif; /* font-style: italic; */}
@@ -1200,7 +1202,7 @@ border:1px solid #222;
         top:0;
         left:0;
         z-index: 1;
-        width: 100vw;
+
         height: 100vh;
         background-repeat: no-repeat;
         background-position: left top;
@@ -1234,16 +1236,20 @@ border:1px solid #222;
     
         } */
 
+.intro{border:0px solid orange !important;}
 
         body.homepage .intro:before{
           content: "A Pioneer In Night Photography";
-        position:absolute;
-   
+        position:fixed;
+   left:0;
+   top:0;
+   right:0;
+   bottom:0;
         display: flex;
         align-items: center;
         justify-content: center;
         align-self:center;
-
+          width:100%;
         animation: poof 1s forwards;
         animation-delay: 1.5s;
         overflow: hidden;
