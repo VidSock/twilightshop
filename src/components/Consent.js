@@ -8,8 +8,8 @@ import ScrollAnimation from 'react-animate-on-scroll'
 
 const Consent = () => (
 
-    <ScrollAnimation animateIn="bounceInUp" delay={4000} style={{ display:'flex',  position: 'fixed', bottom:'50px',
-left:'0', right:'0',  alignItems:'center', zIndex:'1', width:'100%', height:'200px'}}>
+    <ScrollAnimation animateIn="bounceInUp" delay={0} style={{ display:'flex',  position: 'fixed', bottom:'50px',
+left:'0', right:'0',  alignItems:'center', zIndex:'1', width:'75%',}}>
 
 <CookieConsent
 	debug={false}
