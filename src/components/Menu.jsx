@@ -144,9 +144,9 @@ const Menu = () => (
 
     </ul>
 
- {/* <div className="has-app promocode">
+ <div className="has-app promocode">
 30% OFF CODE: <span style={{color:'#FA02B7', fontWeight:'bold'}}>LoveTheNight</span>
-</div> */}
+</div>
 
 
 

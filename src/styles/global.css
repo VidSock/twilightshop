@@ -371,7 +371,7 @@ p{margin-bottom: 1rem;}
   text-align:center;
   font-size:2vw;
   position:absolute;
-  bottom:20px;
+  top:20px;
   z-index:1;
   width:100%;
 }
