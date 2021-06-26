@@ -138,7 +138,7 @@ export function Layout({ children }) {
               </Link>
       </li> 
 
-      <li>
+      <li style={{border:'none'}}>
       <div style={{display:'flex', justifyContent:'flex-start', color:'#fff', paddingLeft:'0px'}}>
    <Link to="/search" style={{display:'flex', verticalAlign:'center', marginTop:'12px', marginRight:'20px'}}>
     <span><SearchIcon /></span>

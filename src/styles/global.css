@@ -1238,6 +1238,7 @@ border:1px solid #222;
         body.homepage .intro:before{
           content: "A Pioneer In Night Photography";
         position:absolute;
+   
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1278,7 +1279,7 @@ border:1px solid #222;
         
         @keyframes poof {
         0% {
-          transform: translateY(0);
+          transform: translateY(-100);
           display: none;
           opacity: 0;
           }
@@ -1291,6 +1292,7 @@ border:1px solid #222;
         100% {
           transform: translateY(1200px) scaleY(1.35) scaleX(2.5);
           height:0;
+          top:-100%;
             filter: blur(60px);
             opacity: 0;   	
           }
