@@ -1,6 +1,7 @@
 
 import * as React from "react"
 import { Link } from 'gatsby-plugin-modal-routing-3'
+import { ModalRoutingContext } from 'gatsby-plugin-modal-routing-3'
 import styled from "styled-components";
 import { StoreContext } from "../context/store-context"
 import { Toast } from "./toast"
@@ -113,7 +114,7 @@ const Menu = () => (
        
 
       <li>
-              <Link state={{modal: true}} className="navbar-item txtshadow" to="/contact/">
+              <Link  className="navbar-item txtshadow" to="/contact/">
                 Contact Me<span>Ask me anything!</span>
               </Link>
       </li>

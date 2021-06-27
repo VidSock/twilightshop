@@ -137,7 +137,7 @@ export function Layout({ children }) {
        
 
       <li>
-              <Link state={{modal: true}} className="navbar-item txtshadow" to="/contact/">
+              <Link className="navbar-item txtshadow" to="/contact/">
                 Contact Me<span>Ask me anything!</span>
               </Link>
       </li>
