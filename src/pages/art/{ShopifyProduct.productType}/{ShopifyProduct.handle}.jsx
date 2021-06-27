@@ -385,13 +385,13 @@ Rights-managed content is licensed for specific types of private use, and limits
             <strong>FAQ</strong><br /><br />
 
             <p style={{fontWeight:'bold', marginBottom:'0'}}>So, what do I get?</p>
-            <p style={{}}>Upon completion of your purchase you will receive a ZIP file that contains the original high-resolution image in TIFF format. </p>
+            <p style={{}}>Upon completion of your purchase, you will receive a ZIP file that contains the original high-resolution image in TIFF format. </p>
 
             <p style={{fontWeight:'bold', marginBottom:'0'}}>What CAN I do with these images?</p>
-            <p style={{}}>Almost anything that you want. Print it for you house or your office. Use it as a background or desktop for your phone, computer or TV. Make your holiday card with it. Print it on your favorite coffee mug.</p>
+            <p style={{}}>Almost anything that you want. Print it for your house or office. Use it as a background or desktop for your phone, computer or TV. Make your holiday cards with it. Print it on your favorite coffee mug. You name it!</p>
 
             <p style={{fontWeight:'bold', marginBottom:'0'}}>What CAN’T I do with these images?</p>
-            <p style={{}}>Basically, don’t be a Dick or a Karen. I am providing high-quality images that cost considerable amount s of both time and money to acquire. I offer these for a low price to encourage people to enjoy my art. Please dom't share the image on the Internet or use them for a new ad campaign for a Cola company.</p>
+            <p style={{}}>Basically, don’t be a Dick or a Karen. I am providing high-quality images that cost considerable amounts of both time and money to acquire. I offer these for a low price to encourage people to enjoy my art. <strong>Please don't share the images on the Internet.</strong></p>
 
             <p style={{fontWeight:'bold', marginBottom:'0'}}>Do I get the file right away?</p>
             <p style={{}}>Yes, upon completion of transaction</p>
@@ -400,10 +400,10 @@ Rights-managed content is licensed for specific types of private use, and limits
             <p style={{}}>Yes, you can retrieve the original file at any time. You will be sent an email with a link to retrieve.</p>
 
             <p style={{fontWeight:'bold', marginBottom:'0'}}>What about prints?</p>
-            <p style={{}}>I do offer exclusive hand-crafted prints for special circumstances - contact me with your needs if you’re interested. Otherwise, I provide two links to the best printer options available. The links are affiliate links which provide me a portion of any sales, so I encourage you to print with these services.</p>
+            <p style={{}}>I do offer exclusive hand-crafted prints for special circumstances - contact me with your needs if you’re interested. Otherwise, I provide two links to the best printer options available on the upper right-side of the photo pages. The links are affiliate links which provide me a portion of any sales, so I encourage you to print with these services.</p>
 
             <p style={{fontWeight:'bold', marginBottom:'0'}}>NFTs and image exclusivity</p>
-            <p style={{}}>If you wish to buy all rights to an image (exclusivity), all of images are available for purchase in a non-fungible token version with the transfer of all ownership and the original RAW file provided. The image will also be removed from further sales and retired.</p>
+            <p style={{}}>If you wish to buy all rights to an image (exclusivity), all of my images are available for purchase in a non-fungible token version with the transfer of all ownership and the original RAW file included. The image will also be removed from further sales and retired.</p>
 
             <p style={{fontWeight:'bold', marginBottom:'0'}}>Is there a watermark?</p>
             <p style={{}}>No, it is removed on delivery</p>
@@ -415,10 +415,10 @@ Rights-managed content is licensed for specific types of private use, and limits
             <p style={{}}>Yes, if they are for your private use and enjoyment. No, if you want to print them for sale, or for something that relates to being sold or given away.</p>
 
             <p style={{fontWeight:'bold', marginBottom:'0'}}>Can I post it on Facebook or any where online?</p>
-            <p style={{}}>Simply answered, No. These images are for your private use and enjoymenet only. I make my living on selling these images, so if you provide that to others, it then hurts my ability to further sell those images.</p>
+            <p style={{}}>Simply answered, No. These images are for your private use and enjoyment only. I make my living on selling these images, so if you provide that to others, it then hurts my ability to further sell those images.</p>
 
             <p style={{fontWeight:'bold', marginBottom:'0'}}>Do I own this photo, copyright or can I claim it as mine?</p>
-            <p style={{}}>No, the intellectual rights and copyrights are not transferred in any way and will remain the proptery of Todd Lambert.</p>
+            <p style={{}}>No, the intellectual rights and copyrights are not transferred in any way and will remain the property of Todd Lambert.</p>
 
             
 
