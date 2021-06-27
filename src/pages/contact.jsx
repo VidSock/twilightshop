@@ -14,7 +14,7 @@ p{margin-bottom:2rem;}
 
 
 
-// .contact-form input, .contact-form textarea{border:0px solid red !important; color:#222; !important;}
+
 
 
 
@@ -22,11 +22,10 @@ p{margin-bottom:2rem;}
 
 @media (max-width: 58em) {
 
-
 }
 
 @media (min-width: 58em) {
-	// .textbox{padding-top:80px !important;}
+
 }
 
 
@@ -46,7 +45,7 @@ export default function ContactPage() {
 
 
      
-      <div className="wrapper" style={{padding:'2rem 3%'}}>
+      <div className="wrapper" style={{padding:'0 5%', width:'95%', margin:'0 auto'}}>
 
       {/* <h1 className="title" style={{fontSize:'50px'}}>Contact Me</h1> */}
 
@@ -87,7 +86,8 @@ export default function ContactPage() {
               className="moreButton"
               style={{color:'#fff',
             }}
-              sx={{
+              style={{
+                margin:'0',
                 // variant: "variants.button",
                 
               }}

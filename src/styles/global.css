@@ -510,7 +510,7 @@ display: none;
 
 
 .contact-form {
-  margin-top: 36px;
+  /* margin-top: 36px; */
 }
 
   label {
@@ -531,21 +531,24 @@ display: none;
     width: 100%;
     max-width: 100%;
     margin: 0 0;
-    appearance: none;
     font-size: 18px;
     font-weight: 600;
+    background:#333;
     color:#fff !important;
-    border:3px solid #000 !important;
+    border:1px solid #666 !important;
     padding:1rem;
     border-radius:8px;
-    background:rgba(145, 26, 103, 0.829) !important;
+    /* background:rgba(145, 26, 103, 0.829) !important; */
+    opacity: .5;
   }
-  textarea:focus{border-color:2px solid palevioletred;}
+  /* textarea:focus{border-color:2px solid palevioletred;} */
 
   textarea {
     min-height: 200px;
   }
 
+  input:focus, textarea:focus { outline:2px solid #FA02B7 ! important;  border-radius: 8px !important; } 
+  
   .contact-form p{margin-bottom:0;}
 
 

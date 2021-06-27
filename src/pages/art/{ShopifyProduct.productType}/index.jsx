@@ -13,7 +13,7 @@ export default function ProductTypeIndex({
 }) {
   return (
     <Layout>
-      <Seo title={`Category: ${productType}`} />
+      <Seo title={`Unique Long Exposure PHotography by Todd Lambert ${productType}`} />
       <h1 className={title}>{productType}</h1>
       <ProductListing products={products.nodes} />
       {products.pageInfo.hasNextPage && (
@@ -30,7 +30,7 @@ export const query = graphql`
     products: allShopifyProduct(
       filter: { productType: { eq: $productType } }
       sort: { fields: publishedAt, order: ASC }
-      limit: 64
+      limit: 100
     ) {
       nodes {
         ...ProductCard
