@@ -58,7 +58,7 @@ const Menu = () => (
   </label>
 
 
-  <div className="backdrop1" ></div>
+  <label htmlFor="openSidebarMenu" className="backdrop1" ></label>
 
 
    <div id="sidebarMenu">
