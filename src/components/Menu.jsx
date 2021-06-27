@@ -113,7 +113,7 @@ const Menu = () => (
        
 
       <li>
-              <Link className="navbar-item txtshadow" to="/contact/">
+              <Link state={{modal: true}} className="navbar-item txtshadow" to="/contact/">
                 Contact Me<span>Ask me anything!</span>
               </Link>
       </li>
@@ -132,9 +132,9 @@ const Menu = () => (
      
 
       <li style={{border:'none'}}>
-      <div style={{display:'flex', justifyContent:'flex-start', color:'#fff', paddingLeft:'0px'}}>
+      <div className="carto" style={{display:'flex', justifyContent:'flex-start', color:'#fff', paddingLeft:'0px'}}>
    <Link to="/search" style={{display:'flex', verticalAlign:'center', marginTop:'12px', marginRight:'20px'}}>
-    <span><SearchIcon /></span>
+    <span className="carto"><SearchIcon /></span>
    </Link>
   <div style={{marginTop:'5px'}}><CartButton /></div>
   </div>
