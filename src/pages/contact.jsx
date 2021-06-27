@@ -45,7 +45,7 @@ export default function ContactPage() {
 
 
      
-      <div className="wrapper" style={{padding:'0 5%', width:'95%', margin:'0 auto'}}>
+      <div className="wrapper" style={{padding:'0 5%', width:'95%', margin:'1rem auto'}}>
 
       {/* <h1 className="title" style={{fontSize:'50px'}}>Contact Me</h1> */}
 
