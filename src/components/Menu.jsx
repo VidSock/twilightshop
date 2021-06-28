@@ -62,15 +62,23 @@ const Menu = () => (
   <label htmlFor="openSidebarMenu" className="backdrop1" ></label>
 
 
+  
+
    <div id="sidebarMenu">
 
-   <div className="" style={{textAlign:'center', padding:'20px 25px', }}>
+<div className="has-app promocode">
+30% OFF CODE: <span style={{color:'#FA02B7', fontWeight:'bold'}}>LoveTheNight</span>
+</div>
+
+<ul className="sidebarMenuInner">
+
+<li>
+ <div className="" style={{textAlign:'center', padding:'0x', }}>
 <Link className="navbar-item txtshadow" to="/">
 <Image alt="Return To Homepage" title="Return To Homepage" filename="tw-logo-white.png" className="" />
 </Link>
 </div>
-  
-<ul className="sidebarMenuInner">
+ </li>
 
  <li style={{textAlign:'center'}}>
               <Link className="navbar-item txtshadow" to="/art" >
@@ -139,9 +147,9 @@ const Menu = () => (
 
     </ul>
 
- <div className="has-app promocode">
+ {/* <div className="has-app promocode">
 30% OFF CODE: <span style={{color:'#FA02B7', fontWeight:'bold'}}>LoveTheNight</span>
-</div>
+</div> */}
 
 
 

@@ -88,7 +88,7 @@ export function Layout({ children }) {
     <ul className="sidebarMenuInner">
 
  <li>
- <div className="" style={{textAlign:'center', padding:'20px 25px', }}>
+ <div className="" style={{textAlign:'center', padding:'0x', }}>
 <Link className="navbar-item txtshadow" to="/">
 <Image alt="Return To Homepage" title="Return To Homepage" filename="tw-logo-white.png" className="" />
 </Link>
