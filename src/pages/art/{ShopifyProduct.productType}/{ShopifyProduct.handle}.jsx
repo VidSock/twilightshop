@@ -255,7 +255,7 @@ export default function Product({ data: { product, suggestions } }) {
                 ))}
             </fieldset>
             <div className={addToCartStyle}>
-              <NumericInput
+              {/* <NumericInput
                 aria-label="Quantity"
                 onIncrement={() => setQuantity((q) => Math.min(q + 1, 20))}
                 onDecrement={() => setQuantity((q) => Math.max(1, q - 1))}
@@ -263,7 +263,7 @@ export default function Product({ data: { product, suggestions } }) {
                 value={quantity}
                 min="1"
                 max="20"
-              />
+              /> */}
               <AddToCart
                 variantId={productVariant.storefrontId}
                 quantity={quantity}

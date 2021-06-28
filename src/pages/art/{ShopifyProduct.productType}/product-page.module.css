@@ -79,16 +79,17 @@
 }
 
 .optionsWrapper {
-  display: grid;
+  display: flex;
   grid-template-columns: var(--product-grid);
   gap: var(--space-lg);
   padding-bottom: var(--space-lg);
 }
 
 .addToCartStyle {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: min-content 1fr;
   gap: var(--space-lg);
+  margin:0 auto;
 }
 
 .selectVariant {
@@ -103,7 +104,7 @@
 .selectVariant select {
   appearance: none;
   background-color: #000;
-  border: none;
+  border: 1px solid #FA02B7 !important;
   color: var(--input-text);
   cursor: inherit;
   font-size: var(--text-md);
