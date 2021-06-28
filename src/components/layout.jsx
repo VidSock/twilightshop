@@ -81,27 +81,15 @@ export function Layout({ children }) {
 
    <div id="sidebarMenu">
   
-
-   <div className="promocode1" style={{textAlign:'center', padding:'10px 35px', }}>
-
-</div>
-
-
-   
-
-
-
-
-
-    <ul className="sidebarMenuInner">
-
-    <li>
-    <div className="promocode1" style={{textAlign:'center', padding:'10px 5px', }}>
+   <div className="" style={{textAlign:'center', padding:'20px 25px', }}>
 <Link className="navbar-item txtshadow" to="/">
 <Image alt="Return To Homepage" title="Return To Homepage" filename="tw-logo-white.png" className="" />
 </Link>
 </div>
-      </li>
+
+    <ul className="sidebarMenuInner">
+
+ 
  <li className="carto" style={{textAlign:'center'}}>
               <Link className="navbar-item txtshadow" to="/art">
       
@@ -144,33 +132,23 @@ export function Layout({ children }) {
     
       
 
-
-
+      <li className="carto" style={{border:'none', display:'flex', justifyContent:'space-around', verticalAlign:'center' }}>
   
-
-      
-
-   
-
-
-     
-
-      <li style={{border:'none'}}>
-      <div className="carto" style={{display:'flex', justifyContent:'flex-start', color:'#fff', paddingLeft:'0px'}}>
-   <Link to="/search" style={{display:'flex', verticalAlign:'center', marginTop:'12px', marginRight:'20px'}}>
+   <Link to="/search" style={{marginRight:'20px', marginTop:'5px'}}>
     <span className="carto"><SearchIcon /></span>
    </Link>
-  <div style={{marginTop:'5px'}}><CartButton quantity={quantity} /></div>
-  </div>
+  <div><CartButton quantity={quantity} /></div>
+
+
         </li>
 
     
 
     </ul>
 
- <div className="has-app promocode">
+ {/* <div className="has-app promocode">
 30% OFF CODE: <span style={{color:'#FA02B7', fontWeight:'bold'}}>LoveTheNight</span>
-</div>
+</div> */}
 
 
 
@@ -214,7 +192,7 @@ export function Layout({ children }) {
 
 
 
-<div className="toppad" style={{display:'block', height:'20px', border:'0px solid yellow'}}></div>
+{/* <div className="toppad" style={{display:'block', height:'20px', border:'0px solid yellow'}}></div> */}
 
 
 
@@ -224,6 +202,7 @@ export function Layout({ children }) {
       <Consent />
      <Install />
       <Footer />
+      
       </>
     </div>
     
