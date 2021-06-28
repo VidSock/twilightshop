@@ -72,7 +72,7 @@ const NewsletterPage = () => (
   
 
             <button
-              className="button"
+              className="buttonMore"
               type="submit"
       
             >
