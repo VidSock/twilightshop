@@ -73,62 +73,55 @@ const Menu = () => (
 
 <ul className="sidebarMenuInner">
 
-<li style={{border:'none', marginBottom:'1rem'}}>
+ <li style={{border:'none', marginBottom:'1rem'}}>
 <Link to="/"><img id="logo" className="twlogo" src={twLogo} alt="Twilightscapes Logo" title="Return To Homepage" style={{minWidth:'100px', maxWidth:'165px',}} /></Link>
  </li>
 
- <li style={{textAlign:'center'}}>
-              <Link className="navbar-item txtshadow" to="/art" >
-      
-                View Photos <span style={{color:'#FA02B7',}}>start here</span>
-              </Link>
-      </li> 
 
 
-         <li>
-              <Link className="navbar-item txtshadow" to="/vault/favorites/">
-                The Vault <span>Full Photo archives</span>
+
+ <li>
+              <Link className="navbar-item txtshadow" to="/contact/">
+                Contact Me<span>Ask me anything!</span>
               </Link>
       </li>
 
 
-      <li>
+      <li className="carto">
+      <Link className="navbar-item txtshadow" to="/gear/">Gear Talk<span>What tools I use</span></Link>
+       </li>
+
+
+      <li className="carto">
+              <Link className="navbar-item txtshadow" to="/about/">
+                About Me <span>Learn All About Me</span>
+              </Link>
+      </li>
+
+
+      <li className="carto">
               <Link className="navbar-item txtshadow" to="/nft/">
                 NFT Collectibles <span>Limited Editions</span>
               </Link>
       </li>
 
 
-      <li>
-              <Link className="navbar-item txtshadow" to="/about/">
-                About Me <span>Learn All About Me</span>
+      <li className="carto">
+              <Link className="navbar-item txtshadow" to="/vault/favorites/">
+              The Vault <span>Full Photo archives</span>
               </Link>
       </li>
 
-      <li>
-      <Link className="navbar-item txtshadow" to="/gear/">Gear Talk<span>What tools I use</span></Link>
-       </li>
 
-       
 
-      <li>
-              <Link  className="navbar-item txtshadow" to="/contact/">
-                Contact Me<span>Ask me anything!</span>
+      <li className="carto" style={{textAlign:'center'}}>
+              <Link className="navbar-item txtshadow" to="/art">
+      
+              View Photos <span style={{color:'#FA02B7',}}>start here</span>
               </Link>
-      </li>
+      </li> 
     
       
-
-
-
-  
-
-      
-
-   
-
-
-     
 
       <li className="carto" style={{border:'none', display:'flex', justifyContent:'space-around', verticalAlign:'center' }}>
   
