@@ -63,22 +63,15 @@ const Menu = () => (
 
 
    <div id="sidebarMenu">
-  
 
-   <div className="promocode1" style={{textAlign:'center', padding:'10px 35px', }}>
-
-</div>
-
-
-<ul className="sidebarMenuInner">
-
-    <li>
-    <div className="promocode1" style={{textAlign:'center', padding:'10px 5px', }}>
+   <div className="" style={{textAlign:'center', padding:'20px 25px', }}>
 <Link className="navbar-item txtshadow" to="/">
 <Image alt="Return To Homepage" title="Return To Homepage" filename="tw-logo-white.png" className="" />
 </Link>
 </div>
-      </li>
+  
+<ul className="sidebarMenuInner">
+
  <li style={{textAlign:'center'}}>
               <Link className="navbar-item txtshadow" to="/art" >
       
@@ -132,13 +125,14 @@ const Menu = () => (
 
      
 
-      <li style={{border:'none'}}>
-      <div className="carto" style={{display:'flex', justifyContent:'flex-start', color:'#fff', paddingLeft:'0px'}}>
-   <Link to="/search" style={{display:'flex', verticalAlign:'center', marginTop:'12px', marginRight:'20px'}}>
+      <li className="carto" style={{border:'none', display:'flex', justifyContent:'space-around', verticalAlign:'center' }}>
+  
+   <Link to="/search" style={{marginRight:'20px', marginTop:'5px'}}>
     <span className="carto"><SearchIcon /></span>
    </Link>
-  <div style={{marginTop:'5px'}}><CartButton /></div>
-  </div>
+  <div><CartButton /></div>
+
+
         </li>
 
     
