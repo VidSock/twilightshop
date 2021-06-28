@@ -87,7 +87,7 @@ export function Layout({ children }) {
 
     <ul className="sidebarMenuInner">
 
- <li style={{border:'none'}}>
+ <li style={{border:'none', marginBottom:'1rem'}}>
 <Link to="/"><img id="logo" className="twlogo" src={twLogo} alt="Twilightscapes Logo" title="Return To Homepage" style={{minWidth:'100px', maxWidth:'165px',}} /></Link>
  </li>
 
