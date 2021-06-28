@@ -73,7 +73,7 @@ const Menu = () => (
 
 <ul className="sidebarMenuInner">
 
-<li>
+<li style={{border:'none'}}>
 <Link to="/"><img id="logo" className="twlogo" src={twLogo} alt="Twilightscapes Logo" title="Return To Homepage" style={{minWidth:'100px', maxWidth:'165px',}} /></Link>
  </li>
 
