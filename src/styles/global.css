@@ -302,7 +302,7 @@ height:100vh;
 } */
 
 
-main{min-height: 80vh;}
+main{min-height: 100vh;}
 .zoomer{animation: zoomer 1s forwards;
   animation-delay: 4s;}
   
