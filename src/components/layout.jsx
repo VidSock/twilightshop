@@ -81,15 +81,20 @@ export function Layout({ children }) {
 
    <div id="sidebarMenu">
   
-   <div className="" style={{textAlign:'center', padding:'20px 25px', }}>
-<Link className="navbar-item txtshadow" to="/">
-<Image alt="Return To Homepage" title="Return To Homepage" filename="tw-logo-white.png" className="" />
-</Link>
+    <div className="has-app promocode">
+30% OFF CODE: <span style={{color:'#FA02B7', fontWeight:'bold'}}>LoveTheNight</span>
 </div>
 
     <ul className="sidebarMenuInner">
 
- 
+ <li>
+ <div className="" style={{textAlign:'center', padding:'20px 25px', }}>
+<Link className="navbar-item txtshadow" to="/">
+<Image alt="Return To Homepage" title="Return To Homepage" filename="tw-logo-white.png" className="" />
+</Link>
+</div>
+ </li>
+
  <li className="carto" style={{textAlign:'center'}}>
               <Link className="navbar-item txtshadow" to="/art">
       
@@ -146,9 +151,7 @@ export function Layout({ children }) {
 
     </ul>
 
- {/* <div className="has-app promocode">
-30% OFF CODE: <span style={{color:'#FA02B7', fontWeight:'bold'}}>LoveTheNight</span>
-</div> */}
+
 
 
 
