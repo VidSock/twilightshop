@@ -189,9 +189,9 @@ width: 100vw;
   width: 100% !important;
   height: 100% !important;
   background-image:
-    -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#ff0000)),
-    -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#ff0000)) !important;
-  background-image: linear-gradient(#ff0000, #ff0000), linear-gradient(#ff0000, #ff0000) !important;
+    -webkit-gradient(linear, left top, left bottom, from(#FA02B7), to(#FA02B7)),
+    -webkit-gradient(linear, left top, left bottom, from(#FA02B7), to(#FA02B7)) !important;
+  background-image: linear-gradient(#FA02B7, #FA02B7), linear-gradient(#FA02B7, #FA02B7) !important;
   background-size: 100% 2px, 2px 100% !important;
   -webkit-transform: rotate(45deg) !important; 
  transform: rotate(45deg) !important;
