@@ -3,6 +3,7 @@ import * as React from "react"
 import { Link } from 'gatsby-plugin-modal-routing-3'
 import { ModalRoutingContext } from 'gatsby-plugin-modal-routing-3'
 import styled from "styled-components";
+import twLogo from "../icons/tw-logo-white.svg"
 import { StoreContext } from "../context/store-context"
 import { Toast } from "./toast"
 import { ImArrowRight } from "react-icons/im"
@@ -73,11 +74,7 @@ const Menu = () => (
 <ul className="sidebarMenuInner">
 
 <li>
- <div className="" style={{textAlign:'center', padding:'0x', }}>
-<Link className="navbar-item txtshadow" to="/">
-<Image alt="Return To Homepage" title="Return To Homepage" filename="tw-logo-white.png" className="" />
-</Link>
-</div>
+<Link to="/"><img id="logo" className="twlogo" src={twLogo} alt="Twilightscapes Logo" title="Return To Homepage" style={{minWidth:'100px', maxWidth:'165px',}} /></Link>
  </li>
 
  <li style={{textAlign:'center'}}>
