@@ -11,6 +11,7 @@ export function SkipNavLink({
   const id = contentId || defaultId
 
   return (
+    
     <a className={navLink} {...props} href={`#${id}`} data-skip-to-content>
       {children}
     </a>

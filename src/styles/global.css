@@ -852,7 +852,7 @@ blockquote.frontquote {
 .backdrop1{
   content:'';
   width:100vw;
-  height:100vh;
+  height:100%;
   position:fixed;
   z-index: 1;
   opacity: 1 ;
@@ -868,6 +868,11 @@ blockquote.frontquote {
    bottom:0;
    overflow-y: hidden !important;
 }
+
+input[type="checkbox"]:checked ~ body {
+  display: block !important;
+  overflow-y: hidden !important;
+  }
 
 input[type="checkbox"]:checked ~ .backdrop1 {
   display: block !important;

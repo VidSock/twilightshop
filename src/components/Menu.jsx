@@ -115,7 +115,7 @@ const Menu = () => (
 
 
       <li className="carto" style={{textAlign:'center'}}>
-              <Link className="navbar-item txtshadow" to="/art">
+              <Link className="navbar-item txtshadow" to="/gallery">
       
               View Photos <span style={{color:'#FA02B7',}}>start here</span>
               </Link>

@@ -174,7 +174,7 @@ export default function IndexPage() {
                 margin:'0 auto'
   
               }}
-              to="/art"
+              to="/gallery"
             >
               View The Photos {" "}
               <span className="icon -right" style={{paddingLeft:'1rem'}}>
