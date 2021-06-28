@@ -68,7 +68,7 @@ export function Layout({ children }) {
 
 
       <input type="checkbox" className="openSidebarMenu" id="openSidebarMenu" />
-  <label htmlFor="openSidebarMenu" className="sidebarIconToggle">
+  <label id="menuicon" htmlFor="openSidebarMenu" className="sidebarIconToggle">
   <span className="txtshadow" style={{textShadow:'2px', color:'#fff',}}>MENU</span>
     <div className="spinner diagonal part-1"></div>
     <div className="spinner horizontal"></div>
@@ -81,9 +81,9 @@ export function Layout({ children }) {
 
    <div id="sidebarMenu">
   
-    <div className="has-app promocode">
+{/* <div className="no-app promocode">
 30% OFF CODE: <span style={{color:'#FA02B7', fontWeight:'bold'}}>LoveTheNight</span>
-</div>
+</div> */}
 
     <ul className="sidebarMenuInner">
 
