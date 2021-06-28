@@ -57,6 +57,7 @@ export default function GalleryPage({ data }) {
 <> 
 <Helmet>
     <body className="gallery" />
+    <meta property="twitter:image" content="https://twilightscapes.com/default-og-image-blank.jpg" />
 </Helmet>
 
 <Seo title={`Photo Gallery`} />
