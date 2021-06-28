@@ -580,7 +580,7 @@ body{overflow-x: hidden;}
 .social span{display: none;}
 
 #sidebarMenu {
-  height: 80vh;
+  height: 75vh;
   position: fixed;
   z-index:2;
   right: 0;
@@ -646,7 +646,7 @@ input[type=checkbox] {
   z-index: 4;
   height: 100%;
   width: 100%;
-  top: 82vh;
+  top: 77vh;
   right: 3vw;
   height: 42px;
   width: 42px;
