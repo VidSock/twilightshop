@@ -95,7 +95,7 @@ export function Layout({ children }) {
 
 
  <li>
-              <Link className="navbar-item txtshadow" to="/contact/">
+              <Link state={{modal: true}} className="navbar-item txtshadow" to="/contact/">
                 Contact Me<span>Ask me anything!</span>
               </Link>
       </li>
@@ -142,7 +142,7 @@ export function Layout({ children }) {
    <Link to="/search" style={{marginRight:'20px', marginTop:'5px'}}>
     <span className="carto"><SearchIcon /></span>
    </Link>
-  <div><CartButton quantity={quantity} /></div>
+  <div className="carto"><CartButton quantity={quantity} /></div>
 
 
         </li>

@@ -80,8 +80,9 @@ const Menu = () => (
 
 
 
- <li>
-              <Link className="navbar-item txtshadow" to="/contact/">
+
+      <li className="carto blanca">
+              <Link state={{modal: true}} className="navbar-item txtshadow" to="/contact/">
                 Contact Me<span>Ask me anything!</span>
               </Link>
       </li>
@@ -128,7 +129,7 @@ const Menu = () => (
    <Link to="/search" style={{marginRight:'20px', marginTop:'5px'}}>
     <span className="carto"><SearchIcon /></span>
    </Link>
-  <div><CartButton /></div>
+  <div className="carto"><CartButton /></div>
 
 
         </li>
