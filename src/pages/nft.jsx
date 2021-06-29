@@ -139,15 +139,18 @@ export const query = graphql`
 
 
 
-{/* <Seo title={`NFT Collectible Photography Nightscape Photos`} />
-<Seo description={`We have the NFT you are looking for - Check it out`} /> */}
+
 
 <CustomBox>
 
     <Layout className="nft-page" style={{position:'relative'}}>
 
     
-    
+    <Seo
+          title={`NFT Collectible Photography`}
+          description={`We have the NFT you are looking for - Check it out`}
+          image={'https://twilightscapes.com/default-og-image-blank.jpg'}
+        />
 
 
 
