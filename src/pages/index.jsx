@@ -126,7 +126,7 @@ export default function IndexPage() {
 </Helmet>
 
 
-<Seo />
+{/* <Seo /> */}
 
     <CustomBox>
 

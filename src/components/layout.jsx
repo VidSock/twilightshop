@@ -31,7 +31,7 @@ export function Layout({ children }) {
   return (
     <div style={{background:''}}> 
 <>
-      <Seo />
+      {/* <Seo /> */}
       <SkipNavLink />
 
       <ModalRoutingContext.Consumer>
