@@ -429,8 +429,11 @@ footer{background-color: #000; padding:.1rem 0rem; margin:0; display:flex; justi
  body.carto .social-icons, body.carto .backdrop1{  display: none !important;}
 
 /* body.carto{overflow-y: hidden !important;} */
-
+.carta{display:none;}
 body.carto .carto {display:none; height:100%;}
+
+body.carto .carta {display:block; height:100%;}
+
 /* body.carto .carto .blanco {display:none; height:100%;} */
 
 .navbar-item{display:block; padding:5px 0;}
