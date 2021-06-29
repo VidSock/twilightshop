@@ -143,23 +143,24 @@ height: 0;
     <Layout className="gasstations-page" style={{position:''}}>
 
     
-    <div className="vidbox">
-    <div style={{position:'absolute', top:'', fontSize:'10vw', color:'white', zIndex:'', display:'flex', justifyContent:'center', alignItems:'center', border:'0px solid blue', width:'100vw'}}>Milky Way
-    </div>
-<video autoPlay autobuffer="true" playsInline loop muted>
-  <source src={video} type="video/mp4" />
-</video>
-    </div>
-
-
-
-{/* <div className="video-background">
-    <div className="video-foreground">
-      <iframe src="https://www.youtube.com/embed/iH5sjz0nx9o?controls=0&amp;showinfo=0&amp;rel=0&amp;autoplay=1&amp;loop=1" frameBorder="0" allowFullscreen></iframe>
-      
+    {/* <div className="vidbox"> */}
+    {/* <div style={{position:'absolute', top:'', fontSize:'10vw', color:'white', zIndex:'', display:'flex', justifyContent:'center', alignItems:'center', border:'0px solid blue', width:'100vw'}}>Milky Way
     </div> */}
+{/* <video autoPlay autobuffer="true" playsInline loop muted>
+  <source src={video} type="video/mp4" />
+</video> */}
+
+    {/* </div> */}
 
 
+    <div className="vidbox">
+<div className="video-background">
+    <div className="video-foreground">
+      
+      <iframe className="" src="https://www.youtube.com/embed/iH5sjz0nx9o?controls=0&amp;showinfo=0&amp;rel=0&amp;autoplay=1&amp;loop=1&amp;mute=1" frameBorder="0" allowFullscreen></iframe>
+    </div>
+</div>
+</div>
 
 
     {/* <div id="vidtop-content">
