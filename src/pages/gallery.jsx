@@ -57,15 +57,15 @@ export default function GalleryPage({ data }) {
 <> 
 <Helmet>
     <body className="gallery" />
-    <meta property="twitter:image" content="https://twilightscapes.com/default-og-image-blank.jpg" />
+    <meta property="twitter:image" content="/default-og-image-blank.jpg" />
 </Helmet>
 
 <Seo title={`Photo Gallery`} />
-<Seo image={'https://twilightscapes.com/follow-me-into-the-night-promo.jpg'} />
+<Seo image={'/follow-me-into-the-night-promo.jpg'} />
 
 
     {/* <Helmet>
-<meta name="twitter:image:src" content="https://twilightscapes.com/follow-me-into-the-night-promo.jpg" />
+<meta name="twitter:image:src" content="/follow-me-into-the-night-promo.jpg" />
 </Helmet> */}
 
     <CustomBox>

@@ -132,7 +132,7 @@ height: 0;
 <>
 
 {/* <Helmet>
-<meta name="twitter:image:src" content="https://twilightscapes.com/follow-me-into-the-night-promo.jpg" />
+<meta name="twitter:image:src" content="/follow-me-into-the-night-promo.jpg" />
 </Helmet> */}
 
 {/* <Seo title={`NFT Collectible Photography Nightscape Photos`} />

@@ -26,7 +26,7 @@ export default function LegalPage() {
     <Layout className="thanks-page">
 
 <Seo title={`Content License Agreement Here`} />
-{/* <Seo image="https://twilightscapes.com/default-og-image.jpg"/> */}
+{/* <Seo image="/default-og-image.jpg"/> */}
 
 
 
