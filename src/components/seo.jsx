@@ -43,8 +43,10 @@ export function Seo({
     title: title || siteTitleDefault,
     description: description || siteDescription,
     url: pathname ? `${siteUrl}${pathname}` : location.href,
-    image: `${siteUrl}${image || siteImage}`,
+    image: `${image || siteImage}`,
+    // image = image[0] === "/" ? "https://twilightscapes.com" + image : image
   }
+
 
   return (
     <Helmet
@@ -65,7 +67,7 @@ export function Seo({
       <meta name="twitter:url" content={seo.url} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:creator" content={twitter} />
-      <meta id="boop" name="twitter:image" content={seo.image} />
+      <meta name="twitter:image" content={seo.image} />
 
       <meta name="apple-mobile-web-app-capable" content="yes" />
       

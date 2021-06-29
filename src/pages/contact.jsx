@@ -40,7 +40,7 @@ export default function ContactPage() {
 
 
 
-<Seo title={`Contact Todd Lambert Twilightscapes`} />
+{/* <Seo title={`Contact Todd Lambert Twilightscapes`} /> */}
 
 
 

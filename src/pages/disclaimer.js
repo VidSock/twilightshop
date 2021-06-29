@@ -24,7 +24,7 @@ export default function DisclaimerPage() {
     
     <Layout className="thanks-page">
 
-<Seo title={`Disclaimer`} />
+{/* <Seo title={`Disclaimer`} /> */}
 
 
 <section className="outer section section--gradient" >

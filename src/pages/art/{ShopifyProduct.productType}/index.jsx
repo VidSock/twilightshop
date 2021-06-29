@@ -13,7 +13,7 @@ export default function ProductTypeIndex({
 }) {
   return (
     <Layout>
-      <Seo title={`Unique Long Exposure PHotography by Todd Lambert ${productType}`} />
+      {/* <Seo title={`Unique Long Exposure PHotography by Todd Lambert ${productType}`} /> */}
       <h1 className={title}>{productType}</h1>
       <ProductListing products={products.nodes} />
       {products.pageInfo.hasNextPage && (

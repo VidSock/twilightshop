@@ -132,7 +132,7 @@ height: 0;
   return (
 <>
 <Helmet>
-<meta name="twitter:image:src" content={'https://twilightscapes.com/default-og-image.jpg'} />
+
 
 
 </Helmet>
@@ -144,7 +144,7 @@ height: 0;
 
     
 
-<Seo title={`About Todd Lambert`} />
+{/* <Seo title={`About Todd Lambert`} /> */}
 
     
     <section className="about outer intro section" style={{paddingTop:'0', overflow:'hidden', marginTop:'1vh'}}>

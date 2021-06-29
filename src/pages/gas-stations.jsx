@@ -131,9 +131,7 @@ height: 0;
   return (
 <>
 
-{/* <Helmet>
-<meta name="twitter:image:src" content="/follow-me-into-the-night-promo.jpg" />
-</Helmet> */}
+
 
 {/* <Seo title={`NFT Collectible Photography Nightscape Photos`} />
 <Seo description={`We have the NFT you are looking for - Check it out`} /> */}

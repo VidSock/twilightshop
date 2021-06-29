@@ -24,7 +24,7 @@ export default function TermsPage({}) {
     
     <Layout className="thanks-page">
 
-<Seo title={`Terms of Use`} />
+{/* <Seo title={`Terms of Use`} /> */}
 
     
 <section className="outer section section--gradient" >

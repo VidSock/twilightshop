@@ -24,7 +24,7 @@ export default function PrivacyPage({}) {
     
     <Layout className="thanks-page">
 
-<Seo title={`Privacy Policy`} />
+{/* <Seo title={`Privacy Policy`} /> */}
 
 
 

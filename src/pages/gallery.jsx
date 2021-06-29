@@ -57,16 +57,14 @@ export default function GalleryPage({ data }) {
 <> 
 <Helmet>
     <body className="gallery" />
-    <meta property="twitter:image" content="/default-og-image-blank.jpg" />
+    
 </Helmet>
 
-<Seo title={`Photo Gallery`} />
-<Seo image={'/follow-me-into-the-night-promo.jpg'} />
+{/* <Seo title={`Photo Gallery`} />
+<Seo image={'/follow-me-into-the-night-promo.jpg'} /> */}
 
 
-    {/* <Helmet>
-<meta name="twitter:image:src" content="/follow-me-into-the-night-promo.jpg" />
-</Helmet> */}
+
 
     <CustomBox>
     <Layout>

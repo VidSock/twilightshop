@@ -71,7 +71,7 @@ export function Header() {
     <ul className="sidebarMenuInner">
 
     {/* <li>
-              <a className="navbar-item txtshadow" href="https://twilightscapes.com/">
+              <a className="navbar-item txtshadow" href="/">
                 Home <span>Return to home</span>
               </a>
       </li> */}

@@ -24,7 +24,7 @@ export default function GearPage() {
     
     <Layout className="thanks-page">
 
-<Seo title={`Todd's overlanding Subaru road trip setup`} />
+{/* <Seo title={`Todd's overlanding Subaru road trip setup`} /> */}
  
     
     <div className="container" style={{padding:'0 12%'}}>

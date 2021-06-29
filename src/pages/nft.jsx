@@ -137,12 +137,10 @@ export const query = graphql`
   return (
 <>
 
-{/* <Helmet>
-<meta name="twitter:image:src" content="https://twilightscapes.com/follow-me-into-the-night-promo.jpg" />
-</Helmet> */}
 
-<Seo title={`NFT Collectible Photography Nightscape Photos`} />
-<Seo description={`We have the NFT you are looking for - Check it out`} />
+
+{/* <Seo title={`NFT Collectible Photography Nightscape Photos`} />
+<Seo description={`We have the NFT you are looking for - Check it out`} /> */}
 
 <CustomBox>
 
