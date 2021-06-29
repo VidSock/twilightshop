@@ -144,7 +144,7 @@ height: 0;
 
     
     <div className="vidbox">
-    <div style={{position:'absolute', top:'', fontSize:'10vw', color:'white', zIndex:'2', display:'flex', justifyContent:'center', alignItems:'center', border:'0px solid blue', width:'100vw'}}>Milky Way
+    <div style={{position:'absolute', top:'', fontSize:'10vw', color:'white', zIndex:'', display:'flex', justifyContent:'center', alignItems:'center', border:'0px solid blue', width:'100vw'}}>Milky Way
     </div>
 <video autoPlay loop muted>
   <source src={video} type="video/mp4" />
