@@ -67,13 +67,20 @@ const CustomBox = styled.div`
 
 
 
-<Seo title={`Gonna wind up working in a gas station`} />
-<Seo description={`Frank Zappa had it all right`} />
-<Seo image={'/default-og-image-blank.jpg'} />
+{/* <Seo title={`Gonna wind up working in a gas station`} />
+<Seo description={`Frank Zappa had it all right`} /> */}
+{/* <Seo image={'/default-og-image-blank.jpg'} /> */}
+
+
+
 <CustomBox>
 
     <Layout className="gasstations-page" style={{position:''}}>
-
+    <Seo
+          title={`Gonna wind up working in a gas station`}
+          description={`Frank Zappa had it all right`}
+          image={'/default-og-image-blank.jpg'}
+        />
     
     {/* <div className="vidbox"> */}
     {/* <div style={{position:'absolute', top:'', fontSize:'10vw', color:'white', zIndex:'', display:'flex', justifyContent:'center', alignItems:'center', border:'0px solid blue', width:'100vw'}}>Milky Way
