@@ -1,7 +1,7 @@
 
 import * as React from "react"
 import { Footer } from "../components/footer"
-// import { Seo } from "../components/seo"
+import { Seo } from "../components/seo"
 import 'fontsource-hammersmith-one'
 import { Link } from 'gatsby-plugin-modal-routing-3'
 import Consent from '../components/Consent'
@@ -50,7 +50,11 @@ export default function IndexPage() {
 {/* <Seo /> */}
 
     <CustomBox>
-
+    <Seo
+          title={`Gonna wind up working in a gas station`}
+          description={`Frank Zappa had it all right`}
+          image={'https://twilightscapes.com/default-og-image-blank.jpg'}
+        />
 <Menu />
 
 
