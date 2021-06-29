@@ -9,7 +9,7 @@ import { RiArrowDownLine, RiArrowRightSLine, RiStarLine, RiSendPlane2Line } from
 import { IoLogoVercel } from "react-icons/io5"
 import { BsCircleFill } from "react-icons/bs"
 import { FaSquareFull } from "react-icons/fa"
-import video from "../video/milky-way.mp4"
+
 
 // import { MoreButton } from "../components/more-button"
 // import { title } from "../pages/index.module.css"
