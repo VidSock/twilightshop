@@ -61,7 +61,7 @@ Royalty-Free and Rights-Managed
 
 <p>Limited to the specific use, medium, period of time, print run, placement, size of content, and territory selected, and any other restrictions that accompany the content on the Twilightscapes (or any other method of content delivery) or in an order confirmation or invoice.</p>
 
-<p> Non-Exclusive, meaning that, unless otherwise indicated on the website, your invoice, sales order or separate agreement, you do not have exclusive rights to use the content. Getty Images can license the same content to other customers.</p>
+<p> Non-Exclusive, meaning that, unless otherwise indicated on the website, your invoice, sales order or separate agreement, you do not have exclusive rights to use the content. Todd Lambert can license the same content to other customers.</p>
 
 <p>For purposes of this agreement, "use" means to copy, reproduce, modify, edit, synchronize, perform, display, broadcast, publish, or otherwise make use of. Please make sure you read the Restricted Uses section below for exceptions.</p>
 
