@@ -79,7 +79,7 @@ const CustomBox = styled.div`
     <Seo
           title={`Gonna wind up working in a gas station`}
           description={`Frank Zappa had it all right`}
-          image={'/default-og-image-blank.jpg'}
+          image={'https://twilightscapes.com/default-og-image-blank.jpg'}
         />
     
     {/* <div className="vidbox"> */}
