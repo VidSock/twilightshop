@@ -79,7 +79,7 @@ export const query = graphql`
     <Seo
           title={`The glory of the Milky Way`}
           description={`Photos of the Milky Way`}
-          image={'https://twilightscapes.com/default-og-image-blank.jpg'}
+          image={'https://twilightscapes.com/default-photo-milky-way.jpg'}
         />
     
     {/* <div className="vidbox"> */}
