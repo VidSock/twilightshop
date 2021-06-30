@@ -7,3 +7,7 @@
 
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"
+
+[[redirects]]
+  from = "/crazy-geology"
+  to = "/galleries/crazy-geology"
