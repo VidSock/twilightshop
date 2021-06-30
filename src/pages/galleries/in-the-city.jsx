@@ -1,15 +1,16 @@
 import * as React from "react"
 import { graphql } from "gatsby"
-import { Layout } from "../components/layout"
-import { ProductListing } from "../components/product-listing"
+import { Layout } from "../../components/layout"
+import { ProductListing } from "../../components/product-listing"
 import { Link } from "gatsby"
-import { Seo } from "../components/seo"
+import { Seo } from "../../components/seo"
+import GoBack from "../../components/goBack"
 // import { Helmet } from "react-helmet"
 import { RiArrowDownLine, RiArrowRightSLine, RiStarLine, RiSendPlane2Line } from "react-icons/ri"
 import { IoLogoVercel } from "react-icons/io5"
 import { BsCircleFill } from "react-icons/bs"
 import { FaSquareFull } from "react-icons/fa"
-
+import ScrollAnimation from 'react-animate-on-scroll'
 
 // import { MoreButton } from "../components/more-button"
 // import { title } from "../pages/index.module.css"
@@ -24,8 +25,8 @@ import { FaSquareFull } from "react-icons/fa"
 //   deployButton,
 // } from "./index.module.css"
 
-import Image from '../components/Image'
-import ScrollAnimation from 'react-animate-on-scroll'
+import Image from '../../components/Image'
+
 // import { GiPlainArrow } from 'react-icons/gi'
 
 import styled from 'styled-components'
@@ -49,27 +50,26 @@ const CustomBox = styled.div`
 
 
 
-// export const query = graphql`
-//   query {
-//     shopifyCollection(handle: { eq: "limited-edition-nft-kits" }) {
-//       products {
-//         ...ProductCard
-//       }
-//     }
-//   }
-// `
+export const query = graphql`
+  query {
+    shopifyCollection(handle: { eq: "in-the-city" }) {
+      products {
+        ...ProductCard
+      }
+    }
+  }
+`
 
        // export default function nftPage({ data: { products } }) {
-              export default function gasstationPage() {
+              export default function inthecityPage({ data }) {
+                
 
   return (
 <>
 
 
 
-{/* <Seo title={`Gonna wind up working in a gas station`} />
-<Seo description={`Frank Zappa had it all right`} /> */}
-{/* <Seo image={'/default-og-image-blank.jpg'} /> */}
+
 
 
 
@@ -77,8 +77,8 @@ const CustomBox = styled.div`
 
     <Layout className="gasstations-page" style={{position:''}}>
     <Seo
-          title={`Gonna wind up working in a gas station`}
-          description={`Frank Zappa had it all right`}
+          title={`Livin For The City`}
+          description={`Photos of night scenes in and around town`}
           image={'https://twilightscapes.com/default-og-image-blank.jpg'}
         />
     
@@ -90,15 +90,22 @@ const CustomBox = styled.div`
 </video> */}
 
     {/* </div> */}
+   
 
+    <div className="vidbox" style={{position:'relative'}}>
 
-    <div className="vidbox">
+    <ScrollAnimation animateIn="bounceInDown" animateOut="" initiallyVisible={false} animateOnce={false} animatePreScroll={true} delay={0} style={{position:'absolute', zIndex:'1', top:'100px',  fontSize:'10vw', color:'white', display:'flex', justifyContent:'center', alignItems:'center', border:'0px solid blue', width:'100vw'}}>
+      <div className="txtshadow-header letter">In the City
+    </div>
+</ScrollAnimation>
+
 <div className="video-background">
     <div className="video-foreground">
-      
-      <iframe className="" src="https://www.youtube.com/embed/iH5sjz0nx9o?controls=0&amp;showinfo=0&amp;rel=0&amp;autoplay=1&amp;loop=1&amp;mute=1&amp;playlist=iH5sjz0nx9o" frameBorder="0" allowFullscreen></iframe>
+      <iframe className="" src="https://www.youtube.com/embed/nKi6zsb1L1A?controls=0&amp;showinfo=0&amp;rel=0&amp;autoplay=1&amp;loop=1&amp;mute=1&amp;playlist=nKi6zsb1L1A" frameBorder="0" allowFullScreen></iframe>
     </div>
 </div>
+
+
 </div>
 
 
@@ -113,14 +120,25 @@ const CustomBox = styled.div`
 
  
 <div style={{position:'', zIndex:'', width:'90%', display:'flex', justifyContent:'center', padding:'1rem 3%', gap:'30px'}}>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aut aliquam, placeat aperiam error fugiat ipsum laboriosam corporis quos quae ea? Eligendi fuga similique, laborum nam at atque sapiente dicta.</p>
+  {/* <p>The Milky Way is the galaxy that includes our Solar System, with the name describing the galaxy's appearance from Earth: a hazy band of light seen in the night.</p> */}
 
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aut aliquam, placeat aperiam error fugiat ipsum laboriosam corporis quos quae ea? Eligendi fuga similique, laborum nam at atque sapiente dicta.</p>
 
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aut aliquam, placeat aperiam error fugiat ipsum laboriosam corporis quos quae ea? Eligendi fuga similique, laborum nam at atque sapiente dicta.</p>
 
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aut aliquam, placeat aperiam error fugiat ipsum laboriosam corporis quos quae ea? Eligendi fuga similique, laborum nam at atque sapiente dicta.</p>
 </div>
+
+
+
+
+
+<br />
+<br />
+
+
+
+<div className="nft"><ProductListing products={data.shopifyCollection.products} />
+</div>
+
+<GoBack />
     
     </Layout>
      </CustomBox>

@@ -146,7 +146,25 @@ height: 0;
 
 {/* <Seo title={`About Todd Lambert`} /> */}
 
-    
+<div className="vidbox" style={{position:'relative'}}>
+
+    <ScrollAnimation animateIn="bounceInDown" animateOut="" initiallyVisible={false} animateOnce={false} animatePreScroll={true} delay={0} style={{position:'absolute', zIndex:'1', top:'100px',  fontSize:'10vw', color:'white', display:'flex', justifyContent:'center', alignItems:'center', border:'0px solid blue', width:'100vw'}}>
+      <div className="txtshadow-header letter">
+    </div>
+</ScrollAnimation>
+
+<div className="video-background">
+    <div className="video-foreground">
+      <iframe className="" src="https://www.youtube.com/embed/X7H_0AqV2ew?controls=0&amp;showinfo=0&amp;rel=0&amp;autoplay=1&amp;loop=1&amp;mute=1&amp;playlist=X7H_0AqV2ew" frameBorder="0" allowFullScreen></iframe>
+    </div>
+</div>
+
+
+</div>
+
+<br />
+<br />
+
     <section className="about outer intro section" style={{paddingTop:'0', overflow:'hidden', marginTop:'1vh'}}>
     
     <ScrollAnimation animateIn="bounceInUp" animateOut="bounceInDown" animateOnce={true} delay={1000}>

@@ -2,12 +2,13 @@
 import * as React from "react"
 import { Footer } from "../components/footer"
 import { Seo } from "../components/seo"
+import { Layout } from "../components/layout"
 import 'fontsource-hammersmith-one'
 import { Link } from 'gatsby-plugin-modal-routing-3'
 import Consent from '../components/Consent'
 
 import Image from '../components/Image'
-import Menu from '../components/Menu'
+// import Menu from '../components/Menu'
 
 import Newsignup from "../components/newssign"
 
@@ -16,15 +17,6 @@ import { Helmet } from "react-helmet"
 import ScrollAnimation from 'react-animate-on-scroll'
 import styled from "styled-components"
 const CustomBox = styled.div`
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 58em) {
 
@@ -50,12 +42,13 @@ export default function IndexPage() {
 {/* <Seo /> */}
 
     <CustomBox>
+    <Layout>
     <Seo
           title={`Gonna wind up working in a gas station`}
           description={`Frank Zappa had it all right`}
           image={'https://twilightscapes.com/default-og-image-blank.jpg'}
         />
-<Menu />
+{/* <Menu /> */}
 
 
    
@@ -99,7 +92,7 @@ export default function IndexPage() {
                 margin:'0 auto'
   
               }}
-              to="/gallery"
+              to="/galleries/"
             >
               View The Photos {" "}
               <span className="icon -right" style={{paddingLeft:'1rem'}}>
@@ -254,7 +247,7 @@ right:'', border:'0px solid yellow', justifyContent:'center', width:'', textAlig
 
       {/* <Footer /> */}
 
-
+      </Layout>
 </CustomBox>
     </>
   )

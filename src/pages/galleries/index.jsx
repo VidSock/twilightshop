@@ -2,24 +2,24 @@
 
 import * as React from "react"
 import { graphql, Link } from "gatsby"
-import { Seo } from "../components/seo"
-import { Layout } from "../components/layout"
-import Image from '../components/Image'
-import { ProductListing } from "../components/product-listing"
-import Social from "../components/social"
-import Newsignup from "../components/newssign"
+import { Seo } from "../../components/seo"
+import { Layout } from "../../components/layout"
+import Image from '../../components/Image'
+import { ProductListing } from "../../components/product-listing"
+import Social from "../../components/social"
+import Newsignup from "../../components/newssign"
 // import { Helmet } from "react-helmet"
 // import TouchUp from '../components/TouchUp'
 import { RiArrowDownLine, RiArrowRightSLine, RiStarLine, RiSendPlane2Line } from "react-icons/ri"
 import { Helmet } from "react-helmet"
 
-import {
-  container,
-  intro,
-  callOut,
-  callToAction,
-  deployButton,
-} from "./index.module.css"
+// import {
+//   container,
+//   intro,
+//   callOut,
+//   callToAction,
+//   deployButton,
+// } from "../../index.module.css"
 
 import ScrollAnimation from 'react-animate-on-scroll'
 import styled from "styled-components"
@@ -68,6 +68,70 @@ export default function GalleryPage({ data }) {
 
     <CustomBox>
     <Layout>
+
+
+    <div className="vidbox">
+<div className="video-background">
+    <div className="video-foreground">
+      
+      <iframe className="" src="https://www.youtube.com/embed/iH5sjz0nx9o?controls=0&amp;showinfo=0&amp;rel=0&amp;autoplay=1&amp;loop=1&amp;mute=1&amp;playlist=iH5sjz0nx9o" frameBorder="0" allowFullScreen></iframe>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div style={{display:'flex',}}>
+<div style={{}}></div>
+
+<Link to="./milky-way/"
+className="moreButton"
+style={{
+cursor:'pointer',
+textAlign:'center',
+margin:'2rem auto',
+alignItems:'center',
+display: 'flex',
+justifyContent: 'center',
+}}>
+  Milky Way
+</Link>
+
+<Link to="./crazy-geology/"
+className="moreButton"
+style={{
+cursor:'pointer',
+textAlign:'center',
+margin:'2rem auto',
+alignItems:'center',
+display: 'flex',
+justifyContent: 'center',
+}}>
+  Crazy Geology
+</Link>
+
+<Link to="./in-the-city/"
+className="moreButton"
+style={{
+cursor:'pointer',
+textAlign:'center',
+margin:'2rem auto',
+alignItems:'center',
+display: 'flex',
+justifyContent: 'center',
+}}>
+  In The City
+</Link>
+
+{/* <div style={{}}></div>
+<div style={{}}></div> */}
+</div>
+
+
     <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', margin:'0 0 2rem 0'}}>
 
 <p style={{textAlign:'center', margin:'2rem 0 0 0'}}>GET ALL YOUR FAVORITES NOW</p>

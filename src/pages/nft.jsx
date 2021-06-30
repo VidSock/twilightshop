@@ -175,6 +175,15 @@ export const query = graphql`
 
  
 
+<div className="vidbox">
+<div className="video-background">
+    <div className="video-foreground">
+      
+      <iframe className="" src="https://www.youtube.com/embed/vWNkRK6-oU4?controls=0&amp;showinfo=0&amp;rel=0&amp;autoplay=1&amp;loop=1&amp;mute=1&amp;playlist=vWNkRK6-oU4" frameBorder="0" allowFullScreen></iframe>
+    </div>
+</div>
+</div>
+
   
 
 

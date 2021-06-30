@@ -26,6 +26,7 @@ export default function GearPage() {
 
 {/* <Seo title={`Todd's overlanding Subaru road trip setup`} /> */}
  
+ 
     
     <div className="container" style={{padding:'0 12%'}}>
        

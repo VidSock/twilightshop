@@ -1,9 +1,10 @@
 import * as React from "react"
 import { graphql } from "gatsby"
-import { Layout } from "../components/layout"
-import { ProductListing } from "../components/product-listing"
+import { Layout } from "../../components/layout"
+import { ProductListing } from "../../components/product-listing"
 import { Link } from "gatsby"
-import { Seo } from "../components/seo"
+import { Seo } from "../../components/seo"
+import GoBack from "../../components/goBack"
 // import { Helmet } from "react-helmet"
 import { RiArrowDownLine, RiArrowRightSLine, RiStarLine, RiSendPlane2Line } from "react-icons/ri"
 import { IoLogoVercel } from "react-icons/io5"
@@ -24,7 +25,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 //   deployButton,
 // } from "./index.module.css"
 
-import Image from '../components/Image'
+import Image from '../../components/Image'
 
 // import { GiPlainArrow } from 'react-icons/gi'
 
@@ -49,18 +50,19 @@ const CustomBox = styled.div`
 
 
 
-// export const query = graphql`
-//   query {
-//     shopifyCollection(handle: { eq: "limited-edition-nft-kits" }) {
-//       products {
-//         ...ProductCard
-//       }
-//     }
-//   }
-// `
+export const query = graphql`
+  query {
+    shopifyCollection(handle: { eq: "crazy-geology" }) {
+      products {
+        ...ProductCard
+      }
+    }
+  }
+`
 
        // export default function nftPage({ data: { products } }) {
-              export default function milkywayPage() {
+              export default function crazygeoPage({ data }) {
+                
 
   return (
 <>
@@ -75,8 +77,8 @@ const CustomBox = styled.div`
 
     <Layout className="gasstations-page" style={{position:''}}>
     <Seo
-          title={`The glory of the Milky Way`}
-          description={`Photos of the Milky Way`}
+          title={`Crazy Geography - wild locations`}
+          description={`Photos of crazy geographical locations`}
           image={'https://twilightscapes.com/default-og-image-blank.jpg'}
         />
     
@@ -93,13 +95,13 @@ const CustomBox = styled.div`
     <div className="vidbox" style={{position:'relative'}}>
 
     <ScrollAnimation animateIn="bounceInDown" animateOut="" initiallyVisible={false} animateOnce={false} animatePreScroll={true} delay={0} style={{position:'absolute', zIndex:'1', top:'100px',  fontSize:'10vw', color:'white', display:'flex', justifyContent:'center', alignItems:'center', border:'0px solid blue', width:'100vw'}}>
-      <div>Milky Way
+      <div className="txtshadow-header letter">Crazy Geology
     </div>
 </ScrollAnimation>
 
 <div className="video-background">
     <div className="video-foreground">
-      <iframe className="" src="https://www.youtube.com/embed/fm-rOnGIIaE?controls=0&amp;showinfo=0&amp;rel=0&amp;autoplay=1&amp;loop=1&amp;mute=1&amp;playlist=fm-rOnGIIaE" frameBorder="0" allowFullScreen></iframe>
+      <iframe className="" src="https://www.youtube.com/embed/j24SLqOA-fo?controls=0&amp;showinfo=0&amp;rel=0&amp;autoplay=1&amp;loop=1&amp;mute=1&amp;playlist=j24SLqOA-fo" frameBorder="0" allowFullScreen></iframe>
     </div>
 </div>
 
@@ -120,12 +122,26 @@ const CustomBox = styled.div`
 <div style={{position:'', zIndex:'', width:'90%', display:'flex', justifyContent:'center', padding:'1rem 3%', gap:'30px'}}>
   {/* <p>The Milky Way is the galaxy that includes our Solar System, with the name describing the galaxy's appearance from Earth: a hazy band of light seen in the night.</p> */}
 
-  <p>The Milky Way is a barred spiral galaxy. All the stars we see in the night sky are in our own Milky Way Galaxy. Earth is aproximately 25,000 light years from the center and the distance from one side of the Milky Way to the other, is a whopping 100,000 light years. </p>
+  {/* <p>The Milky Way is a barred spiral galaxy. All the stars we see in the night sky are in our own Milky Way Galaxy. Earth is aproximately 25,000 light years from the center and the distance from one side of the Milky Way to the other, is a whopping 100,000 light years. </p>
 
   <p>While nobody knows the true number, it is believed that the Milky Way consists of over a 100 billion stars!  </p>
 
-  <p>Just as the Earth goes around the Sun, the Sun goes around the center of the Milky Way. It takes 250 million years for our Sun and the solar system to go all the way around the center of the Milky Way.</p>
+  <p>Just as the Earth goes around the Sun, the Sun goes around the center of the Milky Way. It takes 250 million years for our Sun and the solar system to go all the way around the center of the Milky Way.</p> */}
 </div>
+
+
+
+
+
+
+
+<br />
+<br />
+
+<div className="nft"><ProductListing products={data.shopifyCollection.products} />
+</div>
+
+<GoBack />
     
     </Layout>
      </CustomBox>
