@@ -83,6 +83,7 @@ export default function IndexPage() {
 </div>
 
 <p>Let Todd's award winning night photography and digital storytelling, prove to you that the night is indeed beautiful.</p>
+<br/>
 
 <Link
               className="actionJackson txtshadow"

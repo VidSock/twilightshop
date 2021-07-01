@@ -338,6 +338,39 @@ height:0;
 
 
 
+
+
+
+  @-webkit-keyframes slide {
+    100% { width:0; }
+}
+
+
+@keyframes slide {
+    100% { width:0; }
+}
+
+
+
+  @-webkit-keyframes slide {
+    100% { width:0; }
+}
+
+
+@keyframes slide {
+    100% { width:0; }
+}
+
+
+
+
+
+
+
+
+
+
+
 .flexbutt {display:flex; }
 
 .flexcheek {width:50%}
