@@ -44,8 +44,8 @@ export default function IndexPage() {
     <CustomBox>
     <Layout>
     <Seo
-          title={`Gonna wind up working in a gas station`}
-          description={`Frank Zappa had it all right`}
+          title={`Todd Lambert - Twilightscapes night photography`}
+          description={`Twilightscapes night photography`}
           image={'https://twilightscapes.com/default-og-image-blank.jpg'}
         />
 {/* <Menu /> */}
@@ -64,7 +64,7 @@ export default function IndexPage() {
   <h1 className="title1">Night Photography</h1>
 
   <p className="tagline1">
-   Todd Lambert: a pioneer in night photography
+   Todd Lambert: a vision in night photography
   </p>
 
 
