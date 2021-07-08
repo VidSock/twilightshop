@@ -101,7 +101,7 @@ export function Layout({ children }) {
 
  <li className="carto">
  <Link state={{modal: true}} className="navbar-item txtshadow" to="/contact/">
-Contact Me<span>Ask me anything!</span>
+Contact Me<span>I love feedback!</span>
 </Link>
 </li>
 <li className="carta">
@@ -119,7 +119,7 @@ Contact Me<span>Ordering Questions?</span>
 
       <li className="carto">
               <Link className="navbar-item txtshadow" to="/about/">
-                About Me <span>Learn All About Me</span>
+                About Me <span>My story</span>
               </Link>
       </li>
 
