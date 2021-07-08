@@ -64,7 +64,7 @@ export default function IndexPage() {
   <h1 className="title1">Night Photography</h1>
 
   <p className="tagline1">
-   Todd Lambert: a vision in night photography
+   Todd Lamvert - Unique Night Photography
   </p>
 
 
@@ -82,7 +82,7 @@ export default function IndexPage() {
 
 </div>
 
-<p>Let Todd's award winning night photography and digital storytelling, prove to you that the night is indeed beautiful.</p>
+<p>Let Todd's night photography and digital storytelling, prove to you that the night is indeed beautiful.</p>
 <br/>
 
 <Link
