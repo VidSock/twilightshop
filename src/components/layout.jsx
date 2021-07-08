@@ -112,16 +112,16 @@ Contact Me<span>Ordering Questions?</span>
 
 
 
-      <li className="carto">
+      {/* <li className="carto">
       <Link className="navbar-item txtshadow" to="/gear/">Gear Talk<span>What tools I use</span></Link>
-       </li>
+       </li> */}
 
 
-      <li className="carto">
+      {/* <li className="carto">
               <Link className="navbar-item txtshadow" to="/about/">
                 About Me <span>My story</span>
               </Link>
-      </li>
+      </li> */}
 
 
       <li className="carto">
