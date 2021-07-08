@@ -60,9 +60,9 @@ export function ProductCard({ product, eager }) {
       
       <div className={productDetailsStyle}>
         {/* <div className={productVendorStyle}>{vendor}</div> */}
-        <h2 as="h2" className={productHeadingStyle}>
+        {/* <h2 as="h2" className={productHeadingStyle}>
           {title}
-        </h2>
+        </h2> */}
         {/* <div className={productPrice}>{price}</div> */}
       </div>
     </Link>
