@@ -64,7 +64,7 @@ export default function IndexPage() {
   <h1 className="title1">Night Photography</h1>
 
   <p className="tagline1">
-   Todd Lamvert - Unique Night Photography
+   Todd Lambert - Unique Night Photography
   </p>
 
 
