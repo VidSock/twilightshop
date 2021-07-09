@@ -142,7 +142,11 @@ height: 0;
     
     <Layout className="thanks-page">
 
-    
+    <Seo
+          title={`About Todd Lambert`}
+          description={`Todds story - about Todd Lambert`}
+          image={'https://twilightscapes.com/default-og-image-blank.jpg'}
+        />
 
 {/* <Seo title={`About Todd Lambert`} /> */}
 

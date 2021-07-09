@@ -60,8 +60,11 @@ export default function GalleryPage({ data }) {
     
 </Helmet>
 
-{/* <Seo title={`Photo Gallery`} />
-<Seo image={'/follow-me-into-the-night-promo.jpg'} /> */}
+<Seo
+          title={`Twilightscapes Photo Galleries`}
+          description={`Twilightscapes night photography`}
+          image={'https://twilightscapes.com/default-og-image-blank.jpg'}
+        />
 
 
 
