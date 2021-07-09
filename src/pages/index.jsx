@@ -5,7 +5,7 @@ import { Seo } from "../components/seo"
 import { Layout } from "../components/layout"
 import 'fontsource-hammersmith-one'
 import { Link } from 'gatsby-plugin-modal-routing-3'
-import Consent from '../components/Consent'
+// import Consent from '../components/Consent'
 
 import Image from '../components/Image'
 // import Menu from '../components/Menu'
@@ -244,7 +244,7 @@ right:'', border:'0px solid yellow', justifyContent:'center', width:'', textAlig
             </Link> */}
 
 
-<Consent />
+{/* <Consent /> */}
 
       {/* <Footer /> */}
 
