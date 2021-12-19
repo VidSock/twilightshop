@@ -44,6 +44,17 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
+
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          // include: /assets/ 
+          include: /\.svg$/
+        }
+      }
+    },
+    
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

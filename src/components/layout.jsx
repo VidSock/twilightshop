@@ -1,18 +1,20 @@
 import * as React from "react"
 import { SkipNavContent, SkipNavLink } from "./skip-nav"
 // import { Header } from "./header"
-import { Footer } from "./footer"
+// import { Footer } from "./footer"
 import { Seo } from "./seo"
 import 'fontsource-hammersmith-one'
 import { Link } from 'gatsby-plugin-modal-routing-3'
 import { ModalRoutingContext } from 'gatsby-plugin-modal-routing-3'
 import { AiOutlineClose } from "react-icons/ai"
-import twLogo from "../icons/tw-logo-white.svg"
+// import twLogo from "../icons/tw-logo-white.svg"
 import { StoreContext } from "../context/store-context"
 import { Toast } from "./toast"
+import Bug from "../../static/icons/logo.svg"
+import Logo from "../../static/icons/logo.svg"
 import { ImArrowRight } from "react-icons/im"
-import { CartButton } from "./cart-button"
-import SearchIcon from "../icons/search"
+// import { CartButton } from "./cart-button"
+// import SearchIcon from "../icons/search"
 // import Consent from './Consent'
 // import Install from './install-discount'
 // import Image from '../components/Image'
@@ -84,86 +86,149 @@ export function Layout({ children, className, props  }) {
 
 
 
-      <input type="checkbox" className="openSidebarMenu" id="openSidebarMenu" />
-  <label id="menuicon" htmlFor="openSidebarMenu" className="sidebarIconToggle" style={{display:'none'}}>
-  <span className="txtshadow" style={{textShadow:'2px', color:'#fff',}}>MENU</span>
-    <div className="spinner diagonal part-1"></div>
+<input type="checkbox" className="openSidebarMenu" id="openSidebarMenu" />
+  <label id="menuicon" htmlFor="openSidebarMenu" className="sidebarIconToggle">
+
+  {/* <div className="cornertext" style={{textShadow:'2px', color:'#fff',}}>
+  <IoMdFingerPrint style={{fontSize:'50px', }}/>
+ <span><br />TAP CORNER<br /> FOR MENU<br />
+</span>
+    </div> */}
+
+
+
+
+{/* <IoMdFingerPrint style={{fontSize:'60px', margin:'0 20px 0 0' }}/> */}
+<Bug className="bug" style={{fontSize:'38px', maxWidth:'', opacity:'.4', margin:'100px 0 0 0', width:'100%' }}/>
+<div style={{textAlign:'center'}}>MENU</div>
+    {/* <div className="spinner diagonal part-1"></div>
     <div className="spinner horizontal"></div>
-    <div className="spinner diagonal part-2"></div>
+    <div className="spinner diagonal part-2"></div> */}
   </label>
 
 
   <label htmlFor="openSidebarMenu" className="backdrop1" ></label>
 
 
-   <div id="sidebarMenu">
+   <div id="sidebarMenu" style={{minWidth:'', width:''}}>
   
 {/* <div className="no-app promocode">
-30% OFF CODE: <span style={{color:'#FA02B7', fontWeight:'bold'}}>LoveTheNight</span>
+30% OFF CODE: <span style={{color:'var(--primary-color)', fontWeight:'bold'}}>LoveTheNight</span>
 </div> */}
 
-    <ul className="sidebarMenuInner">
-
- <li className="carto" style={{border:'none', marginBottom:'1rem'}}>
-<Link to="/"><img id="logo" className="twlogo" src={twLogo} alt="Twilightscapes Logo" title="Return To Homepage" style={{minWidth:'100px', maxWidth:'165px',}} /></Link>
- </li>
- <li className="carta" style={{border:'none', marginBottom:'1rem'}}>
- <a className="" onClick={()=>navigate(-1)}><img id="logo" className="twlogo" src={twLogo} alt="Twilightscapes Logo" title="Return To Homepage" style={{minWidth:'100px', maxWidth:'',}} /></a>
- </li>
 
 
 
 
- <li className="carto">
- <Link state={{modal: true}} className="navbar-item txtshadow" to="/contact/">
-Contact Me<span>I love feedback!</span>
+
+
+
+
+
+  {/* <Install /> */}
+
+
+
+	
+
+    
+
+
+
+
+    <ul className="sidebarMenuInner post-card" style={{maxWidth:'400px', position:'absolute', right:'0', display:'', justifyContent:''}}>
+
+ <li className="carta" style={{border:'none', margin:'1rem 0',textAlign:'center'}}>
+<Link title="Return To Home" to="https://twilightscapes.com/" aria-label="Return To Home"> 
+<Logo />
+{/* <span>Follow Me Into The Night</span> */}
 </Link>
-</li>
+ </li>
+ <li className="carto" style={{border:'none', margin:'1rem 0',textAlign:'center'}}>
+<Link title="Return To Home" to="https://twilightscapes.com/" aria-label="Return To Home"> 
+<Logo />
+{/* <span>Follow Me Into The Night</span> */}
+</Link>
+ </li>
+ 
+ {/* <li className="carta" style={{border:'none', marginBottom:'1rem'}}>
+ <a className="" onClick={()=>navigate(-1)}><img id="logo" className="twlogo" src={twLogo} alt="Twilightscapes Logo" title="Return To Homepage" style={{minWidth:'100px', maxWidth:'',}} /></a>
+ </li> */}
+
+
+
+
+ {/* <li className="carto">
+ <Link className="navbar-item txtshadow" to="/contact/">
+Contact Me<span>I love hearing from you!</span>
+</Link>
+</li> */}
+
+
+
 <li className="carta">
- <Link state={{modal: true}} className="navbar-item txtshadow" to="/contact/">
+ <Link className="navbar-item txtshadow" to="/contact/">
 Contact Me<span>Ordering Questions?</span>
 </Link>
 </li>
 
 
 
+
       {/* <li className="carto">
-      <Link className="navbar-item txtshadow" to="/gear/">Gear Talk<span>What tools I use</span></Link>
+      <Link className="navbar-item txtshadow" to="/photo-tools/">Twilight Tools<span>Lighting and Gear</span></Link>
        </li> */}
 
 
+      <li className="carto">
+              <Link className="navbar-item txtshadow" to="https://twilightscapes.com/about/">
+                About Todd Lambert<span>As seen on reality TV</span>
+              </Link>
+      </li>
+
       {/* <li className="carto">
-              <Link className="navbar-item txtshadow" to="/about/">
-                About Me <span>My story</span>
+      <Link className="navbar-item txtshadow" to="/posts/">Posts<span>My rants &amp; raves</span></Link>
+       </li> */}
+
+
+      
+
+
+      {/* <li className="carto">
+              <Link className="navbar-item txtshadow" to="/vault/favorites/">
+              The Vault <span>Full Photo archives</span>
               </Link>
       </li> */}
 
 
+<li className="carto">
+              <Link className="navbar-item txtshadow" to="https://vault.twilightscapes.com">
+      
+              View Photos <span>Browse Photo Galleries</span>
+              </Link>
+      </li> 
+
       <li className="carto">
-              <Link className="navbar-item txtshadow" to="/nft/">
+              <Link className="navbar-item txtshadow" to="https://twilightscapes.com/nft/">
                 NFT Collectibles <span>Limited Editions</span>
               </Link>
       </li>
 
-
-      <li className="carto">
-              <Link className="navbar-item txtshadow" to="/vault/favorites/">
-              The Vault <span>Full Photo archives</span>
-              </Link>
-      </li>
-
-
-
-      <li className="carto" style={{textAlign:'center'}}>
-              <Link className="navbar-item txtshadow" to="/galleries/">
       
-              View Photos <span style={{color:'#FA02B7',}}>start here</span>
+{/* <li className="carto" style={{textAlign:'center'}}>
+              <Link className="navbar-item txtshadow" to="/experiences/">
+              <span style={{color:'var(--primary-color)',}}>(All New)</span>3D Experiences
+                 Multimedia 3D Blog
               </Link>
-      </li> 
+      </li> */}
+
+
+
+      
     
       <li className="carta">
       <div style={{display:'flex', justifyContent:'center'}}>
-<button className="back" onClick={()=>navigate(-1)}>
+<button className="back" onClick={()=>navigate(-1)} style={{padding:'4px 8px', borderRadius:'12px'}}>
         {/* <span className="icon -left" style={{paddingRight:'1rem'}}>
                 <BiLeftArrow />
         </span>  */}
@@ -172,12 +237,16 @@ Contact Me<span>Ordering Questions?</span>
 </div>
       </li>
 
-      <li className="carto" style={{border:'none', display:'flex', justifyContent:'space-around', verticalAlign:'center' }}>
+      
+
+      <li className="carto crypto" style={{border:'none', display:'flex', justifyContent:'space-around', verticalAlign:'center', padding:'0 0',  }}>
   
-   <Link to="/search" style={{marginRight:'20px', marginTop:'5px'}}>
+
+   {/* <Link className="sherlock" to="/search/" style={{marginRight:'0', marginTop:'5px'}}>
     <span className="carto"><SearchIcon /></span>
-   </Link>
-  <div className="carto"><CartButton quantity={quantity} /></div>
+   </Link> */}
+   
+  
 
 
         </li>
