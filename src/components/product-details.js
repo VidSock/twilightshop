@@ -48,7 +48,7 @@ const ProductDetails = () => (
 <li style={{}}>Unlimited Royalty-Free License which includes all rights of the personal use plus commercial use.</li>
 </ol>
 
-<p style={{fontSize:'1.5rem', textAlign:'center', fontWeight:'bold'}}>That’s it.</p> 
+<p style={{fontSize:'1.2rem', textAlign:'center', fontWeight:'bold'}}>That’s it.</p> 
 
 <blockquote className="frontquote" style={{width:'70%', margin:'0 auto'}}>
 <p>I believe art should be for everyone, not just snobby elite art collectors. It should be available to and priced for everyone. I just hope you enjoy the art.</p>

@@ -19,8 +19,23 @@ import SearchIcon from "../icons/search"
 // import { BiLeftArrow } from "react-icons/bi"
 import { navigate } from "gatsby";
 
-export function Layout({ children }) {
+const query = graphql`
+  query LayoutQuery {
+    site {
+      siteMetadata {
+        siteTitle: title
+      }
+    }
+  }
+`
+
+
+export function Layout({ children, className, props  }) {
   const { checkout, loading, didJustAddToCart } = React.useContext(StoreContext)
+
+  // const { site, siteSearchIndex } = useStaticQuery(query)
+  // const { siteTitle } = site.siteMetadata
+
 
   const items = checkout ? checkout.lineItems : []
 
@@ -70,7 +85,7 @@ export function Layout({ children }) {
 
 
       <input type="checkbox" className="openSidebarMenu" id="openSidebarMenu" />
-  <label id="menuicon" htmlFor="openSidebarMenu" className="sidebarIconToggle">
+  <label id="menuicon" htmlFor="openSidebarMenu" className="sidebarIconToggle" style={{display:'none'}}>
   <span className="txtshadow" style={{textShadow:'2px', color:'#fff',}}>MENU</span>
     <div className="spinner diagonal part-1"></div>
     <div className="spinner horizontal"></div>
@@ -224,7 +239,7 @@ Contact Me<span>Ordering Questions?</span>
       <br /><br />
       {/* <Consent /> */}
      {/* <Install /> */}
-      <Footer />
+      {/* <Footer /> */}
       
       </>
     </div>

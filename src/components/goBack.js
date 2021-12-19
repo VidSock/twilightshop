@@ -4,13 +4,7 @@ import styled from "styled-components";
 import { Link } from 'gatsby'
 import { BiLeftArrow } from "react-icons/bi"
 import { navigate } from "gatsby";
-
-// import { FaLock } from 'react-icons/fa';
-// import { FaTimesCircle } from 'react-icons/fa';
-// import Newsletter from '../components/Newsletter'
-// import ScrollAnimation from 'react-animate-on-scroll'
-import {  RiArrowRightSLine } from "react-icons/ri"
-
+import { Location } from '@reach/router'
 const CustomBox = styled.div`
 
 .themed{margin-top:20px;}
@@ -18,45 +12,13 @@ const CustomBox = styled.div`
 
 `
 
-
-
-// const BackButton = React.forwardRef(
-//   ({ children, ...props }, ref) => {
-//     const onClick = e => {
-//       e.preventDefault()
-//       navigate(-1)
-//     }
-//     return (
-//       <a {...props} ref={ref} href="#" onClick={onClick}>
-//         {children}
-//       </a>
-//     )
-//   }
-// )
-
-// BackButton.displayName = 'BackButton'
-// export { BackButton }
-
-
    
 const GoBack = () => (
 
 <CustomBox style={{}}>
-<div style={{display:'flex', justifyContent:'center'}}>
-<button className="back" onClick={()=>navigate(-1)}>
-        <span className="icon -left" style={{paddingRight:'1rem'}}>
-                <BiLeftArrow />
-        </span> {" "} Go Back 
-</button>
-</div>
 
-{/* <Link to="/#photos">
-<button className="back">
-        <span className="icon -left" style={{paddingRight:'1rem'}}>
-        <BiLeftArrow />
-        </span> {" "} Go Back 
-</button>              
-</Link> */}
+
+<div style={{display:'flex', justifyContent:'center'}}><button className="back" onClick={() => { navigate(-1) }} style={{display:'flex', justifyContent:'center'}}><span className="icon -left" style={{paddingRight:'1rem'}}><BiLeftArrow /></span> {" "}Go Back</button></div>
 
 
 </CustomBox>
